@@ -1,0 +1,174 @@
+/*** Basics ***/
+a { color:#1328ed; text-decoration:none }
+a:hover { color:red }
+
+p, pre { margin-bottom: 15px; }
+ul, ol { padding: 0 0 18px 30px; }
+ol li, ul li { margin-top: 10px; margin-bottom: 10px; }
+em, i { font-style: italic; }
+strong, b { font-weight: bold; }
+small { font-size: 0.85em; }
+sup { vertical-align: super; font-size: 0.85em; }
+sub { vertical-align: sub; font-size: 0.85em; }
+
+code {
+    font: 0.85em Monaco, Courier, Monospace;
+}
+
+blockquote {
+    margin: 22px 22px;
+    padding: 0 20px;
+    border-left: 2px solid #000000;
+    font-style: italic;
+}
+
+acronym, abbr {
+	cursor: help;
+	letter-spacing: 1px;
+	border-bottom: 1px dashed;
+}
+
+/*** Structure ***/
+body {
+	text-align:left;
+	width:950px;
+	font-family: sans-serif;
+	font-size: 0.9em;
+	line-height:160%;
+	color:#444;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+header .subtitle {
+  color:#777;
+  font-style: italic;
+  font-family: serif;
+  font-size: 1.3em
+}
+
+main {
+	width:580px;
+	float:left;
+	margin-right:40px;
+	overflow:hidden;
+}
+
+main img
+{
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:20px
+}
+
+footer
+{
+	margin-top:60px;
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	color:#777;
+	border-top: 1px solid #aaa;
+	text-align:center;
+}
+
+aside
+{
+	float:right;
+	width:280px;
+}
+
+/*** Useful Classes ***/
+.clear { clear: both; }
+.float-left { float: left; }
+.float-right { float: right; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+.text-justify { text-align: justify; }
+.img-left { float: left; margin: 4px 10px 4px 0; }
+.img-right { float: right; margin: 4px 0 4px 10px; }
+.img-middle { vertical-align: middle; }
+.nopadding { padding: 0; }
+.nounderline { text-decoration: underline; }
+
+
+/*** Posts ***/
+article {
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+article a {
+	color:#2334ff;
+	text-decoration:underline;
+}
+
+article header h1 {
+	font-size: 1.9em;
+}
+
+article header h1 a {
+	text-decoration: none;
+	color: #666;
+}
+
+article header h1 a {
+	color: #666;
+}
+
+article h1 {
+	font-size: 17px;
+	margin: 0 0 10px 0;
+}
+
+article h1 a {
+	border: none;
+}
+
+article img {
+	display: block;
+	text-align: center;
+	margin: 0 auto 1em auto;
+}
+
+article .meta {
+	padding-top: 6px;
+	font-size: 0.85em;
+	font-style: italic;
+}
+
+
+img{
+	display: block;
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+}
+
+/*** Pagination ***/
+.postnavigation {
+    text-align: center;
+    font-size: 0.85em;
+}
+
+.postnavigation .left {
+	float: left;
+}
+
+.postnavigation .right {
+	float: right;
+}
+
+ul .featured {
+	list-style: none;
+}
+
+.site-tag a {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.title{
+	color:#000;
+}

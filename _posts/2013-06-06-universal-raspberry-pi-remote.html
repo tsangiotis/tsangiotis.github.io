@@ -1,0 +1,179 @@
+---
+layout: post
+title: Universal Raspberry Pi Remote
+date: 2013-06-06 10:00:00.000000000 +03:00
+type: post
+published: true
+status: publish
+categories:
+- Guides
+- Projects
+tags:
+- Automation
+- LIRC
+- Raspberry Pi
+- great
+meta:
+  _edit_last: '1'
+  _thumbnail_id: '787518'
+  _jetpack_dont_email_post_to_subs: '1'
+  _jetpack_related_posts_cache: a:1:{s:32:"8f6677c9d6b0f903e98ad32ec61f8deb";a:2:{s:7:"expires";i:1478746645;s:7:"payload";a:3:{i:0;a:1:{s:2:"id";i:787834;}i:1;a:1:{s:2:"id";i:787028;}i:2;a:1:{s:2:"id";i:902216;}}}}
+author:
+  login: tsangiotis
+  email: tsangiotis@gmail.com
+  display_name: Tasos Sangiotis
+  first_name: Tasos
+  last_name: Sangiotis
+---
+<div class="posthaven-post-body">
+<p>I am getting mad of the remote controller in the house.</p>
+<p>Actually I use three:</p>
+<ul>
+<li>The TV remote</li>
+<li>The Radio/iPod/CD Player remote</li>
+<li>The Air Condition remote</li>
+</ul>
+<p>Some time ago I fell on <a href="http://randomtutor.blogspot.gr/2013/01/web-based-ir-remote-on-raspberry-pi.html">this post</a>. It is an IR receiver &amp; emitter circuit attached to a <a href="http://raspberrypi.org/">Raspberry Pi</a>. I had some spare time so I decided to build it!</p>
+<p>Circuitry was fairly easy.</p>
+<p>Parts I used:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Infrared LED</td>
+<td>: Had a spare one but you can use any from an old remote</td>
+</tr>
+<tr>
+<td>IR Receiver</td>
+<td>: I used a TSOP382. You can use any <em>BUT</em> check the datasheet!</td>
+</tr>
+<tr>
+<td>NPN Transistor</td>
+<td>: I don't know the part code</td>
+</tr>
+<tr>
+<td>1.5Ω Resistor</td>
+<td>: It just has to be really low</td>
+</tr>
+<tr>
+<td>220Ω Resistor</td>
+<td>: Nothing to say here</td>
+</tr>
+</tbody>
+</table>
+<p>You can see the connections clearly here:</p>
+<p>After the first assembly and testing I made it smaller using a strip board:</p>
+<p>And this is what we end up with:</p>
+<div id="posthaven_gallery[769393]" class="posthaven-gallery">
+<p class="posthaven-file posthaven-file-image posthaven-file-state-processed"><img class="posthaven-gallery-image" src="{{ site.baseurl }}/assets/1-3.png" /></p>
+</div>
+<h2>LIRC</h2>
+<p><a href="http://www.lirc.org/">LIRC</a> stands for Linux Infrared Remote Control. And does exactly what it says.</p>
+<p>LIRC is now included in <a href="http://www.raspbian.org/">Raspbian's</a> official repositories for Raspberry Pi and you can install it with:</p>
+<pre><code>sudo apt-get install lirc
+</code></pre>
+<p>Append this on your <code>/etc/modules</code>:</p>
+<p>{% highlight bash %}<br />
+lirc_dev<br />
+lirc_rpi gpio_in_pin=23 gpio_out_pin=22</p>
+{% endhighlight %}
+<p>Change your <code>/etc/lirc/hardware.conf</code> to:</p>
+<pre><code>########################################################
+# /etc/lirc/hardware.conf
+#
+# Arguments which will be used when launching lircd
+LIRCD_ARGS="--uinput"
+
+# Don't start lircmd even if there seems to be a good config file
+# START_LIRCMD=false
+
+# Don't start irexec, even if a good config file seems to exist.
+# START_IREXEC=false
+
+# Try to load appropriate kernel modules
+LOAD_MODULES=true
+
+# Run "lircd --driver=help" for a list of supported drivers.
+DRIVER="default"
+# usually /dev/lirc0 is the correct setting for systems using udev
+DEVICE="/dev/lirc0"
+MODULES="lirc_rpi"
+
+# Default configuration files for your hardware if any
+LIRCD_CONF=""
+LIRCMD_CONF=""
+########################################################
+</code></pre>
+<p>And now restart your LIRC daemon:</p>
+<pre><code>sudo /etc/init.d/lirc stop
+sudo /etc/init.d/lirc start
+</code></pre>
+<h2>Transceiver</h2>
+<p>Now that we are all set up lets check if our IR transceiver works</p>
+<pre><code># Stop the lircd so /dev/lirc0 is not in use
+sudo /etc/init.d/lirc stop
+# Get RAW data from the transceiver
+mode2 -d /dev/lirc0
+</code></pre>
+<p>When you press some buttons on a remote control you should get something like:</p>
+<pre><code>space 12300
+pulse 590
+space 19395
+pulse 540
+space 7024
+pulse 495
+space 402351
+pulse 560
+space 7085
+pulse 480
+space 29043
+</code></pre>
+<p>If not then check your wiring. It is possible that you crossed the wires on the Pi.</p>
+<h2>IR LED</h2>
+<p>It's really easy to create add a new remote on LIRC.</p>
+<pre><code># Stop lircd so /dev/lirc0 is not in use
+sudo /etc/init.d/lirc stop
+
+# Create a new remote control configuration file (using /dev/lirc0) and save the output to ~/lircd.conf
+irrecord -d /dev/lirc0 ~/lircd.conf
+
+# Edit ~/lircd.conf and add edit the name of the controlled device
+nano ~/lircd.conf
+
+# Make a backup of the original lircd.conf file
+sudo mv /etc/lirc/lircd.conf /etc/lirc/lircd_original.conf
+
+# Copy over your new configuration file
+sudo cp ~/lircd.conf /etc/lirc/lircd.conf
+
+# Start up lirc again
+sudo /etc/init.d/lirc start
+</code></pre>
+<p>Do not forget to check <code>irrecord --list-namespace</code> for the valid key names. If something doesn't meet your needs just put it on a <code>KEY_</code> value that you will not use for this remote.</p>
+<p>Now let's test the remote:</p>
+<pre><code># List all of the commands that LIRC knows for 'samsung_tv'
+irsend LIST samsung_tv ""
+
+# Send the KEY_POWER command once
+irsend SEND_ONCE samsung_tv KEY_POWER
+
+# Send the KEY_VOLUMEDOWN command once
+irsend SEND_ONCE samsung_tv KEY_VOLUMEDOWN
+
+# Send the KEY_VOLUMEDOWN command 10 times lowering the volume for 10 units at once
+irsend --count=10 samsung_tv KEY_VOLUMEDOWN
+</code></pre>
+<p>Here is a video where I change channels from command line:</p>
+<p>You can add more remotes just by appending a new lircd.conf at the previous one.</p>
+<p>For the LIRC configuration I followed <a href="http://alexba.in/blog/2013/01/06/setting-up-lirc-on-the-raspberrypi/">this guide</a>.</p>
+<p>I also made an Android application using the web interface provided <a href="https://github.com/slimjim777/web-irsend">here</a> but the code needs a lot of polishing so I can't share it yet.</p>
+<div id="posthaven_gallery[769394]" class="posthaven-gallery">
+<p class="posthaven-file posthaven-file-image posthaven-file-state-processed"><img class="posthaven-gallery-image" src="{{ site.baseurl }}/assets/2-2.png" /></p>
+</div>
+<p>It was cool for an evening project:)</p>
+</div>

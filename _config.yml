@@ -1,0 +1,9 @@
+name: tasos sangiotis
+url: http://tsangiotis.com
+description: inputs and outputs
+
+repository: tsangiotis/tsangiotis.github.io.
+
+permalink: /:title/
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']

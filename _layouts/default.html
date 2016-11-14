@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <link href="/assets/css/style.css" rel="stylesheet" />
+  <!-- <link href="/assets/css/colors-dark.css" rel="stylesheet" /> -->
+
+</head>
+
+<body>
+  <header>
+    <h1><a class="title" href="/">{{ site.name }}</a></h1>
+    <p class="subtitle"><i>{{ site.description }}</i></p>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <aside>
+    <section>
+      <script>
+      (function() {
+        var cx = '004326416946347472623:eclzr-e2ow4';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+      })();
+      </script>
+      <gcse:search></gcse:search>
+    </section>
+    <section>
+      <header><h2>greatest hits</h2></header>
+      <ul class="featured">
+        {% for post in site.tags.great%}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    <section>
+      <header><h2>your host</h2></header>
+      <p>My name is <a href="/about">Tasos Sangiotis</a>.
+        I recon you know that already from the name of the page.
+        I build robots and I'm always right.</p>
+
+      <p>If you choose to wander this wasteland do so with caution.
+        Consider this your final warning.</p>
+    </section>
+    <section>
+      <header><h2>pressing matters</h2></header>
+      {% assign tags = site.tags | sort %}
+      {% for tag in tags %}
+      {% if tag[0] != "great" %}
+      <span class="site-tag">
+        <a href="/tags#{{ tag | first | slugify }}"
+          style="font-size: {{ tag | last | size  |  times: 20 | plus: 80  }}%">
+            {{ tag[0] | replace:'-', ' ' }}
+        </a>
+      </span>
+      {% endif %}
+      {% endfor %}
+    </section>
+  </aside>
+
+  <div style="clear:both"></div>
+  <footer>
+    <p>this is where another human would brag about owning his words</p>
+  </footer>
+
+</body>
+</html>
