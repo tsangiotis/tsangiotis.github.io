@@ -1,122 +1,133 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-  <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
-  <meta name="viewport" content="width=device-width">
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
 
-  <!--[if lt IE 9]>
+    <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
-  <link href="/css/style.css" rel="stylesheet" />
-  <link href='/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+    <link href="/css/style.css" rel="stylesheet" />
+    <link href='/favicon.ico' rel='shortcut icon' type='image/x-icon'>
 
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', '{{ site.ganalytics }}', 'auto');
-  ga('send', 'pageview');
-
-</script>
+        ga('create', '{{ site.ganalytics }}', 'auto');
+        ga('send', 'pageview');
+    </script>
 
 </head>
 
 <body>
-  <div id=main>
+    <div id=main>
 
-  <header>
-    <h1><a class="title" href="/">{{ site.name }}</a></h1>
-    <p class="subtitle"><i>{{ site.description }}</i></p>
-  </header>
+        <header>
+            <h1><a class="title" href="/">{{ site.name }}</a></h1>
+            <p class="subtitle"><i>{{ site.description }}</i></p>
+        </header>
 
-  <main>
-    {{ content }}
-  </main>
+        <main>
+            {{ content }}
+        </main>
 
-  <aside>
-    <section>
-    <form class="search" method="get" action="https://www.google.com/search">
-      <table border="0" cellpadding="0"> 
-        <tr><td>
-          <input type="text" name="q" size="25" maxlength="255" value="" /> 
-          <input type="submit" value="Google Search" />
-          <input type="hidden" name="sitesearch" checked="checked" value="tsangiotis.com"></input>
-        </td></tr> 
-      </table>  
-    </form>
-    </section>
-    <section>
-      <header><h2>greatest hits</h2></header>
-      <ul class="featured">
-        {% for post in site.tags.great%}
-        <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-          <br>
-          <span class="postdescription">{{ post.description }}</span>
-        </li>
-        {% endfor %}
-      </ul>
-    </section>
-    <section>
-      <header><h2>your #travelgoals</h2></header>
-      <p>Places you <i>really</i> want to visit:</p>
-      <ul class="goals">
-        <li>
-          <a href="http://perispomeni.club/~tsangiotis">Book reviews and tally</a> <br>
-          <span class="postdescription">on <a href="http://perispomeni.club">perispomeni.club</a></span>
-        </li>
-        <li>
-          Funny and well thought <a href="https://twitter.com/tsangiotis">tweets</a><br>
-          <span class="postdescription">in my unbiased opinion</a></span>
-        </li>
-        <li>
-          Awesome and vein <a href="https://instagram.com/tsangiotis">instagram feed</a>
-          <span class="postdescription">in my unbiased opinion (again)</a></span>
-        </li>
-        <li>
-          <a href="https://github.com/tsangiotis">The Github home of projects</a><br>
-          <span class="postdescription">Some of them disrupting, some of them disturbing</span>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/tsangiotis">A rich LinkedIn</a><br>
-          <span class="postdescription">One of the doors to the professional world</span></li>
-      </ul>
-    </section>
-    <section>
-      <header><h2>your host</h2></header>
-      <p>My name is <a href="/about">Tasos Sangiotis</a>.
-        I recon you know that already from the name of the page.
-        I build robots and I'm always right.</p>
+        <aside>
+            <section>
+                <form class="search" method="get" action="https://www.google.com/search">
+                    <table border="0" cellpadding="0">
+                        <tr>
+                            <td>
+                                <input type="text" name="q" size="25" maxlength="255" value="" />
+                                <input type="submit" value="Google Search" />
+                                <input type="hidden" name="sitesearch" checked="checked" value="tsangiotis.com"></input>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </section>
+            <section>
+                <header>
+                    <h2>greatest hits</h2>
+                </header>
+                <ul class="featured">
+                    {% for post in site.tags.great%}
+                    <li>
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                        <br>
+                        <span class="postdescription">{{ post.description }}</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </section>
+            <section>
+                <header>
+                    <h2>your #travelgoals</h2>
+                </header>
+                <p>Places you <i>really</i> want to visit:</p>
+                <ul class="goals">
+                    <li>
+                        <a href="http://perispomeni.club/~tsangiotis">Book reviews and tally</a><br>
+                        <span class="postdescription">on <a href="http://perispomeni.club">perispomeni.club</a></span>
+                    </li>
+                    <li>
+                        Funny and thought through <a href="https://twitter.com/tsangiotis">tweets</a><br>
+                        <span class="postdescription">in my unbiased opinion</a></span>
+                    </li>
+                    <li>
+                        Awesome and vein <a href="https://instagram.com/tsangiotis">instagram feed</a>
+                        <span class="postdescription">in my unbiased opinion (again)</a></span>
+                    </li>
+                    <li>
+                        <a href="https://github.com/tsangiotis">The Github home of projects</a><br>
+                        <span class="postdescription">Some of them disrupting, some of them disturbing</span>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/tsangiotis">A rich LinkedIn</a><br>
+                        <span class="postdescription">One of the doors to the professional world</span></li>
+                </ul>
+            </section>
+            <section>
+                <header>
+                    <h2>your host</h2>
+                </header>
+                <p>My name is <a href="/about">Tasos Sangiotis</a>. I recon you know that already from the name of the page. I build robots and I'm always right.</p>
 
-      <p>If you choose to wander this wasteland do so with caution.
-        Consider this your final warning.</p>
-    </section>
-    <section>
-      <header><h2>pressing matters</h2></header>
-      {% assign tags = site.tags | sort %}
-      {% for tag in tags %}
-      {% if tag[0] != "great" %}
-      <span class="site-tag">
+                <p>If you choose to wander this wasteland do so with caution. Consider this your final warning.</p>
+            </section>
+            <section>
+                <header>
+                    <h2>pressing matters</h2>
+                </header>
+                {% assign tags = site.tags | sort %} {% for tag in tags %} {% if tag[0] != "great" %}
+                <span class="site-tag">
         <a href="/tags#{{ tag | first | slugify }}"
           style="font-size: {{ tag | last | size  |  times: 20 | plus: 80  }}%">
             {{ tag[0] | replace:'-', ' ' }}
         </a>
-      </span>
-      {% endif %}
-      {% endfor %}
-    </section>
-  </aside>
-  </div>
+      </span> {% endif %} {% endfor %}
+            </section>
+        </aside>
+    </div>
 
-  <div style="clear:both"></div>
-  <footer>
-    <p>this is where another human would brag about owning his words</p>
-  </footer>
+    <div style="clear:both"></div>
+    <footer>
+        <p>this is where another human would brag about owning his words</p>
+    </footer>
 
 </body>
+
 </html>
