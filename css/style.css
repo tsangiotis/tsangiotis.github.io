@@ -97,27 +97,23 @@ aside
 
 
 /*** Posts ***/
+.post-title{
+	margin-top: 30px;
+	text-decoration: none;
+	color: #666;
+}
+
+.post-title a {
+	color: #666; 
+}
+
 article {
 	margin-bottom: 20px;
-	margin-top: 30px;
 }
 
 article a {
 	color:#2334ff;
 	text-decoration:underline;
-}
-
-article header h1 {
-	font-size: 1.9em;
-}
-
-article header h1 a {
-	text-decoration: none;
-	color: #666;
-}
-
-article header h1 a {
-	color: #666;
 }
 
 article h1 {
