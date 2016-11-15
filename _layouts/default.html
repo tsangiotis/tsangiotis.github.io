@@ -5,11 +5,51 @@
 
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width">
 
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+    <![endif]-->
+
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="{{ site.author }}">
+    <link rel=”author” href=”https://plus.google.com/110914826679729865229”/>
+    
+    <meta property=”og:type” content=”article”/>
+    {% if page.url == "/" %}
+        {% assign tags = site.tags | sort %} 
+    <meta name="keywords" content="{% for tag in tags %}{% if tag[0] != "great" %}{{ tag[0] }} {% endif %}{% endfor %}">
+        {% for post in site.posts limit: 1 %}
+    <meta property=”og:title” content="{{ post.title }}"/>
+            {% if post.description %}
+    <meta name="description" content="{{ post.description }}">
+    <meta property=”og:description” content="{{ post.description }}"/>
+    <meta name=”twitter:description” content="{{ post.description }}">
+            {% endif %}
+            {% if post.image %}
+    <meta name=”twitter:card” content="image">
+    <meta property=”og:image” content="{{ post.image }}"/>
+    <meta name=”twitter:image” content="{{ post.image }}">
+            {% endif %}
+    <meta name="twitter:url" content="{{ site.url }}{{ post.url }}">
+    <meta property=”og:url” content="{{ site.url }}{{ post.url }}"/>
+        {% endfor %}
+    {% else %}
+    <meta name="keywords" content="{% for tag in page.tags %}{% if tag[0] != "great" %}{{ tag[0] }} {% endif %}{% endfor %}">
+    <meta property=”og:title” content="{{ page.title }}"/>
+    <meta property=”twitter:title” content="{{ page.title }}"/>
+        {% if post.description %}
+    <meta name="description" content="{{ page.description }}">
+    <meta property=”og:description” content="{{ page.description }}"/>
+    <meta name=”twitter:description” content="{{ page.description }}">
+        {% endif %}
+        {% if post.image %}
+    <meta name=”twitter:card” content="image">
+    <meta property=”og:image” content="{{ page.image }}"/>
+    <meta name=”twitter:image” content="{{ page.image }}">
+        {% else %}
+    <meta name=”twitter:card” content="summary">
+        {% endif %}
+    {% endif %}
 
     <link href="/css/style.css" rel="stylesheet" />
     <link href='/favicon.ico' rel='shortcut icon' type='image/x-icon'>
@@ -38,14 +78,14 @@
 
         <header>
             <h1><a class="title" href="/">{{ site.name }}</a></h1>
-            <p class="subtitle"><i>{{ site.description }}</i></p>
+            <p class="subtitle"><i>{{ site.subtitle }}</i></p>
         </header>
 
         <main>
             {{ content }}
         </main>
 
-        <aside>
+        <nav class="sidebar">
             <section>
                 <form class="search" method="get" action="https://www.google.com/search">
                     <table border="0" cellpadding="0">
@@ -112,15 +152,15 @@
                 <header>
                     <h2>pressing matters</h2>
                 </header>
-                {% assign tags = site.tags | sort %} {% for tag in tags %} {% if tag[0] != "great" %}
+                {% for tag in tags %} {% if tag[0] != "great" %}
                 <span class="site-tag">
-        <a href="/tags#{{ tag | first | slugify }}"
-          style="font-size: {{ tag | last | size  |  times: 20 | plus: 80  }}%">
-            {{ tag[0] | replace:'-', ' ' }}
-        </a>
+                <a href="/tags#{{ tag | first | slugify }}"
+                   style="font-size: {{ tag | last | size  |  times: 20 | plus: 80  }}%">
+                    {{ tag[0] | replace:'-', ' ' }}
+                </a>
       </span> {% endif %} {% endfor %}
             </section>
-        </aside>
+        </nav>
     </div>
 
     <div style="clear:both"></div>
