@@ -38,9 +38,9 @@ body {
 
 #main {
   text-align:left;
-  width:950px;
+  width:900px;
   margin-right:auto;
-	margin-left: auto;
+  margin-left: auto;
 }
 
 header .subtitle {
@@ -165,7 +165,12 @@ img{
 
 .featured {
 	list-style: none;
-  padding-left:0;
+ 	padding-left:0;
+}
+
+.goals {
+	list-style: none;
+  	padding-left:0;
 }
 
 .postdescription {
