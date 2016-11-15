@@ -33,7 +33,7 @@ I will eventually tell you what I know about deciding on motors and batteries f
 
 A VTOL however is mostly a plane. It is designed to cruise most of the time.
 
-![A fixed wing I built in 2012](images{{ page.id }}/plane.jpg)
+![A fixed wing I built in 2012](/images{{ page.id }}/optimized/plane.jpg)
 <p class="text-center">A fixed wing I built in 2012</p>
 
 The plane design part is kind of trickier. You have to calculate masses and aerodynamic data meticulously to fly without crashing on liftoff. And with only so much masses to allocate in a fixed design you have to plan in advance.
@@ -45,7 +45,7 @@ The plane design part is kind of trickier. You have to calculate masses and aero
 
 Yes and no. It helps to have a capable enough computer and access to CAD programs like SolidWorks but it is not a requirement. At least this is my case. Most of the programs I use for aircraft design are completely free and open-source running on my now 4 years old low-to-medium spec computer.
 
-![Slow computers have advantages](images{{ page.id }}/compiling.png)
+![Slow computers have advantages](/images{{ page.id }}/optimized/compiling.png)
 <p class="text-center">Slow computers have advantages</p>
 
 Actually one of the programs I mentioned is made by some folks at NASA. It's called [OpenVSP](http://www.openvsp.org/) and stands for Open Vehicle Sketch Pad. Spoiler alert: It's much more than a sketch pad.
