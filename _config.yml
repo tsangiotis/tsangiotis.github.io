@@ -12,7 +12,5 @@ twitter_username: tsangiotis
 
 ganalytics: UA-72716429-1
 
-jekyll-sitemap
-
 gems:
   - jekyll-sitemap
