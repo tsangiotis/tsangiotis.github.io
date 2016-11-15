@@ -28,7 +28,7 @@
   </main>
 
   <aside>
-    <section>
+    <section class="search">
       <script>
       (function() {
         var cx = '004326416946347472623:eclzr-e2ow4';
@@ -48,6 +48,8 @@
         {% for post in site.tags.great%}
         <li>
           <a href="{{ post.url }}">{{ post.title }}</a>
+          <br>
+          <span class="postdescription">{{ post.description }}</span>
         </li>
         {% endfor %}
       </ul>

@@ -2,6 +2,7 @@
 layout: post
 title: Aircraft design the NASA way
 date: 2016-10-12
+description: The tools used to design modern model aircrafts.
 categories:
 - Projects
 tags:
@@ -22,7 +23,7 @@ Basically it combines a copter and a plane allowing to take off and land without
 My thought while writing this is to make a series of posts explaining common tactics and thought process, demonstrating some popular (and free) tools used by recognised organisations, comparing some options and getting some feedback. To be fair, I've played with quadcopters but most of this is new to me. Also most of the information you will get here, is already on the internet but it is most of the time scattered with the rare exception when it is concentrated and explained by good people. If you are a newbie I will try to get you around the roadbumps I hit so you can hit your own roadbumps.
 
 Copters are fairly easy to design and construct. You can literally make one by crucifying  a tupper on a wooden cross like that.
-![]({{ site.baseurl }}/images/quadcopter.jpg)
+![](/images{{ page.id }}/optimized/quadcopter.jpg)
 
 Strap on a cheap ready to fly kit following the simple instructions inside and with around $50 you have in your hands something that can fly (or damage them severely if you are not careful).
 
@@ -32,7 +33,7 @@ I will eventually tell you what I know about deciding on motors and batteries f
 
 A VTOL however is mostly a plane. It is designed to cruise most of the time.
 
-![A fixed wing I built in 2012]({{ site.baseurl }}/images/plane.jpg)
+![A fixed wing I built in 2012](images{{ page.id }}/plane.jpg)
 <p class="text-center">A fixed wing I built in 2012</p>
 
 The plane design part is kind of trickier. You have to calculate masses and aerodynamic data meticulously to fly without crashing on liftoff. And with only so much masses to allocate in a fixed design you have to plan in advance.
@@ -44,7 +45,7 @@ The plane design part is kind of trickier. You have to calculate masses and aero
 
 Yes and no. It helps to have a capable enough computer and access to CAD programs like SolidWorks but it is not a requirement. At least this is my case. Most of the programs I use for aircraft design are completely free and open-source running on my now 4 years old low-to-medium spec computer.
 
-![Slow computers have advantages]({{ site.baseurl }}/images/compiling.png)
+![Slow computers have advantages](images{{ page.id }}/compiling.png)
 <p class="text-center">Slow computers have advantages</p>
 
 Actually one of the programs I mentioned is made by some folks at NASA. It's called [OpenVSP](http://www.openvsp.org/) and stands for Open Vehicle Sketch Pad. Spoiler alert: It's much more than a sketch pad.

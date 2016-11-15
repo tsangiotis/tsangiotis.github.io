@@ -163,8 +163,20 @@ img{
 	float: right;
 }
 
-ul .featured {
+.featured {
 	list-style: none;
+  padding-left:0;
+}
+
+.postdescription {
+  font-style: italic;
+  font-family: serif;
+  color:#777;
+  line-height:100%;
+}
+
+.search {
+  height: 68px;
 }
 
 .site-tag a {
