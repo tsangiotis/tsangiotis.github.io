@@ -15,3 +15,4 @@ ganalytics: UA-72716429-1
 
 gems:
   - jekyll-sitemap
+  - jekyll-seo-tag

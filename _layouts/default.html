@@ -4,7 +4,6 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>{{ page.title }}</title>
 
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -13,42 +12,33 @@
     <meta name="viewport" content="width=device-width">
     <meta name="author" content="{{ site.author }}">
     <link rel=”author” href=”https://plus.google.com/110914826679729865229”/>
-    
-    <meta property=”og:type” content=”article”/>
-    {% if page.url == "/" %}
-        {% assign tags = site.tags | sort %} 
-    <meta name="keywords" content="{% for tag in tags %}{% if tag[0] != "great" %}{{ tag[0] }} {% endif %}{% endfor %}">
-        {% for post in site.posts limit: 1 %}
-    <meta property=”og:title” content="{{ post.title }}"/>
-            {% if post.description %}
-    <meta name="description" content="{{ post.description }}">
-    <meta property=”og:description” content="{{ post.description }}"/>
-    <meta name=”twitter:description” content="{{ post.description }}">
-            {% endif %}
-            {% if post.image %}
-    <meta name=”twitter:card” content="image">
-    <meta property=”og:image” content="{{ post.image }}"/>
-    <meta name=”twitter:image” content="{{ post.image }}">
-            {% endif %}
-    <meta name="twitter:url" content="{{ site.url }}{{ post.url }}">
-    <meta property=”og:url” content="{{ site.url }}{{ post.url }}"/>
-        {% endfor %}
+
+    {% assign tags = site.tags | sort %}
+    {% if page.url == "/" %} {% for post in site.posts limit: 1 %}
+    <title>{{ site.name }}</title>
+    <meta name="keywords" content="{% for tag in tags %}{% if tag[0] != " great " %}{{ tag[0] }} {% endif %}{% endfor %}">
+    <meta property="og:title" content="{{ post.title }}" />
+    <meta name="description" content="{{ post.description }}" />
+    <meta property="og:description" content="{{ post.title }}" />
+    <link rel="canonical" href="{{ site.url }}{{ post.url }}" />
+    <meta property="og:url" content="{{ site.url }}{{ post.url }}" />
+    <meta property="og:site_name" content="tasos sangiotis" />
+    <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="{{ post.date }}" />
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BlogPosting",
+            "headline": "{{ post.title }}",
+            "datePublished": "{{ post.date }}",
+            "description": "{{ post.description }}",
+            "url": "{{ site.url }}{{ post.url }}"
+        }
+    </script>
+    {% endfor %} 
     {% else %}
-    <meta name="keywords" content="{% for tag in page.tags %}{% if tag[0] != "great" %}{{ tag[0] }} {% endif %}{% endfor %}">
-    <meta property=”og:title” content="{{ page.title }}"/>
-    <meta property=”twitter:title” content="{{ page.title }}"/>
-        {% if post.description %}
-    <meta name="description" content="{{ page.description }}">
-    <meta property=”og:description” content="{{ page.description }}"/>
-    <meta name=”twitter:description” content="{{ page.description }}">
-        {% endif %}
-        {% if post.image %}
-    <meta name=”twitter:card” content="image">
-    <meta property=”og:image” content="{{ page.image }}"/>
-    <meta name=”twitter:image” content="{{ page.image }}">
-        {% else %}
-    <meta name=”twitter:card” content="summary">
-        {% endif %}
+    <meta name="keywords" content="{% for tag in page.tags %}{% if tag != " great " %}{{ tag }} {% endif %}{% endfor %}"> 
+    {% seo %} 
     {% endif %}
 
     <link href="/css/style.css" rel="stylesheet" />
