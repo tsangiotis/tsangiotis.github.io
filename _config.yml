@@ -9,3 +9,5 @@ permalink: /:title/
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
 twitter_username: tsangiotis
+
+ganalytics: UA-72716429-1
