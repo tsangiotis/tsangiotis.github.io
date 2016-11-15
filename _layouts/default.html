@@ -16,6 +16,7 @@
     {% assign tags = site.tags | sort %}
     {% if page.url == "/" %} {% for post in site.posts limit: 1 %}
     <title>{{ site.name }}</title>
+    <meta name="description" content="{{ post.description }}" />
     <meta name="keywords" content="{% for tag in tags %}{% if tag[0] != " great " %}{{ tag[0] }} {% endif %}{% endfor %}">
     <meta property="og:title" content="{{ post.title }}" />
     <meta name="description" content="{{ post.description }}" />
