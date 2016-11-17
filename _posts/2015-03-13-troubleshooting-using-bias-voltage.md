@@ -14,7 +14,7 @@ tags:
 
 ICP Sensors are nice!
 
-![](/images{{ page.id }}/optimized/1_SH0ksHu31UW8_n3YdYejQg.jpeg)
+![](/images{{ page.id }}/1_SH0ksHu31UW8_n3YdYejQg.jpeg)
 
 The last two days I was frustrated with an [**ICP**](http://en.wikipedia.org/wiki/Integrated_circuit_piezoelectric_sensor) (**I**ntegrated **C**ircuit**P**iezoelectric) vibration sensor not working.
 
@@ -22,7 +22,7 @@ There were glimpses of uptime but it was just that. Glimpses…
 
 The sensor is driven by a dead simple circuit:
 
-![](/images{{ page.id }}/optimized/schem.png)
+![](/images{{ page.id }}/schem.png)
 
 As you see:
 
@@ -45,7 +45,7 @@ The signal output of an ICP sensor is a low impedance voltage signal proportiona
 
 So, how do you check the sensor?
 
-![](/images{{ page.id }}/optimized/meas1.jpeg)
+![](/images{{ page.id }}/meas1.jpeg)
 
 As you see I cannot break through it to see if I’ve fried it (these are pretty sturdy and frying them is harder than it sounds). I am also pretty sure that my circuit is good as it have worked perfectly before.
 
@@ -53,9 +53,9 @@ The DC Bias of the sensor can quickly and reliably show us if the sensor is work
 
 Below there is a table with common DC Bias voltages and their meaning:
 
-![](/images{{ page.id }}/optimized/1_johuYRS6cjMoiOARPi1QWQ.png)
+![](/images{{ page.id }}/1_johuYRS6cjMoiOARPi1QWQ.png)
 
-![](/images{{ page.id }}/optimized/1_MzQ_WmE5MhYW6TLDq8Y19A.jpeg)
+![](/images{{ page.id }}/1_MzQ_WmE5MhYW6TLDq8Y19A.jpeg)
 
 
 Three scenarios are possible:
@@ -64,7 +64,7 @@ Three scenarios are possible:
 2. If you get _0 Volts_ you have probably shorten out something. Woops!
 3. In my case, I got my supply voltage which means the connection to the sensor is faulty resulting to an open circuit. Check your cable!
 
-![](/images{{ page.id }}/optimized/1_5iayBhetGZa5SkGaioNyVQ.jpeg)
+![](/images{{ page.id }}/1_5iayBhetGZa5SkGaioNyVQ.jpeg)
 
 ## Conclusions
 

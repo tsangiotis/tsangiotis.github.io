@@ -8,7 +8,7 @@ categories:
 ---
 Today I got the news. Maria is officially dead.
 
-![](/images{{ page.id }}/optimized/mariaisdead.jpg)
+![](/images{{ page.id }}/mariaisdead.jpg)
 
 Maria was my camera. I changed the name to Maria from CAMERA #1 about a week ago when she was baptised in the waters of Naxos. By accident of course.
 
@@ -22,7 +22,7 @@ If I crossed the sea to get these photos, they are more valuable than my cheapo 
 
 And what photos! This is me Ash Ketchum style while catching Vaporeon on Pokémon Go (real life edition):
 
-![](/images{{ page.id }}/optimized/ash.jpg)
+![](/images{{ page.id }}/ash.jpg)
 
 Cameras are tools to make pictures. Nothing more, nothing less. If you treat them as such you will make great or at least enjoyable pictures. If you treat them like fragile babies, you will be too afraid to make good photos outdoors.
 
@@ -38,7 +38,7 @@ On that note, if you like doing something, respect the tools but don’t babysit
 
 Now that I lectured you, check out Maria on the operation table and if you see me doing something stupid like that again, punch me:
 
-![](/images{{ page.id }}/optimized/mariadisassembly.jpg)
+![](/images{{ page.id }}/mariadisassembly.jpg)
 
 
 _P.S.: This was written in under 30 minutes and by now I hate the name Maria for a camera._

@@ -10,7 +10,7 @@ tags:
 - great
 ---
 
-![](/images{{ page.id }}/optimized/wie.jpeg)
+![](/images{{ page.id }}/wie.jpeg)
 
 Women contribute massively in all technological fields. They are an active part of the engineering community.
 
@@ -56,7 +56,7 @@ I wouldn’t like it.
 
 I am talking mostly about Sparkfun and Adafruit which are two companies that I love. [Adafruit’s CEO](https://www.adafruit.com/about) (Ladyada) is a woman by the way.
 
-![](/images{{ page.id }}/optimized/limor.jpeg)
+![](/images{{ page.id }}/limor.jpeg)
 
 With the [Arduino Flora](https://www.adafruit.com/products/659) there was a chance for women interested in the fashion industry to add sensors, buttons and lights to their clothes. This is awesome and broadening for the fashion enthusiast but this can’t be the end of it. There are many more interesting engineering stuff out there that are not “girly” and women may want to mess with.
 

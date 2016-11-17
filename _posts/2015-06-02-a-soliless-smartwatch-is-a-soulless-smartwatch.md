@@ -9,7 +9,7 @@ tags:
 - IoT
 ---
 
-![](/images{{ page.id }}/optimized/solihead.jpeg)
+![](/images{{ page.id }}/solihead.jpeg)
 
 Google’s project Soli is the future of wearable interaction.
 
@@ -23,7 +23,7 @@ As you see there is no much of implementation. The team has only raw data suppor
 
 The most profound application is wearables. And the hot wearable right now is the smartwatch.
 
-![](/images{{ page.id }}/optimized/soli.jpeg)
+![](/images{{ page.id }}/soli.jpeg)
 
 On a regular watch you don’t fondle the screen all the time and the crown is not intended to be used more than twice a year. Also it shouldn’t matter if you wear gloves. So a new interface should arise that is capable of satisfying smartwatches requirements. I believe that this will be Soli (or something like it).
 

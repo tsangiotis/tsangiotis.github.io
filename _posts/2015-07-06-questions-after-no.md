@@ -8,7 +8,7 @@ tags:
 - Greece
 ---
 
-![](/images{{ page.id }}/optimized/1-gZTKmrZgI7Z8Lau3e4cKHg.jpeg)
+![](/images{{ page.id }}/1-gZTKmrZgI7Z8Lau3e4cKHg.jpeg)
 
 It was a rough and fast week. From the announcement of the Greek referendum to the announcement of the final and big _No_.
 
@@ -26,9 +26,9 @@ Nobody really knows but I write this trying to put my thoughts and mental simula
 
 ## What was the question/intention?
 
-![](/images{{ page.id }}/optimized/refgr.jpeg)
+![](/images{{ page.id }}/refgr.jpeg)
 
-![](/images{{ page.id }}/optimized/refgb.jpeg)
+![](/images{{ page.id }}/refgb.jpeg)
 
 As the question was anything but clear, through the week we had many different scenarios for this.
 
@@ -54,7 +54,7 @@ _Yes_ was represented (maybe deliberately) in Greece by the people that run Gre
 
 However polls and even [Twitter stats](http://topsy.com/analytics?q1=Oxi%20OR%20%CE%BF%CF%87%CE%B9&q2=Nai%20OR%20%CE%BD%CE%B1%CE%B9&via=Topsy) showed that people changed their minds at the last time.
 
-![](/images{{ page.id }}/optimized/topsy.png)
+![](/images{{ page.id }}/topsy.png)
 
 People are angry with the situation. The last week helped to that. An hour a day in queue while in fear and uncertainty was an optimistic day plan. Angry people don’t choose positively.
 

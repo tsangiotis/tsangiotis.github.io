@@ -20,5 +20,5 @@ I’ve been in a mode of getting more stable and reliable in the last months but
 > Change is hard and you are never gonna feel like it.
 > The more you **force **yourself, the more you are going to **feel like it**.
 
-![](/images{{ page.id }}/optimized/force.jpeg)
+![](/images{{ page.id }}/force.jpeg)
 

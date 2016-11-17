@@ -9,7 +9,7 @@ tags:
 meta:
 ---
 
-![](/images{{ page.id }}/optimized/jjrun.jpeg)
+![](/images{{ page.id }}/jjrun.jpeg)
 
 I’ve been a competition Ju Jitsu athlete for my entire life until the combination of an injury and the start of my University life pointed that I will never be in my full game again while studying Electrical Engineering.
 

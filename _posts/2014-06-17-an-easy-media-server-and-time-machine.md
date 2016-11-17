@@ -22,7 +22,7 @@ Since I got my Chromecast, Plex has gone to the top of my "Useful Software" list
 
 So what I need? A HDD in my network that hosts my media and my backups.
 
-![](/images{{ page.id }}/optimized/1-4.png)
+![](/images{{ page.id }}/1-4.png)
 
 Nice, but not so cheap.
 
@@ -170,7 +170,7 @@ Let's get to it!
 
 For the torrent client I just used [Transmission](https://www.transmissionbt.com/). It is more than good and it has a clean remote UI.
 
-![](/images{{ page.id }}/optimized/2-3.png)
+![](/images{{ page.id }}/2-3.png)
 
 First get Transmission:
 
@@ -377,4 +377,4 @@ sudo gpasswd -a plex tsagi
 
 Go to `http://your.server.ip.adress:32400/manage` and point your libraries to the transmission's `completed` directory. It can figure out if you have a series episode or a movie in the directory.
 
-![](/images{{ page.id }}/optimized/4.png)
+![](/images{{ page.id }}/4.png)

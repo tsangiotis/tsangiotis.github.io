@@ -15,7 +15,7 @@ tags:
 
 This editor is fantastic! It can be customised in any way you imagine to fit your needs and taste. There is also a great community that builds plugins and you can build your own pretty easily. It also support some great features and you can see a demonstration at their [homepage](http://www.sublimetext.com/). Please go! I can wait!
 
-![](/images{{ page.id }}/optimized/af1bdb6bd3e4a7bbeb2972889f08e3fd.gif)
+![](/images{{ page.id }}/af1bdb6bd3e4a7bbeb2972889f08e3fd.gif)
 
 You saw it? Good!
 
@@ -25,7 +25,7 @@ There is though an unlimited evaluation period with a notification window punchi
 
 I don't care for the price. It's a high quality tool and the licence part is very straight forward. How much they charge is their choice and if you buy it it's yours. You evaluate it, you buy it or you leave it if you don't like the price or the product. It's about what works for you. You can just continue using what you used before.
 
-![](/images{{ page.id }}/optimized/1-1.png)
+![](/images{{ page.id }}/1-1.png)
 
 The **not** open source stuff makes things difficult for some as you see. The same guy continued with some crap that he does not infest his computer with proprietary software and that proprietary software is somehow _"fishy"_. He got almost equal Upvotes & Downvotes in this comment so you see the opinion of the community on the subject. If you follow up with him on other comments in the same article he becomes pricky and eventually thrown out of the conversation.
 

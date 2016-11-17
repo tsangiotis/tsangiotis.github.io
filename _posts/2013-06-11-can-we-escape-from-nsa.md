@@ -19,7 +19,7 @@ Here is an interview at the Guardian.
 
 Whether we believe his motives or not, PRISM exists more than 5 years now.
 
-![](/images{{ page.id }}/optimized/1-2.png)
+![](/images{{ page.id }}/1-2.png)
 
 You can see that most of the streams we use today, even our operating systems and our email providers feed data to NSA.
 
@@ -35,6 +35,6 @@ But even if I do all these, I am not safe. Because not everyone I communicate do
 
 Most of us got nothing to hide. But we don't want to get checked every time we send a mail.
 
-![](/images{{ page.id }}/optimized/2-1.png)
+![](/images{{ page.id }}/2-1.png)
 
 Should we get used to it?

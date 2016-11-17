@@ -24,9 +24,9 @@ It provides:
 
 Here are some screenshots:
 
-![](/images{{ page.id }}/optimized/1.png)
-![](/images{{ page.id }}/optimized/2.png)
-![](/images{{ page.id }}/optimized/3.png)
+![](/images{{ page.id }}/1.png)
+![](/images{{ page.id }}/2.png)
+![](/images{{ page.id }}/3.png)
 
 The source code is available and always will be [on Github](https://github.com/tsagi/jekyll-client-for-android).
 I think about publishing the app on [Google Play Store](https://play.google.com/store) for a small

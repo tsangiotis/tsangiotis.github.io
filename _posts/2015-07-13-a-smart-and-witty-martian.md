@@ -9,7 +9,7 @@ tags:
 - Movies
 ---
 
-![](/images{{ page.id }}/optimized/martian.png)
+![](/images{{ page.id }}/martian.png)
 
 Just yesterday I finished reading [The Martian](http://www.goodreads.com/book/show/18007564-the-martian). I wont lie, this book is not for eveyone but I really liked it.
 

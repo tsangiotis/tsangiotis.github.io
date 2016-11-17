@@ -39,7 +39,7 @@ After the first assembly and testing I made it smaller using a strip board:
 
 And this is what we end up with:
 
-![](/images{{ page.id }}/optimized/1-3.png)
+![](/images{{ page.id }}/1-3.png)
 
 ## LIRC
 
@@ -181,6 +181,6 @@ For the LIRC configuration I followed [this guide](http://alexba.in/blog/2013/0
 
 I also made an Android application using the web interface provided [here](https://github.com/slimjim777/web-irsend) but the code needs a lot of polishing so I can't share it yet.
 
-![](/images{{ page.id }}/optimized/2-2.png)
+![](/images{{ page.id }}/2-2.png)
 
 It was cool for an evening project :)

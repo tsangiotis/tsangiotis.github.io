@@ -25,9 +25,9 @@ It happened so our next programmed event was “Robotics & 3D Printing” which 
 
 Here are some photos from there.
 
-![](/images{{ page.id }}/optimized/rob1.jpeg)
+![](/images{{ page.id }}/rob1.jpeg)
 
-![](/images{{ page.id }}/optimized/rob2.jpeg)
+![](/images{{ page.id }}/rob2.jpeg)
 
 Kids were excited!
 
@@ -41,7 +41,7 @@ That made us super happy and anxious at the same time. We had 2 hours to do so m
 
 _So we started!_
 
-![](/images{{ page.id }}/optimized/prez.jpeg)
+![](/images{{ page.id }}/prez.jpeg)
 
 Algorithmic problems, circuits and robots were flying in front of their eyes.
 
@@ -60,7 +60,7 @@ Kids formed teams and were asked to:
 - Propose a final solution along with it’s requirements.
 - Present all that in class
 
-![](/images{{ page.id }}/optimized/kids.jpeg)
+![](/images{{ page.id }}/kids.jpeg)
 
 Very original ideas came up from e-learning to energy savings and school security.
 

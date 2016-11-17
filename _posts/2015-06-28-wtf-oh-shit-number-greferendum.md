@@ -26,7 +26,7 @@ I froze and went for a walk to see an image like the one above at any ATM around
 
 That created much panic. For two days there is a continuous bank run.
 
-![](/images{{ page.id }}/optimized/brun.jpeg)
+![](/images{{ page.id }}/brun.jpeg)
 
 Yanis Varoufakis just enforced capital control with banks and ATMs closing and 60€/day withdrawal limit from next Tuesday.
 
@@ -48,7 +48,7 @@ Polls are showing that people still [prefer to stay in Europe](http://news.in.g
 
 In a very difficult time for Greece the government decides to divide the people and play dice with their fate without having a plan and acting plain stupid and irresponsibly. Also they are giving people 7 days to decide on something that is their responsibility to negotiate and decide for 6 months now. They are cowardly playing hot potato with the people and dress it as democracy at the end of the cliff.
 
-![](/images{{ page.id }}/optimized/clif.jpeg)
+![](/images{{ page.id }}/clif.jpeg)
 
 If this is a negotiation tactic or one of Varoufakis famous game theory tricks, the risk and the cost are just too high. Even if it works there will not be a huge gain if any. Also trust in Greece is lower than ever. Specially when we are at the verge of the summer, the most prosperous time of the year for Greece. This is bad. People will suffer and will be our fault and no one elses.
 

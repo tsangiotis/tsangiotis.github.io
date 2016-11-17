@@ -9,4 +9,4 @@ tags:
 - Movies
 ---
 
-![](/images{{ page.id }}/optimized/deadpool.jpeg)
+![](/images{{ page.id }}/deadpool.jpeg)

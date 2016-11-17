@@ -16,19 +16,19 @@ So I picked up a film cartridge from Kodak and threw the camera in my backpack 
 
 <table style="width:100%">
   <tr>
-    <td><a href="/images{{ page.id }}/optimized/r001-006.jpg"><img src="/images{{ page.id }}/optimized/r001-006.jpg"/></a></td>
-    <td><a href="/images{{ page.id }}/optimized/r001-007.jpg"><img src="/images{{ page.id }}/optimized/r001-007.jpg"/></a></td>
-    <td><a href="/images{{ page.id }}/optimized/r001-008.jpg"><img src="/images{{ page.id }}/optimized/r001-008.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/r001-006.jpg"><img src="/images{{ page.id }}/r001-006.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/r001-007.jpg"><img src="/images{{ page.id }}/r001-007.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/r001-008.jpg"><img src="/images{{ page.id }}/r001-008.jpg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/images{{ page.id }}/optimized/000062.jpg"><img src="/images{{ page.id }}/optimized/r001-011.jpg"/></a></td>
-    <td><a href="/images{{ page.id }}/optimized/r001-012.jpg"><img src="/images{{ page.id }}/optimized/r001-012.jpg"/></a></td>
-    <td><a href="/images{{ page.id }}/optimized/r001-013.jpg"><img src="/images{{ page.id }}/optimized/r001-013.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/000062.jpg"><img src="/images{{ page.id }}/r001-011.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/r001-012.jpg"><img src="/images{{ page.id }}/r001-012.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/r001-013.jpg"><img src="/images{{ page.id }}/r001-013.jpg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/images{{ page.id }}/optimized/r001-014.jpg"><img src="/images{{ page.id }}/optimized/r001-014.jpg"/></a></td>
-    <td><a href="/images{{ page.id }}/optimized/r001-015.jpg"><img src="/images{{ page.id }}/optimized/r001-015.jpg"/></a></td>
-    <td><a href="/images{{ page.id }}/optimized/r001-020.jpg"><img src="/images{{ page.id }}/optimized/r001-020.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/r001-014.jpg"><img src="/images{{ page.id }}/r001-014.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/r001-015.jpg"><img src="/images{{ page.id }}/r001-015.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/r001-020.jpg"><img src="/images{{ page.id }}/r001-020.jpg"/></a></td>
   </tr>
 </table>
 
@@ -40,18 +40,18 @@ I shot film for the rest of the summer. I can say that I had a lot of shots I l
 
 <table style="width:100%">
   <tr>
-    <td><a href="/images{{ page.id }}/optimized/000033.jpg"><img src="/images{{ page.id }}/optimized/000033.jpg"/></a></td>
-    <td><a href="/images{{ page.id }}/optimized/000057.jpg"><img src="/images{{ page.id }}/optimized/000057.jpg"/></a></td>
-    <td><a href="/images{{ page.id }}/optimized/000058.jpg"><img src="/images{{ page.id }}/optimized/000058.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/000033.jpg"><img src="/images{{ page.id }}/000033.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/000057.jpg"><img src="/images{{ page.id }}/000057.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/000058.jpg"><img src="/images{{ page.id }}/000058.jpg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/images{{ page.id }}/optimized/000062.jpg"><img src="/images{{ page.id }}/optimized/000062.jpg"/></a></td>
-    <td><a href="/images{{ page.id }}/optimized/000063.jpg"><img src="/images{{ page.id }}/optimized/000063.jpg"/></a></td>
-    <td><a href="/images{{ page.id }}/optimized/000064.jpg"><img src="/images{{ page.id }}/optimized/000064.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/000062.jpg"><img src="/images{{ page.id }}/000062.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/000063.jpg"><img src="/images{{ page.id }}/000063.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/000064.jpg"><img src="/images{{ page.id }}/000064.jpg"/></a></td>
   </tr>
   <tr>
     <td></td>
-    <td><a href="/images{{ page.id }}/optimized/000065.jpg"><img src="/images{{ page.id }}/optimized/000065.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/000065.jpg"><img src="/images{{ page.id }}/000065.jpg"/></a></td>
     <td></td>
   </tr>
 </table>
@@ -61,12 +61,12 @@ However as I was using film more, it became apparent that this is not somethin
 
 <table style="width:100%">
   <tr>
-    <td><a href="/images{{ page.id }}/optimized/000051.jpg"><img src="/images{{ page.id }}/optimized/000051.jpg"/></a></td>
-    <td><a href="/images{{ page.id }}/optimized/000044.jpg"><img src="/images{{ page.id }}/optimized/000044.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/000051.jpg"><img src="/images{{ page.id }}/000051.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/000044.jpg"><img src="/images{{ page.id }}/000044.jpg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/images{{ page.id }}/optimized/argyroupoli.jpg"><img src="/images{{ page.id }}/optimized/argyroupoli.jpg"/></a></td>
-    <td><a href="/images{{ page.id }}/optimized/ioanna_candle.jpg"><img src="/images{{ page.id }}/optimized/ioanna_candle.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/argyroupoli.jpg"><img src="/images{{ page.id }}/argyroupoli.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/ioanna_candle.jpg"><img src="/images{{ page.id }}/ioanna_candle.jpg"/></a></td>
   </tr>
 </table>
 
@@ -74,14 +74,14 @@ Another problem is the price. Film costs about € 3 per cartridge. Developing c
 
 <table style="width:100%">
   <tr>
-    <td><a href="/images{{ page.id }}/optimized/storm.jpg"><img src="/images{{ page.id }}/optimized/storm.jpg"/></a></td>
-    <td><a href="/images{{ page.id }}/optimized/000037.jpg"><img src="/images{{ page.id }}/optimized/000037.jpg"/></a></td>
-    <td><a href="/images{{ page.id }}/optimized/000038.jpg"><img src="/images{{ page.id }}/optimized/000038.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/storm.jpg"><img src="/images{{ page.id }}/storm.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/000037.jpg"><img src="/images{{ page.id }}/000037.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/000038.jpg"><img src="/images{{ page.id }}/000038.jpg"/></a></td>
   </tr>
   <tr>
-    <td><a href="/images{{ page.id }}/optimized/000039.jpg"><img src="/images{{ page.id }}/optimized/000039.jpg"/></a></td>
-    <td><a href="/images{{ page.id }}/optimized/granpa.jpg"><img src="/images{{ page.id }}/optimized/granpa.jpg"/></a></td>
-    <td><a href="/images{{ page.id }}/optimized/granma_chris.jpg"><img src="/images{{ page.id }}/optimized/granma_chris.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/000039.jpg"><img src="/images{{ page.id }}/000039.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/granpa.jpg"><img src="/images{{ page.id }}/granpa.jpg"/></a></td>
+    <td><a href="/images{{ page.id }}/granma_chris.jpg"><img src="/images{{ page.id }}/granma_chris.jpg"/></a></td>
   </tr>
 </table>
 
