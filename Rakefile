@@ -48,7 +48,7 @@ task :resize do
         thumb = image.resize_to_fit(1280,960) 
         filename = file_path.split('/')[2..-1].last
         postdir = file_path.split('/')[-2]
-        finaldir = "#{output_dir}/#{postdir}/optimized"
+        finaldir = "#{output_dir}/#{postdir}"
         FileUtils.mkdir(finaldir) unless Dir.exists?(finaldir)
         thumb.write("#{finaldir}/#{filename}")
         puts "Resized: #{filename}" 
