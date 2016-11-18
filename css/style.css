@@ -293,6 +293,9 @@ img {
 /*** Media Queries ***/
 
 @media all and (max-width: 870px) {
+    main {
+        margin-right: 0px;
+    }
     #page,
     #header,
     #content,
