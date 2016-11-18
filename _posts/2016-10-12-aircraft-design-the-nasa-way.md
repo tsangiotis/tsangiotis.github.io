@@ -14,7 +14,9 @@ tags:
 
 I have not said anything about it here but my thesis is about a VTOL aircraft. That stands for Vertical Take Off and Landing aircraft. If this is nonsense to you, don't worry. You can just watch Jeremy Clarkson explain it in TopGear fashion in the video bellow.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MXo_d6tNWuY" frameborder="0" allowfullscreen></iframe>
+<div class="videoWrapper">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/MXo_d6tNWuY" frameborder="0" allowfullscreen></iframe>
+</div>
 
 Basically it combines a copter and a plane allowing to take off and land without the need for an airstrip like a copter but cruise at the speed of a plane providing autonomy. It's a rad concept.
 
@@ -56,4 +58,6 @@ Anyhow, for the next few months, life is going to include a lot of this stuff. 
 
 Until then, Pink Floyd's Learning to Fly is a fitting song and study until the next post:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eCB_INs2E24" frameborder="0" allowfullscreen></iframe>
+<div class="videoWrapper">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/eCB_INs2E24" frameborder="0" allowfullscreen></iframe>
+</div>

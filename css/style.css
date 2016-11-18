@@ -84,7 +84,7 @@ body {
     margin-left: auto;
 }
 
-header .subtitle {
+#header .subtitle {
     color: #777;
     font-style: italic;
     font-family: serif;
@@ -114,7 +114,7 @@ footer {
     text-align: center;
 }
 
-.sidebar {
+#sidebar {
     float: right;
     width: 280px;
 }
@@ -186,7 +186,7 @@ footer {
 }
 
 article {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 article a {
@@ -271,4 +271,44 @@ img {
 .footnotes {
     margin-top: 60px;
     border-top: 1px dotted #aaa;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*** Media Queries ***/
+
+@media all and (max-width: 870px) {
+    #page,
+    #header,
+    #content,
+    #main,
+    #post-title,
+    #post,
+    #footer {
+        width: inherit;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #sidebar {
+        position: relative;
+        text-align: left;
+        width: 100%;
+        left: 0;
+        margin: 10px 10px 20px 10px;
+    }
 }
