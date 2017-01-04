@@ -324,6 +324,16 @@ img {
         padding-left: 10px;
         padding-right: 10px;
     }
+    #intro {
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: 70%;
+        padding: 10px;
+    }
+    #social {
+        text-align: center;
+    }
     #sidebar {
         position: relative;
         text-align: left;
