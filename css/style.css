@@ -331,16 +331,16 @@ img {
         margin-left: auto;
         margin-right: auto;
         padding-top: 10px;
-        padding-bottom: 0px;
     }
     #social {
         text-align: center;
     }
     #sidebar {
         position: relative;
+        border-bottom: 0.5px solid #666;
         text-align: left;
         width: 100%;
         left: 0;
-        margin: 10px 10px 20px 10px;
+        margin: -20px 10px 20px 10px;
     }
 }
