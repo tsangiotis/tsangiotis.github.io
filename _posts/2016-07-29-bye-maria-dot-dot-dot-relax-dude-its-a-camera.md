@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "- Bye Maria... - Relax dude, it's a camera!"
+description: "how my camera died"
 date: 2016-07-29 18:30:00.000000000 +03:00
 categories:
 - Opinion

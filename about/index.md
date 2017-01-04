@@ -5,7 +5,7 @@ title: About
 
 ![](/images/about/profile.jpg)
 
-My name is Tasos Sangiotis, I am an engineer who likes to take <a href="https://tsangiotis.com/category/photography/">photos</a>.
+My name is Tasos Sangiotis, I am an engineer who likes to take <a href="https://instagram.com/tsangiotis/">photos</a>.
 
 This is my little place on the web. I put here my collection of rants and little essays.
 

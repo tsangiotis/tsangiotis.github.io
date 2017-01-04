@@ -19,12 +19,6 @@ ol {
     padding: 0 0 18px 30px;
 }
 
-ol li,
-ul li {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 em,
 i {
     font-style: italic;
@@ -135,6 +129,11 @@ footer {
 
 #socialitem {
     display: inline;
+}
+
+#greatesthits {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /*** Useful Classes ***/

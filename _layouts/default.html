@@ -98,12 +98,27 @@
                 </header>
                 <ul class="featured">
                     {% for post in site.tags.great%}
-                    <li>
+                    <li id="greatesthits">
                         <a href="{{ post.url }}">{{ post.title }}</a>
                         <br>
                         <span class="postdescription">{{ post.description }}</span>
                     </li>
                     {% endfor %}
+                </ul>
+            </section>
+            <section>
+                <header>
+                    <h2>somewhat organized</h2>
+                </header>
+                <ul style="list-style-type: none; padding: 0px;">
+                    <li><a href="/opinion">Opinion</a></li>
+                    <li><a href="/short">Short</a></li>
+                    <li><a href="/Guides">Guides</a></li>
+                    <li><a href="/Photography">Photography</a></li>
+                    <li><a href="/Projects">Projects</a></li>
+                    <li><a href="/Personal">Personal</a></li>
+                    <li><a href="/Thesis">Thesis</a></li>
+                    <li><a href="/Greek">Greek</a></li>
                 </ul>
             </section>
             <section>
@@ -145,6 +160,8 @@
                 <header>
                     <h2>pressing matters</h2>
                 </header>
+
+
                 {% for tag in tags %} {% if tag[0] != "great " %}
                 <span class="site-tag">
                 <a href="/tags#{{ tag | first | slugify }} "
