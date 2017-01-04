@@ -11,6 +11,8 @@ tags:
 - Messaging
 ---
 
+![Introducing Messenger](/images{{ page.id }}/intro.jpg)
+
 We are all in constant search of the perfect chat app. Myself, I thought I had things settled with my beloved Facebook Messenger. Little did I know it would break my heart.
 
 Messenger was a minor player in my text life till recently. I was happy with Telegram back then. Telegram is the perfect app. Not the perfect chat app. The perfect app. Stable, fast, very good native apps for phones AND computers, bots, etc. Everything that Telegram implements is well thought through and stable on release. The problem is that Telegram is not something that most of my friends would bother to meet. So in my quest for a minimalistic communications strategy, Telegram had to go.
