@@ -12,14 +12,15 @@
     <meta name="viewport" content="width=device-width">
     <meta name="author" content="{{ site.author }}">
     <link rel=”author” href=”https://plus.google.com/110914826679729865229”/> {% assign tags = site.tags | sort %} {% if page.url == "/" %} {% for post in site.posts limit: 1 %}
-    <title>{{ site.name }}</title>
+    <title>{{ site.title }}</title>
     <meta name="keywords" content="{% for tag in tags %}{% if tag[0] != " great " %}{{ tag[0] }} {% endif %}{% endfor %}">
     <meta property="og:title" content="{{ post.title }}" />
     <meta name="description" content="{{ post.description }}" />
     <meta property="og:description" content="{{ post.title }}" />
     <link rel="canonical" href="{{ site.url }}{{ post.url }}" />
     <meta property="og:url" content="{{ site.url }}{{ post.url }}" />
-    <meta property="og:site_name" content="tasos sangiotis" />
+    {% if post.image %}<meta property="og:image" content="{{ site.url }}{{ post.image }}" /> {% endif %}
+    <meta property="og:site_name" content="Tasos Sangiotis" />
     <meta property="og:type" content="article" />
     <meta property="article:published_time" content="{{ post.date }}" />
     <script type="application/ld+json">
@@ -36,7 +37,7 @@
     <meta name="keywords" content="{% for tag in page.tags %}{% if tag != " great " %}{{ tag }} {% endif %}{% endfor %}"> {% seo %} {% endif %}
 
     <link href="/css/style.css" rel="stylesheet" />
-    <link href='/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+    <link href='/favicon.png' rel='shortcut icon' type='image/png'>
 
     <script>
         (function(i, s, o, g, r, a, m) {
@@ -60,9 +61,18 @@
 <body>
     <div id="main">
 
-        <header id="post-title">
-            <h1><a class=" title " href="/">{{ site.name }}</a></h1>
-            <p class="subtitle"><i>{{ site.subtitle }}</i></p>
+        <header id="header">
+            <div id="intro" src="/logo.png">
+                <a class="title" href="/"><img alt="Tasos Sangiotis " src="/logo.png"></a>
+            </div>
+
+            <nav class="sidebar" id="sidebar">
+                <ul id="social">
+                    <li id="socialitem"><a href="https://twitter.com/tsangiotis">Twitter</a></li>
+                    <li id="socialitem"> &middot; </li>
+                    <li id="socialitem"><a href="/feed.xml">RSS</a></li>
+                </ul>
+            </nav>
         </header>
 
         <main id="content">

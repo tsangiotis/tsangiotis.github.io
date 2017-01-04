@@ -1,12 +1,12 @@
 /*** Basics ***/
 
 a {
-    color: #1328ed;
+    color: #3F51B5;
     text-decoration: none
 }
 
 a:hover {
-    color: red
+    color: #E91E63
 }
 
 p,
@@ -77,6 +77,14 @@ body {
     color: #444;
 }
 
+#intro {
+    width: 250px;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
 #main {
     text-align: left;
     width: 900px;
@@ -119,6 +127,15 @@ footer {
     width: 280px;
 }
 
+#social {
+    text-align: right;
+    list-style-type: none;
+    padding: 0;
+}
+
+#socialitem {
+    display: inline;
+}
 
 /*** Useful Classes ***/
 
