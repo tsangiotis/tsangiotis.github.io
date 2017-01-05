@@ -132,7 +132,8 @@ footer {
     padding: 0;
 }
 
-#social ul,li {
+#social li,
+#social ul {
     display: inline;
 }
 
