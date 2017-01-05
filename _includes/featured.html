@@ -1,0 +1,14 @@
+<section>
+        <header>
+            <h2>greatest hits</h2>
+        </header>
+        <ul class="featured">
+            {% for post in site.tags.great%}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+                <br>
+                <span class="postdescription">{{ post.description }}</span>
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
