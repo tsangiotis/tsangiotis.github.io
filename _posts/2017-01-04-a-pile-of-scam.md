@@ -55,7 +55,7 @@ As you notice, this is a one time opportunity. How can this be a scam email? Why
 >
 >I would very much like to help you with that feat and it is very kind of you to offer me this opportunity. I understand that everything here is according to the law.
 >
->and I will come up with something to live the rest of my life by.   
+>For such money I am willing to go on and change my name. Should I go for that? It may be easier to convince your company. Just give me the diseased' s  name and I will come up with something to live the rest of my life by.
 >
 >I am eagerly awaiting for you response.<br>
 >Tasos
