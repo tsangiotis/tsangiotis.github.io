@@ -3,7 +3,7 @@ layout: post
 title: Just kill the messenger
 date: 2016-12-21
 description: A rant on Facebook Messenger’ s new redesign and functions
-image: images/just-kill-the-messenger/intro.jpg
+image: /images/just-kill-the-messenger/intro.jpg
 categories:
 - Opinion
 tags:

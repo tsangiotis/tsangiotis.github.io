@@ -3,7 +3,7 @@ layout: post
 title: The ways of the Quad
 date: 2016-10-12
 description: The theory of operation behind the most prominent drone and how to choose yours.
-image: images/the-ways-of-the-quad/iris1.jpg
+image: /images/the-ways-of-the-quad/iris1.jpg
 categories:
 - Projects
 tags:
