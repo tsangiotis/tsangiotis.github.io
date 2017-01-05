@@ -13,10 +13,9 @@ tags:
 
 ![Introducing Messenger](/images{{ page.id }}/intro.jpg)
 
->We are all in constant search of the perfect chat app. Myself, I thought I had things settled with my beloved Facebook Messenger. Little did I know it would break my heart.<br>
->...
->
->Messenger was a minor player in my text life till recently. I was happy with Telegram back then. Telegram is the perfect app. Not the perfect chat app. The perfect app. Stable, fast, very good native apps for phones AND computers, bots, etc. Everything that Telegram implements is well thought through and stable on release. The problem is that Telegram is not something that most of my friends would bother to meet. So in my quest for a minimalistic communications strategy, Telegram had to go.
+We are all in constant search of the perfect chat app. Myself, I thought I had things settled with my beloved Facebook Messenger. Little did I know it would break my heart.
+
+Messenger was a minor player in my text life till recently. I was happy with Telegram back then. Telegram is the perfect app. Not the perfect chat app. The perfect app. Stable, fast, very good native apps for phones AND computers, bots, etc. Everything that Telegram implements is well thought through and stable on release. The problem is that Telegram is not something that most of my friends would bother to meet. So in my quest for a minimalistic communications strategy, Telegram had to go.
 
 So here I am searching on what to use next. I evaluated WhatsApp, Viber and even Signal. Every one of those had huge deal breakers. Poor gif support was the main one and the second was poor clients. The only one that was convenient and feature full was Facebook Messenger. And the best part, is that everyone has it on their phones since Facebook made it mandatory if you want to use it’ s chat function on your mobile device to annoy people on the go.
 
