@@ -15,7 +15,7 @@ Some time ago I got that email.
 
 >**FROM:** Francisco May<br>
 >**TO:** Tasos<br>
->**SUBJECT:** Re: i await your urgent respond<br>
+>**SUBJECT:** Re: i await your urgent respond
 >
 >Hi Tasos,
 >
@@ -30,7 +30,7 @@ May Ann knows my name and somehow it’ s not our first dance. Probably this is 
 
 >**FROM:** Tasos<br>
 >**TO:** Francisco May<br>
->**SUBJECT:** Re: i await your urgent respond<br>
+>**SUBJECT:** Re: i await your urgent respond
 >
 >Hi there May,
 >
@@ -49,7 +49,7 @@ May sent me many of her official documents in the span of our correspondence. I 
 
 As you notice, this is a one time opportunity. How can this be a scam email? Why did this even crossed my mind? May is a hard working mother I am sure. Also I always wanted to have a remote relative so I replied.
 
->**FROM:** Tasos <br>
+>**FROM:** Tasos
 >
 >No need to worry May, never gonna give you up, never gonna let you down.  
 >
@@ -68,7 +68,7 @@ In any case the next requirement for May was that I can transfer large funds. If
 
 You see May still tries to gain my trust. She always tries to pro-actively calm me down by telling me that all is legal and that we will be rich. There is no reason for that May. I trust you completely. She said that I don't need to travel to her side of the earth which got me a little sad but not so much that I couldn’t reply to May my golden nugget.
 
->**FROM:** Tasos<br>
+>**FROM:** Tasos
 >
 >Don’t worry, this is not my first rodeo Ann May Donna Francisco (i like your middle name, do you watch Suits?). I am fully committed and ready to make this to the end.
 >
@@ -176,7 +176,7 @@ May completely ignored my hard work crunching down the numbers and urged me to c
 
 >**FROM:** Francisco May<br>
 >
-[contact bank details]<br>
+>[contact bank details]<br>
 >
 >... **from now I will call you my Brother so we understand that both our trust in each other is that of blood brother and sister**.
 >
@@ -262,6 +262,7 @@ Here is May's email. She seems like a lovely woman:
     mayfrancisco1@outlook.com
 
 And here is the contact information she gave me for the bank:
+
 
     Santander Bank Plc,
     Address: 61, The Queens way TW9 1BP, London, England, United Kingdom 
