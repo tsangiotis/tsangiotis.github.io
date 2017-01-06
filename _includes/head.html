@@ -17,7 +17,11 @@
     <meta property="og:description" content="{{ post.title }}" />
     <link rel="canonical" href="{{ site.url }}{{ post.url }}" />
     <meta property="og:url" content="{{ site.url }}{{ post.url }}" />
-    {% if post.image %}<meta property="og:image" content="{{ site.url }}{{ post.image }}" /> {% endif %}
+    {% if post.image %}
+    <meta property="og:image" content="{{ site.url }}{{ post.image }}" /> 
+    {% else %}
+    <meta property="og:image" content="{{ site.url }}/fb_img.jpg" /> 
+    {% endif %}
     <meta property="og:site_name" content="Tasos Sangiotis" />
     <meta property="og:author" content="Tasos Sangiotis" />
     <meta property="og:type" content="article" />
