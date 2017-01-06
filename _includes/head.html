@@ -10,7 +10,7 @@
     <meta property="author" content="{{ site.author }}">
     <meta property="fb:admins" content="tsangiotis"/>
     <link rel=”author” href=”https://plus.google.com/110914826679729865229”/> {% assign tags = site.tags | sort %} {% if page.url == "/" %} {% for post in site.posts limit: 1 %}
-    <title>{{ site.name }}</title>
+    <title>{{ site.title }}</title>
     <meta name="keywords" content="{% for tag in tags %}{% if tag[0] != " great " %}{{ tag[0] }} {% endif %}{% endfor %}">
     <meta property="og:title" content="{{ post.title }}" />
     <meta name="description" content="{{ post.description }}" />

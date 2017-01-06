@@ -1,9 +1,9 @@
-name: Tasos Sangiotis
+title: Tasos Sangiotis
 url: https://tsangiotis.com
-subtitle: inputs and outputs
+description: Inputs & Outputs
 author: Tasos Sangiotis
 
-repository: tsangiotis/tsangiotis.github.io.
+repository: tsangiotis/tsangiotis.github.io
 
 permalink: /:title/
 
