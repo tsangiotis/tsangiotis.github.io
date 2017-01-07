@@ -327,7 +327,9 @@ img {
     .post-title,
     .post,
     footer,
-    header,
+    header {
+        width: inherit;
+    }
     main {
         width: inherit;
         padding-left: 10px;
