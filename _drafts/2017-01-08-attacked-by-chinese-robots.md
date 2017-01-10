@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Attacked by Chinese robots
+title: Surviving an attack from the Chinese
 date: 2017-01-08
 description: perispomeni.club was under attack from Chinese internet robots
 image: /images/attacked-by-chinese-robots/email.jpg
@@ -11,7 +11,7 @@ tags:
 - Security
 ---
 
-Among the ridiculous projects I have out in the open, the most long running is called [perispomeni.club](http://perispomeni.club). perispomeni.club is a simple, tiny linux machine inspired by Paul Ford’s [tilde.club](http://tilde.club). People respectfully use together that machine in their shared quest to build awesome web pages.
+Among the ridiculous projects I have had out in the open, the most long running is called [perispomeni.club](http://perispomeni.club). It is a dead simple, tiny linux machine inspired by Paul Ford’s [tilde.club](http://tilde.club). People respectfully use together that machine in their shared quest to learn and build awesome web pages.
 
 Yesterday, one of the users sent me an email.
 
@@ -28,7 +28,7 @@ As one might notice, this is not good. I should dig in.
 
 The worst case scenario is someone getting access to the root account of the server. If that had already happened I would be better off nuking the server.
 
-First I ran the `who` command to checkout if there are active sessions/users which returned only my session/me. If root was online I would possibly be in deep trouble. But everything was fine. Now let's checkout if root was online recently. The fact that bob saw these IPs connected at port 22 indicates ssh sessions. With the `last` command we can check out last logged in users. If root was connected recently and did not bother to wipe out it's tracks, it would show up here.
+First I ran the `who` command to checkout if there are active sessions/users which returned only my session/me. If root was among the online users, I would possibly be in deep trouble. But everything was fine. Now let's checkout if root was online recently. The fact that bob saw these IPs connected at port 22 indicates ssh sessions. With the `last` command we can check out last logged in users. If root was connected recently and did not bother to wipe out it's tracks, it would show up here.
 
 ```
 $ last
@@ -45,16 +45,57 @@ bob      pts/2        host70.186-125-4 Sat Jan  7 12:53 - 15:13  (02:19)
 
 Only me and bob today. Hi bob by the way!
 
-Ok now there is a chance the attacker wiped himself from logs or tries to do something else.
+Ok now there is a chance the attacker wiped himself from the logs. If that is the case, we are dealing with someone who managed to crack a very long password and is not reckless. In another situation I would like to meet the person who designed the program to do that because this looks like an automated thing.
 
-I need to see which IP addresses are connected on the server and particularly on port 22.
+I need to see which IP addresses are connected on the server and particularly on port 22 to make sure I am alone on the server.
 
 To do that we can run a long netstat command:
 
 ```
-$ netstat -tn 2>/dev/null | grep :22a | awk '{print $5}' | cut -d: -f1 | sort | uniq -c | sort -nr | head
+$ netstat -tn 2>/dev/null | grep :22 | awk '{print $5}' | cut -d: -f1 | sort | uniq -c | sort -nr | head
 ```
-https://www.mkyong.com/linux/list-all-ip-addresses-connected-to-your-server/
+
+This is multiple commands piped together.
+
+### 1. netstat -tn 2>/dev/null
+
+Uses `netstat` to list all network connections, ins and outs.
+
+1. -n – Display numeric only, don’t resolve into name.
+2. -t – Display only TCP connections.
+
+### 2. grep :22
+
+Only display the IP address that connected to server on port 22.
+
+### 3. awk ‘{print $5}’
+
+Uses `awk` to display the 5th field only.
+
+### 4. cut -d: -f1
+
+Uses `cut` to extract the content.
+
+1. -d – Character immediately following the -d option is use as delimiter, default is tab.
+1. -f – Specifies a field list, separated by a delimiter.
+
+### 5. sort | uniq -c | sort -nr
+
+Sort the list, group it and sort it again in reverse order.
+
+*A more detailed explanation of this command lies [here](https://www.mkyong.com/linux/list-all-ip-addresses-connected-to-your-server/).*
+
+Finally:
+```
+$ netstat -tn 2>/dev/null | grep :22 | awk '{print $5}' | cut -d: -f1 | sort | uniq -c | sort -nr | head
+1 hooray.my.ip.address
+```
+
+And yes I am alone here. Which means that even if someone else got access to the server he/she is not here anymore.
+
+Then it struck me that people are connected on port 22 even if they *try* to login. They are not connected to the system but to pass through the ssh authentication they have to connect somehow to the server. So in the event of a bruteforce ssh attack there would be many attempts per minute to guess the password of the root account.
+
+Perispomeni is an Ubuntu server so login attempts are stored on `/var/log/auth.log`. Let's search that for the IPs in question.
 
 
 ```
@@ -66,5 +107,9 @@ Jan  7 22:23:25 perispomeni sshd[3580]: message repeated 2 times: [ Failed passw
 Jan  7 22:23:25 perispomeni sshd[3580]: Received disconnect from 121.18.238.104: 11:  [preauth]
 Jan  7 22:23:25 perispomeni sshd[3580]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=121.18.238.104  user=root
 ```
+
+Ok it is clear that someone tries to brute force into the server. These are failed login attempts from a lot of ports. I new little about this stuff when I first became the admin of that club but now I am wiser. Now I am a man with a plan.
+
+I could disable ssh for the root user. However I am afraid that if I mess things up I would need the ability to login from root and A mechanism is needed where a repeated failure to login
 
 https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-14-04
