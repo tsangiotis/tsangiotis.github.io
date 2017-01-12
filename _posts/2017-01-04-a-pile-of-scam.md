@@ -273,3 +273,4 @@ And here is the contact information she gave me for the bank:
 
 If you feel like it start a conversation with them and be original. You may help someone or have a couple of laughs.
 
+*EDIT:* After this post, someone pointed me to [419Eater](http://www.419eater.com/html/419faq.htm). It is an effor where people commit to wasting the scammer's time by pretending to fall for their scams. If you want some more action, go there
