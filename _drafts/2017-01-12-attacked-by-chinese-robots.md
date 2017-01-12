@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Surviving an attack from the Chinese
-date: 2017-01-08
+date: 2017-01-12
 description: perispomeni.club was under attack from Chinese internet robots
 image: /images/attacked-by-chinese-robots/email.jpg
 categories:
@@ -13,7 +13,8 @@ tags:
 
 Among the ridiculous projects I have had out in the open, the most long running is called [perispomeni.club](http://perispomeni.club). It is a dead simple, tiny linux machine inspired by Paul Ford’s [tilde.club](http://tilde.club). People respectfully use together that machine in their shared quest to learn and build awesome web pages.
 
-Yesterday, one of the users sent me an email.
+However it was a surprise when, one of the users sent me a private email. 
+Here I must mention that the pattern you can spot when reading this and my [previous post](/a-pile-of-scam) is purely coincidental.
 
 >**From** [bob](http://perispomeni.club/~bob/)<br>
 >**Subject:** Strange connection or only my imagination?<br>
