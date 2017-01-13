@@ -14,15 +14,6 @@ pre {
     margin-bottom: 15px;
 }
 
-pre,
-code {
-    white-space: pre-wrap;       /* css-3 */
-    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-    white-space: -pre-wrap;      /* Opera 4-6 */
-    white-space: -o-pre-wrap;    /* Opera 7 */
-    word-wrap: break-word;       /* Internet Explorer 5.5+ */
-}
-
 ul,
 ol {
     padding: 0 0 18px 30px;
@@ -52,8 +43,27 @@ sub {
     font-size: 0.85em;
 }
 
+pre {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: #F7F7F9;
+    word-wrap: normal;
+    overflow-x: auto;
+    white-space: pre;
+    margin: 0 0 20px;
+}
+
 code {
     font: 0.85em Monaco, Courier, Monospace;
+    background-color: #F7F7F9;
+    padding: .1em;
+    border-radius: .3em;
+    /* Streamline the style when inside anchors to avoid broken underline and more */
+    a>& {
+        padding: 0;
+        color: inherit;
+        background-color: inherit;
+    }
 }
 
 blockquote {
@@ -145,6 +155,7 @@ footer {
 #social ul {
     display: inline;
 }
+
 
 /*** Useful Classes ***/
 

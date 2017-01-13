@@ -73,7 +73,7 @@ attacker before burning the house down.
 I need to see which IP addresses are connected on the server and particularly
 on port 22 to make sure I am alone on the VPS wasteland.
 
-To do that we can run a long netstat command:
+To do that I can run a long netstat command:
 
 ```
 $ netstat -tn 2>/dev/null | grep :22 | awk '{print $5}' | cut -d: -f1 | sort | uniq -c | sort -nr | head
@@ -111,6 +111,7 @@ Sort the list, group it and sort it again in reverse order.
 [here](https://www.mkyong.com/linux/list-all-ip-addresses-connected-to-your-server/).*
 
 Finally:
+
 ```
 $ netstat -tn 2>/dev/null | grep :22 | awk '{print $5}' | cut -d: -f1 | sort | uniq -c | sort -nr | head
 1 hooray.my.ip.address
@@ -146,7 +147,7 @@ failed login attempts not only on port 22 but all of them. I knew little about
 this stuff when I first became the admin of that club but now I am wiser.
 Now I am a man with the plan.
 
-I can disable ssh login for the root user. However I have not assesed what this
+I can disable ssh login for the root user. However I have not assessed what this
 means for my ability to troubleshoot stuff. I am afraid that if I mess
 things up I would need the ability to login from root. There is probably a
 solution involving the console on my VPS website but I have to investigate my
@@ -163,13 +164,16 @@ provide instructions for a permanent ban.
 A permanent ban in a dynamic IP address might be a problem but these things are
 most of the times computers with static IP addresses. Even if they are not,
 with my 26 users the chance of getting a duplicate address is pretty slim and
-the remedy simple enough. Depending on your usecase you sould examine if this
+the remedy simple enough. Depending on your use case you should examine if this
 is the right way to go for you. If you run a public website for example I think
 it is not.
 
 If one chooses to go down that road, he may stumble upon [Phil Hagen' s](http://stuffphilwrites.com/2013/03/permanently-ban-repeat-offenders-fail2ban/)
-solution. It is not the most elegant thing but it get's the job done.
+solution. It is not the most elegant thing but it gets the job done.
 
 In any case, this is how I found out about the Chinese attacking me.
 
 Hey, `121.18.238.104`! If you read this, next time send Jet Lee.
+
+*P.S.:* If you'd like to join our server you can find a link on [perispomeni.club](http://perispomeni.club). 
+If not you still [become a Patreon](https://www.patreon.com/tsangiotis) to support the effort.
