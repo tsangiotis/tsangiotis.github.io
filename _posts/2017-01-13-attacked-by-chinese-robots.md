@@ -176,4 +176,4 @@ In any case, this is how I found out about the Chinese attacking me.
 Hey, `121.18.238.104`! If you read this, next time send Jet Lee.
 
 *P.S.:* If you'd like to join our server you can find a link on [perispomeni.club](http://perispomeni.club). 
-If not you still [become a Patreon](https://www.patreon.com/tsangiotis) to support the effort.
+If not you still can [become a Patreon](https://www.patreon.com/tsangiotis) to support the effort.
