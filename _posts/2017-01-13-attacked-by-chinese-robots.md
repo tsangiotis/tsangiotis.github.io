@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Surviving an attack from the Chinese
-date: 2017-01-12
+date: 2017-01-13
 description: perispomeni.club was under attack from Chinese internet robots
 image: /images/attacked-by-chinese-robots/chappie.gif
 categories:
