@@ -3,18 +3,12 @@
         <h2>somewhat organized</h2>
     </header>
     <ul class="tag-box inline" style="list-style-type: none; padding: 0px;">
-        {% assign tags_list = site.categories %}  
-        {% if tags_list.first[0] == null %}
-            {% for tag in tags_list %} 
+        {% assign tags_list = site.categories %} {% if tags_list.first[0] == null %} {% for tag in tags_list %}
         <li><a href="/{{ tag }}">{{ tag | capitalize }}</a> <span>{{ site.tags[tag].size }}</span></li>
-            {% endfor %}
-        {% else %}
-            {% for tag in tags_list %} 
+        {% endfor %} {% else %} {% for tag in tags_list %}
         <li><a href="/{{ tag[0] }}">{{ tag[0] | capitalize }}</a> <span>{{ tag[1].size }}</span></li>
-            {% endfor %}
-        {% endif %}
-        {% assign tags_list = nil %}
+        {% endfor %} {% endif %} {% assign tags_list = nil %}
     </ul>
 
-    <p>there is also <a href="/tags">an exceptionally bad list of tags</a>.</p>
+    <p>Take a look at the <a href="/archives">archives</a> and there is also <a href="/tags">an exceptionally bad list of tags</a>.</p>
 </section>
