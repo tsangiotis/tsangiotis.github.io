@@ -327,7 +327,7 @@ img {
 
 @media all and (max-width: 870px) {
     #main-container {
-        width: inherit;
+        width: 100%;
         padding-left: 10px;
         padding-right: 10px;
     }
