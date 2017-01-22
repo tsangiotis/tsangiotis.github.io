@@ -326,21 +326,18 @@ img {
 /*** Media Queries ***/
 
 @media all and (max-width: 870px) {
-    main {
-        margin-right: 0px;
-    }
-    #page,
-    #main-container,
-    .post-title,
-    .post,
-    footer,
-    header {
-        width: inherit;
-    }
-    main {
+    #main-container {
         width: inherit;
         padding-left: 10px;
         padding-right: 10px;
+    }
+    #page,
+    .post-title,
+    .post,
+    footer,
+    header,
+    main {
+        width: inherit;
     }
     #social {
         text-align: center;
@@ -358,7 +355,6 @@ img {
         position: relative;
         text-align: left;
         width: 100%;
-        left: 0;
         margin: 10px 10px 20px 10px;
     }
 }
