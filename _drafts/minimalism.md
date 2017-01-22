@@ -1,0 +1,177 @@
+---
+layout: post
+title: Minimalism and jolly goodfellas
+description: 'An essay on the happiness industry apropos to the film: Minimalism: "A Documentary About The Important
+Things".'
+image: /images/minimalism/thoreau.jpg
+categories:
+- Opinion
+tags:
+- Minimalism
+- Happiness
+---
+
+Ok, I saw that fancy film called [Minimalism: A Documentary About The Important
+Things](https://minimalismfilm.com). The film takes us through the lives of two
+regular bros, Joshua & Ryan who decided that they can live lives with only the
+necessary stuff. No excessive consumerism and no distractions. They tell us how
+good it feels, how liberating and how profoundly peaceful that is. The southing
+music and the big enough for some relaxing shots pauses help with that and if
+one things about it they have some points. The issue is the delivery of those
+points.
+
+<img class="img-left" src="/images{{ page.id }}/thoreau.jpg">
+
+Just looking at the title, one might rush to the conclusion that this is some
+new hipster mumbo jumbo. And he would be right except for the "new" part. The
+most dated example I know, of a civilized someone who willingly lived that way
+is Henry David Thoreau. He is mostly known for an experiment in minimal living
+he conducted at Walden Pond which is a lake in Concord, Massachusetts. In 1845,
+he built himself a small cabin, moved in, and spent two years living and writing
+about the experience in his book titled
+[*Walden*](http://thoreau.eserver.org/walden00.html).
+
+With some research I could find examples of earlier minimalists but I believe
+none of those would have the same dedication on documenting their experience as
+Thoreau. Also he's got a neckbeard going so you know where this is going.
+
+Thoreau was from a wealthy family so he was able to spend his time writing
+without worrying about trivial stuff like money. However when his first book
+which he had published himself, turned out to be a failure he had to
+go to back to his father's pencil factory. That didn't work out very well so he
+focused on activities that let him be out in the woods like farm labor and
+surveying.
+
+Thoreau was really ahead of his time. He wrote mostly about nature. A writing
+genre with no much meaning at the time. As a result to his friends and fellow
+writers, Thoreau was a disappointment, a talented writer who had chosen to
+squander his gifts walking around in camouflage so he could more easily sneak up
+on wild animals. He was also a pescatarian, a locavore, probably the first
+environmentalist, a do-it-yourselfer. He practiced yoga, read Hindu sacred texts,
+and was a bit of a food faddist.[^1] The paragon of hipster we would say today.
+
+[^1]: Maciej Cegłowski, (September 21, 2013), [Thoreau 2.0](http://idlewords.com/talks/thoreau_2.0.htm), XOXO conference &mdash; Portland
+
+Just like Thoreau, Joshua and Ryan did not have any real problems. Possibly they
+even had some artistic aspirations. They state they had jobs in the corporate
+sector and made six figure salaries. However they felt miserable as their
+relationships were not so good and they felt trapped from their stuff and the
+distractions around them. So they ditched their jobs, sold their stuff and wrote
+a book about it.
+
+The Minimalists, as they call themselves, strike some valid points.
+We buy stuff out of social pressure and we try to fit into social norms.
+But that behavior, which is natural by the way, will not make you happier.
+It's just a temporary rush of adrenalin. If you reduce all the stuff that
+introduce social and actual friction between you and life you will feel better.
+They even say that if something is of value to you, you don't have to get rid
+of it. Just get rid of the junk.
+
+You would figure that this is common sense to everyone and fairly easy to
+communicate in the above paragraph. I have been criticized of making some
+aggressive summarizations though, so it is not a surprise that a 79 minute film
+is actually needed to explain the concept. It involves interviews with experts
+from various fields and successful minimalists. It gives us a backstage view to
+the book tour of Joshua and Ryan and a lot of examples of bad behaviors from
+black Friday to show us who we *really* are.
+
+They top that with [this video](https://www.youtube.com/watch?v=y7nMTUs4AHU)
+of a woman snatching a toaster from the hands of a kid. With their main customer
+being the educated middle-class what they do is make them feel like they are a
+step away from that behavior because they bought a new TV or something. Even if
+you get right all the points in the world, that is not ok.
+
+Joshua and Ryan are very successful entrepreneurs and a very clever hack.
+They have sold more than 4 million copies of their book according to their
+also successful [website](http://www.theminimalists.com) and the documentary
+that is the center of this article has had great reception since December when
+it was released. Getting back to their website, there is a services section with
+everything from writing tutoring to life, dating and business coaching. Who is
+now the actual customer of Joshua and Ryan? I really don't know but it is
+itching me to talk about the industry they belong in rather than decimate that
+duo with whom I have no issue whatsoever except from the fact that they are full
+of crap.
+
+It is the notoriously blooming industry of happiness and success. The main customer
+of the happiness industry is the middle-class, educated consumer and fairly
+recently the corporate wallet[^2]. People know that this cow can be milked a lot
+as everyone wants to be happy and happiness is not quantifiable. It really is a
+perfect product.
+
+[^2]: Gunnell, B. (6 September 2004). [The happiness industry](http://www.newstatesman.com/node/160445). New Statesman.
+
+In the 1950s and 60s, Abraham Maslow "proclaimed the supremacy of the
+self-actualizing person, who realizes the fullness of his or her
+nature – without doing harm to others, of course – and lives as happily as one
+can on earth," notes Algis Valiunas. Among the more modern offerings, Tony
+Robbins has raked in $80 million in a year and John Gray’s New York Times
+best-seller *Men Are From Mars, Women Are From Venus*" outsold almost every other
+book in the known universe except the Bible" claims Valiunas in The New Atlantis.
+In his particularly eloquent and scathing commentary, "The Science of Self-Help,"
+Valiunas points out that "this is the scientific fruit of those who consider
+themselves not only the wisest of our time but evidently the wisest of all time,"
+with teaching that is "sensible, unexceptional. It is also obvious and insipid.
+Accept imperfection and pain. Do some jogging. Slow down and count your breaths."[^3]
+
+[^3]: Valiunas, A. (2010). [The Science of Self-Help](http://www.thenewatlantis.com/publications/the-science-of-self-help). The New Atlantis: A Journal of Technology and Society.
+
+If it was just business and there are people who want to be tricked into
+thinking that life is binary in the terms of happiness vs. unhappiness that's
+fine. But it turns out that this is dangerous. You see all this is not about what
+you do or what you think, but about how you *feel*. And since how you feel can’t
+be argued against, it is conveniently insulated from all debate. Men and women
+can now stroll around in continuous self-monitoring mode, using apps to track
+their changes of mood and rate their state of being. These wrong ratings more
+often than not create false models which lead to disappointment and eventually to
+depression.
+
+And if individual narcissistic behavior was not enough imagine companies using
+happiness as a management tool. Google has a ["Jolly Good Fellow"](http://www.businessinsider.com/google-jolly-good-fellow-chade-meng-tan-2015-9)
+(actual job description) to keep the company’s spirits up. Zappos, an online
+shoe shop expects its staff to be in a state of barely controlled delirium when
+they sell shoes. Zappos is so happy with its work on joy that it has spun off a
+consultancy called Delivering Happiness. It has a chief happiness officer (CHO),
+a global happiness navigator, a happiness hustler, a happiness alchemist and,
+for philosophically minded customers, a happiness owl.
+
+Some firms are trying to create some wellbeing, too, showering their employees
+with mindfulness courses, yoga lessons and anything else that proves that
+managers are interested in "the whole person". Only happy fools would take that
+at face value. Management theorists note that a big threat to corporate
+performance is widespread [disengagement among workers](http://www.forbes.com/sites/larrymyler/2013/09/02/why-are-70-of-employees-disengaged-and-what-can-you-do-about-it/#473120ee5649).
+Happy people are more engaged and productive, say psychologists. Gallup claimed
+in 2013 that the "unhappiness" of employees costs the American economy $500
+billion a year in lost productivity[^4]. However it should be an indicator of 
+false practices that the figure has not shifted a dollar in 3 years according to 
+he latest Gallup [report](http://www.gallup.com/poll/165269/worldwide-employees-engaged-work.aspx)
+on the matter.
+
+[^4]: Schumpeter (24 September, 2016), [Against Happiness](http://www.economist.com/news/business-and-finance/21707502-companies-try-turn-happiness-management-tool-are-overstepping-mark), The Economist (Print edition)
+
+If you thought that this is just a private sector niche, Several governments,
+including those of America, Britain, France and Australia, now publish for the
+benefit of their citizens regular reports on levels of national well-being.
+Bhutan has long measured its gross national happiness, and the United Arab
+Emirates boasts a brand-new [Ministry of Happiness](https://uaecabinet.ae/en/details/cabinet-members/her-excellency-ohoud-bint-khalfan-al-roumi).
+
+As stated above, the problem with tracking happiness is that it is such a vague
+metric: it is difficult to prove or disprove numbers since it is not entirely
+clear what is being measured. Companies would be much better off forgetting
+wishy-washy goals like encouraging contentment. They should concentrate on
+eliminating specific annoyances, such as time-wasting meetings and pointless
+memos. Instead, like every organization who cannot imagine there is something
+wrong with it's default practices, they are likely to develop ever more
+sophisticated ways of measuring the emotional state of their employees. Academics
+are already busy creating smartphone apps that help people keep track of their
+moods, such as [Track Your Happiness](https://www.trackyourhappiness.org) and 
+[Moodscope](https://www.moodscope.com). 
+
+This cult of happiness is dangerous both to individuals and companies. Life is
+full of different experiences and tedious processes and you should expect
+unhappiness to creep in from time to time. You cannot hack happiness
+by throwing away all your stuff and you sure as hell cannot increase profits 
+by invading the individual liberty of your employees with forced behaviors.
+And you probably don't want to. Companies have a right to ask their employees to
+be polite when they deal with members of the public. They do not have a right to
+try to regulate their workers' psychological states and turn happiness into an 
+instrument of corporate control.
