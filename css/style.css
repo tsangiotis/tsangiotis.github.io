@@ -327,7 +327,7 @@ img {
 
 @media all and (max-width: 870px) {
     #main-container {
-        width: 100%;
+        width: inherit;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -337,7 +337,7 @@ img {
     footer,
     header,
     main {
-        width: inherit;
+        width: 100%;
     }
     #social {
         text-align: center;
