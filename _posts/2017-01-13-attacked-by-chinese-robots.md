@@ -68,7 +68,7 @@ the case, we are dealing with someone who managed to crack a *very* long passwor
 and is not reckless. In that imaginary scenario, I would congratulate the
 attacker before burning the house down.
 
-<center><i>*** cracking knuckles ***</i></center>
+<p class="text-center"><i>*** cracking knuckles ***</i></p>
 
 I need to see which IP addresses are connected on the server and particularly
 on port 22 to make sure I am alone on the VPS wasteland.
