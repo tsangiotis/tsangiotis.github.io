@@ -226,6 +226,10 @@ article img {
     margin: 0 auto 1em auto;
 }
 
+article time {
+    font-weight: bold;
+}
+
 article .meta {
     padding-top: 6px;
     font-size: 0.85em;
