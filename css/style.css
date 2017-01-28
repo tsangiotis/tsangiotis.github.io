@@ -242,6 +242,7 @@ img {
 
 article .post-title {
     margin-top: 30px;
+    margin-bottom: 0px;
     text-decoration: none;
     color: #666;
 }
