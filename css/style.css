@@ -207,16 +207,6 @@ footer {
 
 /*** Posts ***/
 
-.post-title {
-    margin-top: 30px;
-    text-decoration: none;
-    color: #666;
-}
-
-.post-title a {
-    color: #666;
-}
-
 article {
     margin-bottom: 40px;
 }
@@ -224,12 +214,6 @@ article {
 article a {
     color: #2334ff;
     text-decoration: underline;
-}
-
-article h1 {
-    font-size: 17px;
-    line-height: 20px;
-    margin: 0 0 10px 0;
 }
 
 article h1 a {
@@ -255,6 +239,17 @@ img {
     max-height: 400px;
 }
 
+
+article .post-title {
+    margin-top: 30px;
+    text-decoration: none;
+    color: #666;
+}
+
+article .post-title a {
+    color: #666;
+    text-decoration: none;
+}
 
 /*** Pagination ***/
 
