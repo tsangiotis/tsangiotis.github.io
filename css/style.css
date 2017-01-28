@@ -284,8 +284,12 @@ article .post-title a {
     line-height: 100%;
 }
 
-.search {
+.search form {
     height: 68px;
+}
+
+.search header {
+    display: none;
 }
 
 .search table {
