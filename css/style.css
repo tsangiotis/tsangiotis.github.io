@@ -288,6 +288,14 @@ article .post-title a {
     height: 68px;
 }
 
+.search table {
+    border: 0px;
+}
+
+.search td {
+    padding: 0px;
+}
+
 .site-tag a {
     display: inline-block;
     margin-right: 12px;
