@@ -1,38 +1,12 @@
 ---
 layout: post
-title: Minimalism documentary review
-description: 'An essay on the happiness industry apropos to the film: Minimalism: "A Documentary About The Important Things".'
-image: /images/minimalism/thoreau.jpg
+title: The delirium industry and the jolly goodfellas
+description: 'An essay on the happiness industry and it's dangers'
 categories:
 - Opinion
 tags:
-- Minimalism
 - Happiness
 ---
-
-Ok, I saw that fancy film called [Minimalism: A Documentary About The Important Things](https://minimalismfilm.com). The film takes us through the lives of two regular bros, Joshua & Ryan who decided that they can live lives with only the necessary stuff. No excessive consumerism and no distractions. They tell us how good it feels, how liberating and how profoundly peaceful that is. The southing music and the big enough for some relaxing shots pauses, help with that and if one things about it they have some points. My main issue is the delivery of those points.
-
-<img class="img-left" src="/images{{ page.id }}/thoreau.jpg">
-
-Just looking at the title, one might rush to the conclusion that this is some new hipster mumbo jumbo. And he would be right except for the "new" part. The most dated example I know, of a civilized someone who willingly lived that way is Henry David Thoreau. He is mostly known for an experiment in minimal living he conducted at Walden Pond which is a lake in Concord, Massachusetts. In 1845, he built himself a small cabin, moved in, and spent two years living and writing about the experience in his book titled [*Walden*](http://thoreau.eserver.org/walden00.html). You are better off reading this as it is written vastly better than anything produced by the Minimalists. Also Thoreau is very quotable so you might accumulate some words to impress friends or better halves.
-
-With some research I could find examples of earlier minimalists but I believe none of those would have the same dedication on documenting their experience as Thoreau. Also he's got a neckbeard going so you know where this is going.
-
-Thoreau was from a wealthy family so he was able to spend his time writing without worrying about trivial stuff like money. However when his first book which he had published himself, turned out to be a failure he had to go to back to his father's pencil factory. That didn't work out very well so he focused on activities that let him be out in the woods like farm labor and surveying.
-
-Thoreau was really ahead of his time. He wrote mostly about nature. A writing genre with no much meaning at the time. As a result to his friends and fellow writers (Emmerson among them), Thoreau was a disappointment. A talented writer who had chosen to squander his gifts walking around in camouflage so he could more easily sneak up on wild animals. He was also a pescatarian, a locavore, probably the first environmentalist, a do-it-yourselfer. He practiced yoga, read Hindu sacred texts, and was a bit of a food faddist.[^1] The paragon of hipster we would say today.
-
-[^1]: Maciej Cegłowski, (September 21, 2013), [Thoreau 2.0](http://idlewords.com/talks/thoreau_2.0.htm), XOXO conference &mdash; Portland
-
-Just like Thoreau, Joshua and Ryan did not have any real problems. Possibly they even had some artistic aspirations. They state they had jobs in the corporate sector and made six figure salaries. However they felt miserable as their relationships were not so good and they felt trapped from their stuff and the distractions around them. So they ditched their jobs, sold their stuff and wrote a book about it.
-
-One could argue that just being bad at your personal logistics is not enough to make you that miserable and that the two entrepreneurs may just be kind of the asshole variety. Now you are an asshole because both, they say they had kind of traumatic childhoods completely unrelated to minimalism or consumerism. But that's not the point. They can be completely making shit up for all we know and frankly it is not of our business. That is the reason I don't understand if the backstory serves some other purpose to the story except making us sympathetic of the "thieves".
-
-The Minimalists, as they call themselves, strike some valid points. We buy stuff out of social pressure and we try to fit into social norms. But that behavior, which is natural by the way, will not make you happier. It's just a temporary rush of adrenalin. If you reduce all the stuff that introduce social and actual friction between you and life you will feel better. They even say that if something is of value to you, you don't have to get rid of it. Just get rid of the junk.
-
-You would figure that this is common sense to everyone and fairly easy to communicate in the above paragraph. I have been criticized of making some aggressive summarizations though, so it is not a surprise that a 79 minute film is actually needed to explain the concept. It involves interviews with experts from various fields and successful minimalists. It gives us a backstage view to the book tour of Joshua and Ryan and a lot of examples of bad behaviors from black Friday to show us who we *really* are.
-
-They top that with [this video](https://www.youtube.com/watch?v=y7nMTUs4AHU) of a woman snatching a toaster from the hands of a kid. With their main customer being the educated middle-class what they do is make them feel like they are a step away from that behavior because they bought a new TV or something. Even if you get right all the points in the world, that is not ok.
 
 Joshua and Ryan are very successful entrepreneurs and a very clever hack. They have sold more than 4 million copies of their book according to their also successful [website](http://www.theminimalists.com) and the documentary that is the center of this article has had great reception since December when it was released. Getting back to their website, there is a services section with everything from writing tutoring to life, dating and business coaching. Who is now the actual customer of Joshua and Ryan? I really don't know but it is itching me to talk about the industry they belong in rather than decimate that duo with whom I have no issue whatsoever except from the fact that they are full of crap.
 
