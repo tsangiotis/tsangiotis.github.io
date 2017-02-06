@@ -20,8 +20,7 @@ pre {
     margin-bottom: 15px;
 }
 
-pre,
-code {
+pre {
     white-space: pre-wrap;
     /* css-3 */
     white-space: -moz-pre-wrap;
@@ -32,6 +31,9 @@ code {
     /* Opera 7 */
     word-wrap: break-word;
     /* Internet Explorer 5.5+ */
+    background-color: #d1d1d1;
+    padding: 10px;
+    border-radius: 4px;
 }
 
 ul,
