@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Covered By Your Grace";
+    src: url(fonts/CoveredByYourGrace.ttf);
+}
+
+@font-face {
+    font-family: "Permanent Marker";
+    src: url(fonts/PermanentMarker.ttf);
+}
+
+@font-face {
+    font-family: nyt-cheltenham;
+    src: url(fonts/nyt-cheltenham-normal.ttf);
+}
+
+@font-face {
+    font-family: nyt-cheltenham;
+    src: url(fonts/nyt-cheltenham-bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: nyt-cheltenham;
+    src: url(fonts/nyt-cheltenham-italics.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: nyt-cheltenham;
+    src: url(fonts/nyt-cheltenham-medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: nyt-cheltenham;
+    src: url(fonts/nyt-cheltenham-medium-italics.ttf);
+    font-weight: 500;
+    font-style: italic;
+}

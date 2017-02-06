@@ -8,7 +8,7 @@
 
     <meta name="viewport" content="width=device-width">
     <meta property="author" content="{{ site.author }}">
-    <meta property="fb:admins" content="tsangiotis"/>
+    <meta property="fb:admins" content="tsangiotis" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@tsangiotis" />
     <meta name="twitter:creator" content="@tsangiotis" />
@@ -19,12 +19,9 @@
     <meta name="description" content="{{ post.description }}" />
     <meta property="og:description" content="{{ post.title }}" />
     <link rel="canonical" href="{{ site.url }}{{ post.url }}" />
-    <meta property="og:url" content="{{ site.url }}{{ post.url }}" />
-    {% if post.image %}
-    <meta property="og:image" content="{{ site.url }}{{ post.image }}" /> 
-    {% else %}
-    <meta property="og:image" content="{{ site.url }}/fb_img.jpg" /> 
-    {% endif %}
+    <meta property="og:url" content="{{ site.url }}{{ post.url }}" /> {% if post.image %}
+    <meta property="og:image" content="{{ site.url }}{{ post.image }}" /> {% else %}
+    <meta property="og:image" content="{{ site.url }}/fb_img.jpg" /> {% endif %}
     <meta property="og:site_name" content="Tasos Sangiotis" />
     <meta property="og:author" content="Tasos Sangiotis" />
     <meta property="og:type" content="article" />
@@ -42,6 +39,7 @@
     {% endfor %} {% else %}
     <meta name="keywords" content="{% for tag in page.tags %}{% if tag != " great " %}{{ tag }} {% endif %}{% endfor %}"> {% seo %} {% endif %}
 
+    <link href="/css/fonts.css" rel="stylesheet" />
     <link href="/css/style.css" rel="stylesheet" />
     <link href='/favicon.png' rel='shortcut icon' type='image/png'>
 

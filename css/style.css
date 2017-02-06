@@ -1,12 +1,18 @@
 /*** Basics ***/
 
+body {
+    font-size: 0.9em;
+    line-height: 160%;
+    color: #000;
+}
+
 a {
-    color: #3F51B5;
-    text-decoration: none
+    color: #000;
+    text-decoration: none;
 }
 
 a:hover {
-    color: #E91E63
+    text-decoration: underline;
 }
 
 p,
@@ -57,10 +63,6 @@ sub {
     font-size: 0.85em;
 }
 
-code {
-    font: 0.85em Monaco, Courier, Monospace;
-}
-
 blockquote {
     margin: 22px 22px;
     padding: 0 20px;
@@ -76,53 +78,161 @@ abbr {
 }
 
 
+/** Input **/
+
+input[type=text] {
+    border: none;
+    max-width: 220px;
+}
+
+input[type=submit] {
+    background: none;
+    border: 2px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background: #000;
+    color: #fff;
+}
+
+
+/*** Typography ***/
+
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* 1 */
+    -ms-text-size-adjust: 100%;
+    /* 2 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+}
+
+h1,
+h2 {
+    font-family: nyt-cheltenham, Georgia, 'Times New Roman', times, serif;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: -0.015em;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-family: nyt-cheltenham, Georgia, 'Times New Roman', times, serif;
+    font-weight: 500;
+    letter-spacing: -0.015em;
+}
+
+code {
+    font: 0.85em Monaco, Courier, Monospace;
+}
+
+input[type=text] {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
 /*** Structure ***/
 
-body {
-    font-family: sans-serif;
-    font-size: 0.9em;
-    line-height: 160%;
-    color: #444;
-}
 
-.intro {
-    width: 250px;
-    float: left;
-    margin-right: 40px;
-    margin-bottom: 40px;
-    overflow: hidden;
-}
+/* TODO: fix here */
 
-#main-container {
+.container {
     text-align: left;
     width: 900px;
     margin-right: auto;
     margin-left: auto;
 }
 
-header .subtitle {
-    color: #777;
+.title {
+    max-width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+.navigation {
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 5px 0px;
+    margin: 22px 0px;
+    text-align: center;
+}
+
+.navigation ul {
+    width: 620px;
+    list-style-type: none;
+    font-family: Georgia, 'Times New Roman', times, serif;
     font-style: italic;
-    font-family: serif;
-    font-size: 1.3em
+    font-size: 1.1em;
+}
+
+.navigation li,
+.navigation ul {
+    display: inline;
+}
+
+.search {
+    float: right;
+    text-align: left;
+    width: 230px;
+    display: block;
 }
 
 main {
-    width: 580px;
+    width: 630px;
     float: left;
     margin-right: 40px;
     overflow: hidden;
 }
 
-main img {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px
+.sidebar {
+    float: right;
+    width: 230px;
+}
+
+.sidebar .search {
+    display: none;
+}
+
+.postdescription {
+    font-style: italic;
+    font-family: serif;
+    color: #777;
+    line-height: 100%;
+}
+
+.featured {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.goals {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footnotes {
+    margin-top: 60px;
+    border-top: 1px dotted #aaa;
 }
 
 footer {
     margin-top: 60px;
-    width: 800px;
+    width: 900px;
     margin-left: auto;
     margin-right: auto;
     color: #777;
@@ -130,56 +240,11 @@ footer {
     text-align: center;
 }
 
-.sidebar {
-    float: right;
-    width: 280px;
-}
-
-.featured {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-#social {
-    text-align: right;
-    list-style-type: none;
-    padding: 0;
-}
-
-#social li,
-#social ul {
-    display: inline;
-}
-
 
 /*** Useful Classes ***/
 
 .clear {
     clear: both;
-}
-
-.float-left {
-    float: left;
-}
-
-.float-right {
-    float: right;
-}
-
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.text-justify {
-    text-align: justify;
 }
 
 .img-left {
@@ -194,128 +259,6 @@ footer {
 
 .img-middle {
     vertical-align: middle;
-}
-
-.nopadding {
-    padding: 0;
-}
-
-.nounderline {
-    text-decoration: underline;
-}
-
-
-/*** Posts ***/
-
-article {
-    margin-bottom: 40px;
-}
-
-article a {
-    color: #2334ff;
-    text-decoration: underline;
-}
-
-article h1 a {
-    border: none;
-}
-
-article img {
-    display: block;
-    text-align: center;
-    margin: 0 auto 1em auto;
-}
-
-article time {
-    font-weight: bold;
-}
-
-article .meta {
-    padding-top: 6px;
-    font-size: 0.85em;
-    font-style: italic;
-}
-
-img {
-    display: block;
-    text-align: center;
-    max-width: 100%;
-    max-height: 400px;
-}
-
-
-article .post-title {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    text-decoration: none;
-    color: #666;
-}
-
-article .post-title a {
-    color: #666;
-    text-decoration: none;
-}
-
-/*** Pagination ***/
-
-.postnavigation {
-    text-align: center;
-    font-size: 0.85em;
-}
-
-.postnavigation .left {
-    float: left;
-}
-
-.postnavigation .right {
-    float: right;
-}
-
-.featured {
-    list-style: none;
-    padding-left: 0;
-}
-
-.goals {
-    list-style: none;
-    padding-left: 0;
-}
-
-.postdescription {
-    font-style: italic;
-    font-family: serif;
-    color: #777;
-    line-height: 100%;
-}
-
-.search form {
-    height: 68px;
-}
-
-.search header {
-    display: none;
-}
-
-.search table {
-    border: 0px;
-}
-
-.search td {
-    padding: 0px;
-}
-
-.site-tag a {
-    display: inline-block;
-    margin-right: 12px;
-}
-
-.title {
-    color: #000;
-}
-
-.footnotes {
-    margin-top: 60px;
-    border-top: 1px dotted #aaa;
 }
 
 .videoWrapper {
@@ -335,10 +278,74 @@ article .post-title a {
 }
 
 
+/*** Posts ***/
+
+article {
+    margin-bottom: 40px;
+}
+
+article a {
+    color: #000;
+    text-decoration: underline;
+}
+
+article img {
+    display: block;
+    text-align: center;
+    margin: 0 auto 1em auto;
+}
+
+article time {
+    font-family: Georgia, 'Times New Roman', times, serif;
+    font-size: 0.8em;
+}
+
+article .meta {
+    padding-top: 6px;
+    font-size: 0.85em;
+    font-style: italic;
+}
+
+img {
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    max-height: 400px;
+}
+
+article .post-title {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 1.8em;
+    line-height: 1.2em;
+    text-decoration: none;
+}
+
+article .post-title a {
+    text-decoration: none;
+}
+
+
+/*** Pagination ***/
+
+.postnavigation {
+    text-align: center;
+    font-size: 0.85em;
+}
+
+.postnavigation .left {
+    float: left;
+}
+
+.postnavigation .right {
+    float: right;
+}
+
+
 /*** Media Queries ***/
 
 @media all and (max-width: 870px) {
-    #main-container {
+    .container {
         width: inherit;
         padding-left: 10px;
         padding-right: 10px;
@@ -351,22 +358,21 @@ article .post-title a {
     main {
         width: 100%;
     }
-    #social {
-        text-align: center;
-        margin-top: -20px;
-    }
-    .intro {
-        float: none;
-        display: block;
-        max-height: 60px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 10px;
-    }
     .sidebar {
         position: relative;
         text-align: left;
         width: 100%;
-        margin: 10px 10px 20px 10px;
+        margin: 10px 0px 20px 10px;
+        border-left: none;
+    }
+    .search {
+        display: none;
+    }
+    .sidebar .search {
+        float: none;
+        display: block;
+    }
+    .sidebar .search input[type=text] {
+        border-bottom: 2px solid #000;
     }
 }
