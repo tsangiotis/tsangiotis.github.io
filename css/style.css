@@ -313,6 +313,7 @@ footer {
 /*** Posts ***/
 
 article {
+    padding-top: 20px;
     margin-bottom: 40px;
 }
 
@@ -363,7 +364,6 @@ article .post-title a {
 .postnavigation {
     text-align: center;
     font-size: 0.85em;
-    padding-bottom: 10px;
 }
 
 .postnavigation .left {
