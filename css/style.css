@@ -363,6 +363,7 @@ article .post-title a {
 .postnavigation {
     text-align: center;
     font-size: 0.85em;
+    padding-bottom: 5px;
 }
 
 .postnavigation .left {
