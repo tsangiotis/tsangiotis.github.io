@@ -26,6 +26,8 @@ Some time ago I got that email.
 >Regards,<br>
 >Ms. May Ann Francisco
 
+<!--more-->
+
 May Ann knows my name and somehow it’ s not our first dance. Probably this is a legit offer but it would be wise to investigate. I am intrigued so I respond.
 
 >**FROM:** Tasos<br>

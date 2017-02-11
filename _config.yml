@@ -7,6 +7,11 @@ repository: tsangiotis/tsangiotis.github.io
 
 permalink: /:title/
 
+paginate: 5
+paginate_path: "/page:num/"
+
+excerpt_separator: <!--more--> 
+
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
 twitter_username: tsangiotis

@@ -11,7 +11,7 @@ tags:
 - Security
 ---
 
-![](/images{{ page.id }}/chappie.gif)
+![](/images/{{ page.slug }}/chappie.gif)
 
 Among the ridiculous projects I have had out in the open, the most long running
 one is called [perispomeni.club](http://perispomeni.club).
@@ -20,7 +20,11 @@ It is a dead simple, tiny linux machine inspired by Paul Ford’s
 in their shared quest to learn and build awesome web pages.
 
 However it was a surprise when one of the users sent me a private email with a
-security concern. Here I must mention that the pattern you can spot when
+security concern. 
+
+<!--more-->
+
+Here I must mention that the pattern you can spot when
 reading this and my [previous post](/a-pile-of-scam) is purely coincidental. I
 will stop with the email fanfare, I promise. On with the email:
 

@@ -1,22 +1,17 @@
 --- 
 layout: default 
-title: Home
+title: Home 
 --- 
 
-{% for post in site.posts limit: 1 offset: 1 %}
-<nav class="postnavigation">
-
-    <a class="prev left" href="{{ post.url }}">&laquo; {{ post.title }}</a>
-
-</nav>
-{% endfor %} {% for post in site.posts limit: 1 %}
+{% for post in paginator.posts %}
 
 <article class="post">
     <header>
         <h1 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time> <div class="categories">{% for category in post.categories %}<span class="label"><a href="/{{ category | downcase }}">{{ category | upcase }}</a> </span>{% endfor %}</div>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+        <div class="categories">{% for category in post.categories %}<span class="label"><a href="/{{ category | downcase }}">{{ category | upcase }}</a> </span>{% endfor %}</div>
     </header>
-    {{ post.content }}
+    {{ post.excerpt }}
 </article>
 <div class="share-page">
     <p><i>Share this on 
@@ -24,11 +19,14 @@ title: Home
 		or <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ post.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a></i></p>
 </div>
 
-{% endfor %} {% for post in site.posts limit: 1 offset: 1 %}
-<nav class="postnavigation">
-
-    <a class="prev left" href="{{ post.url }}">&laquo; {{ post.title }}</a>
-
-</nav>
-
 {% endfor %}
+
+<div class="postnavigation">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="left">Previous</a>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="right">Next</a>
+  {% endif %}
+</div>
