@@ -364,10 +364,16 @@ article .post-title a {
 }
 
 .readmore {
+    border-top: 1px solid #999;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 5px;
     display: block;
-    font-style: italic;
-    font-weight: bold;
     text-align: right;
+    text-decoration: none;
+}
+
+.readmore:hover {
+    text-decoration: none;
 }
 
 
