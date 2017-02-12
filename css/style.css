@@ -254,6 +254,12 @@ main {
     overflow: hidden;
 }
 
+.content {
+    width: 540px;
+    margin-right: 0px;
+    margin-left: 60px;
+}
+
 .sidebar {
     float: right;
     width: 230px;
@@ -433,6 +439,7 @@ article .post-title a {
     header,
     main {
         width: 100%;
+        margin: 0px;
     }
     .sidebar {
         position: relative;
@@ -440,6 +447,11 @@ article .post-title a {
         width: 100%;
         margin: 10px 0px 20px 10px;
         border-left: none;
+    }
+    .content {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .search {
         display: none;

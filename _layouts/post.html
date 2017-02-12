@@ -7,7 +7,9 @@ layout: default
         <h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
         <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %d, %Y" }}</time> <div class="categories">{% for category in page.categories %}<span class="label"><a href="/{{ category | downcase }}">{{ category | upcase }}</a> </span>{% endfor %}</div>
     </header>
+    <div class="content">
     {{ content }}
+    </div>
 </article>
 <div class="share-page">
     <p><i>Share this on 
