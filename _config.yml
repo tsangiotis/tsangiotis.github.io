@@ -6,6 +6,7 @@ author: Tasos Sangiotis
 repository: tsangiotis/tsangiotis.github.io
 
 permalink: /:title/
+highlighter : rouge
 
 paginate: 10
 paginate_path: "/page:num/"
