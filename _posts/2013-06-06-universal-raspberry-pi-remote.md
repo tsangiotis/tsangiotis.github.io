@@ -22,6 +22,7 @@ Actually I use three:
 - The Air Condition remote
 
 Some time ago I fell on [this post](http://randomtutor.blogspot.gr/2013/01/web-based-ir-remote-on-raspberry-pi.html). It is an IR receiver & emitter circuit attached to a [Raspberry Pi](http://raspberrypi.org/). I had some spare time so I decided to build it!
+<!--more-->
 
 Circuitry was fairly easy.
 
@@ -39,7 +40,7 @@ After the first assembly and testing I made it smaller using a strip board:
 
 And this is what we end up with:
 
-![](/images{{ page.id }}/1-3.png)
+![](/images/{{ page.slug }}/1-3.png)
 
 ## LIRC
 
@@ -181,6 +182,6 @@ For the LIRC configuration I followed [this guide](http://alexba.in/blog/2013/0
 
 I also made an Android application using the web interface provided [here](https://github.com/slimjim777/web-irsend) but the code needs a lot of polishing so I can't share it yet.
 
-![](/images{{ page.id }}/2-2.png)
+![](/images/{{ page.slug }}/2-2.png)
 
 It was cool for an evening project :)

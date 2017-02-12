@@ -9,11 +9,13 @@ tags:
 - IoT
 ---
 
-![](/images{{ page.id }}/solihead.jpeg)
+![](/images/{{ page.slug }}/solihead.jpeg)
 
 Google’s project Soli is the future of wearable interaction.
 
 Project Soli is basically a miniaturised radar implementation of the LEAP Motion sensor.
+
+<!--more-->
 
 It can track precise finger gestures and at the same time is very compact as there is no combination of cameras and IR sensors.
 
@@ -23,7 +25,7 @@ As you see there is no much of implementation. The team has only raw data suppor
 
 The most profound application is wearables. And the hot wearable right now is the smartwatch.
 
-![](/images{{ page.id }}/soli.jpeg)
+![](/images/{{ page.slug }}/soli.jpeg)
 
 On a regular watch you don’t fondle the screen all the time and the crown is not intended to be used more than twice a year. Also it shouldn’t matter if you wear gloves. So a new interface should arise that is capable of satisfying smartwatches requirements. I believe that this will be Soli (or something like it).
 

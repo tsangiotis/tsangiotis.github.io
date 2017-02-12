@@ -11,9 +11,11 @@ tags:
 - Messaging
 ---
 
-![Introducing Messenger](/images{{ page.id }}/intro.jpg)
+![Introducing Messenger](/images/{{ page.slug }}/intro.jpg)
 
 We are all in constant search of the perfect chat app. Myself, I thought I had things settled with my beloved Facebook Messenger. Little did I know it would break my heart.
+
+<!--more-->
 
 Messenger was a minor player in my text life till recently. I was happy with Telegram back then. Telegram is the perfect app. Not the perfect chat app. The perfect app. Stable, fast, very good native apps for phones AND computers, bots, etc. Everything that Telegram implements is well thought through and stable on release. The problem is that Telegram is not something that most of my friends would bother to meet. So in my quest for a minimalistic communications strategy, Telegram had to go.
 
@@ -41,11 +43,11 @@ If you are lucky enough to have not updated your apps or you live on another pla
 
 This is a screenshot of Snapchat:
 
-![Snapchat](/images{{ page.id }}/snapchat.jpg)
+![Snapchat](/images/{{ page.slug }}/snapchat.jpg)
 
 This is a screenshot from the new Facebook Messenger app. Maybe you can spot the similarities.
 
-![Messenger](/images{{ page.id }}/messenger.jpg)
+![Messenger](/images/{{ page.slug }}/messenger.jpg)
 
 The second picture is what happens if you scroll up and discover the selfie camera. Another way to enable that camera is to press the circle button. One more way to find that camera if you escaped all of the above is to press the **+ Add to your day** rectangle on the top left. Maybe there are more ways to take a picture with a chat app but I have still to find them. Maybe I am dumb and the next update will fix that by completely removing the tiny **+** icon on the top right that stands for **New message** replacing it with a camera icon. Dear Mark Zuckerberg or random hiring rep from Facebook, if you liked that idea please note that I am available for hire. If you can’ t find how to contact me via your app, do not hesitate to contact me via email. I think it still works.
 
@@ -53,4 +55,4 @@ If Facebook really wants to do something like Snapchat, it can follow the Gmail 
 
 Humor aside Facebook, this app is now a commodity used by all of your users and more. It would be nice if you could beat Snapchat but let’ s face it, you are just the weird dad who sits with the teens at the holiday table. You are not as cool as Snapchat because being cool means to be original. So quit copying the cool kids and be the grown company you are. People like that too.
 
-![xkcd.com - UI Change](/images{{ page.id }}/ui-change.png)
+![xkcd.com - UI Change](/images/{{ page.slug }}/ui-change.png)

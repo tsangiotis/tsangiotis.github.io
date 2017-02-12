@@ -12,7 +12,8 @@ tags:
 I had a task to translate a big Greek address book in English.
 
 Due to the fact that Greek Language is full of special characters, a problem occurred when passports where to be created. There should be a fixed way to translate names from Greek to English.
-So the ELOT-743 standard was created to solve the confusion
+So the ELOT-743 standard was created to solve the confusion.
+<!--more-->
 
 **_Here you see most of it:_**
 

@@ -18,7 +18,7 @@ On that note (when you see it), I want to make a recap of the music Marvel broug
 It all started with _Guardians of the Galaxy_ and the _Awesome Mix Vol 1_:
 
 <iframe src="https://www.youtube.com/embed/NrI-UBIB8Jk?feature=oembed" width="100%" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-
+<!--more-->
 If you have not seen the movie, you should. If the name of the soundtrack is not self explanatory to you first you should check your self. Anyway it was just a cassette tape that a dying mother made with her favourite tunes for her son. It was a mix of songs from the 70s when music was undoubtedly awesome. Peter's mom made a consistently great selection of songs. I was listening on this album on repeat for months and I didn't skip a song. I was [going all the way](https://www.youtube.com/watch?v=ULL7apmAJTE) holding this mix tight.
 
 Then there was a couple of good but expected tunes from _Iron Man_ and _Avengers_ movies. Nothing spectacular really. With all the explosions good music would have been ruined anyway. Why waste it.

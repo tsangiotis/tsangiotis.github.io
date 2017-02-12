@@ -13,7 +13,7 @@ _This is a response to_ _["Is College Dead? Class From A Student’s Perspective
 As you have learned by now, college is not a must to start a business. There are people who own successful businesses and have not finished high-school. They learned by experience what you have learned in class (and in life).
 
 That goes both ways. The fact that someone finishes college does not mean he/she is entitled to a great job.
-
+<!--more-->
 Education is actually slowly but steadily evolving. More and more companies are getting into that game and also students demand it. This evolution though is slow for the better I believe. Imagine if a whole system that involves students, professors, staff, companies and governments changed every year. There would be chaos. It is better to change small stuff in a slow and reliable manner than to jump to the newer trend all the time. The same happens with law by the way.
 
 There is actually a say:

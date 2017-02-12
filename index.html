@@ -1,6 +1,5 @@
 --- 
 layout: default 
-title: Home 
 --- 
 
 {% for post in paginator.posts %}
@@ -12,21 +11,17 @@ title: Home
         <div class="categories">{% for category in post.categories %}<span class="label"><a href="/{{ category | downcase }}">{{ category | upcase }}</a> </span>{% endfor %}</div>
     </header>
     {{ post.excerpt }}
+
+    <a class="readmore" href="{{ post.url }}">Continue reading...</a>
+    
 </article>
-<div class="share-page">
-    <p><i>Share this on 
-		<a href="https://twitter.com/intent/tweet?text={{ post.title | uri_escape }}&url={{ site.url }}{{ post.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a> 
-		or <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ post.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a></i></p>
-</div>
 
 {% endfor %}
 
-<div class="postnavigation">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="left">Previous</a>
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="right">Next</a>
-  {% endif %}
+<nav class="postnavigation">
+    <ul>
+    {% if paginator.previous_page %}
+    <li><a class="prev left" href="{{ paginator.previous_page_path }}">&laquo; Previous</a>  |</li> {% endif %} {% if paginator.next_page %}
+    <li><a class="next right" href="{{ paginator.next_page_path }}">Next &raquo;</a></li> {% endif %}
+    </ul>
 </div>

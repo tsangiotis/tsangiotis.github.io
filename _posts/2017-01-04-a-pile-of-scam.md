@@ -103,7 +103,7 @@ Here comes the funniest email in this conversation where I spit out a ton of dat
 >Tasos
 >
 >**Attachments:**
->![my id](/images{{ page.id }}/id.jpg)
+>![my id](/images/{{ page.slug }}/id.jpg)
 
 I thought I did poorly on providing the information that May needed. It crossed my mind that she may have lost trust in me but for all the wrong reasons. Even though I was anxious, I waited.
 
@@ -172,7 +172,7 @@ And a couple of hours later the analysis from my assistant was on it's way.
 >Tasos
 >
 >**Attachments:**
->![deal](/images{{ page.id }}/deal.jpg)
+>![deal](/images/{{ page.slug }}/deal.jpg)
 
 May completely ignored my hard work crunching down the numbers and urged me to contact some bank. At least now I have two relatives in other countries as May ended her last email with:
 

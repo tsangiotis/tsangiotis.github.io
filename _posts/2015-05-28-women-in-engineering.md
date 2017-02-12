@@ -10,13 +10,15 @@ tags:
 - great
 ---
 
-![](/images{{ page.id }}/wie.jpeg)
+![](/images/{{ page.slug }}/wie.jpeg)
 
 Women contribute massively in all technological fields. They are an active part of the engineering community.
 
 But they should contribute _more_.
 
 Why they don’t? Because of numbers.
+
+<!--more-->
 
 Just days ago Business Insider published it’s yearly showcase of the [most powerful women engineers](http://www.businessinsider.com/most-powerful-women-engineers-in-2015-2015-5) and as they say, it was hard to dig them out. Of course it was! The percentage of of women holding technical jobs in corporate America is abysmally small (about 15%) and in Europe things go lower. Just 6% of professional engineers are women in the UK (the lowest proportion in Europe).
 
@@ -56,7 +58,7 @@ I wouldn’t like it.
 
 I am talking mostly about Sparkfun and Adafruit which are two companies that I love. [Adafruit’s CEO](https://www.adafruit.com/about) (Ladyada) is a woman by the way.
 
-![](/images{{ page.id }}/limor.jpeg)
+![](/images/{{ page.slug }}/limor.jpeg)
 
 With the [Arduino Flora](https://www.adafruit.com/products/659) there was a chance for women interested in the fashion industry to add sensors, buttons and lights to their clothes. This is awesome and broadening for the fashion enthusiast but this can’t be the end of it. There are many more interesting engineering stuff out there that are not “girly” and women may want to mess with.
 

@@ -8,7 +8,6 @@ body {
 
 a {
     color: #000;
-    text-decoration: none;
 }
 
 a:hover {
@@ -85,6 +84,7 @@ abbr {
 input[type=text] {
     border: none;
     max-width: 220px;
+    border-radius: 0px;
 }
 
 input[type=submit] {
@@ -182,10 +182,9 @@ input[type=text] {
 }
 
 .title {
-    max-width: 600px;
+    max-width: 500px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     padding-top: 10px;
 }
 
@@ -195,6 +194,14 @@ input[type=text] {
     padding-top: 5px;
     margin: 22px 0px;
     text-align: center;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
 }
 
 .navigation ul {
@@ -313,7 +320,6 @@ footer {
 /*** Posts ***/
 
 article {
-    padding-top: 20px;
     margin-bottom: 40px;
 }
 
@@ -347,8 +353,7 @@ img {
 }
 
 article .post-title {
-    margin-top: 30px;
-    margin-bottom: 0px;
+    margin: 0px;
     font-size: 1.8em;
     line-height: 1.2em;
     text-decoration: none;
@@ -358,20 +363,46 @@ article .post-title a {
     text-decoration: none;
 }
 
+.readmore {
+    display: block;
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+}
+
 
 /*** Pagination ***/
 
 .postnavigation {
+    padding-top: 5px;
+    margin: 22px 0px;
     text-align: center;
-    font-size: 0.85em;
 }
 
-.postnavigation .left {
+.postnavigation a {
+    text-decoration: none;
+}
+
+.postnavigation a:hover {
+    text-decoration: underline;
+}
+
+.postnavigation ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    /* For IE, the outcast */
+    zoom: 1;
+    *display: inline;
+    list-style-type: none;
+    font-family: Georgia, 'Times New Roman', times, serif;
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+.postnavigation li {
     float: left;
-}
-
-.postnavigation .right {
-    float: right;
+    padding: 0px 3px;
 }
 
 
@@ -407,6 +438,5 @@ article .post-title a {
     }
     .sidebar .search input[type=text] {
         border-bottom: 2px solid #000;
-        border-radius: 0px;
     }
 }

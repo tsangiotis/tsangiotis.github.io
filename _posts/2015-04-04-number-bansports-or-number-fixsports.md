@@ -9,12 +9,12 @@ tags:
 meta:
 ---
 
-![](/images{{ page.id }}/jjrun.jpeg)
+![](/images/{{ page.slug }}/jjrun.jpeg)
 
 I’ve been a competition Ju Jitsu athlete for my entire life until the combination of an injury and the start of my University life pointed that I will never be in my full game again while studying Electrical Engineering.
 
 If sports and mostly the competition did not exist I would not have been the individual I am today.
-
+<!--more-->
 > **Competition** in biology, ecology, and sociology, **is a contest** between organisms, animals, individuals, groups, etc., for territory, a niche, or a location of resources,**for** resources and goods, mates, for prestige, recognition, awards, or group or social status, for leadership.
 
 This is where the problems grow. No man that enjoys a good run or play/watch a game of basketball can do any harm.

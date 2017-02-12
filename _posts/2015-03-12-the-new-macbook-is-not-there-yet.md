@@ -13,7 +13,7 @@ I literally wrote the title at the start of the Apple Watch announcement at Appl
 
 Then I changed it.
 
-![](/images{{ page.id }}/mbook.png)
+![](/images/{{ page.slug }}/mbook.png)
 
 I am not an Apple fanboy by any means. I bought my 13" MacBook Air at the end of 2012 because it was the best computer for the money and my needs at the time of buy.
 
@@ -23,13 +23,15 @@ It still performs really well and to me and my workflow, it is the much lighter,
 
 When I saw [the new MacBook](http://www.apple.com/macbook/) I was stunned. I wanted to have it.
 
+<!--more-->
+
 I know it is not easy to live on one port… I will manage it… I will buy a bunch of[1](http://tsangiotis.com/the-new-macbook-is-there-yet/#fn:1)adapters and put them on my workspaces…
 
 Who am I kidding…
 
 I get pissed when I have to use a hub now that I have 2 USB ports. Imagine having a bunch around and chaining them. I cannot do CAD work on a trackpad even if it is the best. I’ve struggled with bluetooth mouses in the past so I don’t bother anymore. And I like the key travel on my current MacBook and even more on my mechanical keyboard. Why should I trade that for some [butterfly](http://www.businessinsider.com/new-apple-macbook-keyboard-2015-3)?
 
-![](/images{{ page.id }}/butterfly.gif)
+![](/images/{{ page.slug }}/butterfly.gif)
 
 OK. This I’ll manage. But the underpowered CPU I cannot manage. And this is the actual deal breaker for the majority. Not the ports.
 
@@ -55,6 +57,6 @@ They will keep delivering some awesome hardware for power users who don’t want
 
 The new MacBook is a better showcase of that fork than anything that appeared on the event (_looking at you Apple Watch_). It is slick, it is hot and a fashion statement but it is not for anyone who does more than basic web browsing and email not only due to the single port but most importantly for the intentionally underpowered CPU.
 
-![](/images{{ page.id }}/mbook2.jpeg)
+![](/images/{{ page.slug }}/mbook2.jpeg)
 
 So keep filling that piggy bank and someday we will get what many of us consider the best machine ever.

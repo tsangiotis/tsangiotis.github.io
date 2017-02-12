@@ -9,7 +9,7 @@ tags:
 - Movies
 ---
 
-![](/images{{ page.id }}/martian.png)
+![](/images/{{ page.slug }}/martian.png)
 
 Just yesterday I finished reading [The Martian](http://www.goodreads.com/book/show/18007564-the-martian). I wont lie, this book is not for eveyone but I really liked it.
 
@@ -18,6 +18,7 @@ Mark Whitney, an engineer and botanist, was left on Mars by accident and he has 
 While he is at the same time the luckiest and unluckiest person on Mars he manages to crack jokes all the time.
 
 Here are some of the highlights I made on Kindle (_WARNING!_ Minor spoilers ahead, proceed with caution)!
+<!--more-->
 
 > How come Aquaman can control whales? They’re mammals! Makes no sense.
 

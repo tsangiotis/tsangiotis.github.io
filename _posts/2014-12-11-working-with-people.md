@@ -16,6 +16,8 @@ If a team is managed correctly, many extraordinary things can be done.
 
 This is what I’ve understood about being in teams and learning from my mistakes and others’.
 
+<!--more-->
+
 ## Score the Goal fast
 
 I am not a football fan by any means but it is pretty straightforward that your sole concern is to put the ball behind the line.

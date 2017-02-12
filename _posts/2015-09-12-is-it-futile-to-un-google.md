@@ -16,7 +16,7 @@ I can say that I am privacy aware. On a high level, I understand how things work
 
 However I still use services that are not so privacy centric. I use Facebook and nearly all Google Services (Search, Gmail, Drive, Photos, etc.). These two alone can show you everything about me.
 
-According to Edward Snowden's revelations everything is busted. Dropbox, Google, Apple.. You are not safe.
+According to Edward Snowden's revelations everything is busted. Dropbox, Google, Apple. You are not safe.
 
 On the bright side, Snowden notes that the big software companies are doing steps in the right direction.
 
@@ -24,9 +24,10 @@ But let's say I stop using services from these companies and find alternatives. 
 
 > Any time I email somebody who uses Gmail — and anytime they email me — Google has that email.
 
-That was what [Benjamin Mako Hill](http://mako.cc/) who maintains his own mail server realised and tried to estimate how much of his emails Google has. [Here are his findings](https://mako.cc/copyrighteous/google-has-most-of-my-email-because-it-has-all-of-yours).
+That was what [Benjamin Mako Hill](https://mako.cc/) who maintains his own mail server realised and tried to estimate how much of his emails Google has. [Here are his findings](https://mako.cc/copyrighteous/google-has-most-of-my-email-because-it-has-all-of-yours).
 
 **TL;DR;** 51% of his email at the year of measurement had passed through Google's servers. Just wow! This guy works so hard and spends so much money every year to avoid this and there he goes.
+<!--more-->
 
 The only way i can think of to email other people and keep it private without blowing my head up, is if I use [Protonmail](https://protonmail.ch/) which I think is awesome. But even then, starting a casual conversation demands that you have to teach the other person how to use the service. Also mobile is a pain and the web interface is not packing the 11 years of experience that Google has with Gmail (yes, proper shortcuts).
 

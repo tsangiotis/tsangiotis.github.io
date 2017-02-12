@@ -2,6 +2,7 @@
 layout: page
 title: posts by tag
 description: tag your self
+permalink: /tags
 ---
 
 <!-- Get the tag name for every tag on the site and set them

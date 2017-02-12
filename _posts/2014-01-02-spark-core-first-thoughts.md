@@ -12,6 +12,8 @@ I just got my hands on my long waited [Spark Core](http://tsagi.me/spark.io)!
 
 It is a tiny Arduino board with a built in WiFi module. Besides that and the obvious possibilities of the Core, there is an [API](http://tsagi.me/docs.spark.io) making it possible for the Core to talk to the internet.
 
+<!--more-->
+
 Let's say I want to check the status of the Hackerspace of Patras (0 or 1).
 
 This simple bash script that runs on my computer does just that:

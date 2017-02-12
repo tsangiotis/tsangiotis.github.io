@@ -14,12 +14,12 @@ tags:
 If you follow the web for the last two weeks you probably know about [that little (ugly) leaked PowerPoint](http://www.guardian.co.uk/world/2013/jun/06/us-tech-giants-nsa-data) that explains a NSA program called PRISM.
 
 It was a guy named Edward Snowden that found out and left a job that provided a great income at the NSA because he didn't wanted to be part of this.
-
+<!--more-->
 Here is an interview at the Guardian.
 
 Whether we believe his motives or not, PRISM exists more than 5 years now.
 
-![](/images{{ page.id }}/1-2.png)
+![](/images/{{ page.slug }}/1-2.png)
 
 You can see that most of the streams we use today, even our operating systems and our email providers feed data to NSA.
 
@@ -35,6 +35,6 @@ But even if I do all these, I am not safe. Because not everyone I communicate do
 
 Most of us got nothing to hide. But we don't want to get checked every time we send a mail.
 
-![](/images{{ page.id }}/2-1.png)
+![](/images/{{ page.slug }}/2-1.png)
 
 Should we get used to it?

@@ -19,6 +19,8 @@ For more about that [here](http://www.troyhunt.com/2014/09/everything-you-need-
 When these bugs get exposed, fear push us to security.
 And as Batman says, fear is a tool!
 
+<!--more-->
+
 Since then, [1Password's sales skyrocketed](http://www.theverge.com/2014/9/26/6849461/can-1password-save-your-digital-life-jeff-shiner-david-chartier)!
 Same thing with other passwords managers for sure. And why is that?
 

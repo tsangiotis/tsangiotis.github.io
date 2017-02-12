@@ -10,23 +10,6 @@
 
 @font-face {
     font-family: nyt-cheltenham;
-    src: url(fonts/nyt-cheltenham-normal.ttf);
-}
-
-@font-face {
-    font-family: nyt-cheltenham;
-    src: url(fonts/nyt-cheltenham-bold.ttf);
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: nyt-cheltenham;
-    src: url(fonts/nyt-cheltenham-italics.ttf);
-    font-style: italic;
-}
-
-@font-face {
-    font-family: nyt-cheltenham;
     src: url(fonts/nyt-cheltenham-medium.ttf);
     font-weight: 500;
 }

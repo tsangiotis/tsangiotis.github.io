@@ -16,7 +16,7 @@ Recently we had the chance to show some kids what Electrical and Computer Scienc
 And boy that was awesome!
 
 I am a board member at the [IEEE Student Branch of the University of Patras](http://ieee-upatras.gr/en/)and with some other members we decided to implement an IEEE program called [TISP](http://www.ieee.org/education_careers/education/preuniversity/tispt/index.html). **And we believe we nailed it!**
-
+<!--more-->
 We contacted a lyceum close to our uni. They heard us and they decided they would like to work with us.
 
 First step was to get some kids to one of our events.
@@ -25,9 +25,9 @@ It happened so our next programmed event was “Robotics & 3D Printing” which 
 
 Here are some photos from there.
 
-![](/images{{ page.id }}/rob1.jpeg)
+![](/images/{{ page.slug }}/rob1.jpeg)
 
-![](/images{{ page.id }}/rob2.jpeg)
+![](/images/{{ page.slug }}/rob2.jpeg)
 
 Kids were excited!
 
@@ -41,7 +41,7 @@ That made us super happy and anxious at the same time. We had 2 hours to do so m
 
 _So we started!_
 
-![](/images{{ page.id }}/prez.jpeg)
+![](/images/{{ page.slug }}/prez.jpeg)
 
 Algorithmic problems, circuits and robots were flying in front of their eyes.
 
@@ -60,7 +60,7 @@ Kids formed teams and were asked to:
 - Propose a final solution along with it’s requirements.
 - Present all that in class
 
-![](/images{{ page.id }}/kids.jpeg)
+![](/images/{{ page.slug }}/kids.jpeg)
 
 Very original ideas came up from e-learning to energy savings and school security.
 

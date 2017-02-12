@@ -13,8 +13,8 @@ Jessie is not a person.
 
 Jessie is the new stable release of Debian. And maybe it will get Debian to be my Linux operating system of choice.
 
-![](/images{{ page.id }}/debianwall.jpeg)
-
+![](/images/{{ page.slug }}/debianwall.jpeg)
+<!--more-->
 As you may know I use a MacBook Air and I am happy with OS X.
 
 To increase my disk space I got a 240GB SSD from [OWC](https://www.macsales.com/) and for almost a year the system was humming fine.

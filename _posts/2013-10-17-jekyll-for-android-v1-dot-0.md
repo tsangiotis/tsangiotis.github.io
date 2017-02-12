@@ -10,9 +10,9 @@ tags:
 - Jekyll
 ---
 
-After a couple of months around [this](http://github.com/tsagi/jekyllforandroid) project it reached
+After a couple of months around [this](http://github.com/tsagi/jekyllforandroid) project it reached a stage where maybe it is not super stable but it is usable and pretty ok for my needs.
 
-a stage where maybe it is not super stable but it is usable and pretty ok for my needs.
+<!--more-->
 
 It provides:
 
@@ -24,9 +24,9 @@ It provides:
 
 Here are some screenshots:
 
-![](/images{{ page.id }}/1.png)
-![](/images{{ page.id }}/2.png)
-![](/images{{ page.id }}/3.png)
+![](/images/{{ page.slug }}/1.png)
+![](/images/{{ page.slug }}/2.png)
+![](/images/{{ page.slug }}/3.png)
 
 The source code is available and always will be [on Github](https://github.com/tsagi/jekyll-client-for-android).
 I think about publishing the app on [Google Play Store](https://play.google.com/store) for a small
