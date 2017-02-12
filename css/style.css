@@ -195,7 +195,7 @@ input[type=text] {
 
 .container {
     text-align: left;
-    width: 900px;
+    width: 770px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -249,7 +249,7 @@ input[type=text] {
 }
 
 main {
-    width: 630px;
+    width: 500px;
     float: left;
     margin-right: 40px;
     overflow: hidden;

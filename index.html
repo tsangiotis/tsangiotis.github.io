@@ -10,12 +10,9 @@ layout: default
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
         <div class="categories">{% for category in post.categories %}<span class="label"><a href="/{{ category | downcase }}">{{ category | upcase }}</a> </span>{% endfor %}</div>
     </header>
-    <div class="content">
     {{ post.excerpt }}
-    </div>
-    <hr>
-    
 </article>
+<hr>
 
 {% endfor %}
 
