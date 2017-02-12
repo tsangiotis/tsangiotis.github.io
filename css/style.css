@@ -127,7 +127,6 @@ h1,
 h2 {
     font-family: nyt-cheltenham, Georgia, 'Times New Roman', times, serif;
     font-weight: 500;
-    font-style: italic;
     letter-spacing: -0.015em;
     color: #000;
 }
@@ -384,6 +383,7 @@ article .post-title {
     margin-top: 10px;
     margin-bottom: 0px;
     font-size: 1.8em;
+    font-style: italic;
     line-height: 1.2em;
     text-decoration: none;
 }
