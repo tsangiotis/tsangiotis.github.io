@@ -12,8 +12,10 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@tsangiotis" />
     <meta name="twitter:creator" content="@tsangiotis" />
-    <link rel="author" href=”https://plus.google.com/110914826679729865229” /> {% assign tags = site.tags | sort %}
-    <meta name="keywords" content="{% for tag in tags %}{% if tag[0] != " great " %}{{ tag[0] }} {% endif %}{% endfor %}" /> {% seo %}
+    <link rel="author" href=”https://plus.google.com/110914826679729865229” />{% assign tags = site.tags | sort %}
+    <meta name="keywords" content="{% for tag in tags %}{% if tag[0] != " great " %}{{ tag[0] }} {% endif %}{% endfor %}" /> {% seo %} {% if page.image %}
+    <meta property="og:image" content="{{ site.url }}{{ page.image }}" /> {% else %}
+    <meta property="og:image" content="{{ site.url }}/fb_img.jpg" /> {% endif %}
 
     <link href="/css/fonts.css" rel="stylesheet" />
     <link href="/css/style.css" rel="stylesheet" />
