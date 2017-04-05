@@ -17,6 +17,8 @@ I know this is exactly the time o’ clock that every doofus tries to submerge y
 
 I am powering through one of the most intense periods of my life so far. I have multiple high maintenance and difficult projects, none of which can be left behind. The world feels like a racetrack made of ice and I have to run, which I like. But if I slip things are going to get nasty. That means, efficiency is key and the hunt for that peak effectiveness has showed me some dos and don’ts.
 
+<!--more-->
+
 ## Don’ t read too much stuff like this online
 
 It is probably a waste of time and you are as likely to follow this as you were to follow the previous identical article you read yesterday.

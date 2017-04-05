@@ -311,6 +311,48 @@ footer {
     margin-right: auto;
 }
 
+/*** Images ***/
+.free-wall {
+    margin: 15px;
+}
+
+.brick {
+    background-color: white;
+    float: left;
+    cursor: default;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    display: block;
+}
+
+.brick .cover {
+    overflow: hidden;
+    margin: 20px;
+}
+
+.brick .read-more {
+    position: absolute;
+    display: none;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 12px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.brick:hover .read-more {
+    display: block;
+    cursor: pointer;
+}
+
+.brick .desc {
+    display: none;
+}
+
 
 /*** Useful Classes ***/
 
