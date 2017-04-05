@@ -46,9 +46,9 @@ If you warm up with a personality like Rallis, the library of Aristotle Onassis 
 >
 >This wealth of books belongs to Hellenism and to those who wish to know more about the contribution of Greek thought to the global scene.
 
-Shocking, dear reader. The collection inside is not the collection of Aristotle Onassis. How deceitful and not exactly the fun you would expect from reviewing Onassis taste in books. I don’t mean to sound ungrateful for the tour but I remain bumped by the false advertising.
+Shocking, dear reader. The collection inside is not the collection of Aristotle Onassis. How deceitful and not exactly the fun you would expect from reviewing Onassis taste in books. Grab a torch and queue the violence!
 
-But at least it is still a famous book collection.
+Listening the guide I realise that, at least it is still a famous book collection. I hide my imaginary tools of terror and move on. 
 
 ![](/images/{{ page.slug }}/IMG_0148.jpg)
 
