@@ -48,7 +48,7 @@ If you warm up with a personality like Rallis, the library of Aristotle Onassis 
 
 Shocking, dear reader. The collection inside is not the collection of Aristotle Onassis. How deceitful and not exactly the fun you would expect from reviewing Onassis taste in books. Grab a torch and queue the violence!
 
-Listening the guide I realise that, at least it is still a famous book collection. I hide my imaginary tools of terror and move on. 
+Listening the guide I realise that, at least it is still a famous book collection. I hide my imaginary tools of terror and along. 
 
 ![](/images/{{ page.slug }}/IMG_0148.jpg)
 
