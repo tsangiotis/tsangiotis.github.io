@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-permalink: about
+permalink: /about/
 ---
 
 ![](/images/about/profile.jpg)
