@@ -5,7 +5,8 @@ date: 2017-04-06
 description: 
 image: /images/open-thy-house/IMG_0120.jpg
 categories:
-- Out & About
+- Log
+- Photography
 tags:
 - Architecture
 - Events

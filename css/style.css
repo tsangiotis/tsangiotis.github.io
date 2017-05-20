@@ -104,6 +104,21 @@ input[type=submit]:hover {
     color: #fff;
 }
 
+.archive-link{
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 11px;
+    padding: 3px;
+    background: none;
+    border: 2px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.archive-link:hover {
+    background: #000;
+    color: #fff;
+}
 
 /*** Typography ***/
 
@@ -215,7 +230,8 @@ input[type=text] {
     border-top: 2px solid #000;
     border-bottom: 1px solid #000;
     padding-top: 5px;
-    margin: 22px 0px;
+    margin-left: 0px;
+    margin-right: 0px;
     text-align: center;
 }
 
@@ -245,11 +261,23 @@ input[type=text] {
     padding: 0px 3px;
 }
 
+.navigation li:after {
+  content: " \00b7 ";
+}
+
+.navigation li:last-child:after {
+    content: "";
+}
+
 .search {
     float: right;
     text-align: left;
     width: 230px;
     display: block;
+}
+
+.search li:after {
+    content: "";
 }
 
 main {
@@ -268,6 +296,10 @@ main {
 .sidebar {
     float: right;
     width: 230px;
+}
+
+.sidebar input[type=text] {
+    border-bottom: 2px solid #000;
 }
 
 .sidebar .search {
@@ -300,59 +332,33 @@ main {
 
 footer {
     color: #777;
-    width: 770px;
-    border-top: 1px solid #aaa;
     font-family: nyt-cheltenham, Georgia, 'Times New Roman', times, serif;
     font-weight: 500;
     font-size: 0.9em;
-    text-align: center;
     margin-top: 40px;
+}
+
+footer .bottom {
+    width: 770px;
+    border-top: 1px solid #aaa;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
-/*** Images ***/
-.free-wall {
-    margin: 15px;
+.post-footer {
+    width: 100%;
+    margin: 40px 0;
+    border-top: 0px;
+    text-align: left;
 }
 
-.brick {
-    background-color: white;
-    float: left;
-    cursor: default;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin: 0;
-    display: block;
+.post-responses {
+    width: 100%;
+    margin: 40px 0;
+    border-top: 0px;
+    text-align: left;
 }
-
-.brick .cover {
-    overflow: hidden;
-    margin: 20px;
-}
-
-.brick .read-more {
-    position: absolute;
-    display: none;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    padding: 12px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.45);
-}
-
-.brick:hover .read-more {
-    display: block;
-    cursor: pointer;
-}
-
-.brick .desc {
-    display: none;
-}
-
 
 /*** Useful Classes ***/
 
@@ -402,12 +408,6 @@ article a {
     text-decoration: underline;
 }
 
-article img {
-    display: block;
-    text-align: center;
-    margin: 0 auto 1em auto;
-}
-
 article time {
     font-family: Georgia, 'Times New Roman', times, serif;
     font-size: 0.8em;
@@ -419,15 +419,24 @@ article .meta {
     font-style: italic;
 }
 
-img {
-    display: block;
-    text-align: center;
-    max-width: 100%;
-    max-height: 400px;
+/* consider resetting the default cursor: https://gist.github.com/murtaugh/5247154 */
+/* Responsive images and other embedded objects */
+/* if you don't have full control over `img` tags (if you have to overcome attributes), consider adding height: auto */
+img,
+object,
+embed {
+  max-width: 100%; 
 }
 
+td, td img {
+  vertical-align: top; }
+
+/* scale images in IE7 more attractively */
+.ie7 img {
+  -ms-interpolation-mode: bicubic; }
+
 article .post-title {
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 0px;
     font-size: 1.8em;
     font-style: italic;
@@ -475,6 +484,118 @@ article .post-title a {
     padding: 0px 3px;
 }
 
+section.posts article.post {
+  margin-bottom: 6em; }
+  section.posts article.post header h1.title {
+    font-size: 1.78em; }
+
+main > section.archive {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap; }
+  main > section.archive h2 {
+    width: 100%; }
+  main > section.archive .archive-months {
+    width: 200px;
+    margin-bottom: 1em; }
+    main > section.archive .archive-months ul {
+      list-style: disc;
+      padding-left: 1em; }
+    main > section.archive .archive-months .archive-all-dates {
+      margin-top: 0.5em;
+      font-size: 0.9em; }
+    main > section.archive .archive-months .posthaven-archive-selected a {
+      color: inherit; }
+  main > section.archive .archive-results {
+    max-width: 600px;
+    flex: 1; }
+    main > section.archive .archive-results form, main > section.archive .archive-results input {
+      margin-bottom: 0.75em;
+      width: 100%; }
+    main > section.archive .archive-results li {
+      margin-bottom: 0.5em; }
+      main > section.archive .archive-results li .archive-date {
+        font-size: 0.8em; }
+  main > section.archive .archive-pagination {
+    margin-top: 0.25em;
+    font-size: 0.9em; }
+    main > section.archive .archive-pagination a {
+      display: inline-block;
+      margin-right: 0.5em; }
+
+.private-password main p {
+  margin-bottom: 0.5em; }
+
+/*********************************************************
+*  Responses
+*********************************************************/
+footer.post-responses .responses {
+  margin-bottom: 2em; }
+  footer.post-responses .responses .response {
+    margin: 2em 0; 
+    padding-bottom: 1em;
+    border-bottom: 1px solid #777;}
+    footer.post-responses .responses .response p {
+      margin: 8px 0px; }
+    footer.post-responses .responses .response p:first-child {
+      margin: 0 0 8px; }
+    footer.post-responses .responses .response .comment {
+      color: #444;
+      font-weight: 500;
+      margin-bottom: 8px; }
+    footer.post-responses .responses .response .byline {
+      margin-top: 0.25em;
+      font-size: 0.7em; }
+    footer.post-responses .responses .response ul, footer.post-responses .responses .response ol {
+      padding-left: 1em; }
+    footer.post-responses .responses .response ul {
+      list-style: disc; }
+    footer.post-responses .responses .response blockquote {
+      padding-left: 0.9em;
+      border-left: 0.1em #ddd; }
+  footer.post-responses .responses table {
+    width: 100%; }
+    footer.post-responses .responses table, footer.post-responses .responses table th, footer.post-responses .responses table td {
+      border-top: 1px solid #ddd; }
+    footer.post-responses .responses table th, footer.post-responses .responses table td {
+      padding: 0.33em; }
+footer.post-responses .new-comment {
+  margin: 1em 0 2em; }
+
+.posthaven-comment-form .posthaven-field {
+  margin: 0.75em 0; }
+  .posthaven-comment-form .posthaven-field label {
+    display: block;
+    margin-bottom: 0.25em; }
+  .posthaven-comment-form .posthaven-field textarea, .posthaven-comment-form .posthaven-field input[type=text] {
+    max-width: 95%;
+    width: 34em; }
+  .posthaven-comment-form .posthaven-field input[type=checkbox] {
+    vertical-align: baseline;
+    margin-right: 0.25em; }
+  .posthaven-comment-form .posthaven-field.posthaven-comment-notify-field label {
+    display: inline; }
+.posthaven-comment-form .posthaven-comment-verification {
+  width: 34em;
+  margin-bottom: 0.75em; }
+
+/*********************************************************
+*  Share links
+*********************************************************/
+
+.posthaven-share-links .posthaven-share-item {
+  display: inline-block;
+  overflow: visible; }
+.posthaven-share-links .posthaven-upvote {
+  min-width: 90px;
+  margin-right: 35px; }
+.posthaven-share-links .posthaven-twitter-share {
+  min-width: 107px;
+  margin-right: 20px; }
+
+.posthaven-private-form .posthaven-field {
+  display: inline-block;
+  margin-right: 0.25em; }
 
 /*** Media Queries ***/
 
@@ -512,7 +633,24 @@ article .post-title a {
         float: none;
         display: block;
     }
-    .sidebar .search input[type=text] {
-        border-bottom: 2px solid #000;
+
+    .search a {
+        text-decoration: none;
     }
+
+    .sidebar .search ul{
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        /* For IE, the outcast */
+        zoom: 1;
+        *display: inline;
+        list-style-type: none;
+    }
+
+    .sidebar .search  li {
+        float: left;
+        padding: 0px 3px;
+    }
+
 }

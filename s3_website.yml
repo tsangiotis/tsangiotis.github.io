@@ -1,7 +1,7 @@
 s3_id: AKIAJLV6IM72ZSOUXKEA
 s3_secret: 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
-s3_bucket: tsangiotis-website
-cloudfront_distribution_id: E21ITQC76KV6C6
+s3_bucket: tsangiotis.com
+cloudfront_distribution_id: E1355NX6NQ0TLQ
 
 # set s3_token if using temporary credentials with a session token (eg: when assuming a role)
 # s3_token: YOUR_AWS_S3_SESSION_TOKEN
@@ -14,9 +14,11 @@ cloudfront_distribution_id: E21ITQC76KV6C6
 # index_document: index.html
 # error_document: error.html
 
-# max_age:
-#   "assets/*": 6000
-#   "*": 300
+max_age:
+  "assets/*": 6000
+  "css/*": 6000
+  "images/*": 6000
+  "*": 300
 
 content_type:
   "*.html": text/html; charset=utf-8
