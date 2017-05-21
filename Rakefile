@@ -45,7 +45,7 @@ task :resize do
     images.each do |file_path| 
         next if File.directory? file_path 
         image = Magick::Image::read(file_path).first 
-        thumb = image.resize_to_fit(1280,960) 
+        thumb = image.resize_to_fit(500,500) 
         filename = file_path.split('/')[2..-1].last
         postdir = file_path.split('/')[-2]
         finaldir = "#{output_dir}/#{postdir}"
