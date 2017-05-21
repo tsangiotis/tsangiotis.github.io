@@ -32,8 +32,8 @@ The residence is one of the really few architectural samples from the Ottonian p
 
 <table style="width:100%">
   <tr>
-    <td><a href="/images/{{ page.slug }}/group1/1.jpg"><img src="/images/{{ page.slug }}/group1/1.jpg"/></a></td>
-    <td><a href="/images/{{ page.slug }}/group1/2.jpg"><img src="/images/{{ page.slug }}/group1/2.jpg"/></a></td>
+    <td style="width:50%"><a href="/images/{{ page.slug }}/group1/1.jpg"><img src="/images/{{ page.slug }}/group1/1.jpg"/></a></td>
+    <td style="width:50%"><a href="/images/{{ page.slug }}/group1/2.jpg"><img src="/images/{{ page.slug }}/group1/2.jpg"/></a></td>
   </tr>
 </table>
 
