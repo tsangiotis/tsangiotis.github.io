@@ -227,11 +227,11 @@ input[type=text] {
     text-decoration: underline;
 }
 
-.twitter a {
+.twitter {
     color: #4099FF;
 }
 
-.facebook a {
+.facebook {
     color: #3b5998;
 }
 
