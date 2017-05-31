@@ -229,10 +229,12 @@ input[type=text] {
 
 .twitter {
     color: #4099FF;
+    text-decoration: none;
 }
 
 .facebook {
     color: #3b5998;
+    text-decoration: none;
 }
 
 /*** Structure ***/
