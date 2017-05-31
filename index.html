@@ -14,8 +14,8 @@ layout: default
 </article>
 <a href="{{ post.url }}">Read more</a>
 <i>Or share this on 
-            <a class="twitter" href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a> 
-                    and <a class="facebook" href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a></i>
+            <a class="twitter" href="https://twitter.com/intent/tweet?text={{ post.title | uri_escape }}&url={{ site.url }}{{ post.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a> 
+                    and <a class="facebook" href="https://facebook.com/sharer.php?u={{ site.url }}{{ post.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a></i>
 
 {% endfor %}
 
