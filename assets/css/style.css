@@ -501,6 +501,38 @@ article .post-title a {
     color: #000;
 }
 
+/*** Photography ***/
+.photofeatured {
+    width: 40%;
+}
+
+.photodescription {
+    text-align: right;
+    font-size: 0.9em;
+}
+
+.photodescription a {
+    text-decoration: none;
+}
+
+.photodescription h2 {
+    margin: 0;
+}
+
+.photodescription p.phonetics {
+    font-family: monospace; 
+    margin: 0;
+}
+
+.photodescription p.photoquote {
+    color: #777; 
+}
+
+.photodescription ul {
+    float: right; 
+    text-align: left;
+}
+
 /*** Pagination ***/
 
 .postnavigation {
