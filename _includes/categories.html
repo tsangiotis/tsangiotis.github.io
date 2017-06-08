@@ -4,9 +4,9 @@
     </header>
     <ul class="tag-box inline" style="list-style-type: none; padding: 0px;">
         {% assign tags_list = site.categories %} {% if tags_list.first[0] == null %} {% for tag in tags_list %}
-        <li><a href="/{{ tag | downcase}}">{{ tag | capitalize }}</a> <span>{{ site.tags[tag].size }}</span></li>
+        <li><a href="/category/{{ tag | downcase}}">{{ tag | capitalize }}</a> <span>{{ site.tags[tag].size }}</span></li>
         {% endfor %} {% else %} {% for tag in tags_list %}
-        <li><a href="/{{ tag[0] | downcase}}">{{ tag[0] | capitalize }}</a> <span>{{ tag[1].size }}</span></li>
+        <li><a href="/category/{{ tag[0] | downcase}}">{{ tag[0] | capitalize }}</a> <span>{{ tag[1].size }}</span></li>
         {% endfor %} {% endif %} {% assign tags_list = nil %}
     </ul>
 
