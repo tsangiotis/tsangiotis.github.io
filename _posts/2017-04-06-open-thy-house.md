@@ -2,7 +2,7 @@
 layout: post
 title: Open thy house
 date: 2017-04-06
-description: 
+description: Random people decided for some reason that their house is a public place for a day. Other random people apparently read a lot about it.
 image: /images/open-thy-house/IMG_0120.jpg
 categories:
 - Log
@@ -10,6 +10,7 @@ categories:
 tags:
 - Architecture
 - Events
+- great
 ---
 
 ![](/images/{{ page.slug }}/IMG_0120.jpg)
