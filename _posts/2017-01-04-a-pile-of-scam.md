@@ -3,7 +3,7 @@ layout: post
 title: A pile of scam
 date: 2017-01-04
 description: Scam email is still escaping spam filters so having fun it is!
-image: /images/a-pile-of-scam/id.jpg
+image: id.jpg
 categories:
 - Humor
 tags:

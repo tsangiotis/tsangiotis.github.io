@@ -3,15 +3,13 @@ layout: post
 title: Just kill the messenger
 date: 2016-12-21
 description: A rant on Facebook Messenger’ s new redesign and functions
-image: /images/just-kill-the-messenger/intro.jpg
+image: intro.jpg
 categories:
 - Opinion
 tags:
 - Facebook
 - Messaging
 ---
-
-![Introducing Messenger](/images/{{ page.slug }}/intro.jpg)
 
 We are all in constant search of the perfect chat app. Myself, I thought I had things settled with my beloved Facebook Messenger. Little did I know it would break my heart.
 

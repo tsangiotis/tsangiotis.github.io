@@ -3,15 +3,13 @@ layout: post
 title: Focus advice
 date: 2017-03-08
 description: perispomeni.club was under attack from Chinese internet robots
-image: /images/focus-advice/leavemealone.jpeg
+image: leavemealone.jpeg
 categories:
 - Opinion
 tags:
 - Short
 - Productivity
 ---
-
-![](/images/{{ page.slug }}/leavemealone.jpeg)
 
 I know this is exactly the time o’ clock that every doofus tries to submerge you in their wise minds by sharing a tip or two about productivity and life advice but bear with me. I read a couple of good posts doing exactly that from friends and I figured that I might as well throw my bullshit free brilliance out there.
 

@@ -3,15 +3,13 @@ layout: post
 title: Surviving an attack from the Chinese
 date: 2017-01-13
 description: perispomeni.club was under attack from Chinese internet robots
-image: /images/attacked-by-chinese-robots/chappie.gif
+image: /chappie.gif
 categories:
 - Projects
 tags:
 - perispomeni.club
 - Security
 ---
-
-![](/images/{{ page.slug }}/chappie.gif)
 
 Among the ridiculous projects I have had out in the open, the most long running
 one is called [perispomeni.club](http://perispomeni.club).
