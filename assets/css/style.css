@@ -291,7 +291,7 @@ figcaption {
 
 .container {
     text-align: left;
-    width: 770px;
+    width: 870px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -357,7 +357,7 @@ figcaption {
 }
 
 main {
-    width: 500px;
+    width: 600px;
     float: left;
     margin-right: 40px;
     overflow: hidden;
@@ -408,7 +408,7 @@ main {
 
 footer {
     color:#777;
-    width:770px;
+    width:870px;
     border-top:1px solid #aaa;
     font-family:nyt-cheltenham,Georgia,'Times New Roman',times,serif;
     font-weight:500;
@@ -420,7 +420,7 @@ footer {
 }
 
 footer .bottom {
-    width: 770px;
+    width: 870px;
     border-top: 1px solid #aaa;
     text-align: center;
     margin-left: auto;
