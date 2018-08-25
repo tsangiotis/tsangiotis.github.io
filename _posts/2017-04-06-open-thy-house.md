@@ -2,6 +2,7 @@
 layout: post
 title: Open thy house
 date: 2017-04-06
+redirect_from: 2017/04/06/open-thy-house/
 description: Random people decided for some reason that their house is a public place for a day. Other random people apparently read a lot about it.
 image: IMG_0120.jpg
 categories:
