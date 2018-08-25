@@ -3,6 +3,8 @@ layout: post
 title: Prepping for a Lunar Eclipse
 date: 2018-08-10
 description: Valuable information on how to creep out future moon dwellers.
+redirect_from:
+- 2018/08/10/a-lunar-eclipse
 image: dsc_7157-edit.jpg
 categories:
 - Photography

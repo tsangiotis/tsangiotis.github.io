@@ -202,6 +202,16 @@ input[type=text] {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+figure {
+    padding: 0;
+}
+
+figcaption {
+    font-size: 0.7em;
+    font-style: italic;
+    color: #585858;
+}
+
 .categories {
     display: inline;
     border-left: 1px solid #000;

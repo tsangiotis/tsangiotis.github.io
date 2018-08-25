@@ -4,20 +4,14 @@ title: About
 permalink: /about/
 ---
 
-![](/images/about/profile.jpg)
+I am an engineer situated in Athens, Greece who likes to take <a href="https://tsangiotis.com/photography">photos</a>.
 
-My name is Tasos Sangiotis, I am an engineer who likes to take <a href="https://instagram.com/tsangiotis/">photos</a>.
+This corner of the web is a collection of posts, essays and photos. They are mainly about photography, travel and occasionaly technical stuff. Just navigate and you can find some easter eggs (which is French for pages I forgot they existed).
 
-This is my little place on the web. I put here my collection of rants and little essays.
+For my photography I shoot mostly candid street photos. People say that my images make the viewer feel the movement. See for your self [on Instagram](https://instagram.com/tsangiotis).
 
-I study Electrical and Computer Engineering at the [University of Patras](http://www.ece.upatras.gr/en/). There I do flying robots cause that's my thing. Right now I am working on a [VTOL Aircraft](/aircraft-design-the-nasa-way/).
+I work for [Arpedon](https://www.arpedon.com), an industrial engineering company.
 
-I also work on other engineering projects for the University or other companies.
-
-Finally, I run [perispomeni.club](http://perispomeni.club). It is a community that lives on a server. Ask for a username and you can have your own account on a small little server to do whatever you want. My [personal page](http://perispomeni.club/~tsangiotis/) there is a collection of recent book reads.
-
-Online I have a very original username. It's <i>tsangiotis. </i>Follow the little icons around the site and you will end up in my social accounts fairly easy.
-
-To contact me Twitter is probably better, but if you want to email me just use [tsangiotis@gmail.com](mailto:tsangiotis@gmail.com).
+if you want to email me just use [tsangiotis@gmail.com](mailto:tsangiotis@gmail.com).
 
 Have fun!
