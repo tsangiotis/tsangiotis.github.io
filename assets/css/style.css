@@ -596,6 +596,15 @@ article .post-title a {
     padding: 0px 3px;
 }
 
+.headimg {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    height:400px;
+    line-height:400px;
+}
+
 /*** Media Queries ***/
 
 @media all and (max-width: 870px) {
@@ -613,6 +622,7 @@ article .post-title a {
         width: 100%;
         margin: 0px;
     }
+
     .sidebar {
         position: relative;
         text-align: left;
