@@ -10,8 +10,3 @@ title: Street photography
 ![]({{ page.url }}images/5.jpg)
 ![]({{ page.url }}images/6.jpg)
 ![]({{ page.url }}images/7.jpg)
-![]({{ page.url }}images/8.jpg)
-![]({{ page.url }}images/9.jpg)
-![]({{ page.url }}images/10.jpg)
-![]({{ page.url }}images/11.jpg)
-![]({{ page.url }}images/12.jpg)
