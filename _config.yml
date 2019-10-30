@@ -18,13 +18,10 @@ feed:
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-twitter_username: tsangiotis
-
 ganalytics: UA-72716429-1
 
 plugins:
   - jekyll-github-metadata
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tag
   - jekyll-redirect-from
