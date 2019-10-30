@@ -50,17 +50,10 @@ a.title {
         color: #eee;
         background: #243447
     }
-    a:link {
-        color: #5bf
-    }
-    a:visited {
-        color: #c51f5d
-    }
     a.title {
         color: #eee
     }
     .postdescription {
-        font-style: italic;
         color: #ccc;
     }
 }
