@@ -22,7 +22,7 @@ twitter_username: tsangiotis
 
 ganalytics: UA-72716429-1
 
-gems:
+plugins:
   - jekyll-github-metadata
   - jekyll-feed
   - jekyll-sitemap
