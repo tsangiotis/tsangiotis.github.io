@@ -2,24 +2,25 @@
 layout: default 
 ---
 
-<article class="post">
+<article>
     <header>
-        <h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
-        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %d, %Y" }}</time> <div class="categories">{% for category in page.categories %}<span class="label"><a href="/category/{{ category | downcase }}">{{ category | upcase }}</a> </span>{% endfor %}</div>
-        {% if page.image %}<img class="headimg" src="/images/{{ page.slug }}/{{ page.image }}"> {% endif %}
+        <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %d, %Y"
+        }}</time>
+        <span> | {% for category in page.categories %}<a
+        href="/category/{{ category | downcase }}">{{ category }}</a>{% if forloop.last ==
+        false%}, {% endif %}{% endfor %}</span>
+        {% if page.image %}<img src="/images/{{ page.slug }}/{{ page.image }}"> {% endif %}
     </header>
     {{ content }}
 </article>
-<div class="share-page">
-    <p><i>Share this on 
-		<a class="twitter" href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a> 
-		or <a class="facebook" href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a></i></p>
+<div>
+    <p><i>Share this on <a class="twitter" href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a> or <a class="facebook" href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a></i></p>
 </div>
 
-<nav class="postnavigation">
-    <ul>
-    {% if page.previous.url %}
-    <li><a class="prev left" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a></li> {% endif %} {% if page.next.url %}
-    <li>| <a class="next right" href="{{page.next.url}}">{{page.next.title}} &raquo;</a></li> {% endif %}
-    </ul>
-</nav>
+<ul style="list-style-type:none;">
+{% if page.previous.url %}
+<li style="display:inline;"><a class="prev left" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a></li> {% endif %} {% if page.next.url %}
+<li style="display:inline;">| <a class="next right" href="{{page.next.url}}">{{page.next.title}} &raquo;</a></li> {% endif %}
+</ul>
+

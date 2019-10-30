@@ -1,5 +1,45 @@
----
-layout: scaffold
----
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{{site.title}} | {{site.description}}</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
+    <link href='/favicon.png' rel='shortcut icon' type='image/png' />
+</head>
+<body>
+	
+    <h1><a class="title" href="/">{{site.title}}</a></h1>
+    <h3>{{site.description}}</h3>
+    <hr>
 
-{{ content }}
+    {{ content }}
+
+
+    <p>The <a href="/">main page</a> has everything you need to roam this site.</p>
+    
+    {% include search.html %}
+
+    <footer>
+        <p>&copy; 2019 Tasos Sangiotis</p>
+        <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '/assets/js/analytics.js', 'ga');
+
+        ga('create', '{{ site.ganalytics }}', 'auto');
+        ga('send', 'pageview');
+        </script>
+    </footer>
+
+</body>
+
+</html>
