@@ -2,10 +2,10 @@
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{site.title}} | {{site.description}}</title>
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <meta name="description" content="{{site.description}}">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 	
@@ -21,7 +21,7 @@
     {% include search.html %}
 
     <footer>
-        <p>&copy; 2019 Tasos Sangiotis</p>
+        <p>&copy; 2019 {{site.author}}</p>
     </footer>
 
 </body>
