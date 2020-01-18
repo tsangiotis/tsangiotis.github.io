@@ -423,6 +423,10 @@ footer .bottom {
     padding: 0px 3px;
 }
 
+img {
+    max-width:100%;
+}
+
 .headimg {
 	max-width:100%;
     margin-top: 5px;
