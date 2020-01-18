@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-permalink: /about/
+permalink: /about
 ---
 
 I am an engineer situated in Athens, Greece who likes to take <a href="https://tsangiotis.com/photography">photos</a>.

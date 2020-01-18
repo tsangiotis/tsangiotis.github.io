@@ -1,30 +1,17 @@
-<!DOCTYPE html>
-<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{site.title}} | {{site.description}}</title>
-    <meta name="description" content="{{site.description}}">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">    
-    <link rel="stylesheet" href="/style.css">
-</head>
-<body>
-	
-    <h1><a class="title" href="/">{{site.title}}</a></h1>
-    <h3>{{site.description}}</h3>
-    <hr>
-
-    {{ content }}
+---
+layout: simple
+---
 
 
-    <p>The <a href="/">main page</a> has everything you need to roam this site.</p>
-    
-    {% include search.html %}
+<div class="with-sidebar">
+  <div>
+    <div>
+		{{ content }}
+	</div>
+    <div>
+        {% include sidebar.html %}
+    </div>
+  </div>
+</div>
+  
 
-    <footer>
-        <p>&copy; 2019 {{site.author}}</p>
-    </footer>
-
-</body>
-
-</html>

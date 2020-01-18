@@ -1,35 +1,485 @@
 body {
-    max-width: 650px;
+    max-width: 47rem;
     margin: 40px auto;
     padding: 0 10px;
-    font: 18px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    color: #444
+    font-size: 0.9em;
+    line-height: 160%;
+    color: #333;
+}
+
+a {
+    color: #333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p,
+pre {
+    margin-bottom: 15px;
+}
+
+pre {
+    white-space: pre-wrap;
+    /* css-3 */
+    white-space: -moz-pre-wrap;
+    /* Mozilla, since 1999 */
+    white-space: -pre-wrap;
+    /* Opera 4-6 */
+    white-space: -o-pre-wrap;
+    /* Opera 7 */
+    word-wrap: break-word;
+    /* Internet Explorer 5.5+ */
+    background-color: #d1d1d1;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+ul,
+ol {
+    padding: 0 0 18px 30px;
+}
+
+em,
+i {
+    font-style: italic;
+}
+
+strong,
+b {
+    font-weight: bold;
+}
+
+small {
+    font-size: 0.85em;
+}
+
+sup {
+    vertical-align: super;
+    font-size: 0.85em;
+}
+
+sub {
+    vertical-align: sub;
+    font-size: 0.85em;
+}
+
+hr {
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+blockquote {
+    margin: 10px;
+    padding: 0px 1rem;
+    border-left: 2px solid #000;
+    font-style: italic;
+}
+
+acronym,
+abbr {
+    cursor: help;
+    letter-spacing: 1px;
+    border-bottom: 1px dashed;
+}
+
+
+/** Input **/
+
+input[type=text] {
+    border: none;
+    max-width: 220px;
+    border-radius: 0px;
+}
+
+input[type=submit] {
+    background: none;
+    border: 2px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background: #000;
+    color: #fff;
+}
+
+.archive-link{
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 11px;
+    padding: 3px;
+    background: none;
+    border: 2px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.archive-link:hover {
+    background: #000;
+    color: #fff;
+}
+
+/*** Typography ***/
+@font-face {
+    font-family: "Covered By Your Grace";
+    src: url(fonts/CoveredByYourGrace.ttf);
+}
+
+@font-face {
+    font-family: "Permanent Marker";
+    src: url(fonts/PermanentMarker.ttf);
+}
+
+@font-face {
+    font-family: nyt-cheltenham;
+    src: url(fonts/nyt-cheltenham-medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: nyt-cheltenham;
+    src: url(fonts/nyt-cheltenham-medium-italics.ttf);
+    font-weight: 500;
+    font-style: italic;
+}
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* 1 */
+    -ms-text-size-adjust: 100%;
+    /* 2 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
 }
 
 h1,
-h2,
-h3 {
-    line-height: 1.2
+h2 {
+    font-family: nyt-cheltenham, Georgia, 'Times New Roman', times, serif;
+    font-weight: 500;
+    letter-spacing: -0.015em;
+    color: #000;
 }
 
-a:link {
-    color: #1da1f2;
+h1,
+h2 a {
+    color: #000;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-family: nyt-cheltenham, Georgia, 'Times New Roman', times, serif;
+    font-weight: 500;
+    letter-spacing: -0.015em;
+    color: #000;
+}
+
+h3,
+h4,
+h5,
+h6 a {
+    color: #000;
+}
+
+
+
+.header {
+  overflow: hidden;
+}
+
+.header > * {
+  display: flex;
+  flex-wrap: wrap;
+  margin: calc(var(--s1) / 2 * -1);
+}
+
+.header > * > * {
+  margin: calc(var(--s1) / 2);
+  flex-grow: 1;
+}
+
+.header > * > :first-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: calc(50% - var(--s1));
+}
+
+.header > * > * > h1,
+.header > * > * > h2 {
+    font-style: italic;
+}
+
+code {
+    font: 0.85em Monaco, Courier, Monospace;
+}
+
+input[type=text] {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+figure {
+    padding: 0;
+}
+
+figcaption {
+    font-size: 0.7em;
+    font-style: italic;
+    color: #585858;
+}
+
+footer {
+    color:#777;
+    width:100%;
+    border-top:1px solid #aaa;
+    font-family:nyt-cheltenham,Georgia,'Times New Roman',times,serif;
+    font-weight:500;
+    font-size:.9em;
+    text-align:center;
+    margin-top:40px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+footer .bottom {
+    width: 100%x;
+    border-top: 1px solid #aaa;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-footer {
+    width: 100%;
+    margin: 40px 0;
+    border-top: 0px;
+    text-align: left;
+}
+.categories {
+    display: inline;
+    border-left: 1px solid #000;
+    padding: 3px;
+}
+
+.label {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 0.7em;
+    display: inline;
+    border-radius: 4px;
+    background-color: #d1d1d1;
+    padding: 3px;
+    margin: 3px;
+}
+
+.label a {
     text-decoration: none;
 }
 
-a:visited {
-    color: #1da1f2;
+.label a:hover {
+    text-decoration: underline;
+}
+
+.twitter {
+    color: #4099FF;
     text-decoration: none;
 }
 
-img {
-    max-width: 100%;
+.twitter-follow {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.9em;
+    margin: 100px 0;
+    padding: 3px;
+    color: #fff;
+    text-decoration: none;
+    background: #4099FF;
+    border: 2px solid #4099FF;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-a.title {
-    color: #444;
+.twitter-follow:hover {
+    background: #FFF;
+    text-decoration: none;
+    color: #4099FF;
 }
 
+.instagram-follow {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.9em;
+    margin: 20px 0;
+    padding: 3px;
+    color: #fff;
+    text-decoration: none;
+    background: #8a3ab9;
+    border: 2px solid #8a3ab9;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.instagram-follow:hover {
+    background: #FFF;
+    text-decoration: none;
+    color: #8a3ab9;
+}
+.facebook {
+    color: #3b5998;
+    text-decoration: none;
+}
+
+.title {
+    display: block;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.navigation {
+    margin-top: 2.4rem;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+.navigation ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    /* For IE, the outcast */
+    zoom: 1;
+    *display: inline;
+    list-style-type: none;
+    font-family: Georgia, 'Times New Roman', times, serif;
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+.navigation li {
+    float: left;
+    padding: 0px 3px;
+}
+
+.navigation li:after {
+  content: " \00b7 ";
+}
+
+.navigation li:last-child:after {
+    content: "";
+}
+
+.search {
+    float: right;
+    text-align: left;
+    width: 230px;
+    display: block;
+}
+
+.search li:after {
+    content: "";
+}
+
+/*** Post Navigation ***/
+.postnavigation {
+    padding-top: 5px;
+    margin: 22px 0px;
+    text-align: center;
+}
+
+.postnavigation a {
+    text-decoration: none;
+}
+
+.postnavigation a:hover {
+    text-decoration: underline;
+}
+
+.postnavigation ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    /* For IE, the outcast */
+    zoom: 1;
+    *display: inline;
+    list-style-type: none;
+    font-family: Georgia, 'Times New Roman', times, serif;
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+.postnavigation li {
+    float: left;
+    padding: 0px 3px;
+}
+
+.headimg {
+	max-width:100%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    height:400px;
+    line-height:400px;
+}
+
+/*** Responsive ***/
+.with-sidebar {
+  overflow: hidden;
+}
+
+.with-sidebar > * {
+  display: flex;
+  flex-wrap: wrap;
+  margin: calc(var(--s1) / 2 * -1);
+}
+
+.with-sidebar > * > * {
+  margin: calc(var(--s1) / 2);
+  flex-basis: 16rem;
+  flex-grow: 1;
+}
+
+.with-sidebar > * > :first-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: calc(50% - var(--s1));
+}
+  
+
+.with-sidebar-left {
+  overflow: hidden;
+}
+
+.with-sidebar-left > * {
+  display: flex;
+  flex-wrap: wrap;
+  margin: calc(var(--s1) / 2 * -1);
+}
+
+.with-sidebar-left > * > * {
+  margin: calc(var(--s1) / 2);
+  flex-basis: 16rem;
+  flex-grow: 1;
+}
+
+.with-sidebar-left > * > :last-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: calc(50% - var(--s1));
+}
+  
+/*** General ***/
 .postdescription {
     font-style: italic;
     color: #555;
@@ -47,11 +497,10 @@ a.title {
 
 /*** Photography ***/
 .photofeatured {
-    width: 40%;
+    max-width: 80%;
 }
 
 .photodescription {
-    text-align: right;
     font-size: 0.9em;
 }
 
@@ -68,7 +517,3 @@ a.title {
     color: #777; 
 }
 
-.photodescription ul {
-    float: right; 
-    text-align: left;
-}
