@@ -390,6 +390,44 @@ footer .bottom {
     content: "";
 }
 
+/*** Post ***/
+/* consider resetting the default cursor: https://gist.github.com/murtaugh/5247154 */
+/* Responsive images and other embedded objects */
+/* if you don't have full control over `img` tags (if you have to overcome attributes), consider adding height: auto */
+img,
+object,
+embed {
+  max-width: 100%;
+}
+
+td, td img {
+  vertical-align: top; }
+
+/* scale images in IE7 more attractively */
+.ie7 img {
+  -ms-interpolation-mode: bicubic; }
+
+p img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article .post-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.8em;
+    font-style: italic;
+    line-height: 1.2em;
+    text-decoration: none;
+}
+
+article .post-title a {
+    text-decoration: none;
+    color: #000;
+}
+
+
 /*** Post Navigation ***/
 .postnavigation {
     padding-top: 5px;
@@ -421,10 +459,6 @@ footer .bottom {
 .postnavigation li {
     float: left;
     padding: 0px 3px;
-}
-
-img {
-    max-width:100%;
 }
 
 .headimg {
