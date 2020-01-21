@@ -1,5 +1,5 @@
 ---
-layout: simple
+layout: gallery
 title: Old Fun vs. Young fun
 ---
 
