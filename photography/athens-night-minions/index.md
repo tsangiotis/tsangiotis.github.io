@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: simple
 title: Athens Night Minions
 ---
 
