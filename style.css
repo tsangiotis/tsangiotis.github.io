@@ -260,53 +260,6 @@ footer .bottom {
     text-decoration: underline;
 }
 
-.twitter {
-    color: #4099FF;
-    text-decoration: none;
-}
-
-.twitter-follow {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 0.9em;
-    margin: 100px 0;
-    padding: 3px;
-    color: #fff;
-    text-decoration: none;
-    background: #4099FF;
-    border: 2px solid #4099FF;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.twitter-follow:hover {
-    background: #FFF;
-    text-decoration: none;
-    color: #4099FF;
-}
-
-.instagram-follow {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 0.9em;
-    margin: 20px 0;
-    padding: 3px;
-    color: #fff;
-    text-decoration: none;
-    background: #8a3ab9;
-    border: 2px solid #8a3ab9;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.instagram-follow:hover {
-    background: #FFF;
-    text-decoration: none;
-    color: #8a3ab9;
-}
-.facebook {
-    color: #3b5998;
-    text-decoration: none;
-}
-
 .title {
     display: block;
     padding-top: 10px;
