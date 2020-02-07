@@ -319,17 +319,6 @@ footer .bottom {
     content: "";
 }
 
-.search {
-    float: right;
-    text-align: left;
-    width: 230px;
-    display: block;
-}
-
-.search li:after {
-    content: "";
-}
-
 /*** Post ***/
 /* consider resetting the default cursor: https://gist.github.com/murtaugh/5247154 */
 /* Responsive images and other embedded objects */
