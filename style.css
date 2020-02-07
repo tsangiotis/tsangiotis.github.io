@@ -87,7 +87,7 @@ abbr {
 
 /** Input **/
 
-input[type=text] {
+input[type=search] {
     border:none;
     border-bottom: 2px solid #000;
     margin-right: 0.1rem;
