@@ -30,11 +30,11 @@ With that in mind present the following books and movies, optimized for well... 
 <a target="_blank"  href="https://www.amazon.com/gp/product/0060882417/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0060882417&linkCode=as2&tag=tsangiotis-20&linkId=813ee36337f39455c6aa2a8180b7c07c"><img border="0" src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0060882417&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=tsangiotis-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=tsangiotis-20&l=am2&o=1&a=0060882417" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 </td>
 <td width="70%">
-This is the thrilling story behind "the Queen of the Skies" -- the Boeing 747 -- as told by Joe Sutter, one of the most celebrated engineers of the twentieth century, who spearheaded its design and construction.
+<p>This is the thrilling story behind "the Queen of the Skies" -- the Boeing 747 -- as told by Joe Sutter, one of the most celebrated engineers of the twentieth century, who spearheaded its design and construction.</p>
 
-Almost everything about the 747 were unprecedented and his team were not the most star spangled awesome people at Boeing. Those were chasing the supersonic dream. Guess who stand at airports watching the plain __they__ designed to take off and land countless times everyday.
+<p>Almost everything about the 747 were unprecedented and his team were not the most star spangled awesome people at Boeing. Those were chasing the supersonic dream. Guess who stand at airports watching the plain <strong>they</strong> designed to take off and land countless times everyday.</p>
 
-If you are a maker, an aviation enthisiast or you like stories that leave a mark, there is a book for you.
+<p>If you are a maker, an aviation enthisiast or you like stories that leave a mark, there is a book for you.</p>
 </td>
 </tr>
 </table>
@@ -50,11 +50,11 @@ If you are a maker, an aviation enthisiast or you like stories that leave a mark
 <a target="_blank"  href="https://www.amazon.com/gp/product/1933372001/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1933372001&linkCode=as2&tag=tsangiotis-20&linkId=b55027722c40e61e2a2d07dd19ff5554"><img border="0" src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1933372001&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=tsangiotis-20" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=tsangiotis-20&l=am2&o=1&a=1933372001" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 </td>
 <td width="70%">
-This book I read in a day.
+<p>This book I read in a day.</p>
 
-It is the story of a woman's descent into devastating emptiness and madness after being abandoned by her husband with two young children to care for. She feels trapped like you do those days. It is a fitting book.
+<p>It is the story of a woman's descent into devastating emptiness and madness after being abandoned by her husband with two young children to care for. She feels trapped like you do those days. It is a fitting book.</p>
 
-Also there is a conspiracy involving the author of the book. Elena Ferrante is a pseudonym.
+<p>Also there is a conspiracy involving the author of the book. Elena Ferrante is a pseudonym.</p>
 </td>
 </tr>
 </table>
@@ -69,13 +69,13 @@ Also there is a conspiracy involving the author of the book. Elena Ferrante is a
 <a target="_blank"  href="https://www.amazon.com/gp/product/B01FEK8J94/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01FEK8J94&linkCode=as2&tag=tsangiotis-20&linkId=2deefaa3a08b554b54b82b49d729d4f3"><img border="0" src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B01FEK8J94&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=tsangiotis-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=tsangiotis-20&l=am2&o=1&a=B01FEK8J94" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 </td>
 <td width="70%">
-The colapse of society is not upon us in my opinion but our situation draws similarities.
+<p>The colapse of society is not upon us in my opinion but our situation draws similarities.</p>
 
-It is a big fat book that can get you through the pandemic. Ayn Rand tries to communicate her theory of Objectivism through this book. It expresses the advocacy of reason, individualism, and capitalism, and depicts what Rand saw to be the failures of governmental coercion. 
+<p>It is a big fat book that can get you through the pandemic. Ayn Rand tries to communicate her theory of Objectivism through this book. It expresses the advocacy of reason, individualism, and capitalism, and depicts what Rand saw to be the failures of governmental coercion. </p>
 
-I will let you make your own opinions on the matter but agreeing or not with her you will not regret reading the book.
+<p>I will let you make your own opinions on the matter but agreeing or not with her you will not regret reading the book.</p>
 
-There is a 3 part movie based on the book. Don't even try to watch it.
+<p>There is a 3 part movie based on the book. Don't even try to watch it.</p>
 </td>
 </tr>
 </table>
@@ -91,13 +91,13 @@ There is a 3 part movie based on the book. Don't even try to watch it.
 <a target="_blank"  href="https://www.amazon.com/gp/product/1847497829/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1847497829&linkCode=as2&tag=tsangiotis-20&linkId=e3857e44f3434bae2a5bdf6c0beaedeb"><img border="0" src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1847497829&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=tsangiotis-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=tsangiotis-20&l=am2&o=1&a=1847497829" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 </td>
 <td width="70%">
-This is a contender for the place of you favourite book.
+<p>This is a contender for the place of you favourite book.</p>
 
-The devil meddles with mortals and performs magick tricks, a love story gets told in a psych ward, witches, Jesus and Pilatus have weird conversations.
+<p>The devil meddles with mortals and performs magick tricks, a love story gets told in a psych ward, witches, Jesus and Pilatus have weird conversations.</p>
 
-Some people think of this as the best Rusian novel of the 20th century.
+<p>Some people think of this as the best Rusian novel of the 20th century.</p>
 
-There are even [supporting guides](http://cr.middlebury.edu/public/russian/Bulgakov/public_html/) for this book.
+<p>There are even <a href="http://cr.middlebury.edu/public/russian/Bulgakov/public_html/">supporting guides</a> for this book.</p>
 
 </td>
 </tr>
