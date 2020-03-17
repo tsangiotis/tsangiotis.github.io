@@ -148,7 +148,7 @@ This is the good stuff.
 <table>
 <tr>
 <td width="30%" valign="top">
-<img src="/images/{{ page.slug }}/Bruichladdich-Classic-Laddie-700ml_sml.jpg" />
+<img src="/images/{{ page.slug }}/Bruichladdich-Classic-Laddie-700ml.png" />
 </td>
 <td width="70%" valign="top">
 <h3>Bruichladdich – The classic laddie</h3>
@@ -176,7 +176,7 @@ This is the good stuff.
 </tr>
 <tr>
 <td width="30%" valign="top">
-<img src="/images/{{ page.slug }}/django-unchained.jpg" />
+<img src="/images/{{ page.slug }}/BARDA-PINOT-NOIR-2018.png" />
 </td>
 <td width="70%" valign="top">
 <h3>BARDA Pinot Noir 2018 - Bodega Chacra</h3>
