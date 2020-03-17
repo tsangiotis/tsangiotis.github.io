@@ -100,37 +100,37 @@ I will not get into the details. Don't want to spoil anything.
 
 <table>
 <tr>
-<td width="30%" valign="top">
+<td width="40%" valign="top">
 <img src="/images/{{ page.slug }}/no_country_for_old_men.jpg" />
 </td>
-<td width="70%" valign="top">
+<td width="60%" valign="top">
 <h3>No country for old men – 2007</h3>
 <p>The best movie yet from the Coen brothers.</p>
 </td>
 </tr>
 <tr>
-<td width="30%" valign="top">
+<td width="40%" valign="top">
 <img src="/images/{{ page.slug }}/true-grit.jpg" />
 </td>
-<td width="70%" valign="top">
+<td width="60%" valign="top">
 <h3>True Grit – 2010</h3>
 <p>That girl is awesome!</p>
 </td>
 </tr>
 <tr>
-<td width="30%" valign="top">
+<td width="40%" valign="top">
 <img src="/images/{{ page.slug }}/django-unchained.jpg" />
 </td>
-<td width="70%" valign="top">
+<td width="60%" valign="top">
 <h3>Django Unchained – 2012</h3>
 <p>Ultimate action, romance and revenge.</p>
 </td>
 </tr>
 <tr>
-<td width="30%" valign="top">
+<td width="40%" valign="top">
 <img src="/images/{{ page.slug }}/moonlight.jpg" />
 </td>
-<td width="70%" valign="top">
+<td width="60%" valign="top">
 <h3>Moonlight – 2016</h3>
 <p>This movie I haven't seen. I really want to. But I can vouch for it cause I made the Pollo a la Plancha from the movie and it was delicious.</p>
 </td>
@@ -147,7 +147,7 @@ This is the good stuff.
 <table>
 <tr>
 <td width="30%" valign="top">
-<img src="/images/{{ page.slug }}/Bruichladdich-Classic-Laddie-700ml.png" />
+<img src="/images/{{ page.slug }}/Bruichladdich-Classic-Laddie-700ml.png"  style="max-height: 160px;"/>
 </td>
 <td width="70%" valign="top">
 <h3>Bruichladdich – The classic laddie</h3>
@@ -161,7 +161,7 @@ This is the good stuff.
 </tr>
 <tr>
 <td width="30%" valign="top">
-<img src="/images/{{ page.slug }}/monkey-shoulder-blended-scotch-whisky.jpg" />
+<img src="/images/{{ page.slug }}/monkey-shoulder-blended-scotch-whisky.jpg"  style="max-height: 160px;"/>
 </td>
 <td width="70%" valign="top">
 <h3>Monkey Shoulder</h3>
@@ -175,7 +175,7 @@ This is the good stuff.
 </tr>
 <tr>
 <td width="30%" valign="top">
-<img src="/images/{{ page.slug }}/BARDA-PINOT-NOIR-2018.png" />
+<img src="/images/{{ page.slug }}/BARDA-PINOT-NOIR-2018.png" style="max-height: 160px;"/>
 </td>
 <td width="70%" valign="top">
 <h3>BARDA Pinot Noir 2018 - Bodega Chacra</h3>
