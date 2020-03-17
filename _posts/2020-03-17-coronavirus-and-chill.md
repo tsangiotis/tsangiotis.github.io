@@ -3,7 +3,7 @@ layout: post
 title: Coronavirus & Chill 
 date: 2020-03-17
 description: Books, movies and alcohol
-image: 
+image: whiskey.jfif
 categories:
 - Short
 tags:
@@ -19,7 +19,7 @@ You may work remotely by day if you can but when the night comes you need someth
 
 ![Whiskey](/images/{{ page.slug }}/whiskey.jfif)
 
-With that in mind present the following books, movies and drinks, optimized for well... staying inside.
+With that in mind I present the following books, movies and drinks, optimized for well... staying inside.
 
 <!--more-->
 
