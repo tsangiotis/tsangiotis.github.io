@@ -92,7 +92,6 @@ I could use the money for buying masks and gloves so the books have Amazon affil
 </td>
 </tr>
 </table>
-</section>
 
 
 ## To watch
