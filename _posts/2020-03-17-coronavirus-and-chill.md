@@ -3,7 +3,7 @@ layout: post
 title: Coronavirus & Chill 
 date: 2020-03-17
 description: Books, movies and alcohol
-image: whiskey.jfif
+image: 
 categories:
 - Short
 tags:
