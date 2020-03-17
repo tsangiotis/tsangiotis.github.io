@@ -15,7 +15,7 @@ tags:
 
 One of the terrors of staying home for the coronavirus is the lack of outside leisure time. 
 
-You may work remotely by day if you can but when the night comes you need something to accompany that whiskey, wine or beer glass. Don't need to mention that alcohol in any other form is unacceptable.
+You may work remotely by day if you can, but when the night comes you need something to accompany that whiskey, wine or beer glass. Don't need to mention that alcohol in any other form is unacceptable.
 
 ![Whiskey](/images/{{ page.slug }}/whiskey.jfif)
 
@@ -39,7 +39,7 @@ I could use the money for buying masks and gloves so the books have Amazon affil
 
 <p>The antidote is the thrilling story behind "the Queen of the Skies" the <em>Boeing 747</em> as told by Joe Sutter, one of the most celebrated engineers of the twentieth century, who spearheaded its design and construction.</p>
 
-<p>Almost everything about the 747 were unprecedented and his team were not the most star spangled awesome people at Boeing. Those were chasing the supersonic dream. Guess who stands today at airports watching the plane <strong>they</strong> designed to take off and land countless times everyday.</p>
+<p>Almost everything about the 747 was unprecedented and his team were not the most star spangled awesome people at Boeing. Those were chasing the supersonic dream. Guess who stands today at airports watching the plane <strong>they</strong> designed to take off and land countless times everyday.</p>
 
 <p>If you are a maker, an aviation enthusiast or you like stories that leave a mark, there is a book for you.</p>
 </td>
@@ -69,7 +69,7 @@ I could use the money for buying masks and gloves so the books have Amazon affil
 
 <p>In this big fat book that can get you through the pandemic, Ayn Rand tries to communicate her theory of Objectivism. It expresses the advocacy of reason, individualism, and capitalism, and depicts what Rand saw to be the failures of governmental coercion.</p>
 
-<p>You will have pretty strong opinions about her be it positive or negative. One of those of course but maybe. Either case you will not regret reading the book.</p>
+<p>Some people treat her words like gospel. Others say she is a complete asshole. This ensures that you will not regret reading this book.</p>
 
 <p>There is a 3 part movie based on this book. Complete garbage. Don't even try.</p>
 </td>
