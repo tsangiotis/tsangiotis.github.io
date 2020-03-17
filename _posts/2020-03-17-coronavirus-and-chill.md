@@ -29,7 +29,7 @@ I could use the money for buying masks and gloves so the books have Amazon affil
 
 <table>
 <tr>
-<td width="30%" valign="top">
+<td width="30%" valign="top" align="center">
 <a target="_blank"  href="https://www.amazon.com/gp/product/0060882417/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0060882417&linkCode=as2&tag=tsangiotis-20&linkId=813ee36337f39455c6aa2a8180b7c07c"><img border="0" src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0060882417&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=tsangiotis-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=tsangiotis-20&l=am2&o=1&a=0060882417" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 </td>
 <td width="70%" valign="top">
@@ -45,7 +45,7 @@ I could use the money for buying masks and gloves so the books have Amazon affil
 </td>
 </tr>
 <tr>
-<td width="30%" valign="top">
+<td width="30%" valign="top" align="center">
 <a target="_blank"  href="https://www.amazon.com/gp/product/1933372001/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1933372001&linkCode=as2&tag=tsangiotis-20&linkId=b55027722c40e61e2a2d07dd19ff5554"><img border="0" src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1933372001&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=tsangiotis-20" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=tsangiotis-20&l=am2&o=1&a=1933372001" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 </td>
 <td width="70%" valign="top">
@@ -59,7 +59,7 @@ I could use the money for buying masks and gloves so the books have Amazon affil
 </td>
 </tr>
 <tr>
-<td width="30%" valign="top">
+<td width="30%" valign="top" align="center">
 <a target="_blank"  href="https://www.amazon.com/gp/product/B01FEK8J94/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01FEK8J94&linkCode=as2&tag=tsangiotis-20&linkId=2deefaa3a08b554b54b82b49d729d4f3"><img border="0" src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B01FEK8J94&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=tsangiotis-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=tsangiotis-20&l=am2&o=1&a=B01FEK8J94" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 </td>
 <td width="70%" valign="top">
@@ -75,7 +75,7 @@ I could use the money for buying masks and gloves so the books have Amazon affil
 </td>
 </tr>
 <tr>
-<td width="30%" valign="top">
+<td width="30%" valign="top" align="center">
 <a target="_blank"  href="https://www.amazon.com/gp/product/1847497829/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1847497829&linkCode=as2&tag=tsangiotis-20&linkId=e3857e44f3434bae2a5bdf6c0beaedeb"><img border="0" src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1847497829&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=tsangiotis-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=tsangiotis-20&l=am2&o=1&a=1847497829" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 </td>
 <td width="70%" valign="top">
@@ -100,7 +100,7 @@ I will not get into the details. Don't want to spoil anything.
 
 <table>
 <tr>
-<td width="40%" valign="top">
+<td width="40%" valign="top" align="center">
 <img src="/images/{{ page.slug }}/no_country_for_old_men.jpg" />
 </td>
 <td width="60%" valign="top">
@@ -109,7 +109,7 @@ I will not get into the details. Don't want to spoil anything.
 </td>
 </tr>
 <tr>
-<td width="40%" valign="top">
+<td width="40%" valign="top" align="center">
 <img src="/images/{{ page.slug }}/true-grit.jpg" />
 </td>
 <td width="60%" valign="top">
@@ -118,7 +118,7 @@ I will not get into the details. Don't want to spoil anything.
 </td>
 </tr>
 <tr>
-<td width="40%" valign="top">
+<td width="40%" valign="top"  align="center">
 <img src="/images/{{ page.slug }}/django-unchained.jpg" />
 </td>
 <td width="60%" valign="top">
@@ -127,7 +127,7 @@ I will not get into the details. Don't want to spoil anything.
 </td>
 </tr>
 <tr>
-<td width="40%" valign="top">
+<td width="40%" valign="top"  align="center">
 <img src="/images/{{ page.slug }}/moonlight.jpg" />
 </td>
 <td width="60%" valign="top">
@@ -146,7 +146,7 @@ This is the good stuff.
 
 <table>
 <tr>
-<td width="30%" valign="top">
+<td width="30%" valign="top" align="center">
 <img src="/images/{{ page.slug }}/Bruichladdich-Classic-Laddie-700ml.png"  style="max-height: 160px;"/>
 </td>
 <td width="70%" valign="top">
@@ -160,7 +160,7 @@ This is the good stuff.
 </td>
 </tr>
 <tr>
-<td width="30%" valign="top">
+<td width="30%" valign="top" align="center">
 <img src="/images/{{ page.slug }}/monkey-shoulder-blended-scotch-whisky.jpg"  style="max-height: 160px;"/>
 </td>
 <td width="70%" valign="top">
@@ -174,7 +174,7 @@ This is the good stuff.
 </td>
 </tr>
 <tr>
-<td width="30%" valign="top">
+<td width="30%" valign="top" align="center">
 <img src="/images/{{ page.slug }}/BARDA-PINOT-NOIR-2018.png" style="max-height: 160px;"/>
 </td>
 <td width="70%" valign="top">
