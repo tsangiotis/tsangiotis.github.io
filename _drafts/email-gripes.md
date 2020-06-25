@@ -1,23 +1,41 @@
 ---
 layout: post
 title: Hey and my email first world problems
-date: 2020-06-26
 description: 
 image: 
-categories:
+categories: Personal
 tags:
 ---
 
-*Warning! This will be completely boring for most. Nobody cares about my personal email setup. NOBODY! However this might be useful for some that just feel an itch with their email setup.*
+<style>
+    .warning-box {
+        border-style: dashed;
+        border-width: 1px;
+        padding: 1em;
+        font-style: italic;
+        background-color: rgb(255, 255, 204);
+    }
+</style>
 
-It all started with [HEY](https://hey.com). There was so much buzz around it and this convinced me to try it.
+<div class="warning-box">
+<p>Warning: This will be very boring for most. My personal email setup is a dull matter. It might however be useful for some as it solved some problems for me.</p>
+<p>I also include a mini review of <a href="https://basecamp.com">Basecamp</a>'s <a href="https://hey.com">HEY mail service</a>. It wasn't for me in it's whole but it made me think how I use email and triggered a change. This is powerful and I recommend you try it for your self.</p> 
+</div>
 
-It has a two weeks trial which is more than enough to judge if an email service for $100/year is worth the trouble. 
+It all started with [HEY](https://hey.com). There was so much buzz around it as a fan of Basecamp 3 from the same company it convinced me to try it.
 
-My initial impressions were great. Good stuff include:
+<img src="/images/{{ page.slug }}/hey-logo.png" alt="HEY logo" style="max-width: 10.5em">
 
-* The Feed and the Paper trail sections. I love that distinction. No need for multiple folders and elaborate rules
-* Amazing interface that works quick and beautifully.
+It offers a two week trial which is more than enough to judge if an email service for $100/year is worth the trouble. 
+
+My initial impressions were great. 
+
+**I loved The Feed and The Paper Trail sections**. This distinctions seems to solve the multiple folders and elaborate rules that dictated my inbox. Just enough delegation.
+
+**Amazing interface**. It is fast and easy to use. No hidden stuff and not many options. 
+
+**The screener is very original**. 
+
 * The screaner feature is very original. 
 * Merging and renaming email threads is awesome!
 * Focus & Reply would be great if I could use it with my work address.
