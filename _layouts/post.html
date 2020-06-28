@@ -1,21 +1,23 @@
---- 
-layout: default 
+---
+layout: default
 ---
 
 <article>
-    <header>
-    	<h1 class="title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
-        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %d, %Y"
+  <header>
+    <h1 class="post__title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %d, %Y"
         }}</time>
-        <div class="categories">{% for category in page.categories %}<span class="label"><a href="/category/{{ category | downcase }}">{{ category | upcase }}</a> </span>{% endfor %}</div>
-        {% if page.image %}<img class="headimg" src="/images/{{ page.slug }}/{{ page.image }}"> {% endif %}
-    </header>
-    {{ content }}
+    <div class="post__categories">{% for category in page.categories %}<span class="post__categories__item"><a
+          href="/category/{{ category | downcase }}">{{ category | upcase }}</a> </span>{% endfor %}</div>
+    {% if page.image %}<img class="post__img" src="/images/{{ page.slug }}/{{ page.image }}"> {% endif %}
+  </header>
+  {{ content }}
 </article>
 
 <ul style="list-style-type:none;">
-{% if page.previous.url %}
-<li style="display:inline;"><a class="prev left" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a></li> {% endif %} {% if page.next.url %}
-<li style="display:inline;">| <a class="next right" href="{{page.next.url}}">{{page.next.title}} &raquo;</a></li> {% endif %}
+  {% if page.previous.url %}
+  <li style="display:inline;"><a class="prev left" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a></li>
+  {% endif %} {% if page.next.url %}
+  <li style="display:inline;">| <a class="next right" href="{{page.next.url}}">{{page.next.title}} &raquo;</a></li>
+  {% endif %}
 </ul>
-

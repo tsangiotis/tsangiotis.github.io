@@ -15,8 +15,7 @@ a:hover {
     text-decoration: underline;
 }
 
-p,
-pre {
+p, pre {
     margin-bottom: 15px;
 }
 
@@ -36,18 +35,15 @@ pre {
     border-radius: 4px;
 }
 
-ul,
-ol {
+ul, ol {
     padding: 0 0 18px 30px;
 }
 
-em,
-i {
+em, i {
     font-style: italic;
 }
 
-strong,
-b {
+strong, b {
     font-weight: bold;
 }
 
@@ -77,18 +73,16 @@ blockquote {
     font-style: italic;
 }
 
-acronym,
-abbr {
+acronym, abbr {
     cursor: help;
     letter-spacing: 1px;
     border-bottom: 1px dashed;
 }
 
-
 /** Input **/
 
 input[type=search] {
-    border:none;
+    border: none;
     border-bottom: 2px solid #000;
     margin-right: 0.1rem;
     max-width: 220px;
@@ -109,23 +103,8 @@ input[type=submit]:hover {
     color: #fff;
 }
 
-.archive-link{
-    font-family: Helvetica, Arial, sans-serif;
-    font-style: normal;
-    font-size: 11px;
-    padding: 3px;
-    background: none;
-    border: 2px solid #000;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.archive-link:hover {
-    background: #000;
-    color: #fff;
-}
-
 /*** Typography ***/
+
 @font-face {
     font-family: "Covered By Your Grace";
     src: url(fonts/CoveredByYourGrace.ttf);
@@ -164,33 +143,25 @@ html {
     /* 2 */
 }
 
-h1,
-h2 {
+h1, h2 {
     font-family: nyt-cheltenham, Georgia, 'Times New Roman', times, serif;
     font-weight: 500;
     letter-spacing: -0.015em;
     color: #000;
 }
 
-h1,
-h2 a {
+h1, h2 a {
     color: #000;
 }
 
-h3,
-h4,
-h5,
-h6 {
+h3, h4, h5, h6 {
     font-family: nyt-cheltenham, Georgia, 'Times New Roman', times, serif;
     font-weight: 500;
     letter-spacing: -0.015em;
     color: #000;
 }
 
-h3,
-h4,
-h5,
-h6 a {
+h3, h4, h5, h6 a {
     color: #000;
 }
 
@@ -213,16 +184,16 @@ figcaption {
 }
 
 footer {
-    color:#777;
-    width:100%;
-    border-top:1px solid #aaa;
-    font-family:nyt-cheltenham,Georgia,'Times New Roman',times,serif;
-    font-weight:500;
-    font-size:.9em;
-    text-align:center;
-    margin-top:40px;
-    margin-left:auto;
-    margin-right:auto;
+    color: #777;
+    width: 100%;
+    border-top: 1px solid #aaa;
+    font-family: nyt-cheltenham, Georgia, 'Times New Roman', times, serif;
+    font-weight: 500;
+    font-size: .9em;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer .bottom {
@@ -233,38 +204,13 @@ footer .bottom {
     margin-right: auto;
 }
 
-.post-footer {
-    width: 100%;
-    margin: 40px 0;
-    border-top: 0px;
-    text-align: left;
-}
-.categories {
+.post__categories {
     display: inline;
     border-left: 1px solid #000;
     padding: 3px;
 }
 
-.label {
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    font-size: 0.7em;
-    display: inline;
-    border-radius: 4px;
-    background-color: #d1d1d1;
-    padding: 3px;
-    margin: 3px;
-}
-
-.label a {
-    text-decoration: none;
-}
-
-.label a:hover {
-    text-decoration: underline;
-}
-
-.title {
+.header__title {
     display: block;
     padding-top: 10px;
     text-decoration: none;
@@ -276,24 +222,60 @@ footer .bottom {
     text-decoration: none;
 }
 
-.title a {
+.header__title a {
     text-decoration: none;
     color: #000;
 }
 
-.navigation {
-    margin-top: 2.4rem;
+.post__categories__item {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 0.7em;
+    display: inline;
+    border-radius: 4px;
+    background-color: #d1d1d1;
+    padding: 3px;
+    margin: 3px;
 }
 
-.navigation a {
+.post__categories__item a {
     text-decoration: none;
 }
 
-.navigation a:hover {
+.post__categories__item a:hover {
     text-decoration: underline;
 }
 
-.navigation ul {
+.post__title {
+    display: block;
+    padding-top: 10px;
+    text-decoration: none;
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.8em;
+    line-height: 1.2em;
+    text-decoration: none;
+}
+
+.post__title a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header-navigation {
+    margin-top: 2.4rem;
+}
+
+.header-navigation a {
+    text-decoration: none;
+}
+
+.header-navigation a:hover {
+    text-decoration: underline;
+}
+
+.header-navigation ul {
     display: inline-block;
     margin: 0;
     padding: 0;
@@ -306,58 +288,64 @@ footer .bottom {
     font-size: 1.1em;
 }
 
-.navigation li {
+.header-navigation li {
     float: left;
     padding: 0px 3px;
 }
 
-.navigation li:after {
-  content: " \00b7 ";
+.header-navigation li:after {
+    content: " \00b7 ";
 }
 
-.navigation li:last-child:after {
+.header-navigation li:last-child:after {
     content: "";
 }
 
 /*** Post ***/
+
 /* consider resetting the default cursor: https://gist.github.com/murtaugh/5247154 */
+
 /* Responsive images and other embedded objects */
+
 /* if you don't have full control over `img` tags (if you have to overcome attributes), consider adding height: auto */
-img,
-object,
-embed {
-  max-width: 100%;
+
+img, object, embed {
+    max-width: 100%;
 }
 
 td, td img {
-  vertical-align: top; }
+    vertical-align: top;
+}
 
 /* scale images in IE7 more attractively */
+
 .ie7 img {
-  -ms-interpolation-mode: bicubic; }
+    -ms-interpolation-mode: bicubic;
+}
 
 p img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*** Post Navigation ***/
-.postnavigation {
+
+.post-navigation {
     padding-top: 5px;
     margin: 22px 0px;
     text-align: center;
 }
 
-.postnavigation a {
+.post-navigation a {
     text-decoration: none;
 }
 
-.postnavigation a:hover {
+.post-navigation a:hover {
     text-decoration: underline;
 }
 
-.postnavigation ul {
+.post-navigation ul {
     display: inline-block;
     margin: 0;
     padding: 0;
@@ -370,69 +358,70 @@ p img {
     font-size: 1.1em;
 }
 
-.postnavigation li {
+.post-navigation li {
     float: left;
     padding: 0px 3px;
 }
 
-.headimg {
-	max-width:100%;
+.post__img {
+    max-width: 100%;
     margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
-    display:block;
-    height:400px;
-    line-height:400px;
+    display: block;
+    height: 400px;
+    line-height: 400px;
 }
 
 /*** Responsive ***/
+
 .wrap-right {
-  overflow: hidden;
+    overflow: hidden;
 }
 
-.wrap-right > * {
-  display: flex;
-  flex-wrap: wrap;
-  margin: calc(var(--s1) / 2 * -1);
+.wrap-right>* {
+    display: flex;
+    flex-wrap: wrap;
+    margin: calc(var(--s1) / 2 * -1);
 }
 
-.wrap-right > * > * {
-  margin: calc(var(--s1) / 2);
-  flex-basis: 16rem;
-  flex-grow: 1;
+.wrap-right>*>* {
+    margin: calc(var(--s1) / 2);
+    flex-basis: 16rem;
+    flex-grow: 1;
 }
 
-.wrap-right > * > :first-child {
-  flex-basis: 0;
-  flex-grow: 999;
-  min-width: calc(50% - var(--s1));
+.wrap-right>*> :first-child {
+    flex-basis: 0;
+    flex-grow: 999;
+    min-width: calc(50% - var(--s1));
 }
-  
 
 .with-sidebar-left {
-  overflow: hidden;
+    overflow: hidden;
 }
 
-.with-sidebar-left > * {
-  display: flex;
-  flex-wrap: wrap;
-  margin: calc(var(--s1) / 2 * -1);
+.with-sidebar-left>* {
+    display: flex;
+    flex-wrap: wrap;
+    margin: calc(var(--s1) / 2 * -1);
 }
 
-.with-sidebar-left > * > * {
-  margin: calc(var(--s1) / 2);
-  flex-basis: 16rem;
-  flex-grow: 1;
+.with-sidebar-left>*>* {
+    margin: calc(var(--s1) / 2);
+    flex-basis: 16rem;
+    flex-grow: 1;
 }
 
-.with-sidebar-left > * > :last-child {
-  flex-basis: 0;
-  flex-grow: 999;
-  min-width: calc(50% - var(--s1));
+.with-sidebar-left>*> :last-child {
+    flex-basis: 0;
+    flex-grow: 999;
+    min-width: calc(50% - var(--s1));
 }
-  
+
 /*** General ***/
-.postdescription {
+
+.featured__description {
     font-style: italic;
     color: #555;
 }
@@ -448,6 +437,7 @@ p img {
 }
 
 /*** Photography ***/
+
 .photofeatured {
     max-width: 80%;
 }
@@ -461,11 +451,10 @@ p img {
 }
 
 .photodescription p.phonetics {
-    font-family: monospace; 
+    font-family: monospace;
     margin: 0;
 }
 
 .photodescription p.photoquote {
-    color: #777; 
+    color: #777;
 }
-

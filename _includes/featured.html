@@ -1,10 +1,10 @@
 <h2>Greatest hits</h2>
 <ul class="featured">
-    {% for post in site.tags.great%}
-    <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <br>
-        <span class="postdescription">{{ post.description }}</span>
-    </li>
-    {% endfor %}
+  {% for post in site.tags.great%}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <br>
+    <span class="featured__description">{{ post.description }}</span>
+  </li>
+  {% endfor %}
 </ul>

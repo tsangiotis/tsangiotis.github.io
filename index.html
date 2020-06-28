@@ -1,25 +1,27 @@
---- 
-layout: default 
---- 
+---
+layout: default
+---
 
 {% for post in paginator.posts %}
 
 <article class="post">
-    <header>
-        <h1 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-        <div class="categories">{% for category in post.categories %}<span class="label"><a href="/category/{{ category | downcase }}">{{ category | upcase }}</a> </span>{% endfor %}</div>
-        {% if post.image %}<img class="headimg" src="/images/{{ post.slug }}/{{ post.image }}">{% endif %}
-    </header>
-    {{ post.excerpt }}
-<p><a href="{{ post.url }}">Read more</a></p>
+  <header>
+    <h1 class="post__title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+    <div class="categories">{% for category in post.categories %}<span class="post__pill"><a
+          href="/category/{{ category | downcase }}">{{ category | upcase }}</a> </span>{% endfor %}</div>
+    {% if post.image %}<img class="headimg" src="/images/{{ post.slug }}/{{ post.image }}">{% endif %}
+  </header>
+  {{ post.excerpt }}
+  <p><a href="{{ post.url }}">Read more</a></p>
 </article>
 {% endfor %}
 
 <nav class="postnavigation">
-    <ul>
+  <ul>
     {% if paginator.previous_page %}
-    <li><a class="prev left" href="{{ paginator.previous_page_path }}">&laquo; Newer</a>  |</li> {% endif %} {% if paginator.next_page %}
+    <li><a class="prev left" href="{{ paginator.previous_page_path }}">&laquo; Newer</a> |</li> {% endif %}
+    {% if paginator.next_page %}
     <li><a class="next right" href="{{ paginator.next_page_path }}">Older &raquo;</a></li> {% endif %}
-    </ul>
+  </ul>
 </nav>
