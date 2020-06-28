@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{site.title}} | {% if page.title %}{{ page.title }}{% else %}{{site.description}}{% endif %}</title>
-    <meta name="description" content="{{site.description}}">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">    
-    <link rel="stylesheet" href="/style.css">
-    <style>:root {--s1: 1rem; }</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{site.title}} | {% if page.title %}{{ page.title }}{% else %}{{site.description}}{% endif %}</title>
+  <meta name="description" content="{{site.description}}">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/style.css" defer>
+  <style>
+    :root {
+      --s1: 1rem;
+    }
+  </style>
 </head>
+
 <body>
-	
-    {% include header.html %}
 
-    {{ content }}
+  {% include header.html %}
 
-    <footer>
-        <p>&copy; 2020 {{site.author}}</p>
-    </footer>
+  {{ content }}
+
+  <footer>
+    <p>&copy; 2020 {{site.author}}</p>
+  </footer>
 
 </body>
 
