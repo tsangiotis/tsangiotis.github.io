@@ -11,10 +11,12 @@ layout: default
           href="/category/{{ category | downcase }}">{{ category | upcase }}</a> </span>{% endfor %}</div>
     {% if page.image %}<img class="post__img" src="/images/{{ page.slug }}/{{ page.image }}"> {% endif %}
   </header>
-  {{ content }}
+  <div class="post__content">
+    {{ content }}
+  </div>
 </article>
 
-<ul style="list-style-type:none;">
+<ul class="no-print" style="list-style-type:none;">
   {% if page.previous.url %}
   <li style="display:inline;"><a class="prev left" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a></li>
   {% endif %} {% if page.next.url %}
