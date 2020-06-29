@@ -10,7 +10,6 @@ layout: default
     <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
     <div class="post__categories">{% for category in post.categories %}<span class="post__categories__item"><a
           href="/category/{{ category | downcase }}">{{ category | upcase }}</a> </span>{% endfor %}</div>
-    {% if post.image %}<img class="post__img" src="/images/{{ post.slug }}/{{ post.image }}">{% endif %}
   </header>
   <div class="post__content">
     {{ post.excerpt }}

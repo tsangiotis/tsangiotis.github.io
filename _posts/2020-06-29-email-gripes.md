@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Hey and Email first world problems
+title: Email gripes
 description: 
-image: 
+image: /images/email-gripes/email-gripes-featured.jpg
 categories: Personal
 tags: Opinion
 ---
 
 It all started with [HEY](https://hey.com). There was so much buzz around it. It is made from the company behind Basecamp 3. I use Basecamp and it is great so I decided to try it.
 
-<img src="/images/{{ page.slug }}/hey-logo.png" alt="HEY logo" style="max-width: 10.5em">
+<img src="/images/{{ page.slug }}/email-gripes-featured.jpg" alt="HEY - Fastmail doodle" style="max-width: 50%;">
 
 It offers a two week trial which is more than enough to judge if an email service for $100/year is worth the trouble. 
 

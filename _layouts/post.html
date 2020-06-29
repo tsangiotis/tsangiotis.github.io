@@ -9,7 +9,6 @@ layout: default
         }}</time>
     <div class="post__categories">{% for category in page.categories %}<span class="post__categories__item"><a
           href="/category/{{ category | downcase }}">{{ category | upcase }}</a> </span>{% endfor %}</div>
-    {% if page.image %}<img class="post__img" src="/images/{{ page.slug }}/{{ page.image }}"> {% endif %}
   </header>
   <div class="post__content">
     {{ content }}
