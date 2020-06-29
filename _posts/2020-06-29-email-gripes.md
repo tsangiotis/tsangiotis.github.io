@@ -30,7 +30,7 @@ My initial impressions were great.
 
 **Merging and renaming email threads is awesome!** I can see the potential there. Multiple threads for the same thing become one package.
 
-**Focus & Reply would be great** if I could use it with my work address. Since HEY doesnot support using your work address with it I haven't tried.
+**Focus & Reply would be great** if I could use it with my work address. Since HEY doesn't support using your work address with it I haven't tried.
 
 HEY is an opinionated service. It is part of its charm but sometimes it causes some problems.
 
