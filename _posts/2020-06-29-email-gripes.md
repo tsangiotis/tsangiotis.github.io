@@ -22,7 +22,7 @@ It offers a two week trial which is more than enough to judge if an email servic
 
 My initial impressions were great. 
 
-**I loved The Feed and The Paper Trail sections**. This distinctions seems to solve the multiple folders and elaborate rules that dictated my inbox. Just enough delegation.
+**I loved The Feed and The Paper Trail sections**. This distinction seems to solve the multiple folders and elaborate rules that dictated my inbox. Just enough delegation.
 
 **Amazing interface**. It is fast and easy to use. No hidden stuff and not many options.
 
