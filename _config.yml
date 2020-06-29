@@ -11,7 +11,10 @@ highlighter : rouge
 paginate: 6
 paginate_path: "/page/:num/"
 
-excerpt_separator: <!--more--> 
+excerpt_separator: <!--more-->
+
+collections:
+  - links
 
 feed:
     path: index.xml

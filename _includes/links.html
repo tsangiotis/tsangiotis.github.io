@@ -1,29 +1,10 @@
 <h2>Your #travelgoals</h2>
 <p>Places you <i>really</i> want to visit:</p>
-<ul class="goals">
-  <li>
-    <a href="/photography">Pretty classy photography</a><br>
-    <span class="featured__description">more and current <a href="https://instagram.com/tsangiotis">on
-        Instagram</a></span>
+<ul class="sidebar__list">
+  {% for link in site.links %}
+  <li class="sidebar__list__item">
+    <h4 class="sidebar__list__item__title"><a href="{{ link.url }}">{{ link.title }}</a></h4>
+    <span class="sidebar__list__item__description">{{ link.content | markdownify }}</span>
   </li>
-  <li>
-    <a href="http://tilde.town/~tsangiotis">Book reviews and tally</a><br>
-    <span class="featured__description">on <del>perispomeni.club</del> <a
-        href="http://tilde.town/">tilde.town</a></span>
-  </li>
-  <li>
-    Funny and thought through <a href="https://twitter.com/tsangiotis">tweets</a><br>
-    <span class="featured__description">in my unbiased opinion</span>
-  </li>
-  <li>
-    Awesome and vain <a href="https://instagram.com/tsangiotis">instagram feed</a><br>
-    <span class="featured__description">in my unbiased opinion (again)</span>
-  </li>
-  <li>
-    <a href="https://github.com/tsangiotis">The Github home of projects</a><br>
-    <span class="featured__description">Some of them disrupting, some of them disturbing</span>
-  </li>
-  <li>
-    <a href="https://www.linkedin.com/in/tsangiotis">A rich LinkedIn</a><br>
-    <span class="featured__description">One of the doors to the professional world</span></li>
+  {% endfor %}
 </ul>
