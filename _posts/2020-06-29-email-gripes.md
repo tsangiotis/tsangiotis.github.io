@@ -24,7 +24,7 @@ My initial impressions were great.
 
 **I loved The Feed and The Paper Trail sections**. This distinctions seems to solve the multiple folders and elaborate rules that dictated my inbox. Just enough delegation.
 
-**Amazing interface**. It is fast and easy to use. No hidden stuff and not many options. I refreshed a bit this website using some bits from HEY. Can you see the sticky note above?
+**Amazing interface**. It is fast and easy to use. No hidden stuff and not many options.
 
 **The screener is very original**. Great idea and I don't understand why anyone hasn't thought of it. You greenlight only the people or services you want in your inbox.
 
