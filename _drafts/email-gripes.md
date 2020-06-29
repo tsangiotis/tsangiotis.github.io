@@ -32,7 +32,7 @@ My initial impressions were great.
 
 **Focus & Reply would be great** if I could use it with my work address. Since HEY doesnot support using your work address with it I haven't tried.
 
-HEY is an opinionated service. It is part of its charm but somethimes it causes some problems.
+HEY is an opinionated service. It is part of its charm but sometimes it causes some problems.
 
 ## FOME
 
@@ -64,46 +64,46 @@ Ok, this new email service isn't for me. Why even bother?
 
 The thing is I liked HEY's approach. It is basically a framework for email. And this can be replicated.
 
-At the same time I am always looking to avoid Gmail's apps on anything but the web. They make  advertisements look like normal emails on mobile. In a rush you open one of those and all of a sudden you look at a super market website instead of your emails. 
+At the same time I am always looking to avoid Gmail's apps on anything but the web. They make  advertisements look like normal emails on mobile. In a rush you open one of those and all of a sudden you look at a grocery store website instead of your emails. 
 
 I tried to setup Apple mail to work with Gmail but it is a nightmare because of their custom IMAP implementation.
 
-I should be able to find something that both works and can fit my very usual in my opinion requirements.
+I should be able to find something that both works and can fit my very basic in my opinion requirements.
 
 ## Gotta go Fast
 
-So I signed up for a trial on Fastmail. The smaller plan costs $3 per month or $30 for the year as I don't need the custom domain support.
+So I signed up for a trial on [Fastmail](https://ref.fm/u24239032). The standard plan costs $3 per month or $30 for the year as I don't need the custom domain support.
 
-In that price it supports [importing of my work email](https://www.fastmail.com/help/receive/fetchotheremail.html) and [sending emails](https://www.fastmail.com/help/send/identities.html) from it,
+For that price it supports [importing of my work email](https://www.fastmail.com/help/receive/fetchotheremail.html) and [sending emails](https://www.fastmail.com/help/send/identities.html) from it.
 
-Mail syncs with Apple mail perfectly with my work identity and all. I didn't like the Fastmail app a lot and prefer the native one.
+I don't fancy the iOS app but Fastmail supports open standards perfectly. It syncs with Apple mail via IMAP and it supports sending from my work address. Contacts and calendars also sync with iOS devices perfectly and setting this up was a breeze.
 
-Contacts and calendars sync with iOS devices which I use seamlessly and the setup wizard was great. No need for apps. Only CardDAV and CalDAV profiles which are open standards.
-
-On the Windows desktop I use the web interface which is great, fast and awesome.
+On the Windows desktop I use the web interface which is awesome and fast.
 
 Already the experience is much better than Gmail for me.
 
 ## Saying HEY inside Fastmail
 
-Let's get some feature of HEY into Fastmail.
+Let's get some features of HEY into Fastmail.
 
-First **The Feed**. I need all newsletters to go to an IMAP folder. 
+First **The Feed**. I need all newsletters to go to a specific IMAP folder. 
 
-Fastmail has support for very powerful filters. More powerful than Gmail. 
+Fastmail has support for very powerful filters. More powerful than Gmail.
 
-A smart way to not maintain a complete list of senders that go to The Feed is to filters for the Unsubsribe Header and move those messages there on arrival. For that folder I set a 60 day purge policy. That means that after 60 days emails in The Feed are deleted. 
+HEY uses a list of senders that go to The Feed. As I mentioned this causes some problems and without the screener it would require a lot of work to make that list.
 
-We need exceptions though. Basecamp, Github and other services have an Unsubscribe header for notifications.
+A smarter way is to filters for emails with the `Unsubsribe Header` and move those messages on the Feed folder on arrival. As a bonus, I set a 60 day purge policy for that folder to keep things neat. After two months. The News in Newsletter has expired.
 
-For those I decided to add them to the contacts and create a contact group for them. Then add an *if not* condition to the above filter that exempts emails from those contacts and delivers them to the Inbox.
+We need to set exceptions though. Basecamp, Github and other services have an Unsubscribe header for notifications but I need them to go to my Inbox.
 
-I also created the **Paper trail** folder. Everything receipt, travel or transactional I manually drop there. The volumes for that one are not unmanageable. 
+To combat that I add them to my contacts and to a *Notify* group. Then I exempt their emails from the filter and as a result they meet my Inbox.
 
-Also I created a Later folder for emails that await some action from me before responding that could take a while. 
+For the **Paper trail** I created another folder. All receipts, travel and transactional emails I manually drop there.  
+
+Also I created a Later folder to put emails that I may take some time to respond to. 
 
 Now the inbox has the important emails I deal with at the present time. Any new emails come there and when I have time I triage them. This is very easy with all the newsletters out of the way. 
 
 ---
 
-After a week I can say I like my workflow better. I urge you to try HEY for a while if you can. It is a new take on email and I believe it is worth exploring.If though you like open standards and traditional powerful email that works use [this link](https://ref.fm/u24239032) to try Fastmail. [This link will give you 10% off your first year and some small discounts for me](https://ref.fm/u24239032).    
+After a week I can say I like my workflow better. I urge you to try HEY if you can. It is a new take on email and I believe it is worth exploring. It helped me reconsider how I deal with email. If though you like open standards and traditional powerful email that works use [this link](https://ref.fm/u24239032) to try Fastmail. [Using it will give you 10% off your first year](https://ref.fm/u24239032) and will clip some cents from my bill.    
