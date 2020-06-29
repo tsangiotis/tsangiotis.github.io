@@ -16,6 +16,9 @@ excerpt_separator: <!--more-->
 collections:
   - links
 
+social:
+    twitter: tsangiotis
+
 feed:
     path: index.xml
 
@@ -24,5 +27,6 @@ exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 plugins:
   - jekyll-github-metadata
   - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from

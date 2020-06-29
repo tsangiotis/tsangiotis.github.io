@@ -3,6 +3,7 @@ gem 'jekyll-paginate'
 source 'https://rubygems.org'
 gem 'github-pages', group: :jekyll_plugins
 gem 'jekyll-github-metadata'
+gem 'jekyll-seo-tag'
 
 gem 'mini_magick' 
 gem 'html_compressor'

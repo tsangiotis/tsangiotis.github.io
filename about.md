@@ -20,7 +20,8 @@ To contact me use [tasos@sent.com](mailto:tasos@sent.com).
 
 Have fun!
 
----
+<img class="centered" src="/assets/images/me.png" alt="Me">
+
 
 {% include search.html %}
 {% include featured.html %}
