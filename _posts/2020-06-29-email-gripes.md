@@ -3,8 +3,8 @@ layout: post
 title: Email gripes
 description: 
 image: /images/email-gripes/email-gripes-featured.JPG
-categories: Personal
-tags: Opinion
+categories: Personal Opinion
+tags: 
 ---
 
 It all started with [HEY](https://hey.com). There was so much buzz around it. It is made from the company behind Basecamp 3. I use Basecamp and it is great so I decided to try it.
@@ -106,4 +106,6 @@ Now the inbox has the important emails I deal with at the present time. Any new 
 
 ---
 
-After a week I can say I like my workflow better. I urge you to try HEY if you can. It is a new take on email and I believe it is worth exploring. It helped me reconsider how I deal with email. If though you like open standards and traditional powerful email that works use [this link](https://ref.fm/u24239032) to try Fastmail. [Using it will give you 10% off your first year](https://ref.fm/u24239032) and will clip some cents from my bill.    
+After a week I can say I like my workflow better. I urge you to try HEY if you can. It is a new take on email and I believe it is worth exploring. It helped me reconsider how I deal with email. 
+
+If though you like open standards and traditional powerful email that works use [this link](https://ref.fm/u24239032) to try Fastmail. [Using it will give you 10% off your first year](https://ref.fm/u24239032) and will clip some cents from my bill.    

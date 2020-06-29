@@ -1,5 +1,5 @@
 :root {
-    --content-width: 98rem;
+    --content-width: 78rem;
     --body-padding: 2.4rem;
     --sidebar-width: 26rem;
     --sidebar-gap-width: 5rem;
@@ -43,6 +43,7 @@
     --color-bg--surface-glint: rgba(var(--rgb-medium-gray), 0.15);
     --color-almost-black: rgb(var(--rgb-almost-black));
     --color-primary: rgb(var(--rgb-almost-black));
+    --color-disabled: rgb(var(--rgb-gray));
     --color-bg--warning: rgb(var(--rgb-canary));
     --color-txt: rgb(var(--rgb-almost-black));
     --color-txt--subtle: rgba(var(--rgb-almost-black), 0.66);
@@ -169,8 +170,15 @@ sub {
 }
 
 hr {
+    display: flex;
+    height: 0.1rem;
     width: 60%;
-    margin-bottom: 30px;
+    margin: 3rem auto;
+    background-color: var(--color-primary);
+    background-size: auto 0.5rem;
+    border: 0;
+    border-radius: 3em;
+    overflow: visible;
 }
 
 blockquote {
@@ -226,10 +234,22 @@ acronym, abbr {
     color: var(--color-almost-black);
 }
 
+.btn--outline-disabled {
+    border: 1px solid var(--color-disabled);
+    background-color: transparent;
+    color: var(--color-disabled);
+}
+
 .btn--primary {
     background: var(--color-primary);
     border-color: var(--color-primary);
     color: var(--color-);
+}
+
+.search {
+    max-width: 43rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-results-button, input[type="search"]::-webkit-search-results-decoration {
@@ -378,7 +398,10 @@ input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-s
 }
 
 code {
-    font: var(--font-family--mono)
+    font-family: var(--font-family--mono);
+    background-color: var(--color-bg--surface);
+    border-radius: 0.2em;
+    padding: 0.2em 0.5em;
 }
 
 figure {
@@ -437,9 +460,8 @@ footer .bottom {
 }
 
 .post__categories {
-    display: inline;
     border-left: 1px solid #000;
-    padding: 3px;
+    padding: 0 0.1em;
 }
 
 .post__content {
@@ -451,6 +473,7 @@ footer .bottom {
     font-family: var(--font-family);
     font-weight: bold;
     font-size: var(--font-size-x-small);
+    margin: 0 0.1em;
     padding: 0.3em 0.8em;
     border-radius: 3rem;
     background-color: var(--color-bg--surface-opaque);
@@ -629,6 +652,15 @@ p img {
     flex-basis: 0;
     flex-grow: 999;
     min-width: calc(50% - var(--sidebar-gap-width));
+}
+
+.pagination {
+    margin: 5rem 3rem;
+}
+
+a.disabled {
+    pointer-events: none;
+    cursor: default;
 }
 
 /*** General ***/

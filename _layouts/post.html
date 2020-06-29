@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: simple
 ---
 
 <article>
@@ -7,18 +7,19 @@ layout: default
     <h1 class="post__title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
     <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %d, %Y"
         }}</time>
-    <div class="post__categories">{% for category in page.categories %}<span class="post__categories__item"><a
-          href="/category/{{ category | downcase }}">{{ category | upcase }}</a> </span>{% endfor %}</div>
+    <div class="post__categories i-flex flex--align-center">{% for category in page.categories %}<span
+        class="post__categories__item"><a href="/category/{{ category | downcase }}">{{ category | upcase }}</a>
+      </span>{% endfor %}</div>
   </header>
   <div class="post__content">
     {{ content }}
   </div>
 </article>
 
-<ul class="no-print" style="list-style-type:none;">
+<div class="flex--space-items no-print pagination">
   {% if page.previous.url %}
-  <li style="display:inline;"><a class="prev left" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a></li>
+  <a class="btn btn--outline" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
   {% endif %} {% if page.next.url %}
-  <li style="display:inline;">| <a class="next right" href="{{page.next.url}}">{{page.next.title}} &raquo;</a></li>
+  <a class="btn btn--outline" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
   {% endif %}
-</ul>
+</div>
