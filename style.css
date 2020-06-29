@@ -14,35 +14,18 @@
 }
 
 :root {
-    --rgb-black: 0, 0, 0;
     --rgb-white: 255, 255, 255;
     --rgb-almost-black: 35, 28, 51;
-    --rgb-almost-white: 236, 233, 230;
     --rgb-gray: 116, 116, 128;
     --rgb-medium-gray: 226, 221, 215;
     --rgb-light-gray: 251, 250, 249;
     --rgb-neutral-light-gray: 244, 243, 245;
-    --rgb-teal: 157, 255, 236;
-    --rgb-blue: 0, 116, 228;
-    --rgb-purple: 85, 34, 250;
-    --rgb-green: 26, 191, 108;
-    --rgb-red: 201, 36, 0;
     --rgb-canary: 255, 245, 202;
     --rgb-yellow: 255, 214, 10;
-    --rgb-yellow-gradient-middle: 255, 245, 205;
-    --rgb-peach: 255, 229, 218;
-    --rgb-orange: 248, 121, 23;
-    --rgb-coral: 249, 92, 92;
     --rgb-background: var(--rgb-white);
     --color-bg--main: rgb(var(--rgb-background));
-    --color-bg--main-transparent: rgba(var(--rgb-background), 0);
-    --color-bg--main-thin: rgba(var(--rgb-background), 0.5);
-    --color-bg--main-thick: rgba(var(--rgb-background), 0.95);
     --color-bg--surface: rgba(var(--rgb-medium-gray), 0.4);
-    --color-bg--surface-opaque: rgb(var(--rgb-medium-gray));
-    --color-bg--surface-glint: rgba(var(--rgb-medium-gray), 0.15);
     --color-almost-black: rgb(var(--rgb-almost-black));
-    --color-primary: rgb(var(--rgb-almost-black));
     --color-disabled: rgb(var(--rgb-gray));
     --color-bg--warning: rgb(var(--rgb-canary));
     --color-txt: rgb(var(--rgb-almost-black));
@@ -138,7 +121,7 @@ pre {
     /* Opera 7 */
     word-wrap: break-word;
     /* Internet Explorer 5.5+ */
-    background-color: var(--color-bg--surface-glint);
+    background-color: var(--color-bg--surface);
     padding: 10px;
     border-radius: 4px;
 }
@@ -174,7 +157,7 @@ hr {
     height: 0.1rem;
     width: 60%;
     margin: 3rem auto;
-    background-color: var(--color-primary);
+    background-color: var(--color-almost-black);
     background-size: auto 0.5rem;
     border: 0;
     border-radius: 3em;
@@ -184,7 +167,7 @@ hr {
 blockquote {
     margin: 10px;
     padding: 0px 1rem;
-    border-left: 2px solid #000;
+    border-left: 2px solid var(--color-almost-black);
     font-style: italic;
 }
 
@@ -238,12 +221,6 @@ acronym, abbr {
     border: 1px solid var(--color-disabled);
     background-color: transparent;
     color: var(--color-disabled);
-}
-
-.btn--primary {
-    background: var(--color-primary);
-    border-color: var(--color-primary);
-    color: var(--color-);
 }
 
 .search {
@@ -340,7 +317,7 @@ input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-s
     z-index: 0;
     padding-top: 0.4em;
     padding-bottom: 0.4em;
-    background: var(--color-bg--surface-glint);
+    background: var(--color-bg--surface);
 }
 
 .search__input::-webkit-input-placeholder {
@@ -417,7 +394,7 @@ figcaption {
 footer {
     color: var(--color-txt--subtle);
     width: 100%;
-    border-top: 1px solid var(--color-bg--surface-glint);
+    border-top: 1px solid var(--color-bg--surface);
     font-family: var(--font-family--titles);
     font-weight: 500;
     font-size: .9em;
@@ -429,7 +406,7 @@ footer {
 
 footer .bottom {
     width: 100%x;
-    border-top: 1px solid var(--color-bg--surface-glint);
+    border-top: 1px solid var(--color-bg--surface);
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -476,7 +453,7 @@ footer .bottom {
     margin: 0 0.1em;
     padding: 0.3em 0.8em;
     border-radius: 3rem;
-    background-color: var(--color-bg--surface-opaque);
+    background-color: var(--color-bg--surface);
 }
 
 .post__categories__item a {
