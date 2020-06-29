@@ -19,6 +19,8 @@ collections:
 social:
     twitter: tsangiotis
 
+avatar_img: me.png
+
 feed:
     path: index.xml
 

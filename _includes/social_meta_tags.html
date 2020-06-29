@@ -9,8 +9,8 @@
 {% endcapture %}
 
 {% capture share_image %}
-{%- if page.share_image -%}
-{{ page.share_image }}
+{%- if page.image -%}
+{{ page.image }}
 {%- else -%}
 {{ site.avatar_img | prepend: site.assets_media | absolute_url }}
 {%- endif -%}
