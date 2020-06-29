@@ -2,14 +2,14 @@
 layout: post
 title: Email gripes
 description: 
-image: /images/email-gripes/email-gripes-featured.jpg
+image: /images/email-gripes/email-gripes-featured.JPG
 categories: Personal
 tags: Opinion
 ---
 
 It all started with [HEY](https://hey.com). There was so much buzz around it. It is made from the company behind Basecamp 3. I use Basecamp and it is great so I decided to try it.
 
-<img src="/images/{{ page.slug }}/email-gripes-featured.jpg" alt="HEY - Fastmail doodle" style="max-width: 50%;">
+<img src="/images/{{ page.slug }}/email-gripes-featured.JPG" alt="HEY - Fastmail doodle" style="max-width: 50%;">
 
 It offers a two week trial which is more than enough to judge if an email service for $100/year is worth the trouble. 
 
