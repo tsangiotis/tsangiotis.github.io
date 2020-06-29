@@ -38,7 +38,7 @@ HEY is an opinionated service. It is part of its charm but sometimes it causes s
 
 The fear of missing emails. Separating into three different boxes, [The Imbox](https://hey.com/features/the-imbox/), The Feed and [The Paper Trail](https://hey.com/features/paper-trail/) is one of the greatest design choices on the service. It is minimal but at the same time enough.
 
-The problem is that it is based on the email sender without the email context. You select what happens with all the emails from the sender. If the sender is a no-reply email every time, I need the receipt to go to the Paper Trail but the "Your password has been changed act if this was not you" notification to my Inbox.
+The problem is that it is based on the email sender without the email context. You select what happens with all the emails from that sender. Myself, I need the receipt to go to the Paper Trail but the *"Your password has been changed act if this was not you"* notification to my Inbox. Sometimes this information comes from the same email address and I can't blame the sender for that.
 
 You can through all the Paper trail emails in your Imbox and triage them later but depending on the situation this might defeat the purpose. 
 
