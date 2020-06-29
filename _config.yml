@@ -11,7 +11,15 @@ highlighter : rouge
 paginate: 6
 paginate_path: "/page/:num/"
 
-excerpt_separator: <!--more--> 
+excerpt_separator: <!--more-->
+
+collections:
+  - links
+
+social:
+    twitter: tsangiotis
+
+avatar_img: me.png
 
 feed:
     path: index.xml
@@ -21,5 +29,6 @@ exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 plugins:
   - jekyll-github-metadata
   - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from

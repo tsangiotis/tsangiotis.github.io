@@ -1,0 +1,33 @@
+{% capture description_content %}
+{%- if page.description -%}
+{{ page.description }}
+{%- elsif page.excerpt -%}
+{{ page.excerpt | strip_html | strip_newlines | xml_escape }}
+{%- else -%}
+{{ site.description }}
+{%- endif -%}
+{% endcapture %}
+
+{% capture share_image %}
+{%- if page.image -%}
+{{ page.image | absolute_url }}
+{%- else -%}
+{{ site.avatar_img | prepend: site.assets_media | absolute_url }}
+{%- endif -%}
+{% endcapture %}
+
+{% if page.is_post %}
+{% assign type = "article" %}
+{% else %}
+{% assign type = "website" %}
+{% endif %}
+
+<meta name="description" content="{{ description_content }}">
+
+<!-- Twitter Cards  -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@{{ site.social.twitter }}" />
+<meta name="twitter:creator" content="@{{ site.social.twitter }}" />
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+<meta name="twitter:description" content="{{ description_content }}" />
+<meta name="twitter:image" content="{{ share_image }}">

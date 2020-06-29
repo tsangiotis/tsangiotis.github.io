@@ -1,25 +1,27 @@
---- 
-layout: default 
---- 
+---
+layout: simple
+---
 
 {% for post in paginator.posts %}
 
-<article class="post">
-    <header>
-        <h1 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-        <div class="categories">{% for category in post.categories %}<span class="label"><a href="/category/{{ category | downcase }}">{{ category | upcase }}</a> </span>{% endfor %}</div>
-        {% if post.image %}<img class="headimg" src="/images/{{ post.slug }}/{{ post.image }}">{% endif %}
-    </header>
+<article>
+  <header>
+    <h1 class="post__title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+    <div class="post__categories i-flex flex--align-center">{% for category in post.categories %}<span
+        class="post__categories__item"><a href="/category/{{ category | downcase }}">{{ category | upcase }}</a>
+      </span>{% endfor %}</div>
+  </header>
+  <div class="post__content">
     {{ post.excerpt }}
-<p><a href="{{ post.url }}">Read more</a></p>
+  </div>
+  <p><a class="btn btn--outline" href="{{ post.url }}">Read more</a></p>
 </article>
 {% endfor %}
 
-<nav class="postnavigation">
-    <ul>
-    {% if paginator.previous_page %}
-    <li><a class="prev left" href="{{ paginator.previous_page_path }}">&laquo; Newer</a>  |</li> {% endif %} {% if paginator.next_page %}
-    <li><a class="next right" href="{{ paginator.next_page_path }}">Older &raquo;</a></li> {% endif %}
-    </ul>
-</nav>
+<div class="flex--space-items no-print pagination">
+  <a class="btn btn--outline{% if paginator.next_page %}{% else %}-disabled disabled{% endif %}"
+    href="{% if paginator.next_page %}{{ paginator.next_page_path }}{% endif %}">&laquo; Older</a>
+  <a class="btn btn--outline{% if paginator.previous_page %}{% else %}-disabled disabled{% endif %}"
+    href="{% if paginator.previous_page %}{{ paginator.previous_page_path }}{% endif %}">Newer &raquo;</a>
+</div>

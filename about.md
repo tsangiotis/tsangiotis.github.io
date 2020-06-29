@@ -1,10 +1,12 @@
 ---
-layout: default
+layout: simple
 title: About
 permalink: /about
 ---
 
-I am an engineer situated in Athens, Greece who likes to take [photos](https://tsangiotis.com/photography).
+My name is Tasos Sangiotis. I recon you already know that since you are here. I build robots and I'm always right.
+
+I am an electrical engineer and [photographer](https://tsangiotis.com/photography) situated in Athens, Greece.
 
 This corner of the web is a collection of posts, essays and photos. They are mainly about photography, travel and occasionally technical stuff. Just navigate and you can find some easter eggs (which is French for pages I forgot they existed).
 
@@ -12,6 +14,16 @@ For my photography I shoot mostly candid street photos. See for your self [on In
 
 I work for [Arpedon](https://www.arpedon.com), an industrial engineering company.
 
-if you want to email me just use [tsangiotis@gmail.com](mailto:tsangiotis@gmail.com).
+If you choose to wander this wasteland do so with caution. Consider this your final warning.
+
+To contact me use [tasos@sent.com](mailto:tasos@sent.com).
 
 Have fun!
+
+<img class="centered" src="/assets/images/me.png" alt="Me">
+
+
+{% include search.html %}
+{% include featured.html %}
+{% include categories.html %}
+{% include links.html %}
