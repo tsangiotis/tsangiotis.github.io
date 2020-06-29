@@ -16,8 +16,8 @@ It offers a two week trial which is more than enough to judge if an email servic
 <!--more-->
 
 <div class="postit-note centered">
-<p><strong>Warning:</strong> This will be very boring for most. My personal email setup is a dull matter. It might however be useful for some as it solved some problems for me.</p>
-<p>I also include a mini review of <a href="https://basecamp.com">Basecamp</a>'s <a href="https://hey.com">HEY mail service</a>. It wasn't for me in it's whole but it made me think how I use email and triggered a change. This is powerful and I recommend you try it for your self.</p> 
+    <p><strong>Warning:</strong> This will be very boring for most. My personal email setup is a dull matter. It might however be useful for some as it solved some problems for me.</p>
+    <p>I also include a mini review of <a href="https://basecamp.com">Basecamp</a>'s <a href="https://hey.com">HEY mail service</a>. It wasn't for me in it's whole but it made me think how I use email and triggered a change. This is powerful and I recommend you try it for your self.</p> 
 </div>
 
 My initial impressions were great. 

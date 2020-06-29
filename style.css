@@ -785,6 +785,5 @@ p img {
     border-radius: 0.2rem;
     max-width: 50rem;
     overflow: hidden;
-    margin: auto 1rem;
     box-shadow: 5px 5px 7px var(--color-shadow);
 }
