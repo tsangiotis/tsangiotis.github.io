@@ -9,7 +9,7 @@ tags:
 ---
 
 Do you like going faster while keeping as less information as possible in your head? Your microcontroller likes that too.
-So if your Arduino project is ready for prime time, it is time to trim some codefat. 
+So if your Arduino project is ready for prime time, it is time to trim some codefat. b
 
 Sparkfun recently released a video about registers. It is quite good and explanatory. Watch it and then I'll tell you some more convenient uses for them.
 
