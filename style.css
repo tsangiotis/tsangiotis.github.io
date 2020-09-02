@@ -1,3 +1,4 @@
+@import "code.css";
 :root {
     --content-width: 78rem;
     --body-padding: 2.4rem;
@@ -123,6 +124,7 @@ pre {
     /* Internet Explorer 5.5+ */
     background-color: var(--color-bg--surface);
     padding: 10px;
+    margin: 0 2em;
     border-radius: 4px;
 }
 
@@ -376,7 +378,6 @@ input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-s
 
 code {
     font-family: var(--font-family--mono);
-    background-color: var(--color-bg--surface);
     border-radius: 0.2em;
     padding: 0.2em 0.5em;
 }
