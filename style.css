@@ -256,10 +256,6 @@ input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-s
     resize: none;
 }
 
-.input:focus {
-    border-color: transparent;
-}
-
 .input:disabled {
     opacity: 0.5;
 }
