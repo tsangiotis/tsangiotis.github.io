@@ -376,6 +376,10 @@ input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-s
     font-style: italic;
 }
 
+article img {
+    width: 80%;
+}
+
 code {
     font-family: var(--font-family--mono);
     border-radius: 0.2em;
@@ -416,6 +420,12 @@ footer .bottom {
 .centered {
     margin-left: auto;
     margin-right: auto;
+}
+
+.footnotes {
+    margin-top: 3em;
+    font-size: var(--font-size-small);
+    line-height: 0.9;
 }
 
 .header__title {

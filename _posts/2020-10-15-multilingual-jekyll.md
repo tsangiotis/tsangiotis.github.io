@@ -2,16 +2,20 @@
 layout: post
 title: Multilingual Jekyll
 description: Babel was hard enough
-image: 
+image: /images/multilingual-jekyll/around_the_world.png
 categories: guide
 tags: jekyll
 ---
 
-We recently decided to ditch Wordpress for the company site and build something with Jekyll just to make it faster and use some simpler tools.
+![Around the world](/images/{{ page.slug }}/around_the_world.png)
 
-We wanted to host on Github pages to up the simplicity.
+We recently ditched Wordpress for the company site and built something with Jekyll just to make it faster and simplify our tools.
 
-However having the site be multilingual is a hard requirement for us and Jekyll does not support this out of the box.
+We wanted to host on Github pages to up the simplicity. However having the site be multilingual is a hard requirement for us and Github pages does not support it. 
+
+So we rolled our own solution.
+
+<!--more-->
 
 Requirements:
 
@@ -21,9 +25,13 @@ Requirements:
 - Respect [GDPR policy](https://gdpr.eu/cookies/).
 - Remember the users language of choice or use the browser preferences for that.
 
-Most of the requirements work great in solutions from posts found online [^1].
+Most of the requirements work great in solutions from posts found online [^1] [^2] [^3] [^4] [^5].
 
-[^1]: https://www.sylvaindurand.org/making-jekyll-multilingual/
+[^1]: [https://www.sylvaindurand.org/making-jekyll-multilingual/](https://www.sylvaindurand.org/making-jekyll-multilingual/)
+[^2]: [https://matthewlincoln.net/2020/03/01/multilingual-jekyll.html](https://matthewlincoln.net/2020/03/01/multilingual-jekyll.html)
+[^3]: [https://forestry.io/blog/creating-a-multilingual-blog-with-jekyll/](https://forestry.io/blog/creating-a-multilingual-blog-with-jekyll/)
+[^4]: [https://github.com/kurtsson/jekyll-multiple-languages-plugin](https://github.com/kurtsson/jekyll-multiple-languages-plugin)
+[^5]: [https://medium.com/@desfocado/how-to-make-jekyll-multilingual-c13e74c18f1c](https://medium.com/@desfocado/how-to-make-jekyll-multilingual-c13e74c18f1c)
 
 I will give you the complete solution but much credit goes to these people. So lets begin.
 
@@ -50,12 +58,10 @@ As a bonus I created different layout scaffolds for the different languages so I
 Here is the website header:
 
 ```liquid
-<!-- ... -->
-{% raw  %}
-<header>
+{% raw  %}<header>
   <nav class="header__nav" aria-label="main">
     <div class="header__links">
-        <!-- ... -->
+        ...
     </div>
     {% if page.layout == 'post' %}
     {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
@@ -75,23 +81,20 @@ Here is the website header:
     </div>
     {% endif %}
   </nav>
-</header>
-{% endraw  %}
-<!-- ... -->
-
+</header>{% endraw  %}
 ```
 
 Here we collect all posts or pages with the same `lang-ref` to the `posts` list and we show translations of the page to other languages than the language of the current page.
 
-You will notice that the language link as no content and that we use the class `header__lang-{{ post.lang }}`. There we use the [content](https://www.w3schools.com/cssref/pr_gen_content.asp) css property to set what we want in our link text. I used flag emojis. 
+You will notice that the language link as no content and that we use the class `header__lang-{{ post.lang }}`. There we can use the [content](https://www.w3schools.com/cssref/pr_gen_content.asp) css property to set what we want in our link text. However with two languages you can harcode it and it saves you some headaches.
 
 At this point is where those guides took us. But using polylang on our site for years I have been accustomed to the website remembering my choice or bugging me with the wrong one. I wanted that to remain.
 
-That meant I needed to store a prefference. Hello Cookies 🍪🍪🍪!!!
+That meant I needed to store a preference. Hello Cookies 🍪🍪🍪!!!
 
-Javascript is needed for those. I mostly program in python when needed but this is simple enough.
+Javascript is needed for those. It is a simple enough implementation.
 
-First we need a way to write and read cookies. Searching around you can end up with those two functions.
+First we need a way to write and read cookies. Searching around on the internet you can end up with those two functions.
 
 ```javascript
 function setCookie(e, t, n, a) {
@@ -116,7 +119,6 @@ But to use those under cookies we must get concent.
 Let's create a concent form that will go to our scafold:
 
 ```html
-<!-- ... -->
 <div class="cookie-form-container" data-compliance-container>
   <div class="cookie-form">
     <p class="cookie-form__content">We do use persistent first-party cookies to augment your experience in our website
@@ -125,7 +127,6 @@ Let's create a concent form that will go to our scafold:
     <button class="button cookie-form__submit" data-compliance>OK</button>
   </div>
 </div>
-<!-- ... -->
 ```
 
 When we hit OK we store a concent cookie and add a the `.hide {display: none;}` class to the cookie banner container so it dissapears. Now it is ok to store our language preference cookies. On the next visit the language preference is stored depending on the user's browser preferences. 
@@ -181,4 +182,4 @@ function languageChange(lang) {
 
 Easy right? To avoid nagging from the browser we store two cookies one with the SameSite notation and one without. They both have the same information and we grab the information from the available cookie.
 
-Now go play with your multimedia site.
+Now go play with your multilingual site. Ours is [arpedon.com](https://arpedon.com).
