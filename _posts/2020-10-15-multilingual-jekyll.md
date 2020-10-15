@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Multilingual Jekyll
-description: Babel was hard enough
+description: Babel was hard enough. A GDPR compliant multilingual language selector.
 image: /images/multilingual-jekyll/around_the_world.png
 categories: guide
 tags: jekyll
