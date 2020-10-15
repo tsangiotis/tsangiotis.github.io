@@ -111,3 +111,5 @@ After a week I can say I like my workflow better.
 Before dismissing HEY, keep in mind that it is a new product and many people love it. Expect it to grow into a practical alternative. I urge you to try HEY if you can. I believe its new take on email is worth exploring. It helped me reconsider how I deal with email.
 
 If though you like open standards and traditional powerful email use [this link](https://ref.fm/u24239032) to try Fastmail. [Using it will give you 10% off your first year](https://ref.fm/u24239032) and will clip some cents from my bill.
+
+__Update:__ Despite all of the above, _myself I paid for it_. I believe this new take should be supported and I want to watch it's story evolve. 
