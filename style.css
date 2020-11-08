@@ -378,18 +378,6 @@ input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-s
 /*** Typography ***/
 
 @font-face {
-    font-family: "Covered By Your Grace";
-    src: url(fonts/CoveredByYourGrace.ttf);
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "Permanent Marker";
-    src: url(fonts/PermanentMarker.ttf);
-    font-display: swap;
-}
-
-@font-face {
     font-family: nyt-cheltenham;
     src: url(fonts/nyt-cheltenham-medium.ttf);
     font-weight: 500;
