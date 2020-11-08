@@ -4,22 +4,11 @@ layout: simple
 
 <article>
   <header>
-    <h1 class="post__title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+    <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
     <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %d, %Y"
         }}</time>
-    <div class="post__categories i-flex flex--align-center">{% for category in page.categories %}<span
-        class="post__categories__item"><a href="/category/{{ category | downcase }}">{{ category | upcase }}</a>
-      </span>{% endfor %}</div>
   </header>
-  <div class="post__content">
+  <div>
     {{ content }}
   </div>
 </article>
-
-<div class="flex--space-items no-print pagination">
-  {% if page.previous.url %}
-  <a class="btn btn--outline" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-  {% endif %} {% if page.next.url %}
-  <a class="btn btn--outline" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-  {% endif %}
-</div>

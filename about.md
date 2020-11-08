@@ -16,14 +16,8 @@ I work for [Arpedon](https://www.arpedon.com), an industrial engineering company
 
 If you choose to wander this wasteland do so with caution. Consider this your final warning.
 
-To contact me use [tasos@hey.com](mailto:tasos@hey.com).
+To contact me use [tasos@sangiotis.com](mailto:tasos@sangiotis.com).
 
 Have fun!
 
-<img class="centered" src="/assets/images/me.png" alt="Me">
-
-
-{% include search.html %}
-{% include featured.html %}
-{% include categories.html %}
-{% include links.html %}
+<img src="/assets/images/me.png" alt="Me">
