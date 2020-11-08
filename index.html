@@ -2,26 +2,12 @@
 layout: simple
 ---
 
-{% for post in paginator.posts %}
-
-<article>
-  <header>
-    <h1 class="post__title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-    <div class="post__categories i-flex flex--align-center">{% for category in post.categories %}<span
-        class="post__categories__item"><a href="/category/{{ category | downcase }}">{{ category | upcase }}</a>
-      </span>{% endfor %}</div>
-  </header>
-  <div class="post__content">
-    {{ post.excerpt }}
+<div class="post-list">
+  {% for post in site.posts %}
+  <div class="post-list__title">
+    <a href="{{ post.url }}">{{ post.title }}</a>
   </div>
-  <p><a class="btn btn--outline" href="{{ post.url }}">Read full post</a></p>
-</article>
-{% endfor %}
-
-<div class="flex--space-items no-print pagination">
-  <a class="btn btn--outline{% if paginator.next_page %}{% else %}-disabled disabled{% endif %}"
-    href="{% if paginator.next_page %}{{ paginator.next_page_path }}{% endif %}">&laquo; Older</a>
-  <a class="btn btn--outline{% if paginator.previous_page %}{% else %}-disabled disabled{% endif %}"
-    href="{% if paginator.previous_page %}{{ paginator.previous_page_path }}{% endif %}">Newer &raquo;</a>
+  <time class="post-list__date"
+    datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+  {% endfor %}
 </div>

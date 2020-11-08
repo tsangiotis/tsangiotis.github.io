@@ -306,6 +306,34 @@ input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-s
     overflow: hidden;
 }
 
+.post-list {
+    display: grid;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    grid-template-columns: 1fr max-content;
+    margin-top: 1em;
+}
+
+.post-list__date {
+    text-align: right;
+    white-space: nowrap;
+    padding-left: 5px
+}
+
+@media screen and (max-width: 640px) {
+    .post-list {
+        grid-template-columns: 1fr;
+        grid-row-gap: 0;
+    }
+    .post-list__title {
+        margin-top: 1em;
+    }
+    .post-list__date {
+        text-align: left;
+        padding-left: 0px;
+    }
+}
+
 .search__input {
     position: relative;
     border: 1px solid var(--color-almost-black);
@@ -373,7 +401,7 @@ input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-s
 }
 
 article img {
-    width: 80%;
+    max-width: 80%;
 }
 
 code {
