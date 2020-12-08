@@ -2,9 +2,11 @@
 layout: simple
 ---
 
-<div class="post-list">
-  {% for post in site.posts %}
-  <a href="{{ post.url }}">{{ post.title }}</a>
-  <time datetime="{{ post.date | date_to_xmlschema }}"><code>{{ post.date | date: "%b %d, %Y" }}</code></time>
-  {% endfor %}
-</div>
+{% for post in site.posts %}
+<a class="txt-undecorated" href="{{ post.url }}">
+  <article>
+    <h3 class="txt-medium">{{ post.title }}</h3>
+    <time class="txt-x-small" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+  </article>
+</a>
+{% endfor %}

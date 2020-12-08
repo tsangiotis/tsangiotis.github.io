@@ -25,14 +25,15 @@
 
 <body>
 
-  {% include header.html %}
-
-  <main>
-    {{ content }}
+  <main class="grid fade-in">
+    {% include header.html %}
+    <div class="sheet">
+      {{ content }}
+    </div>
   </main>
 
-  <footer>
-    <p>&copy; 2020 {{site.author}}</p>
+  <footer class="txt-center txt-small txt-tighter">
+    <p>&copy; {{site.author}}, 2020</p>
   </footer>
 
 </body>

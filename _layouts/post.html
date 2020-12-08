@@ -4,8 +4,10 @@ layout: simple
 
 <article>
   <header>
-    <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %d, %Y"
+    <a class="txt-undecorated" href="{{ page.url }}">
+      <h1 class="txt-x-large">{{ page.title }}</h1>
+    </a>
+    <time class="txt-small" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %d, %Y"
         }}</time>
   </header>
   <div>
