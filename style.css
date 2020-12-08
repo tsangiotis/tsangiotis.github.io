@@ -35,6 +35,8 @@
     --color-neutral: var(--color-grey);
     --color-link: var(--color-blurple);
     --color-accent: var(--color-teal);
+    --content-width: 98rem;
+    --page-padding: 1.6em;
     --space-x-small: 0.25em;
     --space-small: 0.5em;
     --space-medium: 1em;
@@ -98,8 +100,18 @@ body {
 }
 
 main {
+    padding: 0;
     padding-top: 5em;
     padding-top: max(5em, 12vmin);
+    width: 100%;
+    margin: 0 auto;
+    max-width: var(--content-width);
+}
+
+@media (min-width: 40em) {
+    main {
+        padding: 1.6;
+    }
 }
 
 a {
@@ -1025,16 +1037,8 @@ tr td:first-child {
 
 .nav {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-@media (min-width: 45em) {
-    .nav {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
 }
 
 .nav-item {
@@ -1602,15 +1606,23 @@ tr td:first-child {
 }
 
 .sheet {
-    flex-direction: column;
-    align-items: center;
-    min-height: max-content;
+    --sheet-padding: 1em;
+    padding: var(--sheet-padding);
+    background: var(--color-bg--sheet);
+    box-shadow: 0 0 3rem var(--color-shadow);
+    margin: 0 var(--negative-page-padding) 0;
+    width: calc(100% + (var(--page-padding) * 2));
+    border-radius: 0;
     position: relative;
-    margin: 0.5em;
-    padding: 1em;
-    border-radius: 1rem;
-    box-shadow: 2rem 2rem 5rem var(--color-shadow-dark);
-    background-color:
+}
+
+@media (min-width: 40em) {
+    .sheet {
+        --sheet-padding: 2em;
+        margin: 0 auto 2em;
+        width: 100%;
+        border-radius: 1.5em;
+    }
 }
 
 .side-by-side {
