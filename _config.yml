@@ -19,7 +19,7 @@ social:
 avatar_img: me.png
 
 feed:
-  posts_limit: 20
+  posts_limit: 200
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
