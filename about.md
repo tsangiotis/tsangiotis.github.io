@@ -1,7 +1,7 @@
 ---
 layout: simple
 title: About
-permalink: /about
+permalink: /about/
 ---
 
 My name is Tasos Sangiotis. I recon you already know that since you are here. I build robots and I'm always right.

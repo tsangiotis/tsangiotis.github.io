@@ -1,7 +1,7 @@
 ---
 layout: simple
 title: Photography
-permalink: /photography
+permalink: /photography/
 ---
 
 ![]()

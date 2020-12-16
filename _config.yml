@@ -8,9 +8,6 @@ repository: tsangiotis/tsangiotis.github.io
 permalink: /:title/
 highlighter : rouge
 
-paginate: 6
-paginate_path: "/page/:num/"
-
 excerpt_separator: <!--more-->
 
 collections:
@@ -22,7 +19,7 @@ social:
 avatar_img: me.png
 
 feed:
-    path: index.xml
+  posts_limit: 20
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
