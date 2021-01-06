@@ -9,7 +9,7 @@ tags:
 
 It all started with [HEY](https://hey.com). There was so much buzz around it. It is made from the company behind Basecamp 3. I use Basecamp and it is great so I decided to try it.
 
-<img src="/images/{{ page.slug }}/email-gripes-featured.JPG" alt="HEY - Fastmail doodle" style="max-width: 50%;">
+![HEY - Fastmail doodle](/images/{{ page.slug }}/email-gripes-featured.JPG)
 
 It offers a two week trial which is more than enough to judge if an email service for $100/year is worth the trouble. 
 

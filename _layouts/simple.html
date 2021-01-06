@@ -20,20 +20,21 @@
   {% include social_meta_tags.html %}
 
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="/style.css" defer>
+  <link rel="stylesheet" href="/assets/css/style.css" defer>
 </head>
 
 <body>
 
-  <main class="fade-in">
-    {% include header.html %}
+  
+  {% include header.html %}
+  <main class="content fade-in">
     <div class="sheet">
       {{ content }}
     </div>
   </main>
 
-  <footer class="txt-center txt-small txt-tighter">
-    <p>&copy; {{site.author}}, 2020</p>
+  <footer class="footer txt-center txt-small txt-tighter">
+    <p>&copy; {{site.author}}, 2021</p>
   </footer>
 
 </body>

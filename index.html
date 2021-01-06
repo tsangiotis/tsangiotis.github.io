@@ -3,10 +3,10 @@ layout: simple
 ---
 
 {% for post in site.posts %}
-<a class="txt-undecorated" href="{{ post.url }}">
-  <article>
-    <h3 class="txt-medium">{{ post.title }}</h3>
-    <time class="txt-x-small" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+<a class="post txt-undecorated" href="{{ post.url }}">
+  <article class="post__present">
+    <h3 class="post__title txt-medium">{{ post.title }}{% if post.lang == 'el' %}<span>🇬🇷</span>{% endif %}</h3>
+    <time class="post__date txt-x-small" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
   </article>
 </a>
 {% endfor %}
