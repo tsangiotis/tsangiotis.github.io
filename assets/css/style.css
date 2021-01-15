@@ -460,33 +460,8 @@ table {
 }
 
 td {
-    border: solid 2px var(--color-teal);
-    border-style: none solid solid none;
+    border: none;
     padding: 1em;
-}
-
-tr:first-child td:first-child {
-    border-top-left-radius: 2em;
-}
-
-tr:first-child td:last-child {
-    border-top-right-radius: 2em;
-}
-
-tr:last-child td:first-child {
-    border-bottom-left-radius: 2em;
-}
-
-tr:last-child td:last-child {
-    border-bottom-right-radius: 2em;
-}
-
-tr:first-child td {
-    border-top-style: solid;
-}
-
-tr td:first-child {
-    border-left-style: solid;
 }
 
 .delay-short {
@@ -997,13 +972,15 @@ tr td:first-child {
 }
 
 .header {
-    padding-top: 4em;
-    padding-top: max(4em, 12vmin);
+    padding-top: 1.5em;
+    padding-top: max(1.5em, 4vmin);
     margin-left: 1rem;
 }
 
 @media (min-width: 45em) {
     .header {
+        padding-top: 4em;
+        padding-top: max(4em, 12vmin);
         text-align: center;
     }
 }
@@ -1023,18 +1000,21 @@ tr td:first-child {
 }
 
 .header__nav--item {
+    transition: color .2s ease, background-color .2s ease, box-shadow .2s ease;
     margin: 0.25em 0.125em;
     padding: 0.25em 0.75em;
     font-size: var(--type-small);
-    color: var(--color-grey);
-    background-color: var(--color-canary);
+    transition: .3s;
+    background: linear-gradient(45deg, var(--color-blurple) 0%, var(--color-cobalt) 100%, var(--color-blurple))var(--x, 0)/200%;
+    color: var(--color-white) !important;
     border-radius: 1em;
     text-decoration: none;
 }
 
 .header__nav--item:hover {
-    background: linear-gradient(45deg, var(--color-cobalt) 0%, var(--color-blurple) 100%);
-    color: var(--color-white);
+    --x: 100%
+}
+
 }
 
 .grid {
@@ -1110,7 +1090,6 @@ tr td:first-child {
     --sheet-padding: 1em;
     padding: var(--sheet-padding);
     background: var(--color-bg--sheet);
-    box-shadow: 0 0 3rem var(--color-shadow);
     margin: 0;
     border-radius: 0;
     position: relative;
@@ -1121,6 +1100,7 @@ tr td:first-child {
         --sheet-padding: 2em;
         margin: 0 auto 2em;
         width: 100%;
+        box-shadow: 0 0 3rem var(--color-shadow);
         border-radius: 1.5em;
     }
 }
