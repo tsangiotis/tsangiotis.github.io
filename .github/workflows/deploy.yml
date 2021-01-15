@@ -1,17 +1,33 @@
 name: Deploy website
 on: push
 
+on:
+  push:
+    branches: [ master ]
+
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
+
     steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: '2.7'
 
-    # Put steps here to build your site, deploy it to a service, etc.
-
-    - name: Purge cache
-      uses: jakejarvis/cloudflare-purge-action@master
-      env:
-        # Zone is required by both authentication methods
-        CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
-
-        CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
+    - name: Setup Environment.
+      run: |
+        gem install jekyll bundler
+        bundle install
+        sudo apt-get install -y ncftp
+        
+    - name: Build Site with Jekyll.
+      run: JEKYLL_ENV=production bundle exec jekyll build
+    
+    - name: Upload site to FTP.
+      env: 
+        ftp_location: ${{ secrets.ftp_location }}
+        ftp_username: ${{ secrets.ftp_username }}
+        ftp_password: ${{ secrets.ftp_password }} 
+      run: |
+        ncftpput -R -v -u "$ftp_username" -p "$ftp_password" $ftp_location /tasos.fastmail.com/files/tsangiotis.com _site/*
