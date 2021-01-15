@@ -1,5 +1,4 @@
 name: Deploy website
-on: push
 
 on:
   push:
