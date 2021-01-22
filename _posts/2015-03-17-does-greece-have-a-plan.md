@@ -34,7 +34,7 @@ Mr. Tsipras is more capable than I thought for his place. He is a populist alrig
 
 ![](/images/{{ page.slug }}/alexis.jpeg)
 
-That’s why Alexis Tsipras must give or even force direction to the children with the glued shoes. If he does not, his government will do _exactly_ what [Antoni’s Samaras government did](http://tsangiotis.com/samaras-does-not-want-to-rule). _Virtually_ nothing. Not because it couldn’t because it stalled.
+That’s why Alexis Tsipras must give or even force direction to the children with the glued shoes. If he does not, his government will do _exactly_ what [Antoni’s Samaras government did](https:///tsangiotis.com/samaras-does-not-want-to-rule). _Virtually_ nothing. Not because it couldn’t because it stalled.
 
 There is a chance for an actual change for Greece. It is the first time in many years that people actually support their government. And that is the key for Greece to fix stuff it couldn’t before.
 

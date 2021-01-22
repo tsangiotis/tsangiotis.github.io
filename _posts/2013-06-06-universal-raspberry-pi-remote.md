@@ -21,7 +21,7 @@ Actually I use three:
 - The Radio/iPod/CD Player remote
 - The Air Condition remote
 
-Some time ago I fell on [this post](http://randomtutor.blogspot.gr/2013/01/web-based-ir-remote-on-raspberry-pi.html). It is an IR receiver & emitter circuit attached to a [Raspberry Pi](http://raspberrypi.org/). I had some spare time so I decided to build it!
+Some time ago I fell on [this post](https:///randomtutor.blogspot.gr/2013/01/web-based-ir-remote-on-raspberry-pi.html). It is an IR receiver & emitter circuit attached to a [Raspberry Pi](https:///raspberrypi.org/). I had some spare time so I decided to build it!
 <!--more-->
 
 Circuitry was fairly easy.
@@ -44,9 +44,9 @@ And this is what we end up with:
 
 ## LIRC
 
-[LIRC](http://www.lirc.org/) stands for Linux Infrared Remote Control. And does exactly what it says.
+[LIRC](https://www.lirc.org/) stands for Linux Infrared Remote Control. And does exactly what it says.
 
-LIRC is now included in [Raspbian's](http://www.raspbian.org/) official repositories for Raspberry Pi and you can install it with:
+LIRC is now included in [Raspbian's](https://www.raspbian.org/) official repositories for Raspberry Pi and you can install it with:
 
 ```
 sudo apt-get install lirc
@@ -178,7 +178,7 @@ Here is a video where I change channels from command line:
 
 You can add more remotes just by appending a new lircd.conf at the previous one.
 
-For the LIRC configuration I followed [this guide](http://alexba.in/blog/2013/01/06/setting-up-lirc-on-the-raspberrypi/).
+For the LIRC configuration I followed [this guide](https:///alexba.in/blog/2013/01/06/setting-up-lirc-on-the-raspberrypi/).
 
 I also made an Android application using the web interface provided [here](https://github.com/slimjim777/web-irsend) but the code needs a lot of polishing so I can't share it yet.
 

@@ -15,7 +15,7 @@ I hate mess... So I like remote solutions!
 One thing that bothers me is the USB cable that I always have connected on my computer.
 On it's other end, lies a 1TB Hard Drive that stores my Time Machine backup.
 
-From time to time I stream movies via [Plex](http://plexapp.com/) from the same hard disk.
+From time to time I stream movies via [Plex](https:///plexapp.com/) from the same hard disk.
 That's because I don't want to store movies on my low capacity Macbook Air.
 
 Since I got my Chromecast, Plex has gone to the top of my "Useful Software" list as it supports Chromecast and I can stream the Movies without connecting a HDMI cable.
@@ -36,7 +36,7 @@ _Let's do it!_
 
 ## What we will need
 
-- We need something debian-based. Preferably use your old computer or netbook but not your Rasperry Pi as Plex does not support it officialy yet (I think). You can check your chances with [RasPlex](http://www.rasplex.com/) if you feel like it.
+- We need something debian-based. Preferably use your old computer or netbook but not your Rasperry Pi as Plex does not support it officialy yet (I think). You can check your chances with [RasPlex](https:///www.rasplex.com/) if you feel like it.
   - I used **Ubuntu Server 14.04 LTS 32bit** on an old Lenovo ideapad.
 - A large enough Hard Drive. TB has gone pretty cheap lately.
 - An afternoon.
@@ -54,7 +54,7 @@ We do this to ensure compatibility on case of restore.
 
 Then on linux format the rest as `ext2`, `ext3` or `ext4`.
 
-You can use [parted](http://www.gnu.org/software/parted/manual/html_chapter/parted_2.html) for that.
+You can use [parted](https:///www.gnu.org/software/parted/manual/html_chapter/parted_2.html) for that.
 
 # Setup system
 
@@ -150,13 +150,13 @@ The first backup might take quite some time, depending on your network and hard 
 
 **Bonus:** you don't even have to manually connect to the server share before a backup. Time Machine will let its magic happen and auto-mount / un-mount the share whenever it is needed. Peace of mind in a box.
 
-_Credits:_ I used **[this](http://pwntr.com/2012/03/03/easy-mac-os-x-lion-10-7-time-machine-backup-using-an-ubuntu-linux-server-11-10-12-04-lts-and-up/)** guide with some changes I made.
+_Credits:_ I used **[this](https:///pwntr.com/2012/03/03/easy-mac-os-x-lion-10-7-time-machine-backup-using-an-ubuntu-linux-server-11-10-12-04-lts-and-up/)** guide with some changes I made.
 
 Useful links:
 
-[afpd.conf manpage](http://netatalk.sourceforge.net/2.2/htmldocs/afpd.conf.5.html)
+[afpd.conf manpage](https:///netatalk.sourceforge.net/2.2/htmldocs/afpd.conf.5.html)
 
-[AppleVolumes.default manpage](http://netatalk.sourceforge.net/2.2/htmldocs/AppleVolumes.default.5.html)
+[AppleVolumes.default manpage](https:///netatalk.sourceforge.net/2.2/htmldocs/AppleVolumes.default.5.html)
 
 # Media Server
 
@@ -249,7 +249,7 @@ You can copy mine but remember to change your settings and password if they don'
     "bind-address-ipv6": "::",
     "blocklist-enabled": false,
     "blocklist-updates-enabled": true,
-    "blocklist-url": "http://www.example.com/blocklist",
+    "blocklist-url": "https:///www.example.com/blocklist",
     "cache-size-mb": 4,
     "dht-enabled": true,
     "download-dir": "/media/diskspace/transmission/completed",
@@ -348,7 +348,7 @@ You can copy mine but remember to change your settings and password if they don'
 
 ```
 
-Now start the daemon and test the setup heading to`http://your.server.ip.adress:9025/`
+Now start the daemon and test the setup heading to`https:///your.server.ip.adress:9025/`
 
 ```
 sudo service transmission-daemon start
@@ -363,7 +363,7 @@ Go to [Plex website](https://plex.tv/downloads) and copy the link for the appr
 Download it and install it.
 
 ```
-wget http://downloads.plexapp.com/plex-media-server/0.9.9.12.504-3e7f93c/plexmediaserver_0.9.9.12.504-3e7f93c_i386.deb
+wget https:///downloads.plexapp.com/plex-media-server/0.9.9.12.504-3e7f93c/plexmediaserver_0.9.9.12.504-3e7f93c_i386.deb
 sudo dpkg -i plexmediaserver_0.9.9.12.504-3e7f93c_i386.deb
 
 ```
@@ -375,6 +375,6 @@ sudo gpasswd -a plex tsagi
 
 ```
 
-Go to `http://your.server.ip.adress:32400/manage` and point your libraries to the transmission's `completed` directory. It can figure out if you have a series episode or a movie in the directory.
+Go to `https:///your.server.ip.adress:32400/manage` and point your libraries to the transmission's `completed` directory. It can figure out if you have a series episode or a movie in the directory.
 
 ![](/images/{{ page.slug }}/4.png)

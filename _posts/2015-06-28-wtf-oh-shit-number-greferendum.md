@@ -42,7 +42,7 @@ The situation is fucked up and things are happening all the time.
 
 There are many theories on what is the plan of the government or the possible outcomes. In any case, the people who are going to decide the future of Greece are in great shock and the decision they make should be thought through.
 
-Polls are showing that people still [prefer to stay in Europe](http://news.in.gr/greece/article/?aid=1500008268) (sorry, Greek article).
+Polls are showing that people still [prefer to stay in Europe](https:///news.in.gr/greece/article/?aid=1500008268) (sorry, Greek article).
 
 ## Myself I am furious.
 

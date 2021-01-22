@@ -12,9 +12,9 @@ tags:
 ---
 
 Among the ridiculous projects I have had out in the open, the most long running
-one is called [perispomeni.club](http://perispomeni.club).
+one is called [perispomeni.club](https:///perispomeni.club).
 It is a dead simple, tiny linux machine inspired by Paul Ford’s
-[tilde.club](http://tilde.club). People respectfully use together that machine
+[tilde.club](https:///tilde.club). People respectfully use together that machine
 in their shared quest to learn and build awesome web pages.
 
 However it was a surprise when one of the users sent me a private email with a
@@ -26,7 +26,7 @@ Here I must mention that the pattern you can spot when
 reading this and my [previous post](/a-pile-of-scam) is purely coincidental. I
 will stop with the email fanfare, I promise. On with the email:
 
->**From** [bob](http://perispomeni.club/~bob/)<br>
+>**From** [bob](https:///perispomeni.club/~bob/)<br>
 >**Subject:** Strange connection or only my imagination?<br>
 Hey Tasos<br>
 I have noticed a very strange connection to your server from various ip address
@@ -170,12 +170,12 @@ the remedy simple enough. Depending on your use case you should examine if this
 is the right way to go for you. If you run a public website for example I think
 it is not.
 
-If one chooses to go down that road, he may stumble upon [Phil Hagen' s](http://stuffphilwrites.com/2013/03/permanently-ban-repeat-offenders-fail2ban/)
+If one chooses to go down that road, he may stumble upon [Phil Hagen' s](https:///stuffphilwrites.com/2013/03/permanently-ban-repeat-offenders-fail2ban/)
 solution. It is not the most elegant thing but it gets the job done.
 
 In any case, this is how I found out about the Chinese attacking me.
 
 Hey, `121.18.238.104`! If you read this, next time send Jet Lee.
 
-*P.S.:* If you'd like to join our server you can find a link on [perispomeni.club](http://perispomeni.club). 
+*P.S.:* If you'd like to join our server you can find a link on [perispomeni.club](https:///perispomeni.club). 
 If not you still can [become a Patron](https://www.patreon.com/tsangiotis) to support the effort.

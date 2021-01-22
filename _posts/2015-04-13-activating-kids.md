@@ -15,7 +15,7 @@ Recently we had the chance to show some kids what Electrical and Computer Scienc
 
 And boy that was awesome!
 
-I am a board member at the [IEEE Student Branch of the University of Patras](http://ieee-upatras.gr/en/)and with some other members we decided to implement an IEEE program called [TISP](http://www.ieee.org/education_careers/education/preuniversity/tispt/index.html). **And we believe we nailed it!**
+I am a board member at the [IEEE Student Branch of the University of Patras](https:///ieee-upatras.gr/en/)and with some other members we decided to implement an IEEE program called [TISP](https:///www.ieee.org/education_careers/education/preuniversity/tispt/index.html). **And we believe we nailed it!**
 <!--more-->
 We contacted a lyceum close to our uni. They heard us and they decided they would like to work with us.
 
@@ -80,7 +80,7 @@ I had prepared a Python workshop for another class.
 
 We did some basic stuff and at the end I guided them through creating their own simple web app using **Wolfram Alpha** and **IMdB** to get the IMdB links of the best selling movies of the year they chose.
 
-You can see it as a heroku app [here](http://ieee-py-kastritsi.herokuapp.com/)!
+You can see it as a heroku app [here](https:///ieee-py-kastritsi.herokuapp.com/)!
 
 They saw they could go from Zero to Hero in no time and Wolfram Alpha (a tool that we use regularly as engineers) was in their arsenal to play with.
 

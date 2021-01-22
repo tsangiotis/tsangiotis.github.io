@@ -10,7 +10,7 @@ tags:
 - Soundtrack
 ---
 
-I recently watched [The Gambler](http://www.imdb.com/title/tt2039393/) movie.
+I recently watched [The Gambler](https:///www.imdb.com/title/tt2039393/) movie.
 
 I liked it but most I liked the music!
 

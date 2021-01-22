@@ -93,7 +93,7 @@ Beaten by the above realization I researched Sifnos some more and shought out fo
 
 The stairs form a leading line to the church and there is enough space to watch the moon get some of that eclipse action
 
-At this point I must note that I am not a church hunter but it seems appropriate on an island with [350 of them churches](http://www.touristorama.com/sifnos_oi_ekklisies_tis-01453).
+At this point I must note that I am not a church hunter but it seems appropriate on an island with [350 of them churches](https:///www.touristorama.com/sifnos_oi_ekklisies_tis-01453).
 
 Also there is a tavern on the beach nearby so food and alcohol can join the game.
 

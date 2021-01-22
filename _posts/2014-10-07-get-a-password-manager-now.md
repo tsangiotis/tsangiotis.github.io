@@ -8,20 +8,20 @@ tags:
 - Passwords
 - Security
 ---
-There is a new breach boy in town and this time is called [ShellShock](http://en.wikipedia.org/wiki/Shellshock_(software_bug)).
+There is a new breach boy in town and this time is called [ShellShock](https:///en.wikipedia.org/wiki/Shellshock_(software_bug)).
 
-Researchers claim that it is a lot worst than [Heardbleed](http://heartbleed.com/).
+Researchers claim that it is a lot worst than [Heardbleed](https:///heartbleed.com/).
 
 It is a Bash bug that allows almost anyone to execute commands to a remote machine.
 
-For more about that [here](http://www.troyhunt.com/2014/09/everything-you-need-to-know-about.html?m=1).
+For more about that [here](https:///www.troyhunt.com/2014/09/everything-you-need-to-know-about.html?m=1).
 
 When these bugs get exposed, fear push us to security.
 And as Batman says, fear is a tool!
 
 <!--more-->
 
-Since then, [1Password's sales skyrocketed](http://www.theverge.com/2014/9/26/6849461/can-1password-save-your-digital-life-jeff-shiner-david-chartier)!
+Since then, [1Password's sales skyrocketed](https:///www.theverge.com/2014/9/26/6849461/can-1password-save-your-digital-life-jeff-shiner-david-chartier)!
 Same thing with other passwords managers for sure. And why is that?
 
 We mostly use one or two password everywhere, they are probably in the dictionary and our safeguard is that digit or character we change each time.

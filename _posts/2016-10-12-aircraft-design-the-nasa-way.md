@@ -51,9 +51,9 @@ Yes and no. It helps to have a capable enough computer and access to CAD progra
 ![Slow computers have advantages](/images/{{ page.slug }}/compiling.png)
 <p class="text-center">Slow computers have advantages</p>
 
-Actually one of the programs I mentioned is made by some folks at NASA. It's called [OpenVSP](http://www.openvsp.org/) and stands for Open Vehicle Sketch Pad. Spoiler alert: It's much more than a sketch pad.
+Actually one of the programs I mentioned is made by some folks at NASA. It's called [OpenVSP](https:///www.openvsp.org/) and stands for Open Vehicle Sketch Pad. Spoiler alert: It's much more than a sketch pad.
 
-The other one is [XFLR5](http://www.xflr5.com/xflr5.htm). It is an extremely capable aerodynamics analysis tool for airfoils and complete wings. It started from a little known university called MIT and has been used in bizarre cases like [studying sail boat performance](http://www.xflr5.com/sail7/sail7.html).
+The other one is [XFLR5](https:///www.xflr5.com/xflr5.htm). It is an extremely capable aerodynamics analysis tool for airfoils and complete wings. It started from a little known university called MIT and has been used in bizarre cases like [studying sail boat performance](https:///www.xflr5.com/sail7/sail7.html).
 
 Anyhow, for the next few months, life is going to include a lot of this stuff. In true Tasos fashion I may completely abandon documenting this as I have to explain a lot of things I have already done but I will try and if people are actually interested I will try harder. I will start with a post a week and see how that works.
 

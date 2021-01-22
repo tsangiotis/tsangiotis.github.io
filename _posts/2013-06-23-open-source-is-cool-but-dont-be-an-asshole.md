@@ -11,9 +11,9 @@ tags:
 - Open Source
 ---
 
-[OMGUbuntu!](http://www.omgubuntu.co.uk/) had an [article](http://www.omgubuntu.co.uk/2013/06/installing-sublime-text-in-ubuntu) recently about the well known text editor [Sublime Text 2](http://www.sublimetext.com/).
+[OMGUbuntu!](https:///www.omgubuntu.co.uk/) had an [article](https:///www.omgubuntu.co.uk/2013/06/installing-sublime-text-in-ubuntu) recently about the well known text editor [Sublime Text 2](https:///www.sublimetext.com/).
 <!--more-->
-This editor is fantastic! It can be customised in any way you imagine to fit your needs and taste. There is also a great community that builds plugins and you can build your own pretty easily. It also support some great features and you can see a demonstration at their [homepage](http://www.sublimetext.com/). Please go! I can wait!
+This editor is fantastic! It can be customised in any way you imagine to fit your needs and taste. There is also a great community that builds plugins and you can build your own pretty easily. It also support some great features and you can see a demonstration at their [homepage](https:///www.sublimetext.com/). Please go! I can wait!
 
 ![](/images/{{ page.slug }}/af1bdb6bd3e4a7bbeb2972889f08e3fd.gif)
 

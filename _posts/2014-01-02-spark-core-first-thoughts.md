@@ -8,9 +8,9 @@ tags:
 - IoT
 ---
 
-I just got my hands on my long waited [Spark Core](http://tsagi.me/spark.io)!
+I just got my hands on my long waited [Spark Core](https:///tsagi.me/spark.io)!
 
-It is a tiny Arduino board with a built in WiFi module. Besides that and the obvious possibilities of the Core, there is an [API](http://tsagi.me/docs.spark.io) making it possible for the Core to talk to the internet.
+It is a tiny Arduino board with a built in WiFi module. Besides that and the obvious possibilities of the Core, there is an [API](https:///tsagi.me/docs.spark.io) making it possible for the Core to talk to the internet.
 
 <!--more-->
 
@@ -23,7 +23,7 @@ This simple bash script that runs on my computer does just that:
 
 while true; do
   sleep 5
-  st=$(curl -s http://www.p-space.gr/status/)
+  st=$(curl -s https:///www.p-space.gr/status/)
   echo "$st"
   if(( "$st" == "0")); then
     echo "P-Space is closed!"

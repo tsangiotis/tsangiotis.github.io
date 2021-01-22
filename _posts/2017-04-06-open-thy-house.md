@@ -99,7 +99,7 @@ So we wait and wait and eventually we climb the holy staircase to the second flo
 
 The house is amazing and ingeniously designed. It is a blend of recent times with designs ranging from the 70s to today and full of practical choices. I am not an architect but I know what I like.
 
-Sadly, photography is forbidden in that realm but hey, this is the internet. Check out the apartment on [the architect’s webpage](http://archivirus.com/c1/p97/the-vintage-modern-blend-apartment).
+Sadly, photography is forbidden in that realm but hey, this is the internet. Check out the apartment on [the architect’s webpage](https:///archivirus.com/c1/p97/the-vintage-modern-blend-apartment).
 
 While you do that imagine me washing down Mexican dishes with Margaritas. It is realistic and funny at the same time.
 

@@ -49,7 +49,7 @@ For as long you stay frozen, your team develops tension and if it reaches critic
 
 When machines are static they rust and break.
 
-As [Pascal Finette](http://finette.com/) says, **[Always run. Never walk](http://theheretic.me/2014/12/04/always-run-never-walk/)**.
+As [Pascal Finette](https:///finette.com/) says, **[Always run. Never walk](https:///theheretic.me/2014/12/04/always-run-never-walk/)**.
 
 ## Be precise and push when needed
 

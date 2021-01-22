@@ -10,7 +10,7 @@ tags:
 - Jekyll
 ---
 
-After a couple of months around [this](http://github.com/tsagi/jekyllforandroid) project it reached a stage where maybe it is not super stable but it is usable and pretty ok for my needs.
+After a couple of months around [this](https:///github.com/tsagi/jekyllforandroid) project it reached a stage where maybe it is not super stable but it is usable and pretty ok for my needs.
 
 <!--more-->
 

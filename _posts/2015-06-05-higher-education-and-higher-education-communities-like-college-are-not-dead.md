@@ -34,7 +34,7 @@ College lets you learn things in depth if you study hard and learning things in 
 
 Keep in mind that there are people getting second and third degrees to learn things in depth and not just to put them on their resume.
 
-Take for example [Elon Musk](http://en.wikipedia.org/wiki/Elon_Musk). He could have started his awesome career two years earlier but he didn’t. He took his Bachelor of Science degree in Economics just after Bachelor of Science degree in Physics.
+Take for example [Elon Musk](https:///en.wikipedia.org/wiki/Elon_Musk). He could have started his awesome career two years earlier but he didn’t. He took his Bachelor of Science degree in Economics just after Bachelor of Science degree in Physics.
 
 This gave him the advantage in many ways.
 

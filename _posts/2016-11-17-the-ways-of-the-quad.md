@@ -23,7 +23,7 @@ Quadcopters you are likely familiar with. If not, the word derives from the word
 Anyway, it’ s that contraption:
 ![](/images/{{ page.slug }}/iris1.jpg)
 
-As you can imagine going airborne is hard. Maybe flying is too mainstream these days and you can’t imagine but let me tell you, going high into the air and having control of your motion is not an easy feat. Humans were not able to do it before the Wright brothers did it at the dawn of the 20th century. If you want to know more about how a couple of engineers with no social skills and an obsession threw themselves under the wagon, you can read [an essay by Maciej Cegłowski](http://idlewords.com/2003/12/100_years_of_turbulence.htm) about the Wright brothers and patent law.
+As you can imagine going airborne is hard. Maybe flying is too mainstream these days and you can’t imagine but let me tell you, going high into the air and having control of your motion is not an easy feat. Humans were not able to do it before the Wright brothers did it at the dawn of the 20th century. If you want to know more about how a couple of engineers with no social skills and an obsession threw themselves under the wagon, you can read [an essay by Maciej Cegłowski](https:///idlewords.com/2003/12/100_years_of_turbulence.htm) about the Wright brothers and patent law.
 
 Going airborne is hard first and foremost because earth has this thing called gravity that pulls you down and keeps you close. Yes, earth is passionately possessive. So man up and deal with it. You have to beat gravity and to do exactly that, you have to push down harder than the earth pulls you.
 
@@ -77,4 +77,4 @@ Happy flying and please tell me if that was at all helpful.
 
 * * *
 
-_Credits: Some of the images used, come from the website _[_Black Tie Aerial_](http://blacktieaerial.com/creative-commons-licenced-multirotor-images/)_ where they are available under the _[_Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License_](http://creativecommons.org/licenses/by-nc-sa/4.0/)_. In that regard, any image used in this post is under the same license._
+_Credits: Some of the images used, come from the website _[_Black Tie Aerial_](https:///blacktieaerial.com/creative-commons-licenced-multirotor-images/)_ where they are available under the _[_Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License_](https:///creativecommons.org/licenses/by-nc-sa/4.0/)_. In that regard, any image used in this post is under the same license._

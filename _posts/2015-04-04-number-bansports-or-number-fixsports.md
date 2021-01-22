@@ -25,7 +25,7 @@ So far so good.
 
 However this is where the word professional comes in and where bad practices begin like excessive pressure, unauthorized (or “authorized”) supplements, athlete exploitation (see [March Madness](https://www.youtube.com/watch?v=pX8BXH3SJn0)) and so on.
 
-Sport events take huge extends some times and fan behavior can be dangerous or lethal. Once in Greece on the year 1981 and at the end of a football match [21 people died because some stepped on them literally](http://en.wikipedia.org/wiki/Karaiskakis_Stadium_disaster).
+Sport events take huge extends some times and fan behavior can be dangerous or lethal. Once in Greece on the year 1981 and at the end of a football match [21 people died because some stepped on them literally](https:///en.wikipedia.org/wiki/Karaiskakis_Stadium_disaster).
 
 As with many things in our current society like diversity, xenophobia, etc. the problem can be solved with better education even if the lack of it cannot be blamed as the main factor of this problem’s origin. People get excited with exciting stuff and if we are to ban sports we should start with other stuff first.
 

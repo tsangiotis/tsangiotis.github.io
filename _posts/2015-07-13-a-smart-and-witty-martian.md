@@ -11,7 +11,7 @@ tags:
 
 ![](/images/{{ page.slug }}/martian.png)
 
-Just yesterday I finished reading [The Martian](http://www.goodreads.com/book/show/18007564-the-martian). I wont lie, this book is not for eveyone but I really liked it.
+Just yesterday I finished reading [The Martian](https:///www.goodreads.com/book/show/18007564-the-martian). I wont lie, this book is not for eveyone but I really liked it.
 
 Mark Whitney, an engineer and botanist, was left on Mars by accident and he has to survive some years since he has even a chance to get back to Earth.
 

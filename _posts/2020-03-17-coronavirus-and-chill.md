@@ -87,7 +87,7 @@ I could use the money for buying masks and gloves so the books have Amazon affil
 
 <p>Some people think of this as the best Rusian novel of the 20th century.</p>
 
-<p>There are even <a href="http://cr.middlebury.edu/public/russian/Bulgakov/public_html/">supporting guides</a> for this book.</p>
+<p>There are even <a href="https:///cr.middlebury.edu/public/russian/Bulgakov/public_html/">supporting guides</a> for this book.</p>
 
 </td>
 </tr>

@@ -16,7 +16,7 @@ ICP Sensors are nice!
 
 ![](/images/{{ page.slug }}/1_SH0ksHu31UW8_n3YdYejQg.jpeg)
 
-The last two days I was frustrated with an [**ICP**](http://en.wikipedia.org/wiki/Integrated_circuit_piezoelectric_sensor) (**I**ntegrated **C**ircuit**P**iezoelectric) vibration sensor not working.
+The last two days I was frustrated with an [**ICP**](https:///en.wikipedia.org/wiki/Integrated_circuit_piezoelectric_sensor) (**I**ntegrated **C**ircuit**P**iezoelectric) vibration sensor not working.
 
 There were glimpses of uptime but it was just that. Glimpses…
 <!--more-->

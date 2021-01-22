@@ -53,7 +53,7 @@ The result got me by surprise. _No_ won by something more that **60/30** and
 
 _Yes_ was represented (maybe deliberately) in Greece by the people that run Greece after its big political reform in 1974 and in Europe by anyone who has been austere to Greece in the past 5 years. Also almost all private media were channeling people to vote _Yes_. That pretty much erased chances for a_Yes _because Greek people hate all or some of the above categories.
 
-However polls and even [Twitter stats](http://topsy.com/analytics?q1=Oxi%20OR%20%CE%BF%CF%87%CE%B9&q2=Nai%20OR%20%CE%BD%CE%B1%CE%B9&via=Topsy) showed that people changed their minds at the last time.
+However polls and even [Twitter stats](https:///topsy.com/analytics?q1=Oxi%20OR%20%CE%BF%CF%87%CE%B9&q2=Nai%20OR%20%CE%BD%CE%B1%CE%B9&via=Topsy) showed that people changed their minds at the last time.
 
 ![](/images/{{ page.slug }}/topsy.png)
 
