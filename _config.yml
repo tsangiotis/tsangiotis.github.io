@@ -5,6 +5,8 @@ author: Tasos Sangiotis
 
 repository: tsangiotis/tsangiotis.github.io
 
+theme: null
+
 permalink: /:title/
 highlighter : rouge
 

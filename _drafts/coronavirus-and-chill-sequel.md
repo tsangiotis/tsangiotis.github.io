@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Coronavirus & Chill: Return of the inside" 
-date: 2020-11-08
 description: Books, movies and alcohol
 image: 
 categories:

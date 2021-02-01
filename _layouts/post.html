@@ -4,10 +4,10 @@ layout: simple
 
 <article class="post">
   <header class="post__header">
-    <a class="post__permalink txt-undecorated" href="{{ page.url }}">
-      <h1 class="post__title txt-x-large">{{ page.title }}</h1>
+    <a class="post__permalink" href="{{ page.url }}">
+      <h1 class="post__title">{{ page.title }}</h1>
     </a>
-    <time class="post__time txt-small" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %d, %Y"
+    <time class="post__time" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %d, %Y"
         }}</time>
   </header>
   <div class="post__content">
