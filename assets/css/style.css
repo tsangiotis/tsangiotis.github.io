@@ -17,7 +17,7 @@
     --color-sheet: var(--color-white);
     --color-link: var(--color-blurple);
     --color-accent: var(--color-cobalt);
-    --content-width: 98rem;
+    --content-width: 78rem;
     --page-padding: 1.6em;
     --space-x-small: 0.25em;
     --space-small: 0.5em;
@@ -48,7 +48,7 @@
 
 @media (min-width: 91em) {
     :root {
-        --type-base: 2.2em
+        --type-base: 1.9em
     }
 }
 
@@ -311,17 +311,11 @@ td {
 }
 
 .footer {
-    margin: 2em 0 2em 0;
-    padding: 1em 0;
+    margin: 1em 0 1.5em 0;
     text-align: center;
-    font-size: var(--type-small);
+    font-size: var(--type-x-small);
+    font-style: italic;
     letter-spacing: -0.03rem;
-}
-
-@media (min-width: 45em) {
-    .footer {
-        margin-bottom: 2em;
-    }
 }
 
 .header {
