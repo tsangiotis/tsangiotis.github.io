@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Email gripes
-date: 2020-03-17
+date: 2020-06-29
 description: 
 image: /images/email-gripes/email-gripes-featured.JPG
 categories: Personal Opinion

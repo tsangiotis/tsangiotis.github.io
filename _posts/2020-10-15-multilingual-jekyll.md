@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Multilingual Jekyll on GitHub Pages
-date: 2020-03-17
+date: 2020-10-15
 description: Babel was hard enough. A GDPR compliant multilingual language selector.
 image: /images/multilingual-jekyll/around_the_world.png
 categories: guide
