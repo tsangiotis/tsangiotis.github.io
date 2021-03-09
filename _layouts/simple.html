@@ -4,12 +4,12 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{{site.title}} | {% if page.title %}{{ page.title }}{% else %}{{site.description}}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }}{% else %}{{site.title}}{% endif %}</title>
   {% seo %}
 
   {% include social_meta_tags.html %}
 
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="300x300" href="/assets/images/me.jpg">
   <link rel="stylesheet" href="/assets/css/style.css" defer>
   {% if page.remote %}
   <link rel="canonical" href="{{ page.remote_url }}" />
@@ -26,6 +26,10 @@
 
   <footer>
     <p>&copy; {{site.author}}, 2021</p>
+    <p class="print">tasos@sangiotis.com</p>
+    <nav class="header__nav no-print" aria-label="Navigation">
+      <a class="header__nav--item" href="/about/">About</a>
+    </nav>
   </footer>
 
 </body>

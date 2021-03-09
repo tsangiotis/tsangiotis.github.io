@@ -2,6 +2,7 @@
     --color-white: #fff;
     --color-black: #222;
     --color-grey: #777471;
+    --color-light-grey: #e2ddda;
     --color-yellow: #f5d652;
     --color-canary: #fff5ca;
     --color-canary-tint: #fffae5;
@@ -66,11 +67,6 @@ a, a:visited {
     padding-top: 1em;
 }
 
-a:hover {
-    color: var(--color-link);
-    text-decoration-color: var(--color-salmon);
-}
-
 del {
     text-decoration: line-through;
 }
@@ -90,7 +86,7 @@ pre {
     /* Opera 7 */
     word-wrap: break-word;
     /* Internet Explorer 5.5+ */
-    background-color: var(--color-grey);
+    background-color: var(--color-light-grey);
     padding: 10px;
     margin: 1em 0.1em;
     border-radius: 4px;
@@ -102,6 +98,7 @@ code {
     font-size: x-small;
     border-radius: 0.2em;
     padding: 0.2em 0.5em;
+    background-color: var(--color-light-grey);
 }
 
 figure {
@@ -227,18 +224,9 @@ footer {
 body>header {
     padding-top: 1.5em;
     padding-top: max(1.5em, 4vmin);
-    margin-left: 1rem;
 }
 
-@media (min-width: 45em) {
-    body>header {
-        padding-top: 4em;
-        padding-top: max(4em, 12vmin);
-        text-align: center;
-    }
-}
-
-.header__nav {
+header>nav {
     display: flex;
     align-items: center;
     justify-content: start;
@@ -246,11 +234,20 @@ body>header {
     margin-top: 0.5em !important;
 }
 
-@media (min-width: 45em) {
-    .header__nav {
-        justify-content: center;
-        font-size: medium;
-    }
+img:not([width]):not([height]) {
+    min-width: 1px;
+    min-height: 1px;
+}
+
+.avatar {
+    width: 2.625em;
+    height: 2.625em;
+    border-radius: 100%;
+    z-index: 1;
+    display: block;
+    position: relative;
+    color: transparent;
+    background-color: rgb(251, 250, 249);
 }
 
 .header__nav--item {
@@ -258,14 +255,10 @@ body>header {
     margin: 0.25em 0.125em;
     padding: 0.25em 0.75em;
     font-size: small;
-    background: linear-gradient(45deg, var(--color-blurple) 0%, var(--color-cobalt) 100%, var(--color-blurple))var(--x, 0)/200%;
+    background: var(--color-blurple);
     color: white !important;
     border-radius: 1em;
     text-decoration: none;
-}
-
-.header__nav--item:hover {
-    --x: 100%
 }
 
 .header__permalink {
@@ -275,23 +268,34 @@ body>header {
 .header__title {
     font-size: x-large;
     letter-spacing: -0.03rem;
+    margin-top: 0.28em;
 }
 
-.post {
+article {
     text-decoration: none;
 }
 
-.post__permalink {
+article header a {
     text-decoration: none;
 }
 
-h1.post__title {
+article header h1 {
     font-size: xx-large;
+    margin: 0 1em;
+}
+
+article header {
+    text-align: center;
 }
 
 h2.post__title {
     font-size: x-large;
     margin-bottom: 0.4rem;
+}
+
+a.post {
+    color: inherit;
+    text-decoration: none;
 }
 
 .post__time {
