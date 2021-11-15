@@ -1,7 +1,7 @@
 ---
 layout: post
 title: No more AirPods for Zoom calls
-date: 2021-03-04
+date: 2020-12-22
 description: 
 categories: 
 tags: 
