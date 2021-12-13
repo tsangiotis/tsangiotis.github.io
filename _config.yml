@@ -13,10 +13,14 @@ highlighter : rouge
 excerpt_separator: <!--more-->
 
 collections:
-  - links
+  links:
+    title: Links
+  photos:
+    title: Photos
+    output: true
 
 social:
-    twitter: tsangiotis
+  twitter: tsangiotis
 
 avatar_img: me.png
 
