@@ -6,6 +6,8 @@ description: While in love or alone, Milos is a place to enjoy the sand and sun.
 image: /images/multilingual-jekyll/around_the_world.png
 categories: Travel
 tags: Cyclades, Greece, Milos, Photography, Travel
+redirect_from:
+  - 2021/08/14/milos-sea-see-eat-drink/
 ---
 
 While in love or alone, Milos is a place to enjoy the sand and sun. Bellow are some musts from my visit. I will not bore you with the unpleasant or meh experiences. Only with the great and there were many.
