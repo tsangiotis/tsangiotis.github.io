@@ -1,13 +1,5 @@
 ---
-layout: simple
+layout: sidebar
 ---
 
-{% for post in site.posts %}
-<article class="post__present">
-  <a class="post" href="{% if post.remote %}{{ post.remote_url }}{% else %}{{ post.url }}{% endif %}">
-    <h2 class="post__title">
-      {{ post.title }}{% if post.lang == 'el' %}<span>🇬🇷</span>{% endif %}{% if post.remote %}🔗{% endif %}</h2>
-  </a>
-  <time class="post__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-</article>
-{% endfor %}
+![lighthouse](images/undraw_lighthouse_frb8.svg)
