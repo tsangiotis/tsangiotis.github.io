@@ -1,320 +1,401 @@
+/* Set the global variables for everything. Change these to use your own fonts and colours. */
 :root {
-    --color-white: #fff;
-    --color-black: #222;
-    --color-grey: #777471;
-    --color-light-grey: #e2ddda;
-    --color-yellow: #f5d652;
-    --color-canary: #fff5ca;
-    --color-canary-tint: #fffae5;
-    --color-cobalt: #4e78c6;
-    --color-blurple: #2e5090;
-    --color-salmon: #be1f2b;
-    --color-peach: #fee5da;
-    --color-peach-tint: #fef2ed;
-    --color-teal: #9ED9C3;
-    --color-grass: #008265;
-    --color-shadow: rgba(0, 0, 0, 0.1);
-    --color-text: var(--color-black);
-    --color-link: var(--color-blurple);
-    --color-accent: var(--color-cobalt);
-}
 
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 10px;
-    overflow-x: hidden;
-    scroll-padding: 10em 0 0 0;
-}
-
-body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-    text-align: left;
-    background-color: #fff;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    line-height: 1.5;
-    color: black;
-}
-
-main {
-    padding: 0;
-    padding-top: 2em;
-    padding-top: max(2em, 4vmin);
-    width: 100%;
-    margin: 0 auto;
-    max-width: 78rem;
-}
-
-@media (max-width: 40em) {
-    main {
-        padding: 1.6em;
+    /* Set sans-serif & mono fonts */
+    --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
+    --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  
+    /* Body font size. By default, effectively 18.4px, based on 16px as 'root em' */
+    --base-fontsize: 1.15rem;
+  
+    /* Major third scale progression - see https://type-scale.com/ */
+    --header-scale: 1.25;
+  
+    /* Line height is set to the "Golden ratio" for optimal legibility */
+    --line-height: 1.618;
+  
+    /* Default (light) theme */
+    --bg: #FFF;
+    --accent-bg: #F5F7FF;
+    --text: #212121;
+    --text-light: #585858;
+    --border: #D8DAE1;
+    --accent: #2e5090;
+    --accent-light: #4e78c6;
+    --code: #be1f2b;
+    --preformatted: #444;
+    --marked: #f5d652;
+    --disabled: #EFEFEF;
+  }
+  
+  /* Dark theme */
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1b2733;
+      --accent-bg: #4e78c6;
+      --text: #DCDCDC;
+      --text-light: #ABABAB;
+      --border: #666;
+      --accent: #FFB300;
+      --accent-light: #FFECB3;
+      --code: #f2a575;
+      --preformatted: #CCC;
+      --disabled: #111;
     }
-}
+  
+    img, video {
+      opacity: .6;
+    }
+  }
 
-a, a:visited {
-    color: inherit;
-}
-
-:target::before {
-    display: block;
-    position: relative;
-    padding-top: 1em;
-}
-
-del {
-    text-decoration: line-through;
-}
-
-p, pre {
-    margin-bottom: 15px;
-}
-
-pre {
-    white-space: pre-wrap;
-    /* css-3 */
-    white-space: -moz-pre-wrap;
-    /* Mozilla, since 1999 */
-    white-space: -pre-wrap;
-    /* Opera 4-6 */
-    white-space: -o-pre-wrap;
-    /* Opera 7 */
-    word-wrap: break-word;
-    /* Internet Explorer 5.5+ */
-    background-color: var(--color-light-grey);
-    padding: 10px;
-    margin: 1em 0.1em;
-    border-radius: 4px;
-    border: 1px dashed;
-}
-
-code {
-    font-family: monospace;
-    font-size: x-small;
-    border-radius: 0.2em;
-    padding: 0.2em 0.5em;
-    background-color: var(--color-light-grey);
-}
-
-figure {
-    position: relative;
-    margin: 0.5em auto 2em auto;
-    width: 100%;
-    text-align: center;
-}
-
-figure img {
-    display: block;
+  html {
+    /* Set the font globally */
+    font-family: var(--sans-font);
+  }
+  
+  /* Make the body a nice central block */
+  body {
+    color: var(--text);
+    background: var(--bg);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    flex: 1;
     margin: 0 auto;
-    box-shadow: 2rem 2rem 6rem var(--color-shadow);
-    border-radius: 1rem;
-}
+    max-width: 45rem;
+    padding: 0 .5rem;
+    overflow-x: hidden;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
 
-figure a {
-    border-bottom: 0;
-}
+  header {
+      margin-top: 2rem;
+      text-align: center;
+  }
 
-figcaption {
-    margin: 0.75em 0 0.75em 0;
-    font-style: italic;
-    font-weight: normal;
-    font-size: x-small;
-    line-height: 1.3;
-}
+  header img {
+      border-radius: 3rem;
+  }
 
-img, svg, video {
+  header h1 {
+      margin: 0;
+      font-size: calc(var(--base-fontsize) * var(--header-scale));
+  }
+ 
+  /* Fix line height when title wraps */
+  h1, h2, h3 {
+    line-height: 1.1;
+  }
+  
+  /* Format navigation */
+  nav {
+    font-size: 1rem;
+    line-height: 2;
+    padding: 1rem 0;
+  }
+  
+  nav a {
+    transition: color .2s ease, background-color .2s ease, box-shadow .2s ease;
+    margin: 1rem 1rem 0 0;
+    border: 1px solid var(--border);
+    border-radius: 3rem;
+    color: var(--bg) !important;
+    background-color: var(--accent);
+    display: inline-block;
+    padding: .1rem 1rem;
+    text-decoration: none;
+    font-size: small;
+    transition: .4s;
+  }
+  
+  nav a:hover {
+    color: var(--border) !important;
+    border-color: var(--border);
+  }
+  
+  nav a.current:hover {
+    text-decoration: none;
+  }
+  
+  footer {
+    margin-top: 4rem;
+    padding: 2rem 1rem 1.5rem 1rem;
+    color: var(--text-light);
+    font-size: .9rem;
+    text-align: center;
+    border-top: 1px solid var(--border);
+  }
+  
+  
+  
+  /* Format links & buttons */
+  a,
+  a:visited {
+    color: var(--accent);
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  
+  main img, main video {
     max-width: 100%;
     height: auto;
-}
-
-p>img {
-    max-width: 60%;
-    display: block;
-    margin: 0 auto;
-}
-
-hr {
-    width: 100%;
-    height: 0.2rem;
-    display: block;
-    clear: both;
-    margin: 1em auto;
-    padding: 0;
-    border: 0;
-    background: linear-gradient(to right, var(--color-blurple) 0%, var(--color-salmon) 100%);
-}
-
-blockquote {
-    quotes: none;
-}
-
-blockquote p:before {
-    content: "“";
-    display: inline;
-}
-
-blockquote p:after {
-    content: "”";
-    display: inline;
-}
-
-blockquote cite {
-    display: block;
-    font-size: x-small;
-    font-weight: 700;
-}
-
-embed, iframe, object {
-    max-width: 100%;
-}
-
-label {
-    display: block;
-    margin: 0.5em 0 0 0;
-    font-weight: normal;
-    font-size: small;
-    letter-spacing: -0.02em;
-    line-height: 1.5;
-    text-align: left;
-}
-
-table {
-    width: 100%;
-    text-align: left;
-    border-collapse: separate;
-    border-spacing: 0;
-}
-
-td {
-    border: none;
-    padding: 1em;
-}
-
-footer {
-    margin: 1em 0 1.5em 0;
-    text-align: center;
-    font-size: x-small;
-    font-style: italic;
-    letter-spacing: -0.03rem;
-}
-
-.btn {
-    display: inline-block;
+    border-radius: 5px;
+  }
+  
+  figure {
     margin: 0;
-    padding: 0.3em 0.8em;
-    font-weight: 500;
-    text-decoration: none;
-    border-radius: 3rem;
-    white-space: nowrap;
-    background-color: transparent;
-    color: black;
-    border: 1px solid;
-}
-
-.btn--subtle {
-    color: var(--color-blurple) !important;
-    border: 1px solid var(--color-blurple);
-}
-
-body>header {
-    padding-top: 1.5em;
-    padding-top: max(1.5em, 4vmin);
-}
-
-header>nav {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    font-size: x-small;
-    margin-top: 0.5em !important;
-}
-
-img:not([width]):not([height]) {
-    min-width: 1px;
-    min-height: 1px;
-}
-
-.avatar {
-    width: 2.625em;
-    height: 2.625em;
-    border-radius: 100%;
-    z-index: 1;
-    display: block;
-    position: relative;
-    color: transparent;
-    background-color: rgb(251, 250, 249);
-}
-
-.header__nav--item {
-    transition: color .2s ease, background-color .2s ease, box-shadow .2s ease;
-    margin: 0.25em 0.125em;
-    padding: 0.25em 0.75em;
-    font-size: small;
-    background: var(--color-blurple);
-    color: white !important;
-    border-radius: 1em;
-    text-decoration: none;
-}
-
-.header__permalink {
-    text-decoration: none;
-}
-
-.header__title {
-    font-size: x-large;
-    letter-spacing: -0.03rem;
-    margin-top: 0.28em;
-}
-
-article {
-    text-decoration: none;
-}
-
-article header a {
-    text-decoration: none;
-}
-
-article header h1 {
-    font-size: xx-large;
-    margin: 0 1em;
-}
-
-article header {
+  }
+  
+  figcaption {
+    font-size: .9rem;
+    color: var(--text-light);
     text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  blockquote {
+    margin: 2rem 0 2rem 2rem;
+    padding: .4rem .8rem;
+    border-left: .35rem solid var(--accent);
+    opacity: .8;
+    font-style: italic;
+  }
+  
+  section {
+    border: 1px solid var(--border);
+    border-radius: 0.2em;
+    color: var(--text) !important;
+    box-shadow: 5px 5px 7px var(--accent-bg);
+    padding: 1.5em;
+    margin: 0 auto;
+  }
+  
+  /* Use mono font for code like elements */
+  code,
+  pre,
+  pre span,
+  kbd,
+  samp {
+    font-size: 1.075rem;
+    font-family: var(--mono-font);
+    color: var(--code);
+  }
+  
+  kbd {
+    color: var(--preformatted);
+    border: 1px solid var(--preformatted);
+    border-bottom: 3px solid var(--preformatted);
+    border-radius: 5px;
+    padding: .1rem;
+  }
+  
+  pre {
+    padding: 1rem 1.4rem;
+    max-width: 100%;
+    overflow: auto;
+    overflow-x: auto;
+    color: var(--preformatted);
+    background: var(--accent-bg);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+  }
+  
+  /* Fix embedded code within pre */
+  pre code {
+    color: var(--preformatted);
+    background: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  a button,
+button,
+[role="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  border: none;
+  border-radius: 5px;
+  background: var(--accent);
+  font-size: 1rem;
+  color: var(--bg);
+  padding: .7rem .9rem;
+  margin: .5rem 0;
+  transition: .4s;
 }
 
-h2.post__title {
-    font-size: x-large;
-    margin-bottom: 0.4rem;
+a button[disabled],
+button[disabled],
+[role="button"][aria-disabled="true"],
+input[type="submit"][disabled],
+input[type="reset"][disabled],
+input[type="button"][disabled],
+input[type="checkbox"][disabled],
+input[type="radio"][disabled],
+select[disabled] {
+  cursor: default;
+  opacity: .5;
+  cursor: not-allowed;
 }
 
-a.post {
-    color: inherit;
-    text-decoration: none;
+input:disabled,
+textarea:disabled,
+select:disabled {
+  cursor: not-allowed;
+  background-color: var(--disabled);
 }
 
-.post__time {
-    font-size: small;
+input[type="range"] {
+  padding: 0;
 }
 
-.post__date {
-    font-size: small;
+/* Set the cursor to '?' while hovering over an abbreviation */
+abbr {
+  cursor: help;
 }
 
-.print, .print * {
-    display: none!important
+button:focus,
+button:enabled:hover,
+[role="button"]:focus,
+[role="button"]:not([aria-disabled="true"]):hover,
+input[type="submit"]:focus,
+input[type="submit"]:enabled:hover,
+input[type="reset"]:focus,
+input[type="reset"]:enabled:hover,
+input[type="button"]:focus,
+input[type="button"]:enabled:hover,
+input[type="checkbox"]:focus,
+input[type="checkbox"]:enabled:hover,
+input[type="radio"]:focus,
+input[type="radio"]:enabled:hover{
+  opacity: .8;
+  cursor: pointer;
 }
 
-@media print {
-    .no-print, .no-print * {
-        display: none!important
-    }
-    .print, print * {
-        display: block!important
-    }
+/* Format forms */
+textarea,
+select,
+input {
+  font-size: inherit;
+  font-family: inherit;
+  padding: .5rem;
+  margin-bottom: .5rem;
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  box-shadow: none;
+  box-sizing: border-box;
+  width: 60%;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
+
+/* Add arrow to  */
+select {
+  background-image:
+    linear-gradient(45deg, transparent 49%, var(--text) 51%),
+    linear-gradient(135deg, var(--text) 51%, transparent 49%);
+  background-position:
+    calc(100% - 20px),
+    calc(100% - 15px);
+  background-size:
+    5px 5px,
+    5px 5px;
+  background-repeat: no-repeat;
+}
+
+select[multiple] {
+  background-image: none !important;
+}
+
+/* checkbox and radio button style */
+input[type="checkbox"], input[type="radio"]{
+  vertical-align: bottom;
+  position: relative;
+}
+input[type="radio"]{
+  border-radius: 100%;
+}
+
+input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+  background: var(--accent);
+}
+
+input[type="checkbox"]:checked::after {
+  /* Creates a rectangle with colored right and bottom borders which is rotated to look like a check mark */
+  content: ' ';
+  width: 0.1em;
+  height: 0.25em;
+  border-radius: 0;
+  position: absolute;
+  top: 0.05em;
+  left: 0.18em;
+  background: transparent;
+  border-right: solid var(--bg) 0.08em;
+  border-bottom: solid var(--bg) 0.08em;
+  font-size: 1.8em;
+  transform: rotate(45deg);
+}
+input[type="radio"]:checked::after {
+  /* creates a colored circle for the checked radio button  */
+  content: ' ';
+  width: .25em;
+  height: .25em;
+  border-radius: 100%;
+  position: absolute;
+  top: 0.125em;
+  background: var(--bg);
+  left: 0.125em;
+  font-size: 32px;
+}
+
+/* Make the textarea wider than other inputs */
+textarea {
+  width: 80%
+}
+
+/* Makes input fields wider on smaller screens */
+@media only screen and (max-width: 720px) {
+  textarea,
+  select,
+  input {
+    width: 100%;
+  }
+}
+
+/* Ensures the checkbox and radio inputs do not have a set width like other input fields */
+input[type="checkbox"], input[type="radio"]{
+  width: auto;
+}
+
+/* do not show border around file selector button */
+input[type="file"] {
+  border: 0;
+}
+
+/* Without this any HTML using <fieldset> shows ugly borders and has additional padding/margin. (Issue #3) */
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+  .reading-0::after{
+    content: "📖";
+  }
+
+  .reading-1::after{
+    content: "💩";
+  }
+  
+  .reading-3::after{
+    content: "💚";
+  }
+  
