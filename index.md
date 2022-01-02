@@ -6,9 +6,34 @@ layout: simple
 [![{{ photo.title }}]({{ photo.img }})]({{ photo.url }})
 {% endfor %}
 
-## Latest posts
+## Now reading 📖
 
-_Subscribe to be informed first [on the new location](https://world.hey.com/tasos)!_
+{% assign reading = site.books | where:"rate","0" %}
+
+{% for book in reading %}
+
+- {{ book.title }} -- {{ book.author }}
+  {% endfor %}
+
+## Latest posts ✍️
+
+<section style="text-align: center; max-width: 32rem;overflow: initial;transform: rotate(-1deg);">
+    <form action="https://world.hey.com/tasos/subscribers" accept-charset="UTF-8" data-remote="true" method="post">
+      <label for="subscriber[email_address]">
+        Subscribe below to get future posts from Tasos Sangiotis
+      </label>
+
+      <div>
+        <input type="email" name="subscriber[email_address]" placeholder="Type your email…" required="">
+
+        <button>Subscribe</button>
+      </div>
+
+</form>
+    <p class="txt--x-small flush--bottom">
+      Or grab the <a class="permalink" href="https://world.hey.com/tasos/feed.atom">RSS feed</a>
+    </p>
+  </section>
 
 {% for post in site.posts limit:7 %}
 

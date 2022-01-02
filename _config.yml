@@ -13,11 +13,11 @@ highlighter: rouge
 excerpt_separator: <!--more-->
 
 collections:
-  links:
-    title: Links
   photos:
     output: true
     title: Photos
+  books:
+    title: Books
 
 social:
   twitter: tsangiotis
