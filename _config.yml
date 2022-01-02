@@ -8,7 +8,7 @@ repository: tsangiotis/tsangiotis.github.io
 theme: null
 
 permalink: /:title/
-highlighter : rouge
+highlighter: rouge
 
 excerpt_separator: <!--more-->
 
@@ -16,8 +16,8 @@ collections:
   links:
     title: Links
   photos:
-    title: Photos
     output: true
+    title: Photos
 
 social:
   twitter: tsangiotis
@@ -27,7 +27,7 @@ avatar_img: me.png
 feed:
   posts_limit: 200
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+exclude: ["README.md", "Gemfile.lock", "Gemfile", "Rakefile"]
 
 plugins:
   - jekyll-github-metadata

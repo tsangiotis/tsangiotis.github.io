@@ -2,18 +2,14 @@
 layout: simple
 ---
 
-<article class="post">
-  <header class="post__header">
-    <a class="post__permalink" href="{% if page.remote %}{{ page.remote_url }}{% else %}{{ page.url }}{% endif %}">
-      <h1 class="post__title">{{ page.title }}{% if post.remote %}🔗{% endif %}</h1>
-    </a>
-    <time class="post__time" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %d, %Y"
+<article>
+  <h1>{{ page.title }}{% if post.remote %}🔗{% endif %}</h1>
+  <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %d, %Y"
         }}</time>
-  </header>
-  <div class="post__content">
+  <div>
     {% if page.remote %}
     <center>
-      <a class="btn btn--subtle" href="{{page.remote_url}}">Read <i>{{page.title}}</i> Here →</a>
+      <a href="{{page.remote_url}}">Read <i>{{page.title}}</i> Here →</a>
     </center>
     {% endif %}
     {{ content }}

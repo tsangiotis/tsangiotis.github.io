@@ -6,6 +6,8 @@ description: While in love or alone, Milos is a place to enjoy the sand and sun.
 image: /images/multilingual-jekyll/around_the_world.png
 categories: Travel
 tags: Cyclades, Greece, Milos, Photography, Travel
+remote: true
+remote_url: https://world.hey.com/tasos/milos-sea-see-eat-drink-ce111a39
 redirect_from:
   - 2021/08/14/milos-sea-see-eat-drink/
 ---
@@ -62,7 +64,7 @@ Bariello is the best place for creative Greek cuisine. As a renounced critic I r
 
 While in Plaka, visit Palaio for traditional deserts. Orange pie and Galaktompoureko are verified by me.
 
-*This section omits pictures as the food got eaten as it hit the table.*
+_This section omits pictures as the food got eaten as it hit the table._
 
 ## Drink
 
