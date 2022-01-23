@@ -2,9 +2,9 @@
 layout: simple
 ---
 
-{% for photo in site.photos limit:1 %}
-[![{{ photo.title }}]({{ photo.img }})]({{ photo.url }})
-{% endfor %}
+{% if site.photo %}
+[![{{ site.photo.title }}]({{ site.photo.img }})]({{ site.photo.url }})
+{% endif %}
 
 ## Now reading 📖
 
