@@ -2,9 +2,11 @@
 layout: simple
 ---
 
-{% if site.photo %}
-[![{{ site.photo.title }}]({{ site.photo.img }})]({{ site.photo.url }})
+{% for post in site.posts limit:1 %}
+{% if post.image %}
+[![{{ post.title }}]({{ post.image }})]({% if post.remote %}{{ post.remote_url }}{% else %}{{ post.url }}{% endif %})
 {% endif %}
+{% endfor %}
 
 ## Now reading 📖
 

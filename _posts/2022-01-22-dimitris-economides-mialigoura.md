@@ -2,6 +2,7 @@
 layout: post
 title: Dimitris Economides @ mialigoura
 date: 2022-01-22
+lang: el
 description: Αγαπημένη στάση για γλυκό στα βόρεια το εργαστήριο του Δημήτρη Οικονομίδη. Τα δημιουργήματα του σεφ είναι γλυκά-γλυπτά με εξαιρετικό μινιμαλιστικό σχεδιασμό και απαλές γευσεις.
 image: https://world.hey.com/tasos/fff3f3a0/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCRUJTeVNnPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--7214b46ef58ae3ab2b3c3adf5249ceabec895df6/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDam9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJZ0Eya0NXQUk2REhGMVlXeHBkSGxwU3pvTGJHOWhaR1Z5ZXdZNkNYQmhaMlV3T2cxamIyRnNaWE5qWlZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--6be2949dd8e22c4c983932616b54d2786c6313a0/679D6EBA-6584-4574-9D08-C630FFDE590F.jpg
 categories: Food

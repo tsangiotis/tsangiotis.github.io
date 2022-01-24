@@ -2,6 +2,7 @@
 layout: post
 title: Travolta Athens @ mialigoura
 date: 2022-01-23
+lang: el
 description: Το Travolta είναι ένα εστιατόριο που ενδείκνυται στους  λάτρεις των θαλασσινών.
 image: https://world.hey.com/tasos/7e8ccb87/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCTXB6MENnPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--fad6df53fd7ee6491015304ceb49a05d73f8cd89/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDam9MWm05eWJXRjBTU0lJU2xCSEJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFLQUIya0NBQVU2REhGMVlXeHBkSGxwU3pvTGJHOWhaR1Z5ZXdZNkNYQmhaMlV3T2cxamIyRnNaWE5qWlZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--afd0597065e95e7fda232779605f74232acbb77e/IMG_0852.JPG
 categories: Food
