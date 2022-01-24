@@ -3,11 +3,11 @@ layout: post
 title: Jekyll for Android v1.0
 date: 2013-10-17 10:00:00.000000000 +03:00
 categories:
-- Projects
+  - Projects
 tags:
-- Android
-- Blogging
-- Jekyll
+  - Android
+  - Blogging
+  - Jekyll
 ---
 
 After a couple of months around [this](https:///github.com/tsagi/jekyllforandroid) project it reached a stage where maybe it is not super stable but it is usable and pretty ok for my needs.
@@ -16,17 +16,17 @@ After a couple of months around [this](https:///github.com/tsagi/jekyllforandro
 
 It provides:
 
-*   UI that is simple and I like.
-*   Ability to commit a new post through Github API.
-*   Keeps a draft.
-*   A list of the user's posts.
-*   Ability to edit previous posts.
+- UI that is simple and I like.
+- Ability to commit a new post through Github API.
+- Keeps a draft.
+- A list of the user's posts.
+- Ability to edit previous posts.
 
 Here are some screenshots:
 
-![](/images/{{ page.slug }}/1.png)
-![](/images/{{ page.slug }}/2.png)
-![](/images/{{ page.slug }}/3.png)
+![]({{ site.baseurl }}/images/{{ page.slug }}/1.png)
+![]({{ site.baseurl }}/images/{{ page.slug }}/2.png)
+![]({{ site.baseurl }}/images/{{ page.slug }}/3.png)
 
 The source code is available and always will be [on Github](https://github.com/tsagi/jekyll-client-for-android).
 I think about publishing the app on [Google Play Store](https://play.google.com/store) for a small

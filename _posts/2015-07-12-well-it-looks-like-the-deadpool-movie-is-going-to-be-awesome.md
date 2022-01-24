@@ -3,10 +3,10 @@ layout: post
 title: Well, it looks like the Deadpool movie is going to be awesome!
 date: 2015-07-12 09:00:00.000000000 +03:00
 categories:
-- Short
+  - Short
 tags:
-- Deadpool
-- Movies
+  - Deadpool
+  - Movies
 ---
 
-![](/images/{{ page.slug }}/deadpool.jpeg)
+![]({{ site.baseurl }}/images/{{ page.slug }}/deadpool.jpeg)

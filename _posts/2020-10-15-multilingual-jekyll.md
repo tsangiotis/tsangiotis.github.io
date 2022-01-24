@@ -8,11 +8,11 @@ categories: guide
 tags: jekyll
 ---
 
-![Around the world](/images/{{ page.slug }}/around_the_world.png)
+![Around the world]({{ site.baseurl }}/images/{{ page.slug }}/around_the_world.png)
 
 We recently ditched Wordpress for the company site and built something with Jekyll just to make it faster and simplify our tools.
 
-We wanted to host on Github pages to up the simplicity. However having the site be multilingual is a hard requirement for us and Github pages does not support it. 
+We wanted to host on Github pages to up the simplicity. However having the site be multilingual is a hard requirement for us and Github pages does not support it.
 
 So we rolled our own solution.
 
@@ -36,7 +36,7 @@ Most of the requirements work great in solutions from posts found online [^1] [^
 
 I will give you the complete solution but much credit goes to these people. So lets begin.
 
-In every page or post you write from now on you need a couple of extra elements in the front matter. 
+In every page or post you write from now on you need a couple of extra elements in the front matter.
 
 ```
 ---
@@ -48,7 +48,7 @@ title: Hello world!
 ---
 ```
 
-The most important ones are `lang` and `lang-ref`. 
+The most important ones are `lang` and `lang-ref`.
 
 `lang`: Here is the language of the current file.
 
@@ -99,19 +99,23 @@ First we need a way to write and read cookies. Searching around on the internet 
 
 ```javascript
 function setCookie(e, t, n, a) {
-    var i = new Date();
-    i.setTime(i.getTime() + 24 * n * 60 * 60 * 1e3);
-    var o = "expires=" + i.toUTCString(),
-        s = a ? ";SameSite=" + a : "";
-    document.cookie = e + "=" + t + ";" + o + ";Secure;path=/" + s;
+  var i = new Date();
+  i.setTime(i.getTime() + 24 * n * 60 * 60 * 1e3);
+  var o = "expires=" + i.toUTCString(),
+    s = a ? ";SameSite=" + a : "";
+  document.cookie = e + "=" + t + ";" + o + ";Secure;path=/" + s;
 }
 
 function getCookie(e) {
-    for (var t = e + "=", n = decodeURIComponent(document.cookie).split(";"), a = 0; a < n.length; a++) {
-        for (var i = n[a]; " " == i.charAt(0);) i = i.substring(1);
-        if (0 == i.indexOf(t)) return i.substring(t.length, i.length);
-    }
-    return null;
+  for (
+    var t = e + "=", n = decodeURIComponent(document.cookie).split(";"), a = 0;
+    a < n.length;
+    a++
+  ) {
+    for (var i = n[a]; " " == i.charAt(0); ) i = i.substring(1);
+    if (0 == i.indexOf(t)) return i.substring(t.length, i.length);
+  }
+  return null;
 }
 ```
 
@@ -122,63 +126,69 @@ Let's create a concent form that will go to our scafold:
 ```html
 <div class="cookie-form-container" data-compliance-container>
   <div class="cookie-form">
-    <p class="cookie-form__content">We do use persistent first-party cookies to augment your experience in our website
-      and support analytics. To learn more, please read our <a href="/policies/privacy/">privacy policy</a>.
+    <p class="cookie-form__content">
+      We do use persistent first-party cookies to augment your experience in our
+      website and support analytics. To learn more, please read our
+      <a href="{{ site.baseurl }}/policies/privacy/">privacy policy</a>.
     </p>
     <button class="button cookie-form__submit" data-compliance>OK</button>
   </div>
 </div>
 ```
 
-When we hit OK we store a concent cookie and add a the `.hide {display: none;}` class to the cookie banner container so it dissapears. Now it is ok to store our language preference cookies. On the next visit the language preference is stored depending on the user's browser preferences. 
+When we hit OK we store a concent cookie and add a the `.hide {display: none;}` class to the cookie banner container so it dissapears. Now it is ok to store our language preference cookies. On the next visit the language preference is stored depending on the user's browser preferences.
 
-If the user actively changes the language from the language switcher the preference changes again. 
+If the user actively changes the language from the language switcher the preference changes again.
 
-How we use it? Every time the user visits the homepage she gets redirected to the language of preferece. 
+How we use it? Every time the user visits the homepage she gets redirected to the language of preferece.
 
 Note that visiting another page directly will not redirect. This is my preference. It is easy to change that behavior if you like but I believe it is useful for a permalink to be permanent.
 
-Here is the code to do what we intent. 
+Here is the code to do what we intent.
 
 ```javascript
 function languageChange(lang) {
-    setCookie("_lang", lang, 90, "None");
-    setCookie("_lang_ss", lang, 90);
-    return lang;
+  setCookie("_lang", lang, 90, "None");
+  setCookie("_lang_ss", lang, 90);
+  return lang;
 }
 
 (function () {
-    null !== (n = getCookie("_compliance")) &&
-        (document.querySelector("[data-compliance-container]") && document.querySelector("[data-compliance-container]").classList.add("hide")),
-        document.querySelector("[data-compliance]") &&
-        document.querySelector("[data-compliance]").addEventListener("click", function () {
-            window.event.preventDefault();
-            setCookie("_compliance", "true", 90, "None");
-            setCookie("_compliance_ss", "true", 90);
-            document.querySelector("[data-compliance-container]").classList.add("hide");
+  null !== (n = getCookie("_compliance")) &&
+    document.querySelector("[data-compliance-container]") &&
+    document.querySelector("[data-compliance-container]").classList.add("hide"),
+    document.querySelector("[data-compliance]") &&
+      document
+        .querySelector("[data-compliance]")
+        .addEventListener("click", function () {
+          window.event.preventDefault();
+          setCookie("_compliance", "true", 90, "None");
+          setCookie("_compliance_ss", "true", 90);
+          document
+            .querySelector("[data-compliance-container]")
+            .classList.add("hide");
         });
 }.call(this),
-    function () {
-        var lang = getCookie("_lang") || getCookie("_lang_ss");
-        var compliance = getCookie("_compliance") || getCookie("_compliance_ss");
-        if (!lang && compliance) {
-            lang = (navigator.language || navigator.userLanguage).split("-")[0];
-            setCookie("_lang", lang, 90, "None");
-            setCookie("_lang_ss", lang, 90);
-        }
-
-    }.call(this),
-    function () {
-        var e, t, n, a;
-        "/" === window.location.pathname &&
-            null !== (n = getCookie("_lang")) &&
-            ((n == "el") && window.location.replace("/el/"));
-        "/el/" === window.location.pathname &&
-            null !== (n = getCookie("_lang")) &&
-            ((n == "en") && window.location.replace("/"));
-
-    }.call(this)
-);
+  function () {
+    var lang = getCookie("_lang") || getCookie("_lang_ss");
+    var compliance = getCookie("_compliance") || getCookie("_compliance_ss");
+    if (!lang && compliance) {
+      lang = (navigator.language || navigator.userLanguage).split("-")[0];
+      setCookie("_lang", lang, 90, "None");
+      setCookie("_lang_ss", lang, 90);
+    }
+  }.call(this),
+  function () {
+    var e, t, n, a;
+    "/" === window.location.pathname &&
+      null !== (n = getCookie("_lang")) &&
+      n == "el" &&
+      window.location.replace("/el/");
+    "/el/" === window.location.pathname &&
+      null !== (n = getCookie("_lang")) &&
+      n == "en" &&
+      window.location.replace("/");
+  }.call(this));
 ```
 
 Easy right? To avoid nagging from the browser we store two cookies one with the SameSite notation and one without. They both have the same information and we grab the information from the available cookie.

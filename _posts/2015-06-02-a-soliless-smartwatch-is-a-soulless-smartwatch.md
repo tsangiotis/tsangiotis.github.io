@@ -3,13 +3,13 @@ layout: post
 title: A Soliless smartwatch is a soulless smartwatch
 date: 2015-06-02 09:00:00.000000000 +03:00
 categories:
-- Opinion
+  - Opinion
 tags:
-- Google
-- IoT
+  - Google
+  - IoT
 ---
 
-![](/images/{{ page.slug }}/solihead.jpeg)
+![]({{ site.baseurl }}/images/{{ page.slug }}/solihead.jpeg)
 
 Google’s project Soli is the future of wearable interaction.
 
@@ -25,7 +25,7 @@ As you see there is no much of implementation. The team has only raw data suppor
 
 The most profound application is wearables. And the hot wearable right now is the smartwatch.
 
-![](/images/{{ page.slug }}/soli.jpeg)
+![]({{ site.baseurl }}/images/{{ page.slug }}/soli.jpeg)
 
 On a regular watch you don’t fondle the screen all the time and the crown is not intended to be used more than twice a year. Also it shouldn’t matter if you wear gloves. So a new interface should arise that is capable of satisfying smartwatches requirements. I believe that this will be Soli (or something like it).
 

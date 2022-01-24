@@ -5,10 +5,10 @@ date: 2017-01-13
 description: perispomeni.club was under attack from Chinese internet robots
 image: chappie.gif
 categories:
-- Projects
+  - Projects
 tags:
-- perispomeni.club
-- Security
+  - perispomeni.club
+  - Security
 ---
 
 Among the ridiculous projects I have had out in the open, the most long running
@@ -18,24 +18,23 @@ It is a dead simple, tiny linux machine inspired by Paul Ford’s
 in their shared quest to learn and build awesome web pages.
 
 However it was a surprise when one of the users sent me a private email with a
-security concern. 
+security concern.
 
 <!--more-->
 
 Here I must mention that the pattern you can spot when
-reading this and my [previous post](/a-pile-of-scam) is purely coincidental. I
+reading this and my [previous post]({{ site.baseurl }}/a-pile-of-scam) is purely coincidental. I
 will stop with the email fanfare, I promise. On with the email:
 
->**From** [bob](https:///perispomeni.club/~bob/)<br>
->**Subject:** Strange connection or only my imagination?<br>
-Hey Tasos<br>
-I have noticed a very strange connection to your server from various ip address
-which are also listed in block ip for previous abouse pages you should check:<br>
-121.18.238.104<br>
-59.63.188.3<br>
-Both are from china, they connect to your server port on 22 but strangely they
-do not show up as user.<br>
-Cheers
+> **From** [bob](https:///perispomeni.club/~bob/)<br> >**Subject:** Strange connection or only my imagination?<br>
+> Hey Tasos<br>
+> I have noticed a very strange connection to your server from various ip address
+> which are also listed in block ip for previous abouse pages you should check:<br>
+> 121.18.238.104<br>
+> 59.63.188.3<br>
+> Both are from china, they connect to your server port on 22 but strangely they
+> do not show up as user.<br>
+> Cheers
 
 As one might notice, this is not good. I should dig in.
 
@@ -52,21 +51,21 @@ tracks, it will show up in the output.
 
 ```
 $ last
-tsangiot pts/4        athedsl-399048.h Sun Jan  8 00:11   still logged in   
-tsangiot pts/3        snf-696309.vm.ok Sun Jan  8 00:09 - 00:12  (00:02)    
-tsangiot pts/2        athedsl-399048.h Sat Jan  7 23:29   still logged in   
-bob      pts/2        host17.186-125-6 Sat Jan  7 22:15 - 22:24  (00:09)    
-bob      pts/2        host17.186-125-6 Sat Jan  7 21:39 - 22:14  (00:35)    
-bob      pts/2        host17.186-125-6 Sat Jan  7 20:56 - 21:39  (00:42)    
-bob      pts/3        host17.186-125-6 Sat Jan  7 13:51 - 14:06  (00:15)    
-bob      pts/2        host70.186-125-4 Sat Jan  7 12:53 - 15:13  (02:19)    
+tsangiot pts/4        athedsl-399048.h Sun Jan  8 00:11   still logged in
+tsangiot pts/3        snf-696309.vm.ok Sun Jan  8 00:09 - 00:12  (00:02)
+tsangiot pts/2        athedsl-399048.h Sat Jan  7 23:29   still logged in
+bob      pts/2        host17.186-125-6 Sat Jan  7 22:15 - 22:24  (00:09)
+bob      pts/2        host17.186-125-6 Sat Jan  7 21:39 - 22:14  (00:35)
+bob      pts/2        host17.186-125-6 Sat Jan  7 20:56 - 21:39  (00:42)
+bob      pts/3        host17.186-125-6 Sat Jan  7 13:51 - 14:06  (00:15)
+bob      pts/2        host70.186-125-4 Sat Jan  7 12:53 - 15:13  (02:19)
 ...
 ```
 
 Only me and bob. Hi bob!
 
 Ok now there is a chance the attacker wiped himself from the logs. If that is
-the case, we are dealing with someone who managed to crack a *very* long password
+the case, we are dealing with someone who managed to crack a _very_ long password
 and is not reckless. In that imaginary scenario, I would congratulate the
 attacker before burning the house down.
 
@@ -109,8 +108,8 @@ Uses `cut` to extract the content.
 
 Sort the list, group it and sort it again in reverse order.
 
-*A more detailed explanation of this command lies
-[here](https://www.mkyong.com/linux/list-all-ip-addresses-connected-to-your-server/).*
+_A more detailed explanation of this command lies
+[here](https://www.mkyong.com/linux/list-all-ip-addresses-connected-to-your-server/)._
 
 Finally:
 
@@ -122,7 +121,7 @@ $ netstat -tn 2>/dev/null | grep :22 | awk '{print $5}' | cut -d: -f1 | sort | u
 And yes I am alone here. Which means that even if someone else got access to
 the server he/she is not here anymore.
 
-Then it struck me that people are connected on port 22 even if they *try* to
+Then it struck me that people are connected on port 22 even if they _try_ to
 login. They are not connected to the system but to pass through the ssh
 authentication they have to connect somehow to the server. So in the event of a
 bruteforce ssh attack there would be many attempts per minute to guess the
@@ -130,7 +129,6 @@ password of the root account.
 
 Perispomeni is an Ubuntu server so login attempts are stored on
 `/var/log/auth.log`. Let's search that for the IPs in question.
-
 
 ```
 $ sudo cat /var/log/auth.log|grep "121.18.238.104"
@@ -177,5 +175,5 @@ In any case, this is how I found out about the Chinese attacking me.
 
 Hey, `121.18.238.104`! If you read this, next time send Jet Lee.
 
-*P.S.:* If you'd like to join our server you can find a link on [perispomeni.club](https:///perispomeni.club). 
+_P.S.:_ If you'd like to join our server you can find a link on [perispomeni.club](https:///perispomeni.club).
 If not you still can [become a Patron](https://www.patreon.com/tsangiotis) to support the effort.

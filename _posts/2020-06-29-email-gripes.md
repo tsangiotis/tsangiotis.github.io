@@ -2,17 +2,17 @@
 layout: post
 title: Email gripes
 date: 2020-06-29
-description: 
+description:
 image: /images/email-gripes/email-gripes-featured.JPG
 categories: Personal Opinion
-tags: 
+tags:
 ---
 
 It all started with [HEY](https://hey.com). There was so much buzz around it. It is made from the company behind Basecamp 3. I use Basecamp and it is great so I decided to try it.
 
-![HEY - Fastmail doodle](/images/{{ page.slug }}/email-gripes-featured.JPG)
+![HEY - Fastmail doodle]({{ site.baseurl }}/images/{{ page.slug }}/email-gripes-featured.JPG)
 
-It offers a two week trial which is more than enough to judge if an email service for $100/year is worth the trouble. 
+It offers a two week trial which is more than enough to judge if an email service for $100/year is worth the trouble.
 
 <!--more-->
 
@@ -21,7 +21,7 @@ It offers a two week trial which is more than enough to judge if an email servic
     <p>I also include a mini review of <a href="https://basecamp.com">Basecamp</a>'s <a href="https://hey.com">HEY mail service</a>. It wasn't for me in it's whole but it made me think how I use email and triggered a change. This is powerful and I recommend you try it for your self.</p> 
 </div>
 
-My initial impressions were great. 
+My initial impressions were great.
 
 **I loved The Feed and The Paper Trail sections**. This distinction seems to solve the multiple folders and elaborate rules that dictated my inbox. Just enough delegation.
 
@@ -39,9 +39,9 @@ HEY is an opinionated service. It is part of its charm but sometimes it causes s
 
 The fear of missing emails. Separating into three different boxes, [The Imbox](https://hey.com/features/the-imbox/), The Feed and [The Paper Trail](https://hey.com/features/paper-trail/) is one of the greatest design choices on the service. It is minimal but at the same time enough.
 
-The problem is that it is based on the email sender without the email context. You select what happens with all the emails from that sender. Myself, I need the receipt to go to the Paper Trail but the *"Your password has been changed act if this was not you"* notification to my Inbox. Sometimes this information comes from the same email address and I can't blame the sender for that.
+The problem is that it is based on the email sender without the email context. You select what happens with all the emails from that sender. Myself, I need the receipt to go to the Paper Trail but the _"Your password has been changed act if this was not you"_ notification to my Inbox. Sometimes this information comes from the same email address and I can't blame the sender for that.
 
-You can through all the Paper trail emails in your Imbox and triage them later but depending on the situation this might defeat the purpose. 
+You can through all the Paper trail emails in your Imbox and triage them later but depending on the situation this might defeat the purpose.
 
 This system made me anxious that I was missing email. This is the opposite than advertised calm effect where I should now check three Inboxes instead of one.
 
@@ -55,9 +55,9 @@ Your other option is to maintain multiple contact systems. One that is the main 
 
 ## Identity crisis
 
-HEY does not support other domains or a "send mail as..." identity feature as of right now. 
+HEY does not support other domains or a "send mail as..." identity feature as of right now.
 
-This is scheduled to change but it will cost more and I cannot buy software with promise of support in the future. 
+This is scheduled to change but it will cost more and I cannot buy software with promise of support in the future.
 
 ## What now?
 
@@ -65,7 +65,7 @@ Ok, this new email service isn't for me. Why even bother?
 
 The thing is I liked HEY's approach. It is basically a framework for email. And this can be replicated.
 
-At the same time I am always looking to avoid Gmail's apps on anything but the web. They make  advertisements look like normal emails on mobile. In a rush you open one of those and all of a sudden you look at a grocery store website instead of your emails. 
+At the same time I am always looking to avoid Gmail's apps on anything but the web. They make advertisements look like normal emails on mobile. In a rush you open one of those and all of a sudden you look at a grocery store website instead of your emails.
 
 I tried to setup Apple mail to work with Gmail but it is a nightmare because of their custom IMAP implementation.
 
@@ -87,7 +87,7 @@ Already the experience is much better than Gmail for me.
 
 Let's get some features of HEY into Fastmail.
 
-First **The Feed**. I need all newsletters to go to a specific IMAP folder. 
+First **The Feed**. I need all newsletters to go to a specific IMAP folder.
 
 Fastmail has support for very powerful filters. More powerful than Gmail.
 
@@ -97,20 +97,20 @@ A smarter way is to filters for emails with the `Unsubsribe Header` and move tho
 
 We need to set exceptions though. Basecamp, Github and other services have an Unsubscribe header for notifications but I need them to go to my Inbox.
 
-To combat that I add them to my contacts and to a *Notify* group. Then I exempt their emails from the filter and as a result they meet my Inbox.
+To combat that I add them to my contacts and to a _Notify_ group. Then I exempt their emails from the filter and as a result they meet my Inbox.
 
-For the **Paper trail** I created another folder. All receipts, travel and transactional emails I manually drop there.  
+For the **Paper trail** I created another folder. All receipts, travel and transactional emails I manually drop there.
 
-Also I created a Later folder to put emails that I may take some time to respond to. 
+Also I created a Later folder to put emails that I may take some time to respond to.
 
-Now the inbox has the important emails I deal with at the present time. Any new emails come there and when I have time I triage them. This is very easy with all the newsletters out of the way. 
+Now the inbox has the important emails I deal with at the present time. Any new emails come there and when I have time I triage them. This is very easy with all the newsletters out of the way.
 
 ---
 
-After a week I can say I like my workflow better. 
+After a week I can say I like my workflow better.
 
 Before dismissing HEY, keep in mind that it is a new product and many people love it. Expect it to grow into a practical alternative. I urge you to try HEY if you can. I believe its new take on email is worth exploring. It helped me reconsider how I deal with email.
 
 If though you like open standards and traditional powerful email use [this link](https://ref.fm/u24239032) to try Fastmail. [Using it will give you 10% off your first year](https://ref.fm/u24239032) and will clip some cents from my bill.
 
-__Update:__ Despite all of the above, _myself I paid for it_. I believe this new take should be supported and I want to watch it's story evolve. 
+**Update:** Despite all of the above, _myself I paid for it_. I believe this new take should be supported and I want to watch it's story evolve.

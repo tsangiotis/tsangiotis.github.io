@@ -1,218 +1,218 @@
 /* Set the global variables for everything. Change these to use your own fonts and colours. */
 :root {
 
-    /* Set sans-serif & mono fonts */
-    --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
-    --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-  
-    /* Body font size. By default, effectively 18.4px, based on 16px as 'root em' */
-    --base-fontsize: 1.15rem;
-  
-    /* Major third scale progression - see https://type-scale.com/ */
-    --header-scale: 1.25;
-  
-    /* Line height is set to the "Golden ratio" for optimal legibility */
-    --line-height: 1.618;
-  
-    /* Default (light) theme */
-    --bg: #FFF;
-    --accent-bg: #F5F7FF;
-    --text: #212121;
-    --text-light: #585858;
-    --border: #D8DAE1;
-    --accent: #2e5090;
-    --accent-light: #4e78c6;
-    --code: #be1f2b;
-    --preformatted: #444;
-    --marked: #f5d652;
-    --disabled: #EFEFEF;
-  }
-  
-  /* Dark theme */
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #1b2733;
-      --accent-bg: #446280;
-      --text: #DCDCDC;
-      --text-light: #ABABAB;
-      --border: #666;
-      --accent: #71aef0;
-      --accent-light: #b6dbff;
-      --code: #f2a575;
-      --preformatted: #CCC;
-      --disabled: #111;
-    }
-  
-    img, video {
-      opacity: .6;
-    }
+  /* Set sans-serif & mono fonts */
+  --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
+  --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+
+  /* Body font size. By default, effectively 18.4px, based on 16px as 'root em' */
+  --base-fontsize: 1.15rem;
+
+  /* Major third scale progression - see https://type-scale.com/ */
+  --header-scale: 1.25;
+
+  /* Line height is set to the "Golden ratio" for optimal legibility */
+  --line-height: 1.618;
+
+  /* Default (light) theme */
+  --bg: #fffae5;
+  --accent-bg: #fff5ca;
+  --text: #212121;
+  --text-light: #585858;
+  --border: #D8DAE1;
+  --accent: #2e5090;
+  --accent-light: #4e78c6;
+  --code: #be1f2b;
+  --preformatted: #444;
+  --marked: #f5d652;
+  --disabled: #EFEFEF;
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1b2733;
+    --accent-bg: #446280;
+    --text: #DCDCDC;
+    --text-light: #ABABAB;
+    --border: #666;
+    --accent: #71aef0;
+    --accent-light: #b6dbff;
+    --code: #f2a575;
+    --preformatted: #CCC;
+    --disabled: #111;
   }
 
-  html {
-    /* Set the font globally */
-    font-family: var(--sans-font);
+  img, video {
+    opacity: .6;
   }
-  
-  /* Make the body a nice central block */
-  body {
-    color: var(--text);
-    background: var(--bg);
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    flex: 1;
-    margin: 0 auto;
-    max-width: 45rem;
-    padding: 0 .5rem;
-    overflow-x: hidden;
-    word-break: break-word;
-    overflow-wrap: break-word;
-  }
+}
 
-  header {
-      margin-top: 2rem;
-      text-align: center;
-  }
+html {
+  /* Set the font globally */
+  font-family: var(--sans-font);
+}
 
-  header img {
-      border-radius: 3rem;
-  }
+/* Make the body a nice central block */
+body {
+  color: var(--text);
+  background: var(--bg);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 auto;
+  max-width: 45rem;
+  padding: 0 .5rem;
+  overflow-x: hidden;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
 
-  header h1 {
-      margin: 0;
-      font-size: calc(var(--base-fontsize) * var(--header-scale));
-  }
- 
-  /* Fix line height when title wraps */
-  h1, h2, h3 {
-    line-height: 1.1;
-  }
-  
-  /* Format navigation */
-  nav {
-    font-size: 1rem;
-    line-height: 2;
-    padding: 1rem 0;
-  }
-  
-  nav a {
-    transition: color .2s ease, background-color .2s ease, box-shadow .2s ease;
-    margin: 1rem 1rem 0 0;
-    border: 1px solid var(--border);
-    border-radius: 3rem;
-    color: var(--bg) !important;
-    background-color: var(--accent);
-    display: inline-block;
-    padding: .1rem 1rem;
-    text-decoration: none;
-    font-size: small;
-    transition: .4s;
-  }
-  
-  nav a:hover {
-    color: var(--border) !important;
-    border-color: var(--border);
-  }
-  
-  nav a.current:hover {
-    text-decoration: none;
-  }
-  
-  footer {
-    margin-top: 4rem;
-    padding: 2rem 1rem 1.5rem 1rem;
-    color: var(--text-light);
-    font-size: .9rem;
-    text-align: center;
-    border-top: 1px solid var(--border);
-  }
-  
-  
-  
-  /* Format links & buttons */
-  a,
-  a:visited {
-    color: var(--accent);
-  }
-  
-  a:hover {
-    text-decoration: none;
-  }
-  
-  
-  main img, main video {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-  }
-  
-  figure {
-    margin: 0;
-  }
-  
-  figcaption {
-    font-size: .9rem;
-    color: var(--text-light);
-    text-align: center;
-    margin-bottom: 1rem;
-  }
-  
-  blockquote {
-    margin: 2rem 0 2rem 2rem;
-    padding: .4rem .8rem;
-    border-left: .35rem solid var(--accent);
-    opacity: .8;
-    font-style: italic;
-  }
-  
-  section {
-    border: 1px solid var(--border);
-    border-radius: 0.2em;
-    color: var(--text) !important;
-    box-shadow: 5px 5px 7px var(--accent-bg);
-    padding: 1.5em;
-    margin: 2.5rem auto;
-  }
-  
-  /* Use mono font for code like elements */
-  code,
-  pre,
-  pre span,
-  kbd,
-  samp {
-    font-size: 1.075rem;
-    font-family: var(--mono-font);
-    color: var(--code);
-  }
-  
-  kbd {
-    color: var(--preformatted);
-    border: 1px solid var(--preformatted);
-    border-bottom: 3px solid var(--preformatted);
-    border-radius: 5px;
-    padding: .1rem;
-  }
-  
-  pre {
-    padding: 1rem 1.4rem;
-    max-width: 100%;
-    overflow: auto;
-    overflow-x: auto;
-    color: var(--preformatted);
-    background: var(--accent-bg);
-    border: 1px solid var(--border);
-    border-radius: 5px;
-  }
-  
-  /* Fix embedded code within pre */
-  pre code {
-    color: var(--preformatted);
-    background: none;
-    margin: 0;
-    padding: 0;
-  }
+header {
+  margin-top: 2rem;
+  text-align: center;
+}
 
-  a button,
+header img {
+  border-radius: 3rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: calc(var(--base-fontsize) * var(--header-scale));
+}
+
+/* Fix line height when title wraps */
+h1, h2, h3 {
+  line-height: 1.1;
+}
+
+/* Format navigation */
+nav {
+  font-size: 1rem;
+  line-height: 2;
+  padding: 1rem 0;
+}
+
+nav a {
+  transition: color .2s ease, background-color .2s ease, box-shadow .2s ease;
+  margin: 1rem 1rem 0 0;
+  border: 1px solid var(--border);
+  border-radius: 3rem;
+  color: var(--bg) !important;
+  background-color: var(--accent);
+  display: inline-block;
+  padding: .1rem 1rem;
+  text-decoration: none;
+  font-size: small;
+  transition: .4s;
+}
+
+nav a:hover {
+  color: var(--border) !important;
+  border-color: var(--border);
+}
+
+nav a.current:hover {
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 4rem;
+  padding: 2rem 1rem 1.5rem 1rem;
+  color: var(--text-light);
+  font-size: .9rem;
+  text-align: center;
+  border-top: 1px solid var(--border);
+}
+
+
+
+/* Format links & buttons */
+a,
+a:visited {
+  color: var(--accent);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+main img, main video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: .9rem;
+  color: var(--text-light);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+blockquote {
+  margin: 2rem 0 2rem 2rem;
+  padding: .4rem .8rem;
+  border-left: .35rem solid var(--accent);
+  opacity: .8;
+  font-style: italic;
+}
+
+section {
+  border: 1px solid var(--border);
+  border-radius: 0.2em;
+  color: var(--text) !important;
+  box-shadow: 5px 5px 7px var(--accent-bg);
+  padding: 1.5em;
+  margin: 2.5rem auto;
+}
+
+/* Use mono font for code like elements */
+code,
+pre,
+pre span,
+kbd,
+samp {
+  font-size: 1.075rem;
+  font-family: var(--mono-font);
+  color: var(--code);
+}
+
+kbd {
+  color: var(--preformatted);
+  border: 1px solid var(--preformatted);
+  border-bottom: 3px solid var(--preformatted);
+  border-radius: 5px;
+  padding: .1rem;
+}
+
+pre {
+  padding: 1rem 1.4rem;
+  max-width: 100%;
+  overflow: auto;
+  overflow-x: auto;
+  color: var(--preformatted);
+  background: var(--accent-bg);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+}
+
+/* Fix embedded code within pre */
+pre code {
+  color: var(--preformatted);
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+a button,
 button,
 [role="button"],
 input[type="submit"],
@@ -271,7 +271,7 @@ input[type="button"]:enabled:hover,
 input[type="checkbox"]:focus,
 input[type="checkbox"]:enabled:hover,
 input[type="radio"]:focus,
-input[type="radio"]:enabled:hover{
+input[type="radio"]:enabled:hover {
   opacity: .8;
   cursor: pointer;
 }
@@ -315,11 +315,12 @@ select[multiple] {
 }
 
 /* checkbox and radio button style */
-input[type="checkbox"], input[type="radio"]{
+input[type="checkbox"], input[type="radio"] {
   vertical-align: bottom;
   position: relative;
 }
-input[type="radio"]{
+
+input[type="radio"] {
   border-radius: 100%;
 }
 
@@ -343,6 +344,7 @@ input[type="checkbox"]:checked::after {
   font-size: 1.8em;
   transform: rotate(45deg);
 }
+
 input[type="radio"]:checked::after {
   /* creates a colored circle for the checked radio button  */
   content: ' ';
@@ -363,6 +365,7 @@ textarea {
 
 /* Makes input fields wider on smaller screens */
 @media only screen and (max-width: 720px) {
+
   textarea,
   select,
   input {
@@ -371,7 +374,7 @@ textarea {
 }
 
 /* Ensures the checkbox and radio inputs do not have a set width like other input fields */
-input[type="checkbox"], input[type="radio"]{
+input[type="checkbox"], input[type="radio"] {
   width: auto;
 }
 
@@ -387,15 +390,14 @@ fieldset {
   margin: 0;
 }
 
-  .reading-0::after{
-    content: "📖";
-  }
+.reading-0::after {
+  content: "📖";
+}
 
-  .reading-1::after{
-    content: "💩";
-  }
-  
-  .reading-3::after{
-    content: "💚";
-  }
-  
+.reading-1::after {
+  content: "💩";
+}
+
+.reading-3::after {
+  content: "💚";
+}

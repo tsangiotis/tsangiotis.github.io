@@ -6,14 +6,14 @@ description: Valuable information on how to creep out future moon dwellers.
 redirect_from: 2018/08/10/a-lunar-eclipse/
 image: dsc_7157-edit.jpg
 categories:
-- Photography
-- Travel
+  - Photography
+  - Travel
 tags:
-- Portraiture
-- Travel
-- Summer
-- Greece
-- great
+  - Portraiture
+  - Travel
+  - Summer
+  - Greece
+  - great
 ---
 
 Just a week before my trip to Sifnos I discovered that a Total Lunar eclipse would take place on my second day there. So I planed to take a picture. Or two. Probably around 40. You will see how I got to this number, how I planned this shoot and how everything was thrown away.
@@ -57,10 +57,9 @@ Things to consider:
 Here is the data from the very useful MoonCalc.org website.
 
 <figure>
-  <img src="/images/{{ page.slug }}/Trail.PNG" alt="mooncalc.org" style="width:100%">
+  <img src="{{ site.baseurl }}/images/{{ page.slug }}/Trail.PNG" alt="mooncalc.org" style="width:100%">
   <figcaption>Orange: Moon Rise, Yellow: Moon Position, Red: Moon Set</figcaption>
 </figure>
-
 
 There you can also find the moon elevation angle for the particular location. That gives the angle between the surface and the moon with the location as the origin point. This will be useful.
 
@@ -70,26 +69,26 @@ As we can observe the moon will be better portrayed from a location at the South
 
 #### Epta Martyres - Sifnos Castle
 
-I've been to Sifnos once before. I've been on the internet too. The small church of the Seven Martyrs is one of the islands most beautiful attractions. 
+I've been to Sifnos once before. I've been on the internet too. The small church of the Seven Martyrs is one of the islands most beautiful attractions.
 
-![DSC_6758 (1).jpg](/images/{{ page.slug }}/dsc_6758-1.jpg) 
+![DSC_6758 (1).jpg]({{ site.baseurl }}/images/{{ page.slug }}/dsc_6758-1.jpg)
 
-However this small church looks great from above and to shoot for the moon you need to look up (pun intended). 
+However this small church looks great from above and to shoot for the moon you need to look up (pun intended).
 
 <figure>
-  <img src="/images/{{ page.slug }}/sifnos-epta-martyres-8.jpg" alt="Seven Martyrs" style="width:100%">
+  <img src="{{ site.baseurl }}/images/{{ page.slug }}/sifnos-epta-martyres-8.jpg" alt="Seven Martyrs" style="width:100%">
   <figcaption>Photo from Google Searcht</figcaption>
 </figure>
 
 From a lower angle this is the best one can do. But it obstructs almost everything in the desired direction and the interesting part of the image is gone. One must stand on a high point in the middle of the water to succeed. This can only happen with a high image quality drone or a boat. Even if you found a drone like that, the things you have to do to fly it legally in this situation need at least a month of preparation. But you don't care about that. What you care about is that the location is busted. !
 
-![InkedTrail_LI.jpg](/images/{{ page.slug }}/inkedtrail_li.jpg)
+![InkedTrail_LI.jpg]({{ site.baseurl }}/images/{{ page.slug }}/inkedtrail_li.jpg)
 
 #### Panagia Chrysopigi
 
 Beaten by the above realization I researched Sifnos some more and shought out for the place where people go to get hitched. These locations are most of the times pretty photogenic. I was not disappointed. The church of Panagia Chrysopigi was like it was designed for moon watching. Just look at that image!
 
-![DSC_7178.jpg](/images/{{ page.slug }}/dsc_7178.jpg)
+![DSC_7178.jpg]({{ site.baseurl }}/images/{{ page.slug }}/dsc_7178.jpg)
 
 The stairs form a leading line to the church and there is enough space to watch the moon get some of that eclipse action
 
@@ -103,17 +102,17 @@ Camera gear is usually beneath me. In that case though I found some really conve
 
 I have two cameras available.
 
-*   Nikon D7100
-*   Sony RX100 II
+- Nikon D7100
+- Sony RX100 II
 
 These days I use almost exclusively the RX100. So much that I sold all my Canon DSLR gear. It is awesome and fits in my pocket. This could be the camera for this shoot as there will be a tripod and I won't have to worry about high ISO performance.
 
-Though the Nikon recently found its way in my hands. It has a very highly praised sensor and an integrated intervalometer. It is considerably heavier but the intervalometer won me over. 
+Though the Nikon recently found its way in my hands. It has a very highly praised sensor and an integrated intervalometer. It is considerably heavier but the intervalometer won me over.
 
 I have the following lenses for the Nikon:
 
-*   Nikon 35mm f1.8 DX
-*   Nikon 18\-140mm f3.5\-5.6
+- Nikon 35mm f1.8 DX
+- Nikon 18\-140mm f3.5\-5.6
 
 Nikon 35mm is the better lens and while 18\-140 is convenient, it is crappy quality wise and heavy. With a viewing angle of 44° the 35mm might be suitable for that.
 
@@ -121,7 +120,7 @@ I tried to find an easy way to visualize this on software but it proved annoying
 
 Using my low tech tools for simulating the view:
 
-![](/images/{{ page.slug }}/IMG_5202.JPG)
+![]({{ site.baseurl }}/images/{{ page.slug }}/IMG_5202.JPG)
 
 We can see the camera positioned so that a straight line can be formed using the stairs. The dots at the lower right represent the positions of the moon taking into consideration the altitude angle of the moon.
 
@@ -131,21 +130,21 @@ Yawing the camera to the left we get the church. and almost all the dots. The pi
 
 ## Composition
 
-So far we have not talked the most important thing of all. Composition. 
+So far we have not talked the most important thing of all. Composition.
 
-Documenting that a Lunar Eclipse happened is a job for scientists of the field. For me it has to be something interesting and beautiful. 
+Documenting that a Lunar Eclipse happened is a job for scientists of the field. For me it has to be something interesting and beautiful.
 
 I researched images of lunar eclipses and while I'd love to do something like the one bellow, the moon will be much smaller.
 
 <figure>
-  <img src="/images/{{ page.slug }}/epic-scene.jpg" alt="Poseidon Temple" style="width:100%">
+  <img src="{{ site.baseurl }}/images/{{ page.slug }}/epic-scene.jpg" alt="Poseidon Temple" style="width:100%">
   <figcaption>Image found in a New Yorker article</figcaption>
 </figure>
 
-Another option is this making a trail. This is quite a leap from my style of picture taking and again it is plainly documenting the event. Also it would require quite a bit of post processing which I am not a big fan of. 
+Another option is this making a trail. This is quite a leap from my style of picture taking and again it is plainly documenting the event. Also it would require quite a bit of post processing which I am not a big fan of.
 
 <figure>
-  <img src="/images/{{ page.slug }}/trail1.jpg" alt="Moon Trail" style="width:100%">
+  <img src="{{ site.baseurl }}/images/{{ page.slug }}/trail1.jpg" alt="Moon Trail" style="width:100%">
   <figcaption>Image by Suzanne Mathia</figcaption>
 </figure>
 
@@ -153,22 +152,22 @@ However I decided to do that and just select the most epic of the pictures. I de
 
 ## On site
 
-We arrived on site about an hour earlier. I still had not thought of any composition except the post-card-like church with the moon over it. I was not very fond of it though as the moon was to be small and might loose its significance. 
+We arrived on site about an hour earlier. I still had not thought of any composition except the post-card-like church with the moon over it. I was not very fond of it though as the moon was to be small and might loose its significance.
 
-I was all about portraits of friends these days especially of my friend Eva and her beautiful eyes. 
+I was all about portraits of friends these days especially of my friend Eva and her beautiful eyes.
 
-So when the moon creeped in and Eva asked for a portrait I throwed away my so so composition and we pretty fast made this one just before the blue sky was gone. I am probably making a print out of this one. 
+So when the moon creeped in and Eva asked for a portrait I throwed away my so so composition and we pretty fast made this one just before the blue sky was gone. I am probably making a print out of this one.
 
-![DSC_7157-Edit.jpg](/images/{{ page.slug }}/dsc_7157-edit.jpg)
+![DSC_7157-Edit.jpg]({{ site.baseurl }}/images/{{ page.slug }}/dsc_7157-edit.jpg)
 
 ## Conclusions
 
-After that I tried to make the shot I originally planned. However I didn't quite like that picture so it will never see the light of the world wide web. 
+After that I tried to make the shot I originally planned. However I didn't quite like that picture so it will never see the light of the world wide web.
 
-Does this mean the plan was a total waste of time? 
+Does this mean the plan was a total waste of time?
 
-Personally I don't believe it was. It helped me have the right lens and be on the perfect location at the right time. 
+Personally I don't believe it was. It helped me have the right lens and be on the perfect location at the right time.
 
-The final result was not something I anticipated days before shooting but we got there fast with no camera fidling. A fun experience for everyone involved. 
+The final result was not something I anticipated days before shooting but we got there fast with no camera fidling. A fun experience for everyone involved.
 
 So the takeout is: Plan but don't obsess.

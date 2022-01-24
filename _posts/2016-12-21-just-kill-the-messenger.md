@@ -5,10 +5,10 @@ date: 2016-12-21
 description: A rant on Facebook Messenger’ s new redesign and functions
 image: intro.jpg
 categories:
-- Opinion
+  - Opinion
 tags:
-- Facebook
-- Messaging
+  - Facebook
+  - Messaging
 ---
 
 We are all in constant search of the perfect chat app. Myself, I thought I had things settled with my beloved Facebook Messenger. Little did I know it would break my heart.
@@ -37,15 +37,15 @@ All these features make for a bloated app though. A friend with a recent but not
 
 But this is not **my** problem with Messenger. It runs ok for the most part on my aging but decent devices. My problem is with the new camera. It is the worst user experience I have ever seen on a major product and I am almost angry it passed the quality control.
 
-If you are lucky enough to have not updated your apps or you live on another planet, this is what happened. Facebook released to the wild an update that turns your texting app into Snapchat. It is not like Instagram where it enhanced the whole experience without disrupting the way the app works. It’ s a shameless *“We copied Snapchat which is a different app from a different company that we couldn’ t buy and slapped it on top of our app without a care in the world”* kind of thing.
+If you are lucky enough to have not updated your apps or you live on another planet, this is what happened. Facebook released to the wild an update that turns your texting app into Snapchat. It is not like Instagram where it enhanced the whole experience without disrupting the way the app works. It’ s a shameless _“We copied Snapchat which is a different app from a different company that we couldn’ t buy and slapped it on top of our app without a care in the world”_ kind of thing.
 
 This is a screenshot of Snapchat:
 
-![Snapchat](/images/{{ page.slug }}/snapchat.jpg)
+![Snapchat]({{ site.baseurl }}/images/{{ page.slug }}/snapchat.jpg)
 
 This is a screenshot from the new Facebook Messenger app. Maybe you can spot the similarities.
 
-![Messenger](/images/{{ page.slug }}/messenger.jpg)
+![Messenger]({{ site.baseurl }}/images/{{ page.slug }}/messenger.jpg)
 
 The second picture is what happens if you scroll up and discover the selfie camera. Another way to enable that camera is to press the circle button. One more way to find that camera if you escaped all of the above is to press the **+ Add to your day** rectangle on the top left. Maybe there are more ways to take a picture with a chat app but I have still to find them. Maybe I am dumb and the next update will fix that by completely removing the tiny **+** icon on the top right that stands for **New message** replacing it with a camera icon. Dear Mark Zuckerberg or random hiring rep from Facebook, if you liked that idea please note that I am available for hire. If you can’ t find how to contact me via your app, do not hesitate to contact me via email. I think it still works.
 
@@ -53,4 +53,4 @@ If Facebook really wants to do something like Snapchat, it can follow the Gmail 
 
 Humor aside Facebook, this app is now a commodity used by all of your users and more. It would be nice if you could beat Snapchat but let’ s face it, you are just the weird dad who sits with the teens at the holiday table. You are not as cool as Snapchat because being cool means to be original. So quit copying the cool kids and be the grown company you are. People like that too.
 
-![xkcd.com - UI Change](/images/{{ page.slug }}/ui-change.png)
+![xkcd.com - UI Change]({{ site.baseurl }}/images/{{ page.slug }}/ui-change.png)

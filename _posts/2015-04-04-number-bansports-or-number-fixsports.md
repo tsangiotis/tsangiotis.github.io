@@ -3,18 +3,20 @@ layout: post
 title: "#bansports or #fixsports?"
 date: 2015-04-04 09:00:00.000000000 +03:00
 categories:
-- Opinion
+  - Opinion
 tags:
-- Ju-Jitsu
+  - Ju-Jitsu
 meta:
 ---
 
-![](/images/{{ page.slug }}/jjrun.jpeg)
+![]({{ site.baseurl }}/images/{{ page.slug }}/jjrun.jpeg)
 
 I’ve been a competition Ju Jitsu athlete for my entire life until the combination of an injury and the start of my University life pointed that I will never be in my full game again while studying Electrical Engineering.
 
 If sports and mostly the competition did not exist I would not have been the individual I am today.
+
 <!--more-->
+
 > **Competition** in biology, ecology, and sociology, **is a contest** between organisms, animals, individuals, groups, etc., for territory, a niche, or a location of resources,**for** resources and goods, mates, for prestige, recognition, awards, or group or social status, for leadership.
 
 This is where the problems grow. No man that enjoys a good run or play/watch a game of basketball can do any harm.

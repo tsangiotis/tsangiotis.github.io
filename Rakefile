@@ -69,9 +69,9 @@ namespace :optimizeimages do
     file_list.each_with_index do |f, cnt|
       puts "Processing: #{cnt+1}/#{file_list.size} #{f.to_s}"
 
-      extension = File.extname(f).delete('.').gsub(/jpeg/,'jpg')
+      extension = File.extname(f).delete('.').gsub({{ site.baseurl }}/jpeg/,'jpg')
       ext_check = `file -b #{f} | awk '{print $1}'`.strip.downcase
-      ext_check.gsub!(/jpeg/,'jpg')
+      ext_check.gsub!({{ site.baseurl }}/jpeg/,'jpg')
       if ext_check != extension
         puts "\t#{f.to_s} is a: '#{ext_check}' not: '#{extension}' ..skipping"
         skip_cnt = skip_cnt + 1

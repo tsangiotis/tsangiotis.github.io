@@ -3,13 +3,14 @@ layout: post
 title: An easy Media Server and Time Machine
 date: 2014-06-17 13:27:00.000000000 +03:00
 categories:
-- Guides
-- Projects
+  - Guides
+  - Projects
 tags:
-- Automation
-- Plex
-- Time Machine
+  - Automation
+  - Plex
+  - Time Machine
 ---
+
 I hate mess... So I like remote solutions!
 
 One thing that bothers me is the USB cable that I always have connected on my computer.
@@ -21,8 +22,10 @@ That's because I don't want to store movies on my low capacity Macbook Air.
 Since I got my Chromecast, Plex has gone to the top of my "Useful Software" list as it supports Chromecast and I can stream the Movies without connecting a HDMI cable.
 
 So what I need? A HDD in my network that hosts my media and my backups.
+
 <!--more-->
-![](/images/{{ page.slug }}/1-4.png)
+
+![]({{ site.baseurl }}/images/{{ page.slug }}/1-4.png)
 
 Nice, but not so cheap.
 
@@ -150,7 +153,7 @@ The first backup might take quite some time, depending on your network and hard 
 
 **Bonus:** you don't even have to manually connect to the server share before a backup. Time Machine will let its magic happen and auto-mount / un-mount the share whenever it is needed. Peace of mind in a box.
 
-_Credits:_ I used **[this](https:///pwntr.com/2012/03/03/easy-mac-os-x-lion-10-7-time-machine-backup-using-an-ubuntu-linux-server-11-10-12-04-lts-and-up/)** guide with some changes I made.
+*Credits:* I used **[this](https:///pwntr.com/2012/03/03/easy-mac-os-x-lion-10-7-time-machine-backup-using-an-ubuntu-linux-server-11-10-12-04-lts-and-up/)** guide with some changes I made.
 
 Useful links:
 
@@ -170,7 +173,7 @@ Let's get to it!
 
 For the torrent client I just used [Transmission](https://www.transmissionbt.com/). It is more than good and it has a clean remote UI.
 
-![](/images/{{ page.slug }}/2-3.png)
+![]({{ site.baseurl }}/images/{{ page.slug }}/2-3.png)
 
 First get Transmission:
 
@@ -377,4 +380,4 @@ sudo gpasswd -a plex tsagi
 
 Go to `https:///your.server.ip.adress:32400/manage` and point your libraries to the transmission's `completed` directory. It can figure out if you have a series episode or a movie in the directory.
 
-![](/images/{{ page.slug }}/4.png)
+![]({{ site.baseurl }}/images/{{ page.slug }}/4.png)

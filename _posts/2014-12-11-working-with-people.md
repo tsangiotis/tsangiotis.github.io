@@ -3,7 +3,7 @@ layout: post
 title: Working with people
 date: 2014-12-11 14:17:00.000000000 +02:00
 categories:
-- Opinion
+  - Opinion
 ---
 
 The world nowadays works in teams and as you may know I’ ve been involved in many teams around this time.
@@ -65,7 +65,7 @@ Write down what happens when it happens and when the time comes you will be glad
 
 ## But be bold but straight
 
-You cannot afford to keep things inside. [Listen to people](/listen-to-people) and they will listen to you.
+You cannot afford to keep things inside. [Listen to people]({{ site.baseurl }}/listen-to-people) and they will listen to you.
 
 When you find that you don’t agree with something, tell it to the other’s face with care, not with grudge.
 

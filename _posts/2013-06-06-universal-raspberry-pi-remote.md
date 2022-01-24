@@ -4,13 +4,13 @@ title: Universal Raspberry Pi Remote
 date: 2013-06-06
 description: The guide to your very own universal remote (not only for TVs).
 categories:
-- Guides
-- Projects
+  - Guides
+  - Projects
 tags:
-- Automation
-- LIRC
-- Raspberry Pi
-- great
+  - Automation
+  - LIRC
+  - Raspberry Pi
+  - great
 ---
 
 I am getting mad of the remote controller in the house.
@@ -22,6 +22,7 @@ Actually I use three:
 - The Air Condition remote
 
 Some time ago I fell on [this post](https:///randomtutor.blogspot.gr/2013/01/web-based-ir-remote-on-raspberry-pi.html). It is an IR receiver & emitter circuit attached to a [Raspberry Pi](https:///raspberrypi.org/). I had some spare time so I decided to build it!
+
 <!--more-->
 
 Circuitry was fairly easy.
@@ -29,7 +30,7 @@ Circuitry was fairly easy.
 Parts I used:
 
 | Infrared LED | : Had a spare one but you can use any from an old remote |
-| IR Receiver | : I used a TSOP382\. You can use any _BUT_ check the datasheet! |
+| IR Receiver | : I used a TSOP382\. You can use any *BUT* check the datasheet! |
 | NPN Transistor | : I don't know the part code |
 | 1.5Ω Resistor | : It just has to be really low |
 | 220Ω Resistor | : Nothing to say here |
@@ -40,7 +41,7 @@ After the first assembly and testing I made it smaller using a strip board:
 
 And this is what we end up with:
 
-![](/images/{{ page.slug }}/1-3.png)
+![]({{ site.baseurl }}/images/{{ page.slug }}/1-3.png)
 
 ## LIRC
 
@@ -81,7 +82,7 @@ LOAD_MODULES=true
 # Run "lircd --driver=help" for a list of supported drivers.
 DRIVER="default"
 # usually /dev/lirc0 is the correct setting for systems using udev
-DEVICE="/dev/lirc0"
+DEVICE="{{ site.baseurl }}/dev/lirc0"
 MODULES="lirc_rpi"
 
 # Default configuration files for your hardware if any
@@ -182,6 +183,6 @@ For the LIRC configuration I followed [this guide](https:///alexba.in/blog/2013
 
 I also made an Android application using the web interface provided [here](https://github.com/slimjim777/web-irsend) but the code needs a lot of polishing so I can't share it yet.
 
-![](/images/{{ page.slug }}/2-2.png)
+![]({{ site.baseurl }}/images/{{ page.slug }}/2-2.png)
 
 It was cool for an evening project :)
