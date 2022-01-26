@@ -1,6 +1,5 @@
 ---
 layout: simple
-title: Posts
 ---
 
 {% if site.image %}
