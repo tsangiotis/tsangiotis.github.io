@@ -7,6 +7,9 @@ categories:
 tags: 
 remote: true
 remote_url: https://arpedon.com/blog/5-ways-poor-lubrication-can-cause-problems/
+redirect_from:
+  - /2020/04/15/5-problems-from-poor-lubrication/
+  - /2020/04/15/5-problems-from-poor-lubrication/amp/
 ---
 
 

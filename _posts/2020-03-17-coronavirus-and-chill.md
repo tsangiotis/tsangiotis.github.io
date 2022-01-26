@@ -11,6 +11,9 @@ tags:
   - Music
   - Books
   - Corona virus
+redirect_from:
+  - /2020/03/17/coronavirus-chill/
+  - /2020/03/17/coronavirus-chill/amp/
 ---
 
 One of the terrors of staying home for the coronavirus is the lack of outside leisure time.

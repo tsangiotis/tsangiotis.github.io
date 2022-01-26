@@ -5,7 +5,10 @@ date: 2020-06-29
 description:
 image: /images/email-gripes/email-gripes-featured.JPG
 categories: Personal Opinion
-tags:
+tags: email
+redirect_from:
+  - /2020/06/29/email-gripes/
+  - /2020/06/29/email-gripes/amp/
 ---
 
 It all started with [HEY](https://hey.com). There was so much buzz around it. It is made from the company behind Basecamp 3. I use Basecamp and it is great so I decided to try it.

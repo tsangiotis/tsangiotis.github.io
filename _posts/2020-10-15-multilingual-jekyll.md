@@ -6,6 +6,11 @@ description: Babel was hard enough. A GDPR compliant multilingual language selec
 image: /images/multilingual-jekyll/around_the_world.png
 categories: guide
 tags: jekyll
+redirect_from:
+  - /2020/20/15/multilingual-jekyll-on-github-pages/
+  - /2020/20/15/multilingual-jekyll-on-github-pages/amp/
+  - /2020/20/15/multilingual-jekyll/
+  - /2020/20/15/multilingual-jekyll/amp/
 ---
 
 ![Around the world]({{ site.baseurl }}/images/{{ page.slug }}/around_the_world.png)
