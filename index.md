@@ -3,11 +3,24 @@ layout: simple
 title: Posts
 ---
 
+{% if site.image %}
+[![{{ site.image.title }}]({{ site.image.img }})]({{ site.image.url }})
+{% endif %}
+
+## Now reading 📖
+
+{% assign reading = site.books | where:"rate","0" %}
+
+{% for book in reading %}
+
+- {{ book.title }} -- {{ book.author }}
+  {% endfor %}
+
 _Latest_ posts are on my [**blog**](https://world.hey.com/tasos)!
 
 {% include subscribe.html %}
 
-## Older Posts ✍️
+## Posts ✍️
 
 {% for post in site.posts limit:7 %}
 

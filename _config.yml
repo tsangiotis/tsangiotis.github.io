@@ -1,10 +1,10 @@
-title: Old posts by Tasos Sangiotis
+title: Tasos Sangiotis
 url: https://tsangiotis.com
-baseurl: /blog
+baseurl: 
 description: Inputs & Outputs
 author: Tasos Sangiotis
 
-repository: tsangiotis/blog
+repository: tsangiotis/tsangiotis.github.io
 
 theme: null
 
