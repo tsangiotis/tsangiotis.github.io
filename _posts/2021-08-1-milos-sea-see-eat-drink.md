@@ -10,6 +10,7 @@ remote: true
 remote_url: https://world.hey.com/tasos/milos-sea-see-eat-drink-ce111a39
 redirect_from:
   - /2021/08/14/milos-sea-see-eat-drink/
+  - /2021/08/14/milos-sea-see-eat-drink/amp/
 ---
 
 While in love or alone, Milos is a place to enjoy the sand and sun. Bellow are some musts from my visit. I will not bore you with the unpleasant or meh experiences. Only with the great and there were many.
