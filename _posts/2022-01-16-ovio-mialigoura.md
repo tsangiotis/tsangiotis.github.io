@@ -4,7 +4,7 @@ title: Ovio @ mialigoura
 date: 2022-01-16
 lang: el
 description: Στο Ovio πήγαμε σε αναζήτηση ενός καλού ιταλικού.
-image: /images/ovio-mialigoura/IMG_0032.JPG
+image: /images/ovio-mialigoura/IMG_0032.jpg
 categories: Food
 tags: Food, mialigoura
 ---
@@ -17,6 +17,6 @@ tags: Food, mialigoura
 
 Εξαιρετικό πιάτο η crème brulée με παγωτό mango και βασιλικό. Πολλές ετικέτες ιταλικών και ελληνικών κρασιών.
 
-[![IMG_0032.JPG](/images/ovio-mialigoura/IMG_0032.JPG)](/images/ovio-mialigoura/IMG_0032.JPG?disposition=attachment "Download IMG_0032.JPG")
+![IMG_0032.jpg](/images/ovio-mialigoura/IMG_0032.jpg)
 
 > Το [@mialigoura](https://www.instagram.com/mialigoura) είναι ένας λογαριασμός review φαγητού που ξεκινήσαμε [εγώ](https://www.instagram.com/tsangiotis) και η [Άννα](https://www.instagram.com/anna.vek/).

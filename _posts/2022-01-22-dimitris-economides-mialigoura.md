@@ -15,7 +15,7 @@ tags: Food, mialigoura
 
 | | |
 | = | = |
-| [![679D6EBA-6584-4574-9D08-C630FFDE590F.jpg](/images/dimitris-economides-mialigoura/679D6EBA-6584-4574-9D08-C630FFDE590F.jpg)](/images/dimitris-economides-mialigoura/79D6EBA-6584-4574-9D08-C630FFDE590F.jpg?disposition=attachment "Download 679D6EBA-6584-4574-9D08-C630FFDE590F.jpg") | [![4B6D5D1C-5272-4C42-A09D-667DAB002A79.jpg](/images/dimitris-economides-mialigoura/4B6D5D1C-5272-4C42-A09D-667DAB002A79.jpg)](/images/dimitris-economides-mialigoura/4B6D5D1C-5272-4C42-A09D-667DAB002A79.jpg?disposition=attachment "Download 4B6D5D1C-5272-4C42-A09D-667DAB002A79.jpg") |
+| ![679D6EBA-6584-4574-9D08-C630FFDE590F.jpg](/images/dimitris-economides-mialigoura/679D6EBA-6584-4574-9D08-C630FFDE590F.jpg) | ![4B6D5D1C-5272-4C42-A09D-667DAB002A79.jpg](/images/dimitris-economides-mialigoura/4B6D5D1C-5272-4C42-A09D-667DAB002A79.jpg) |
 
 Η μόνη μας παρατήρηση είναι ότι θα θέλαμε κάτι να μας ρίξει από αυτή την ισορροπία και να μας πιάσει απροετοίμαστους.
 

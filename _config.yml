@@ -1,6 +1,6 @@
 title: Tasos Sangiotis
 url: https://tsangiotis.com
-baseurl: 
+baseurl:
 description: Inputs & Outputs
 author: Tasos Sangiotis
 
@@ -19,14 +19,13 @@ social:
 avatar_img: me.png
 
 image:
-  title: Beach freeze
-  img: https://world.hey.com/tasos/0f0cd2b9/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCUE9sNFNnPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--19526afa0560949f829b916d1dcec51da46c8c5b/IMG_0900.JPG
-  url: https://world.hey.com/tasos/beach-freeze-0f0cd2b9
+  title: Peccati di gola @ mialigoura
+  img: /images/peccati-di-gola-mialigoura/IMG_0087.jpg
+  url: /peccati-di-gola-mialigoura
 
 collections:
   books:
     title: Books
-    
 
 feed:
   posts_limit: 200
