@@ -3,7 +3,7 @@ layout: post
 title: The Nemean Lion and its Wine
 date: 2022-01-22
 description: Start of December we visited a winery. I have been to distilleries and breweries but wine making has not made me drunk yet.
-image: /images/the-nemean-lion-and-its-wine/IMG_0058.JPG
+image: /images/the-nemean-lion-and-its-wine/IMG_0058.jpg
 categories: Travel
 tags: Food, wine
 ---
@@ -14,7 +14,7 @@ I have been to distilleries and breweries but wine making has not made me drunk 
 
 Arriving at such facilities makes you aware of how much vines are needed for wine.
 
-![IMG_0058.JPG](/images/the-nemean-lion-and-its-wine/IMG_0058.JPG)
+![IMG_0058.jpg](/images/the-nemean-lion-and-its-wine/IMG_0058.jpg)
 
 Nemea is the place where the first Labor of Hercules took place. Myth has it that Hercules was sent to slay the Nemean lion which terrorized the hills and bring back it's skin.
 
@@ -26,7 +26,7 @@ We took a tour of the estate and after that we tried many of the plant's product
 
 | | |
 | = | = |
-| ![IMG_0059.JPG](/images/the-nemean-lion-and-its-wine/IMG_0059.JPG) | ![IMG_0061.JPG](/images/the-nemean-lion-and-its-wine/IMG_0061.JPG) |
-| ![IMG_0060.JPG](/images/the-nemean-lion-and-its-wine/IMG_0060.JPG) | ![IMG_0062.JPG](/images/the-nemean-lion-and-its-wine/IMG_0062.JPG) |
+| ![IMG_0059.jpg](/images/the-nemean-lion-and-its-wine/IMG_0059.jpg) | ![IMG_0061.jpg](/images/the-nemean-lion-and-its-wine/IMG_0061.jpg) |
+| ![IMG_0060.jpg](/images/the-nemean-lion-and-its-wine/IMG_0060.jpg) | ![IMG_0062.jpg](/images/the-nemean-lion-and-its-wine/IMG_0062.jpg) |
 
 I would recommend to visit a winery once. If you like wine you may appreciate the process more if you know how everything is done.

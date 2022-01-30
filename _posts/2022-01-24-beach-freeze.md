@@ -3,12 +3,12 @@ layout: post
 title: Beach freeze
 date: 2022-01-24
 description: It looks like climate change is a thing and  it is changing alright.
-image: /images/beach-freeze/IMG_0900.JPG
+image: /images/beach-freeze/IMG_0900.jpg
 categories: Log
 tags: Photo
 ---
 
-![IMG_0900.JPG](/images/beach-freeze/IMG_0900.JPG)
+![IMG_0900.jpg](/images/beach-freeze/IMG_0900.jpg)
 
 It looks like climate change is a thing and  it is changing alright.
 
