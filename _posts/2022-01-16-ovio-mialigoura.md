@@ -17,6 +17,6 @@ tags: Food, mialigoura
 
 Εξαιρετικό πιάτο η crème brulée με παγωτό mango και βασιλικό. Πολλές ετικέτες ιταλικών και ελληνικών κρασιών.
 
-[![IMG_0032.JPG](/images/ovio-mialigoura/IMG_0032.JPG)](/images/ovio-mialigoura/IMG_0032.JPG?disposition=attachment "Download IMG_0032.JPG")
+![IMG_0032.JPG](/images/ovio-mialigoura/IMG_0032.JPG)
 
 > Το [@mialigoura](https://www.instagram.com/mialigoura) είναι ένας λογαριασμός review φαγητού που ξεκινήσαμε [εγώ](https://www.instagram.com/tsangiotis) και η [Άννα](https://www.instagram.com/anna.vek/).
