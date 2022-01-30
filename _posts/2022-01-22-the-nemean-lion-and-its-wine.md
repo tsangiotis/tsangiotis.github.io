@@ -3,11 +3,9 @@ layout: post
 title: The Nemean Lion and its Wine
 date: 2022-01-22
 description: Start of December we visited a winery. I have been to distilleries and breweries but wine making has not made me drunk yet.
-image: 
+image:
 categories: Travel
 tags: Food, wine
-remote: true
-remote_url: https://world.hey.com/tasos/the-nemean-lion-and-its-wine-9c96e013
 ---
 
 Start of December we visited a winery.

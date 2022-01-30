@@ -7,8 +7,6 @@ description: Το Travolta είναι ένα εστιατόριο που ενδ�
 image: https://world.hey.com/tasos/7e8ccb87/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCTXB6MENnPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--fad6df53fd7ee6491015304ceb49a05d73f8cd89/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDam9MWm05eWJXRjBTU0lJU2xCSEJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFLQUIya0NBQVU2REhGMVlXeHBkSGxwU3pvTGJHOWhaR1Z5ZXdZNkNYQmhaMlV3T2cxamIyRnNaWE5qWlZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--afd0597065e95e7fda232779605f74232acbb77e/IMG_0852.JPG
 categories: Food
 tags: Food, mialigoura
-remote: true
-remote_url: https://world.hey.com/tasos/travolta-athens-mialigoura-7e8ccb87
 ---
 
 Το Travolta είναι ένα εστιατόριο που ενδείκνυται στους  λάτρεις των θαλασσινών.
@@ -29,4 +27,4 @@ remote_url: https://world.hey.com/tasos/travolta-athens-mialigoura-7e8ccb87
 
 [![IMG_0852.JPG](https://world.hey.com/tasos/7e8ccb87/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCTXB6MENnPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--fad6df53fd7ee6491015304ceb49a05d73f8cd89/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDam9MWm05eWJXRjBTU0lJU2xCSEJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFLQUIya0NBQVU2REhGMVlXeHBkSGxwU3pvTGJHOWhaR1Z5ZXdZNkNYQmhaMlV3T2cxamIyRnNaWE5qWlZRPSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--afd0597065e95e7fda232779605f74232acbb77e/IMG_0852.JPG)](https://world.hey.com/tasos/7e8ccb87/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCTXB6MENnPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--fad6df53fd7ee6491015304ceb49a05d73f8cd89/IMG_0852.JPG?disposition=attachment "Download IMG_0852.JPG")
 
->Το [@mialigoura](https://www.instagram.com/mialigoura) είναι ένας λογαριασμός review φαγητού που ξεκινήσαμε [εγώ](https://www.instagram.com/tsangiotis) και η [Άννα](https://www.instagram.com/anna.vek/).
+> Το [@mialigoura](https://www.instagram.com/mialigoura) είναι ένας λογαριασμός review φαγητού που ξεκινήσαμε [εγώ](https://www.instagram.com/tsangiotis) και η [Άννα](https://www.instagram.com/anna.vek/).
