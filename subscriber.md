@@ -1,6 +1,6 @@
 ---
 layout: simple
-title: Subscribe
+title: Welcome
 permalink: /subscriber/
 ---
 
