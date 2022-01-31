@@ -9,14 +9,15 @@ categories: Food
 tags: Food, mialigoura
 ---
 
-Το Travolta είναι ένα εστιατόριο που ενδείκνυται στους  λάτρεις των θαλασσινών.
+Το Travolta είναι ένα εστιατόριο που ενδείκνυται στους λάτρεις των θαλασσινών.
 
 Χώρος που θυμίζει παλιά ελληνική ταβέρνα, πλην όμως προσεγμένη. Πέρα από κλασικά, προσφέρονται και πιο «μοντέρνα» πιάτα, όπως το φαγκρι sashimi που δοκιμάσαμε το οποίο ήταν εξαιρετικό! Συνέχισαμε με φάβα συνοδευόμενη με καπνιστό χέλι, τσιπούρα φρικασέ και καλαμάρι κοντοσούβλι με μελάνι σουπιάς.
 
-| | |
-| = | = |
-| ![IMG_0849.jpg](/images/travolta-athens-mialigoura/IMG_0849.jpg) | ![IMG_0850.jpg](/images/travolta-athens-mialigoura/IMG_0850.jpg) |
-| ![IMG_0853.jpg](/images/travolta-athens-mialigoura/IMG_0853.jpg) | ![IMG_0851.jpg](/images/travolta-athens-mialigoura/IMG_0851.jpg) |
+{:.gallery}
+![IMG_0849.jpg](/images/travolta-athens-mialigoura/IMG_0849.jpg)
+![IMG_0850.jpg](/images/travolta-athens-mialigoura/IMG_0850.jpg)
+![IMG_0853.jpg](/images/travolta-athens-mialigoura/IMG_0853.jpg)
+![IMG_0851.jpg](/images/travolta-athens-mialigoura/IMG_0851.jpg)
 
 Όλα πεντανόστιμα, αυθεντικά. Μια επίσκεψη που αξίζει να κάνετε!
 

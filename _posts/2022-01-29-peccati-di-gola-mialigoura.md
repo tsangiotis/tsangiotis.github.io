@@ -27,9 +27,9 @@ tags: Food, mialigoura
 
 Συνεχίζουμε με δύο εξαιρετικά κυρίως πιάτα. Κρεμώδη χειροποίητα Gnocchi με τρούφα και Tagliolini verdi, δηλαδη ζυμαρικά βασιλικού πασπαλισμένα με ξύσμα λεμονιού πάνω σε μοσχαρίσιο καρπάτσιο και κρέμα παρμεζάνας.
 
-| | |
-| = | = |
-| ![IMG_0091.jpg](/images/peccati-di-gola-mialigoura/IMG_0091.jpg) | ![IMG_0090.jpg](/images/peccati-di-gola-mialigoura/IMG_0090.jpg) |
+{:.gallery}
+![IMG_0091.jpg](/images/peccati-di-gola-mialigoura/IMG_0091.jpg)
+![IMG_0090.jpg](/images/peccati-di-gola-mialigoura/IMG_0090.jpg)
 
 Κλείνουμε με αφράτο και ζουμερό τιραμισού.
 

@@ -3,10 +3,9 @@ layout: post
 title: Milos - Sea, See, Eat, Drink
 date: 2021-08-14
 description: While in love or alone, Milos is a place to enjoy the sand and sun. In this post are some musts from my visit. I will not bore you with the unpleasant or meh experiences. Only with the great and there were many.
-image: /images/multilingual-jekyll/around_the_world.png
+image: /images/milos-sea-see-eat-drink/around_the_world.png
 categories: Travel
 tags: Cyclades, Greece, Milos, Photography, Travel
-remote: true
 redirect_from:
   - /2021/08/14/milos-sea-see-eat-drink/
   - /2021/08/14/milos-sea-see-eat-drink/amp/
@@ -24,7 +23,7 @@ The trip we took was with [Volcano boat](https://volcanoboat.eu/) and I can whol
 
 Beyond that, regarding the beaches you will visit every day, I really liked Paleochori (visited twice). The sand is hot, the water cold and if you have a mask you will enjoy the underwater landscapes.
 
-![Deep Blue bar, Paleochori]({{ site.baseurl }}/images/{{ page.slug }}/75fc4481-ffc4-43ae-aa37-91d8668f6180.jpeg)
+![Deep Blue bar, Paleochori](/images/milos-sea-see-eat-drink/75fc4481-ffc4-43ae-aa37-91d8668f6180.jpeg)
 
 Second in my ranking comes Agia Kyriaki. The beach bar is good, and the water perfect.
 
@@ -32,8 +31,9 @@ Second in my ranking comes Agia Kyriaki. The beach bar is good, and the water pe
 
 Must swims include Alogomantra and Fyropotamos.
 
-![Alogomantra beach]({{ site.baseurl }}/images/{{ page.slug }}/59289508-e8bf-4fbd-88a2-0767a89f52b2.jpeg)
-![Fyropotamos beach]({{ site.baseurl }}/images/{{ page.slug }}/99bdae11-d3da-4dd6-8f5d-2bd422b5f4e3.jpeg)
+{:.gallery}
+![Alogomantra beach](/images/milos-sea-see-eat-drink/59289508-e8bf-4fbd-88a2-0767a89f52b2.jpeg)
+![Fyropotamos beach](/images/milos-sea-see-eat-drink/99bdae11-d3da-4dd6-8f5d-2bd422b5f4e3.jpeg)
 
 After that do what you want. The island has 90+ beaches, you’ll never catch them all in a way that’s worth it.
 
@@ -43,20 +43,23 @@ You must be wandering where is Sarakiniko in the above list.
 
 Sarakiniko is to see but not to waste a swim on. You can spend a couple of hours there exploring and taking pictures.
 
-![Anna in Sarakiniko]({{ site.baseurl }}/images/{{ page.slug }}/83c04b44-778d-42a9-9ff9-97ddc4ee1534.jpeg)
-![Girl jumps from a ledge in the Sarakiniko waters]({{ site.baseurl }}/images/{{ page.slug }}/6b28a803-462e-4a6e-8169-618310a685de.jpeg)
-![The Sarakiniko wasteland dream]({{ site.baseurl }}/images/{{ page.slug }}/0f13b631-2b0b-4c43-b0b1-d398bdd0ef83.jpeg)
+![Anna in Sarakiniko](/images/milos-sea-see-eat-drink/83c04b44-778d-42a9-9ff9-97ddc4ee1534.jpeg)
+
+{:.gallery}
+![Girl jumps from a ledge in the Sarakiniko waters](/images/milos-sea-see-eat-drink/6b28a803-462e-4a6e-8169-618310a685de.jpeg)
+![The Sarakiniko wasteland dream](/images/milos-sea-see-eat-drink/0f13b631-2b0b-4c43-b0b1-d398bdd0ef83.jpeg)
 
 Another place you should see is Klima. This location hosted the homes of many fishermen. The doors are colored because the fishermen needed to spot their home from afar and with the help of wires get them inside to protect them. Must visit at sundown.
 
-![Sunset hour at Klima]({{ site.baseurl }}/images/{{ page.slug }}/5c93cd6a-6558-4f61-beae-348795a7e3d9.jpeg)
-![Man in front of his door at Klima]({{ site.baseurl }}/images/{{ page.slug }}/7f856da1-0904-4c4d-9363-1822e7fe6cce.jpeg)
+{:.gallery}
+![Sunset hour at Klima](/images/milos-sea-see-eat-drink/5c93cd6a-6558-4f61-beae-348795a7e3d9.jpeg)
+![Man in front of his door at Klima](/images/milos-sea-see-eat-drink/7f856da1-0904-4c4d-9363-1822e7fe6cce.jpeg)
 
 The last sunset to schedule is at the top of the Castle at Plaka. The view is amazing.
 
 We had the luck to visit while a storm was taking place at the distance.
 
-![Sunset at Plaka castle while storming]({{ site.baseurl }}/images/{{ page.slug }}/img_1548.jpg)
+![Sunset at Plaka castle while storming](/images/milos-sea-see-eat-drink/img_1548.jpg)
 
 ## Eat
 

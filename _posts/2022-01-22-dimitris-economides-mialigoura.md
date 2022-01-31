@@ -13,9 +13,9 @@ tags: Food, mialigoura
 
 Αυτή τη φορά δοκιμάσαμε Gâteau St. Honoré και τάρτα με τροπικά φρούτα (μάνγκο, ανανά και passion fruit). Η τάρτα ήταν ευχάριστη και δροσερή με καλή ισσοροπία. Το St. Honoré ήταν τεχνικά τέλειο και επίσης ισσοροπημένο.
 
-| | |
-| = | = |
-| ![679D6EBA-6584-4574-9D08-C630FFDE590F.jpg](/images/dimitris-economides-mialigoura/679D6EBA-6584-4574-9D08-C630FFDE590F.jpg) | ![4B6D5D1C-5272-4C42-A09D-667DAB002A79.jpg](/images/dimitris-economides-mialigoura/4B6D5D1C-5272-4C42-A09D-667DAB002A79.jpg) |
+{:.gallery}
+![679D6EBA-6584-4574-9D08-C630FFDE590F.jpg](/images/dimitris-economides-mialigoura/679D6EBA-6584-4574-9D08-C630FFDE590F.jpg)
+![4B6D5D1C-5272-4C42-A09D-667DAB002A79.jpg](/images/dimitris-economides-mialigoura/4B6D5D1C-5272-4C42-A09D-667DAB002A79.jpg)
 
 Η μόνη μας παρατήρηση είναι ότι θα θέλαμε κάτι να μας ρίξει από αυτή την ισορροπία και να μας πιάσει απροετοίμαστους.
 

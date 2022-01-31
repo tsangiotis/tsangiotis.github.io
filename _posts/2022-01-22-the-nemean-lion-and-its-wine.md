@@ -24,9 +24,10 @@ The hostess at Govas Winery was a chemical engineer with deep knowledge of the p
 
 We took a tour of the estate and after that we tried many of the plant's products with great cheese and meat pairings.
 
-| | |
-| = | = |
-| ![IMG_0059.jpg](/images/the-nemean-lion-and-its-wine/IMG_0059.jpg) | ![IMG_0061.jpg](/images/the-nemean-lion-and-its-wine/IMG_0061.jpg) |
-| ![IMG_0060.jpg](/images/the-nemean-lion-and-its-wine/IMG_0060.jpg) | ![IMG_0062.jpg](/images/the-nemean-lion-and-its-wine/IMG_0062.jpg) |
+{:.gallery}
+![IMG_0059.jpg](/images/the-nemean-lion-and-its-wine/IMG_0059.jpg)
+![IMG_0061.jpg](/images/the-nemean-lion-and-its-wine/IMG_0061.jpg)
+![IMG_0060.jpg](/images/the-nemean-lion-and-its-wine/IMG_0060.jpg)
+![IMG_0062.jpg](/images/the-nemean-lion-and-its-wine/IMG_0062.jpg)
 
 I would recommend to visit a winery once. If you like wine you may appreciate the process more if you know how everything is done.

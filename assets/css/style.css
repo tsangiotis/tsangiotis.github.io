@@ -396,6 +396,9 @@ img:not([width]):not([height]) {
 }
 
 p img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   vertical-align: middle;
   width: auto;
   max-width: calc(100% - 2px);
@@ -423,13 +426,22 @@ p img[width][height] {
   gap: 4px;
 }
 
+.gallery>* {
+  width: 100%;
+  text-align: center;
+  margin: 0.625em 0;
+}
+
 .gallery img {
-  flex: 1 0 33%;
+  flex: 1 0 50%;
   margin: 0 0 1em;
-  flex-basis: 50%;
   max-width: calc(50% - 10px)
 }
 
+.gallery--3.gallery img {
+  flex-basis: 33%;
+  max-width: calc(33% - 10px)
+}
 
 .reading-0::after {
   content: "📖";
