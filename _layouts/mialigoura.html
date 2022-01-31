@@ -13,15 +13,15 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" defer>
   <style>
     :root {
-      --accent: #cfb749;
+      --accent: #f5d652;
       --accent-light: #fff5ca;
+      --marked: #2e5090;
     }
 
     /* Dark theme */
     @media (prefers-color-scheme: dark) {
       :root {
-        --accent: #f5de79;
-        --accent-light: #fff5ca;
+        --marked: #71aef0;
       }
   </style>
   {% if page.remote %}
@@ -38,7 +38,7 @@
     <h1>mialigoura</h1>
     <p>by Anna Vekri and Tasos Sangiotis</p>
     <nav>
-      <a href="/">← Tasos Sangiotis</a>
+      <a href="/" style="background-color: var(--marked);">← Tasos Sangiotis</a>
       <a href="https://instagram.com/mialigoura">Follow @mialigoura</a>
     </nav>
   </header>
