@@ -419,6 +419,33 @@ p img[width][height] {
   height: auto
 }
 
+ul.posts {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.posts li p {
+  display: grid;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  grid-template-columns: 1fr min-content
+}
+
+ul.posts li p time {
+  padding-right: 0.25em;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -.012em;
+  white-space: pre;
+}
+
+@media screen and (max-width: 640px) {
+  ul.posts li p {
+    grid-template-columns: 1fr;
+    grid-row-gap: 0;
+  }
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
