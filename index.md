@@ -2,6 +2,8 @@
 layout: simple
 ---
 
+{% include subscribe.html %}
+
 {% if site.image %}
 
 <center>
@@ -19,10 +21,6 @@ layout: simple
 
 - {{ book.title }} -- {{ book.author }}
   {% endfor %}
-
-_Latest_ posts are on my [**blog**](https://world.hey.com/tasos)!
-
-{% include subscribe.html %}
 
 ## Posts ✍️
 
