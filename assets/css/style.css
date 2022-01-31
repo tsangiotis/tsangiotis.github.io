@@ -390,6 +390,34 @@ fieldset {
   margin: 0;
 }
 
+img:not([width]):not([height]) {
+  min-width: 1px;
+  min-height: 1px;
+}
+
+img {
+  vertical-align: middle;
+  text-align: center;
+  width: auto;
+  max-width: calc(100% - 2px);
+  max-height: 46rem;
+}
+
+img {
+  max-width: 100%
+}
+
+img[width] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img[width][height] {
+  height: auto
+}
+
+
 .reading-0::after {
   content: "📖";
 }
