@@ -395,26 +395,39 @@ img:not([width]):not([height]) {
   min-height: 1px;
 }
 
-img {
+p img {
   vertical-align: middle;
-  text-align: center;
   width: auto;
   max-width: calc(100% - 2px);
   max-height: 46rem;
 }
 
-img {
+p img {
   max-width: 100%
 }
 
-img[width] {
+p img[width] {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-img[width][height] {
+p img[width][height] {
   height: auto
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  gap: 4px;
+}
+
+.gallery img {
+  flex: 1 0 33%;
+  margin: 0 0 1em;
+  flex-basis: 50%;
+  max-width: calc(50% - 10px)
 }
 
 
