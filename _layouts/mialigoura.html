@@ -11,19 +11,7 @@
 
   <link rel="icon" type="image/png" sizes="300x300" href="/assets/images/mialigoura.jpg">
   <link rel="stylesheet" href="/assets/css/style.css" defer>
-  <style>
-    :root {
-      --accent: #f5d652;
-      --accent-light: #fff5ca;
-      --marked: #2e5090;
-    }
 
-    /* Dark theme */
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --marked: #71aef0;
-      }
-  </style>
   {% if page.remote %}
   <link rel="canonical" href="{{ page.remote_url }}" />
   <meta http-equiv="refresh" content="1; url={{ page.remote_url }}">
@@ -38,8 +26,9 @@
     <h1>mialigoura</h1>
     <p>by Anna Vekri and Tasos Sangiotis</p>
     <nav>
-      <a href="/" style="background-color: var(--marked);">← Tasos Sangiotis</a>
-      <a href="https://instagram.com/mialigoura">Follow @mialigoura</a>
+      <a href="/">← Tasos Sangiotis</a>
+      <a href="https://instagram.com/mialigoura"
+        style="color:var(--preformatted) !important;background-color: var(--marked);">Follow @mialigoura</a>
     </nav>
   </header>
   <main>
