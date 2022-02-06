@@ -56,6 +56,7 @@ On the grand scale the only solution is for the law to be enforced appropriately
 <iframe src="https://www.youtube.com/embed/k7OYLVznNvQ?feature=oembed" width="800" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 {% block comments %}
+
 # Volker Birk
 
 I don’t use any Google product. If you ask for the obvious: it’s Duckduckgo. But for all other things I’m not using Google products. I’m using OpenStreetmap. I’m using Firefox. I’m using LibreOffice. There is no dependency on Google at all. And I’m doing fine, thank you.
@@ -153,4 +154,4 @@ I will consider using Google products again when they fire Eric Schmidt.
 
 Disclaimer: I work for Google.
 
-{% endblock comments %}
+{% endblock %}
