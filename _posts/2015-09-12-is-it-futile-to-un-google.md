@@ -55,15 +55,14 @@ On the grand scale the only solution is for the law to be enforced appropriately
 
 <iframe src="https://www.youtube.com/embed/k7OYLVznNvQ?feature=oembed" width="800" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-{% block comments %}
-
 # Volker Birk
 
 I don’t use any Google product. If you ask for the obvious: it’s Duckduckgo. But for all other things I’m not using Google products. I’m using OpenStreetmap. I’m using Firefox. I’m using LibreOffice. There is no dependency on Google at all. And I’m doing fine, thank you.
 
 If people like Google’s products, they can use them. I dislike the idea of giving up my privacy, so I don’t. It’s everyone’s joice. Perhaps Google convince me in the future to use some products of them. Who knows?
 
----
+
+{% include block_comments %}
 
 #Rick
 
@@ -154,4 +153,4 @@ I will consider using Google products again when they fire Eric Schmidt.
 
 Disclaimer: I work for Google.
 
-{% endblock %}
+{% include endblock_comments %}
