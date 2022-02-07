@@ -54,8 +54,6 @@ Realistically this is what you can do to use the internet today without becoming
 
 On the grand scale the only solution is for the law to be enforced appropriately. If we don't have that the only thing we are doing is avoiding the unavoidable.
 
-<iframe src="https://www.youtube.com/embed/k7OYLVznNvQ?feature=oembed" width="800" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-
 {% include block_comments.html %}
 
 # Volker Birk
