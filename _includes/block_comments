@@ -1,3 +1,17 @@
 <details>
-  <summary><h3>💬 Comments</h3></summary>
+  <summary><i>Comment details and information</i></summary>
+  <p>To make a comment, please send an e-mail using the button below. Your e-mail address won't be shared and will be
+    deleted from my records after the comment is published. If you don't want your real name to be credited alongside
+    your comment, please specify the name you would like to use. If you would like your name to link to a specific URL,
+    please share that as well. Thank you.</p>
+</details>
+
+<a href="mailto:hello@tsangiotis.com?subject=RE: {{ page.title | uri_escape }}">
+  <button>Comment via email</button>
+</a>
+
+<details>
+  <summary>
+    <h3>💬 Comments</h3>
+  </summary>
   <div class="comments" markdown="1">
