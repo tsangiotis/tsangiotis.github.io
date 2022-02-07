@@ -4,10 +4,10 @@ title: Is it futile to un-Google?
 description: A rant on the obsession with privacy stuff.
 date: 2015-09-12
 categories:
-- Opinion
+  - Opinion
 tags:
-- Privacy
-- great
+  - Privacy
+  - great
 ---
 
 I was watching Citizenfour the other day so you may understand my confusion.
@@ -27,6 +27,7 @@ But let's say I stop using services from these companies and find alternatives. 
 That was what [Benjamin Mako Hill](https://mako.cc/) who maintains his own mail server realised and tried to estimate how much of his emails Google has. [Here are his findings](https://mako.cc/copyrighteous/google-has-most-of-my-email-because-it-has-all-of-yours).
 
 **TL;DR;** 51% of his email at the year of measurement had passed through Google's servers. Just wow! This guy works so hard and spends so much money every year to avoid this and there he goes.
+
 <!--more-->
 
 The only way i can think of to email other people and keep it private without blowing my head up, is if I use [Protonmail](https://protonmail.ch/) which I think is awesome. But even then, starting a casual conversation demands that you have to teach the other person how to use the service. Also mobile is a pain and the web interface is not packing the 11 years of experience that Google has with Gmail (yes, proper shortcuts).
@@ -61,10 +62,9 @@ I don’t use any Google product. If you ask for the obvious: it’s Duckduckgo.
 
 If people like Google’s products, they can use them. I dislike the idea of giving up my privacy, so I don’t. It’s everyone’s joice. Perhaps Google convince me in the future to use some products of them. Who knows?
 
+{% include block_comments.html %}
 
-{% include block_comments %}
-
-#Rick
+# Rick
 
 I dislike the way Google injects their politics into everything (especially regarding gay marriage). I tried to de-Google but found it impossible. The government needs to break them up. They are too big.
 
@@ -103,8 +103,8 @@ Lots of people have de-Googled. If you can’t, it just means they provide servi
 ---
 
 > # Rick
->    
->“Google isn’t a terribly big company”?!? Google is a $350 Billion behemoth!
+>
+> “Google isn’t a terribly big company”?!? Google is a $350 Billion behemoth!
 
 ---
 
@@ -153,4 +153,4 @@ I will consider using Google products again when they fire Eric Schmidt.
 
 Disclaimer: I work for Google.
 
-{% include endblock_comments %}
+{% include endblock_comments.html %}
