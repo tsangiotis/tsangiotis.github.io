@@ -14,13 +14,13 @@ tags: Food, mialigoura
 Το σέρβις χρειάζεται δουλειά ακόμη (μας έφεραν άλλο μπουκάλι κρασί από αυτό που είχαμε παραγγείλει χωρίς καν να μας ρωτήσουν) αλλά  στο ερωτημα εάν θα ξαναπηγαίναμε, η απάντηση είναι «ναι!»
 
 
-{:.gallery}
+{:.gallery .gallery--3}
 ![3](/images/brasserie-lorraine-mialigoura/IMG_2585.jpeg)
 ![2](/images/brasserie-lorraine-mialigoura/IMG_2570.jpeg)
-
 ![4](/images/brasserie-lorraine-mialigoura/IMG_2588.jpeg)
 
-🥖 Brasserie Lorraine
+🥖 Brasserie Lorraine 
+
 📍 Γλύκωνος 2, Κολωνακι
 
 ![1](/images/brasserie-lorraine-mialigoura/IMG_2567.jpeg)
