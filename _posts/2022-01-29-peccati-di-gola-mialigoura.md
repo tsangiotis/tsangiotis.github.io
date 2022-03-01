@@ -4,7 +4,7 @@ title: Peccati di gola @ mialigoura
 date: 2022-01-29
 lang: el
 description: Το Peccati di gola είναι μια ζεστή ναπολιτάνικη τρατορία με παραδοσιακές αλλά και πιο μοντέρνες γεύσεις.
-image: /images/peccati-di-gola-mialigoura/IMG_0087.jpg
+image: https://imagedelivery.net/9y59yvFNbWTltjX6sh684Q/a5759a9a-ce9c-4a71-1636-8e4a42528c00/optimized
 categories: Food
 tags: Food, mialigoura
 ---

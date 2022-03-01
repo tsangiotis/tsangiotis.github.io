@@ -4,7 +4,7 @@ title: Brasserie Lorraine @ mialigoura
 date: 2022-02-20
 lang: el
 description: Πολύ όμορφος χώρος με ωραία ατμόσφαιρα και εξαιρετική live μουσική. Νόστιμα  πιάτα.
-image: /images/brasserie-lorraine-mialigoura/IMG_2585.jpeg
+image: https://imagedelivery.net/9y59yvFNbWTltjX6sh684Q/e489fc03-d941-4283-282c-db4b5ca61a00/optimized
 categories: Food
 tags: Food, mialigoura
 ---
