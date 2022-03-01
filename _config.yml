@@ -18,6 +18,9 @@ social:
 
 avatar_img: me.png
 
+compress_images:
+  images_path: "images/**/*.{gif,png,jpg,jpeg,svg}"
+
 image:
   title: don’t look as i just hide now in this creepy old and inefficient 5 person bar
   img: /images/andros/IMG_0676.jpeg
@@ -38,3 +41,5 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-compress-images
+  - jekyll-include-cache
