@@ -18,12 +18,9 @@ social:
 
 avatar_img: me.png
 
-compress_images:
-  images_path: "images/**/*.{gif,png,jpg,jpeg,svg}"
-
 image:
   title: Window girl
-  img: https://imagedelivery.net/mdSbb1GKWP_xXxxsYl5evQ/e1371af3-916c-4db7-0f85-26bddbd01f00/optimised
+  img: https://imagedelivery.net/9y59yvFNbWTltjX6sh684Q/ea49b11e-6a2f-4f35-f8f0-104d4b5d0f00/optimized
   url: https://www.instagram.com/p/CZos_TFsNxg/?utm_medium=copy_link
 
 collections:
@@ -41,5 +38,4 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
-  - jekyll-compress-images
   - jekyll-include-cache

@@ -4,7 +4,7 @@ title: All posts
 permalink: /posts/
 ---
 
-{% include subscribe.html %}
+{% include_cached  subscribe.html %}
 
 {:.posts}
 {% for post in site.posts %}

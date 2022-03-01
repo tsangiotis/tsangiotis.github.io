@@ -54,7 +54,7 @@ Realistically this is what you can do to use the internet today without becoming
 
 On the grand scale the only solution is for the law to be enforced appropriately. If we don't have that the only thing we are doing is avoiding the unavoidable.
 
-{% include block_comments.html %}
+{% include_cached block_comments.html %}
 
 # Volker Birk
 
@@ -153,4 +153,4 @@ I will consider using Google products again when they fire Eric Schmidt.
 
 Disclaimer: I work for Google.
 
-{% include endblock_comments.html %}
+{% include_cached  endblock_comments.html %}

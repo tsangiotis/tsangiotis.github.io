@@ -7,7 +7,7 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{site.title}}{% endif %}</title>
   {% seo %}
 
-  {% include social_meta_tags.html %}
+  {% include_cached  social_meta_tags.html %}
 
   <link rel="icon" type="image/png" sizes="300x300" href="/assets/images/me.jpg">
   <link rel="stylesheet" href="/assets/css/style.css" defer>
@@ -20,7 +20,7 @@
 <body>
 
 
-  {% include header.html %}
+  {% include_cached  header.html %}
   <main>
     {{ content }}
   </main>
