@@ -2,7 +2,7 @@
 layout: simple
 ---
 
-{% include_cached  subscribe.html %}
+{% include subscribe.html %}
 
 {% if site.image %}
 [![{{ site.image.title }}]({{ site.image.img }})]({{ site.image.url }})

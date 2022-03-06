@@ -6,6 +6,7 @@ gem 'github-pages', group: :jekyll_plugins
 group :jekyll_plugins do
     gem 'jekyll-github-metadata'
     gem 'jekyll-seo-tag'
+    gem 'jekyll-compress-images', :git => 'https://github.com/valerijaspasojevic/jekyll-compress-images.git'
     gem 'jekyll-include-cache'
 end
 

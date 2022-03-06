@@ -4,4 +4,4 @@ title: Subscribe
 permalink: /subscribe/
 ---
 
-{% include_cached  subscribe.html %}
+{% include subscribe.html %}
