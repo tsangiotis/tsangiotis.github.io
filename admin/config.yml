@@ -1,7 +1,6 @@
 backend:
   name: github
   repo: tsangiotis/tsangiotis.github.io
-  branch: main
 media_folder: "images/uploads"
 auth_endpoint: "auth"
 
