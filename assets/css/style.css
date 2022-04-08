@@ -419,6 +419,11 @@ p img[width][height] {
   height: auto
 }
 
+article time {
+  color: var(--text-light);
+  font-size: .9rem;
+}
+
 ul.posts {
   list-style-type: none;
   padding: 0;
@@ -444,6 +449,11 @@ ul.posts li p time {
     grid-template-columns: 1fr;
     grid-row-gap: 0;
   }
+}
+
+.text-center {
+  text-align: center;
+
 }
 
 .gallery {

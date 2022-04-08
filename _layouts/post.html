@@ -3,9 +3,11 @@ layout: simple
 ---
 
 <article>
-  <h1>{{ page.title }}{% if post.remote %}🔗{% endif %}</h1>
-  <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %d, %Y"
-        }}</time>
+  <p class="text-center">
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %d, %Y"
+  }}</time>
+  </p>
+  <h1 class="text-center">{{ page.title }}{% if post.remote %}🔗{% endif %}</h1>
   <div>
     {% if page.remote %}
     <center>
