@@ -3,6 +3,7 @@ backend:
   repo: tsangiotis/tsangiotis.github.io
   branch: main
 media_folder: "images/uploads"
+auth_endpoint: "auth"
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
