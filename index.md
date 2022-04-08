@@ -31,4 +31,8 @@ To contact me use [tasos@hey.com](mailto:tasos@hey.com).
 
 ## Posts ✍️
 
-I post on [HEY world](https://world.hey.com/tasos/) where you can also get it on email form.
+{:.posts}
+{% for post in site.posts limit:7 %}
+
+- [{{ post.title }}{% if post.lang == 'el' %} 🇬🇷{% endif %}{% if post.remote %} 🔗{% endif %}]({% if post.remote %}{{ post.remote_url }}{% else %}{{ site.baseurl }}{{ post.url }}{% endif %})<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+  {% endfor %}
