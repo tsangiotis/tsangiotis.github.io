@@ -1,22 +1,22 @@
 <section style="text-align: center; max-width: 32rem;overflow: initial;transform: rotate(-1deg);">
-  <form action="https://world.hey.com/tasos/subscribers" accept-charset="UTF-8" data-remote="true" method="post">
-    <label for="subscriber_email_address" markdown="1">
+  <form action="https://buttondown.email/api/emails/embed-subscribe/tsangiotis" accept-charset="UTF-8"
+    data-remote="true" method="post">
+    <label for="email" markdown="1">
       {% if include.label %}
       {{ include.label }}
       {% else %}
-      Subscribe below to get future <a href="https://world.hey.com/tasos">posts</a> from Tasos Sangiotis
+      Subscribe below to get future <a href="/posts">posts</a> from Tasos Sangiotis
       {% endif %}
     </label>
 
     <div>
-      <input type="email" name="subscriber[email_address]" id="subscriber_email_address" placeholder="Type your email…"
-        required="">
+      <input type="email" name="email" id="email" placeholder="Type your email…" required="">
 
       <button>Subscribe</button>
     </div>
 
   </form>
   <p class="txt--x-small flush--bottom">
-    Or grab the <a class="permalink" href="https://world.hey.com/tasos/feed.atom">RSS feed</a>
+    Or grab the <a class="permalink" href="/feed">RSS feed</a>
   </p>
 </section>
