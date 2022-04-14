@@ -5,15 +5,18 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: post
 - type: text
   name: title
   label: title
 - type: text
   name: lang
   label: lang
+  default: en
 - type: datetime
   name: date
   label: date
+  default: now
 - type: file
   name: image
   label: image
