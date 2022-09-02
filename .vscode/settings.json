@@ -1,0 +1,9 @@
+{
+    "[sass][scss]": {
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false
+    },
+    "files.associations": {
+        "*.html": "liquid"
+    }
+}
