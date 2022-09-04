@@ -424,6 +424,28 @@ article time {
   font-size: .9rem;
 }
 
+.footnotes::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  left: 25%;
+  border-top: solid 1px var(--text);
+
+}
+
+.footnotes {
+  font-size: small;
+  line-height: 0.6em;
+  padding-top: 0.6em;
+  background-image: linear-gradient(90deg,var(--text),var(--bg));
+  background-size: 50% 1px;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+
 ul.posts {
   list-style-type: none;
   padding: 0;

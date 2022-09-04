@@ -5,5 +5,14 @@
     },
     "files.associations": {
         "*.html": "liquid"
-    }
+    },
+    "spellright.language": [
+        "el",
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ]
 }
