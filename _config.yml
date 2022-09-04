@@ -33,7 +33,7 @@ collections:
 feed:
   posts_limit: 200
 
-exclude: ["README.md", "Gemfile.lock", "Gemfile", "Rakefile"]
+exclude: ["README.md", "Gemfile.lock", "Gemfile", "Rakefile", "vendor"]
 
 plugins:
   - jekyll-github-metadata
