@@ -63,7 +63,7 @@ var simpleRSSPlugin = (function () {
 
                 var tempNode = document.createElement('div');
 
-                var d = new Date(e.pubDate);
+                var d = new Date(e.pubDate.replace(/-/g, "/"));
                 var formattedDate = months[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
 
                 var template = '<' + titleWrapper + '><p><a href="' + e.link + '">' + e.title + '</a><time datetime="' + e.pubDate + '">' + formattedDate + '</time></p></' + titleWrapper + '>' + e.content;
