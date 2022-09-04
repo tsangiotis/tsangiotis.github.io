@@ -11,7 +11,6 @@
 
   <link rel="icon" type="image/png" sizes="300x300" href="/assets/images/me.jpg">
   <link rel="stylesheet" href="/assets/css/style.css" defer>
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
   {% if page.remote %}
   <link rel="canonical" href="{{ page.remote_url }}" />
@@ -25,17 +24,6 @@
   {% include header.html %}
   <main>
     {{ content }}
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
-        });
-      }
-    </script>
   </main>
 
   <footer>
