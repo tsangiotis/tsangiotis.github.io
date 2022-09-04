@@ -66,7 +66,7 @@ var simpleRSSPlugin = (function () {
                 var d = new Date(e.pubDate.replace(/-/g, "/"));
                 var formattedDate = months[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
 
-                var template = '<' + titleWrapper + '><p><a href="' + e.link + '">' + e.title + '</a><time datetime="' + e.pubDate + '">' + formattedDate + '</time></p></' + titleWrapper + '>' + e.content;
+                var template = '<' + titleWrapper + '><p><a href="' + e.link + '">' + e.title + '</a><time datetime="' + e.pubDate + '">' + formattedDate + '</time><span class="post__description">' + e.content + '</span></p></' + titleWrapper + '>';
 
                 if (addLink === 'false') {
 

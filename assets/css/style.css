@@ -473,6 +473,11 @@ ul.posts li p time {
   }
 }
 
+.post__description {
+  font-size: small;
+  font-style: italic;
+}
+
 .text-center {
   text-align: center;
 
