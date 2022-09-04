@@ -26,7 +26,7 @@ var simpleRSSPlugin = (function () {
         // Get data - append as script with callback to avoid CORS
         var script = document.createElement('script');
 
-        script.src = document.location.protocol + 'https://api.rss2json.com/v1/api.json?api_key=5kj7sddhdkizegl8snqvuouaedel0vreavi6kprn&rss_url=' + encodeURIComponent(url);
+        script.src = document.location.protocol + '//api.rss2json.com/v1/api.json?callback=simpleRSSPlugin.handleJSON&api_key=5kj7sddhdkizegl8snqvuouaedel0vreavi6kprn&rss_url=' + encodeURIComponent(url);
 
         document.querySelector('head').appendChild(script);
 
