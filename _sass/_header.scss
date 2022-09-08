@@ -45,3 +45,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
+
+nav a[target="_blank"]::after {
+  content: " ↗";
+}
