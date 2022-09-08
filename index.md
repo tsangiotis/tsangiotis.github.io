@@ -1,26 +1,26 @@
 ---
 layout: simple
+title: Tasos Sangiotis
 ---
-
-{% include subscribe.html %}
 
 ## Now reading 📖
 
 {% assign reading = site.books | where:"rate","0" %}
 
+{% if reading %}
 {% for book in reading %}
 
 - {{ book.title }} -- {{ book.author }}
-  {% endfor %}
+{% endfor %}
+{% endif %}
 
 ## Pins 📌
 
 <ul 
     data-rss-feed="https://feeds.pinboard.in/rss/u:tsangiotis/" 
-    data-rss-link-titles="true" 
     data-rss-title-wrapper="li" 
     data-rss-max="5"
-    class ="posts">
+    class ="posts posts--pins">
 </ul>
 
 From my [pinboard feed](https://pinboard.in/u:tsangiotis#).

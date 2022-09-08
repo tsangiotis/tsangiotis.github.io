@@ -10,32 +10,17 @@ var simpleRSSPlugin = (function () {
     for (var i = 0; i < feeds.length; i++) {
 
         var container = feedsNodes[i];
-
-        // get feed URL
         var url = container.getAttribute('data-rss-feed');
-
-        // get whether to link titles
-        var addLink = container.getAttribute('data-rss-link-titles') || 'true';
-
-        // get title wrapper element
         var titleWrapper = container.getAttribute('data-rss-title-wrapper') || 'h2';
-
-        // Max outputs
         var max = container.getAttribute('data-rss-max') || 10;
-
-        // Get data - append as script with callback to avoid CORS
         var script = document.createElement('script');
 
         script.src = document.location.protocol + '//api.rss2json.com/v1/api.json?callback=simpleRSSPlugin.handleJSON&api_key=5kj7sddhdkizegl8snqvuouaedel0vreavi6kprn&rss_url=' + encodeURIComponent(url);
 
         document.querySelector('head').appendChild(script);
-
-        // Remove script
         script.parentNode.removeChild(script);
-
     }
 
-    // Callback function
     function handleJSON(data) {
 
         const months = {
@@ -66,20 +51,19 @@ var simpleRSSPlugin = (function () {
                 var d = new Date(e.pubDate.replace(/-/g, "/"));
                 var formattedDate = months[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
 
-                var template = '<' + titleWrapper + '><p><a href="' + e.link + '">' + e.title + '</a><time datetime="' + e.pubDate + '">' + formattedDate + '</time><span class="post__description">' + e.content + '</span></p></' + titleWrapper + '>';
-
-                if (addLink === 'false') {
-
-                    template = '<' + titleWrapper + '>' + e.title + '</' + titleWrapper + '>' + e.content;
-
-                }
+                var template = `
+                 <${titleWrapper}>
+                    <p>
+                        <a href="${e.link}">${e.title}</a>
+                        <time datetime="${e.pubDate}">${formattedDate}</time>
+                        <span class="post__description">${e.content}</span>
+                    </p>
+                    </${titleWrapper}>
+                `;
 
                 if (i < max) {
-
                     tempNode.innerHTML = template;
-
                     docFrag.appendChild(tempNode);
-
                 }
 
             }
@@ -88,8 +72,6 @@ var simpleRSSPlugin = (function () {
 
         }
     }
-
-    // Return function for use in global scope
 
     return {
         handleJSON: handleJSON

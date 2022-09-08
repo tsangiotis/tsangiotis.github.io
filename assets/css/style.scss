@@ -1,122 +1,13 @@
-/* Set the global variables for everything. Change these to use your own fonts and colours. */
-:root {
+---
+---
 
-  /* Set sans-serif & mono fonts */
-  --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
-  --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+@import "variables";
+@import "base";
+@import "typography";
+@import "header";
+@import "posts";
+@import "dark";
 
-  /* Body font size. By default, effectively 18.4px, based on 16px as 'root em' */
-  --base-fontsize: 1.15rem;
-
-  /* Major third scale progression - see https://type-scale.com/ */
-  --header-scale: 1.25;
-
-  /* Line height is set to the "Golden ratio" for optimal legibility */
-  --line-height: 1.618;
-
-  /* Default (light) theme */
-  --bg: #FFF;
-  --accent-bg: #F5F7FF;
-  --text: #212121;
-  --text-light: #585858;
-  --border: #D8DAE1;
-  --accent: #2e5090;
-  --accent-light: #4e78c6;
-  --code: #be1f2b;
-  --preformatted: #444;
-  --marked: #f5d652;
-  --disabled: #EFEFEF;
-}
-
-/* Dark theme */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #1b2733;
-    --accent-bg: #446280;
-    --text: #DCDCDC;
-    --text-light: #ABABAB;
-    --border: #666;
-    --accent: #71aef0;
-    --accent-light: #b6dbff;
-    --code: #f2a575;
-    --preformatted: #CCC;
-    --disabled: #111;
-  }
-
-  img, video {
-    opacity: .6;
-  }
-}
-
-html {
-  /* Set the font globally */
-  font-family: var(--sans-font);
-}
-
-/* Make the body a nice central block */
-body {
-  color: var(--text);
-  background: var(--bg);
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  flex: 1;
-  margin: 0 auto;
-  max-width: 45rem;
-  padding: 0 .5rem;
-  overflow-x: hidden;
-  word-break: break-word;
-  overflow-wrap: break-word;
-}
-
-header {
-  margin-top: 2rem;
-  text-align: center;
-}
-
-header img {
-  border-radius: 3rem;
-}
-
-header h1 {
-  margin: 0;
-  font-size: calc(var(--base-fontsize) * var(--header-scale));
-}
-
-/* Fix line height when title wraps */
-h1, h2, h3 {
-  line-height: 1.1;
-}
-
-/* Format navigation */
-nav {
-  font-size: 1rem;
-  line-height: 2;
-  padding: 1rem 0;
-}
-
-nav a {
-  transition: color .2s ease, background-color .2s ease, box-shadow .2s ease;
-  margin: 1rem 1rem 0 0;
-  border: 1px solid var(--border);
-  border-radius: 3rem;
-  color: var(--bg) !important;
-  background-color: var(--accent);
-  display: inline-block;
-  padding: .1rem 1rem;
-  text-decoration: none;
-  font-size: small;
-  transition: .4s;
-}
-
-nav a:hover {
-  color: var(--border) !important;
-  border-color: var(--border);
-}
-
-nav a.current:hover {
-  text-decoration: none;
-}
 
 footer {
   margin-top: 4rem;
@@ -165,13 +56,28 @@ blockquote {
   font-style: italic;
 }
 
+article h2:first-child,
+section h2:first-child {
+  margin-top: 1rem;
+}
+
 section {
-  border: 1px solid var(--border);
-  border-radius: 0.2em;
-  color: var(--text) !important;
-  box-shadow: 5px 5px 7px var(--accent-bg);
-  padding: 1.5em;
-  margin: 2.5rem auto;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 2rem 1rem;
+  margin: 3rem 0;
+}
+
+/* Don't double separators when chaining sections */
+section + section,
+section:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+section:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
 }
 
 /* Use mono font for code like elements */
@@ -424,6 +330,30 @@ article time {
   font-size: .9rem;
 }
 
+details {
+  padding: 0.7rem 1rem;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.7rem 1rem;
+  margin: -0.7rem -1rem;
+  word-break: break-all;
+}
+
+details[open] summary + * {
+  margin-top: 0;
+}
+
+details[open] summary {
+  margin-bottom: 0.5rem;
+}
+
+details[open] > :last-child {
+  margin-bottom: 0;
+}
+
 .footnotes::before {
   content: '';
   display: block;
@@ -443,39 +373,6 @@ article time {
   background-size: 50% 1px;
   background-position: top left;
   background-repeat: no-repeat;
-}
-
-
-ul.posts {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-ul.posts li p {
-  display: grid;
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
-  grid-template-columns: 1fr min-content
-}
-
-ul.posts li p time {
-  padding-right: 0.25em;
-  font-variant-numeric: tabular-nums;
-  letter-spacing: -.012em;
-  white-space: pre;
-}
-
-@media screen and (max-width: 640px) {
-  ul.posts li p {
-    grid-template-columns: 1fr;
-    grid-row-gap: 0;
-  }
-}
-
-.post__description {
-  font-size: small;
-  font-style: italic;
 }
 
 .text-center {

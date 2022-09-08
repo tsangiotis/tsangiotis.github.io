@@ -1,0 +1,19 @@
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1b2733;
+    --accent-bg: #446280;
+    --text: #DCDCDC;
+    --text-light: #ABABAB;
+    --border: #666;
+    --accent: #71aef0;
+    --accent-light: #b6dbff;
+    --code: #f2a575;
+    --preformatted: #CCC;
+    --disabled: #111;
+  }
+
+  img, video {
+    opacity: .6;
+  }
+}
