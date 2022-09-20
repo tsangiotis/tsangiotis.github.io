@@ -1,12 +1,18 @@
 gem 'jekyll-paginate'
 
 source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
+gem 'jekyll'
+gem 'liquid'
+gem 'kramdown'
+gem 'nokogiri'
 
 group :jekyll_plugins do
-    gem 'jekyll-github-metadata'
+    gem 'jekyll-titles-from-headings'
+    gem 'jekyll-sass-converter'
+    gem 'jekyll-redirect-from'
+    gem 'jekyll-feed'
     gem 'jekyll-seo-tag'
-    gem 'jekyll-compress-images', :git => 'https://github.com/valerijaspasojevic/jekyll-compress-images.git' if not Gem.win_platform?
+    gem 'jekyll-sitemap'
     gem 'jekyll-include-cache'
 end
 

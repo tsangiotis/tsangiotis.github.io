@@ -16,7 +16,7 @@ permalink: /reading/
 
 {% for book in books2022 %}
 
-1. {{ book.title }} -- {{ book.author }} <span class="reading-{{ book.rate }}"></span>
+1. [{{ book.title }}]({{book.url}}) -- {{ book.author }} <span class="reading-{{ book.rate }}"></span>
 
 {% endfor %}
 

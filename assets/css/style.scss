@@ -412,6 +412,10 @@ details[open] > :last-child {
   content: "💩";
 }
 
+.reading-2::after {
+  content: "😐";
+}
+
 .reading-3::after {
   content: "💚";
 }
