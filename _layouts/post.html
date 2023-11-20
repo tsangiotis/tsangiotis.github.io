@@ -2,40 +2,40 @@
 layout: simple
 ---
 
-<article>
-  <h1>{{ page.title }}{% if post.remote %}🔗{% endif %}</h1>
-  <div>
-    {% if page.remote %}
-    <center>
-      <a href="{{page.remote_url}}">Read <i>{{page.title}}</i> Here →</a>
-    </center>
-    {% endif %}
-  </div>
-  {{ content }}
-</article>
+<div class="article__container">
+  <article class="post">
+    <h1 class="post__title">{{ page.title }}{% if post.remote %}🔗{% endif %}</h1>
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %d, %Y"}}</time>
 
-<p class="post__created">
-  <time datetime="{{ page.date | date_to_xmlschema }}"
-    >{{ page.date | date: "%b %d, %Y"}}</time
-  >
-</p>
+    <div class="post__body">
+      {% if page.remote %}
+      <center>
+        <a href="{{page.remote_url}}">Read <i>{{page.title}}</i> Here →</a>
+      </center>
+      {% endif %}
+    </div>
+    {{ content }}
+  </article>
+</div>
 
-<details>
-  <summary><i>Comment details and information</i></summary>
-  <p>
-    To make a comment, please send an e-mail using the button below. Your e-mail
-    address won't be shared and will be deleted from my records after the
-    comment is published. If you don't want your real name to be credited
-    alongside your comment, please specify the name you would like to use. If
-    you would like your name to link to a specific URL, please share that as
-    well. Thank you.
-  </p>
-</details>
+{% include subscribe.html %}
 
-<a
-  href="mailto:hey@tsangiotis.com?subject=RE: {{ page.title | uri_escape }}&body=To%20make%20a%20comment%2C%20please%20send%20an%20e-mail.%20Your%20e-mail%20address%20won%27t%20be%20shared%20and%20will%20be%20deleted%20from%20my%20records%20after%20the%20comment%20is%20published.%20If%20you%20don%27t%20want%20your%20real%20name%20to%20be%20credited%20alongside%20your%20comment%2C%20please%20specify%20the%20name%20you%20would%20like%20to%20use.%20If%20you%20would%20like%20your%20name%20to%20link%20to%20a%20specific%20URL%2C%20please%20share%20that%20as%20well.%20Thank%20you.%0A%0A---%0A"
->
-  <button>Comment via email</button>
-</a>
+<div class="comments">
 
-{{ comments }} {% include subscribe.html %}
+  <details>
+    <summary><i>Comment details and information</i></summary>
+    <p>
+      To make a comment, please send an e-mail using the button below. Your e-mail
+      address won't be shared and will be deleted from my records after the
+      comment is published. If you don't want your real name to be credited
+      alongside your comment, please specify the name you would like to use. If
+      you would like your name to link to a specific URL, please share that as
+      well. Thank you.
+    </p>
+    <a
+      href="mailto:hey@tsangiotis.com?subject=RE: {{ page.title | uri_escape }}&body=To%20make%20a%20comment%2C%20please%20send%20an%20e-mail.%20Your%20e-mail%20address%20won%27t%20be%20shared%20and%20will%20be%20deleted%20from%20my%20records%20after%20the%20comment%20is%20published.%20If%20you%20don%27t%20want%20your%20real%20name%20to%20be%20credited%20alongside%20your%20comment%2C%20please%20specify%20the%20name%20you%20would%20like%20to%20use.%20If%20you%20would%20like%20your%20name%20to%20link%20to%20a%20specific%20URL%2C%20please%20share%20that%20as%20well.%20Thank%20you.%0A%0A---%0A">
+      <button class="btn">Comment via email</button>
+    </a>
+  </details>
+
+  {{ comments }}

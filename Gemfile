@@ -1,7 +1,7 @@
-gem 'jekyll-paginate'
-
 source 'https://rubygems.org'
+
 gem 'jekyll'
+
 gem 'liquid'
 gem 'kramdown'
 gem 'nokogiri'
@@ -14,6 +14,7 @@ group :jekyll_plugins do
     gem 'jekyll-seo-tag'
     gem 'jekyll-sitemap'
     gem 'jekyll-include-cache'
+    gem 'jekyll-paginate'
 end
 
 gem 'mini_magick' 
