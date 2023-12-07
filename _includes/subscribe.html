@@ -1,19 +1,25 @@
-<section class="subscribe">
-  <div class="subscribe__container">
-    <form class="subscribe__form" action="https://buttondown.email/api/emails/embed-subscribe/tsangiotis"
+<section class="mx-auto text-center my-4" style="max-width: 28em;">
+  <div class="bg-warning-subtle border border-warning">
+    <form class="my-3 mx-2" action=" https://buttondown.email/api/emails/embed-subscribe/tsangiotis"
       accept-charset="UTF-8" data-remote="true" method="post">
-      <label for="email" markdown="1">
+      <h5 class="mb-3">
         {% if include.label %}
         {{ include.label }}
         {% else %}
-        Subscribe below to get future <a href="/posts">posts</a> from me
+        Get notified on future <a href="/archive/">posts</a> from me
         {% endif %}
-      </label>
+      </h5>
 
-      <div class="subscribe__input">
-        <input type="email" name="email" id="email" placeholder="Type your email…" required="">
-
-        <button class="btn">Subscribe</button>
+      <div class="row g-1">
+        <div class="col-lg-9 col-8">
+          <label for="subscribeEmail" class="visually-hidden">Email</label>
+          <input type="email" class="form-control" name="email" id="email" placeholder="Type your email…" required="">
+        </div>
+        <div class="col-lg-3 col-4">
+          <div>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </div>
+        </div>
       </div>
 
     </form>

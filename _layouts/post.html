@@ -2,40 +2,55 @@
 layout: simple
 ---
 
-<div class="article__container">
-  <article class="post">
-    <h1 class="post__title">{{ page.title }}{% if post.remote %}🔗{% endif %}</h1>
+<article class="container">
+  <h1 class="display-5 link-body-emphasis mb-1">{{ page.title }}{% if post.remote %}🔗{% endif %}</h1>
+  <p class="text-body-secondary mb-4">
     <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %d, %Y"}}</time>
+  </p>
 
-    <div class="post__body">
-      {% if page.remote %}
-      <center>
-        <a href="{{page.remote_url}}">Read <i>{{page.title}}</i> Here →</a>
-      </center>
-      {% endif %}
+  {% if page.remote %}
+  <center>
+    <a href="{{page.remote_url}}">Read <i>{{page.title}}</i> Here →</a>
+  </center>
+  {% endif %}
+  </div>
+  {{ content }}
+</article>
+
+<div class="container">
+  {% include subscribe.html %}
+
+  <div class="accordion accordion-flush" id="accordionCommentInstructions">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          Comment details and information
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionCommentInstructions">
+        <div class="accordion-body">
+          <p>
+            To make a comment, please send an e-mail using the button below. Your e-mail
+            address won't be shared and will be deleted from my records after the
+            comment is published. If you don't want your real name to be credited
+            alongside your comment, please specify the name you would like to use. If
+            you would like your name to link to a specific URL, please share that as
+            well. Thank you.
+          </p>
+          <a class="btn btn-primary" target="_blank"
+            href="mailto:hey@tsangiotis.com?subject=RE: {{ page.title | uri_escape }}&body=To%20make%20a%20comment%2C%20please%20send%20an%20e-mail.%20Your%20e-mail%20address%20won%27t%20be%20shared%20and%20will%20be%20deleted%20from%20my%20records%20after%20the%20comment%20is%20published.%20If%20you%20don%27t%20want%20your%20real%20name%20to%20be%20credited%20alongside%20your%20comment%2C%20please%20specify%20the%20name%20you%20would%20like%20to%20use.%20If%20you%20would%20like%20your%20name%20to%20link%20to%20a%20specific%20URL%2C%20please%20share%20that%20as%20well.%20Thank%20you.%0A%0A---%0A">
+            Comment via email
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-envelope-arrow-up" viewBox="0 0 16 16">
+              <path
+                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4.5a.5.5 0 0 1-1 0V5.383l-7 4.2-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h5.5a.5.5 0 0 1 0 1H2a2 2 0 0 1-2-1.99zm1 7.105 4.708-2.897L1 5.383zM1 4v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1" />
+              <path
+                d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.354-5.354 1.25 1.25a.5.5 0 0 1-.708.708L13 12.207V14a.5.5 0 0 1-1 0v-1.717l-.28.305a.5.5 0 0 1-.737-.676l1.149-1.25a.5.5 0 0 1 .722-.016Z" />
+            </svg>
+          </a>
+        </div>
+      </div>
     </div>
-    {{ content }}
-  </article>
-</div>
-
-{% include subscribe.html %}
-
-<div class="comments">
-
-  <details>
-    <summary><i>Comment details and information</i></summary>
-    <p>
-      To make a comment, please send an e-mail using the button below. Your e-mail
-      address won't be shared and will be deleted from my records after the
-      comment is published. If you don't want your real name to be credited
-      alongside your comment, please specify the name you would like to use. If
-      you would like your name to link to a specific URL, please share that as
-      well. Thank you.
-    </p>
-    <a
-      href="mailto:hey@tsangiotis.com?subject=RE: {{ page.title | uri_escape }}&body=To%20make%20a%20comment%2C%20please%20send%20an%20e-mail.%20Your%20e-mail%20address%20won%27t%20be%20shared%20and%20will%20be%20deleted%20from%20my%20records%20after%20the%20comment%20is%20published.%20If%20you%20don%27t%20want%20your%20real%20name%20to%20be%20credited%20alongside%20your%20comment%2C%20please%20specify%20the%20name%20you%20would%20like%20to%20use.%20If%20you%20would%20like%20your%20name%20to%20link%20to%20a%20specific%20URL%2C%20please%20share%20that%20as%20well.%20Thank%20you.%0A%0A---%0A">
-      <button class="btn">Comment via email</button>
-    </a>
-  </details>
-
+  </div>
   {{ comments }}

@@ -1,18 +1,21 @@
-<header class="header">
-  <nav class="nav">
-    <div class="nav__container">
-      <div class="nav__content">
-        <div class="nav__logo">
-          <a href="/" aria-label="Me">
-            <img src="https://imagedelivery.net/mdSbb1GKWP_xXxxsYl5evQ/57edfb4d-d4f1-4105-5f97-4081ea375b00/optimised">
-            {{site.title}}
-          </a>
-        </div>
-        <ul class="nav__items">
-          <li><a href="/about/" aria-label="Features">About</a></li>
-          <li><a href="/photos/" aria-label="For domains">Photos</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
+<div class="container-lg">
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <img width="40px" height="40px" class="d-inline-block align-text-top rounded-circle"
+        src="https://imagedelivery.net/mdSbb1GKWP_xXxxsYl5evQ/57edfb4d-d4f1-4105-5f97-4081ea375b00/optimised">
+
+      <span class="fs-4 ms-2">{{site.title}}</span>
+    </a>
+
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a href="/" {% if page.url=="/" %}class="nav-link active" aria-current="page" {% else %}
+          class="nav-link" {% endif %}>Blog</a></li>
+      <li class="nav-item"><a href="/archive/" {% if page.url=="/archive/" %}class="nav-link active" aria-current="page"
+          {% else %} class="nav-link" {% endif %}>Archive</a></li>
+      <li class="nav-item"><a href="/photos/" {% if page.url=="/photos/" %}class="nav-link active" aria-current="page"
+          {% else %} class="nav-link" {% endif %}>Photos</a></li>
+      <li class="nav-item"><a href="/about/" {% if page.url=="/about/" %} class="nav-link active" aria-current="page"
+          {%else %} class="nav-link " {% endif %}>About</a></li>
+    </ul>
+  </header>
+</div>

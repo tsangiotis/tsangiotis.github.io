@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+$primary: #084298;
+$font-family-base: Caudex, -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", serif;
+$headings-font-family: Caudex, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
+
+@import "bootstrap";
+
+article img {
+  max-width: 100%;
+}
+
+.linedin {
+  color: $blue-700;
+}
+
+.instagram {
+  color: $pink-600;
+}
+
+.twitter {
+  color: $blue-300;
+}
+
+.github {
+  color: $black;
+}

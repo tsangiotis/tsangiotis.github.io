@@ -15,5 +15,3 @@ Occasionally I shoot [photos]({{ site.baseurl }}/photography). They are mostly [
 If you choose to wander this wasteland do so with caution. Consider this your final warning.
 
 To contact me use [hey@tsangiotis.com](mailto:hey@tsangiotis.com).
-
-$$E=mc^2$$
