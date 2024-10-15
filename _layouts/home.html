@@ -4,8 +4,6 @@ layout: simple
 
 {% for post in site.posts %}
 <ul>
-  <li>
-    <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>, <time datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, '%y" }}</time>
-  </li>
+  <li><a href="{{ post.url | absolute_url }}">{{ post.title }}</a>, <time datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, '%y" }}</time></li>
 </ul>
 {% endfor %}
