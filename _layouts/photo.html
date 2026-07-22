@@ -5,6 +5,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   {% seo %}
+  {%- comment -%} seo-tag merges og:description into the twitter tag; FB's parser needs it standalone {%- endcomment -%}
+  {%- capture og_desc %}{{ page.description | default: page.excerpt | strip_html | normalize_whitespace | strip }}{% endcapture -%}
+  {%- if og_desc == "" %}{% assign og_desc = site.description %}{% endif -%}
+  <meta property="og:description" content="{{ og_desc | truncate: 160 | escape }}" />
+
+
   <link rel="icon" type="image/png" sizes="300x300" href="/assets/images/me.jpg">
   <link rel="stylesheet" href="/assets/css/photo.css">
 </head>
