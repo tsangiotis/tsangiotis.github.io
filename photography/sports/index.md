@@ -1,6 +1,7 @@
 ---
 layout: photo-project
 title: sports
+image: /photography/sports/images/6.jpg
 ipa: "/spɔːts/"
 meta: Ongoing
 order: 1

@@ -1,6 +1,7 @@
 ---
 layout: photo-project
 title: portraiture
+image: /photography/portraiture/images/5.jpg
 ipa: "/ˈpɔːtrɪtʃə/"
 order: 5
 cover: 5.jpg

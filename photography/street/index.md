@@ -1,6 +1,7 @@
 ---
 layout: photo-project
 title: street
+image: /photography/street/images/1.jpg
 ipa: "/striːt/"
 order: 4
 photos:

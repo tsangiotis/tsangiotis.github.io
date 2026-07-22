@@ -1,6 +1,7 @@
 ---
 layout: photo-project
 title: jobs
+image: /photography/jobs/images/1.jpg
 ipa: "/dʒɒbs/"
 meta: Ongoing
 order: 6

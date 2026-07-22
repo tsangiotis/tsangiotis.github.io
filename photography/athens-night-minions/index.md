@@ -1,6 +1,7 @@
 ---
 layout: photo-project
 title: athens night minions
+image: /photography/athens-night-minions/images/1.jpg
 ipa: "/ˈæθɪnz naɪt ˈmɪnjənz/"
 meta: "2018, Athens, Greece"
 order: 2

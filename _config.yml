@@ -15,6 +15,9 @@ excerpt_separator: <!--more-->
 social:
   twitter: tsangiotis
 
+twitter:
+  username: tsangiotis
+
 collections:
   books:
     title: Books
@@ -25,6 +28,10 @@ defaults:
       type: books
     values:
       layout: book
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/me.jpg
 
 feed:
   posts_limit: 200

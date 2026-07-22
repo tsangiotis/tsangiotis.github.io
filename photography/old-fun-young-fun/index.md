@@ -1,6 +1,7 @@
 ---
 layout: photo-project
 title: old fun vs. young fun
+image: /photography/old-fun-young-fun/images/1.jpg
 ipa: "/əʊld fʌn vs. jʌŋ fʌn/"
 meta: "Summer 2017, Patras, Greece"
 order: 3
