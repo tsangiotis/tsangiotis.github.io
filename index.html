@@ -1,6 +1,40 @@
 ---
-layout: home
-title: Tasos Sangiotis
+layout: photo
 ---
 
+<h1 class="page-title">I shoot photos and I'm always right.</h1>
+<div class="prose intro">
+  <p>If you choose to wander this wasteland do so with caution. Consider this your final warning.</p>
+</div>
 
+{% assign projects = site.pages | where: "layout", "photo-project" | sort: "order" %}
+<div class="photo-strip">
+  {% for p in projects %}
+  {% assign pphotos = p.photos %}
+  {% if p.sections %}
+  {% assign pphotos = "" | split: "" %}
+  {% for sec in p.sections %}{% assign pphotos = pphotos | concat: sec.photos %}{% endfor %}
+  {% endif %}
+  {% assign cover = pphotos | where: "file", p.cover | first | default: pphotos.first %}
+  {% if cover %}
+  <a class="photo-strip__item" href="{{ p.url }}" aria-label="Open project {{ p.title }}">
+    <img class="photo-strip__img" src="{{ p.url }}images/{{ cover.file }}" alt="{{ p.title }} — cover photo" loading="lazy">
+  </a>
+  {% endif %}
+  {% endfor %}
+</div>
+<p class="u-more"><a href="/photography/">Photography →</a></p>
+
+<section class="home-section">
+  <h2 class="section-title">Writing</h2>
+  <p class="u-ipa">/ˈraɪtɪŋ/</p>
+  <ul class="writing__list home-section__list">
+    {% for post in site.posts limit: 5 %}
+    <li class="writing__item">
+      <a class="writing__title" href="{{ post.url }}">{{ post.title }}</a>
+      <span class="writing__date">{{ post.date | date: "%b %-d, %Y" }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+  <p class="u-more"><a href="/writing/">All posts →</a></p>
+</section>

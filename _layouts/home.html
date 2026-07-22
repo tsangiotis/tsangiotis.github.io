@@ -1,9 +1,0 @@
----
-layout: simple
----
-
-<ul>
-  {% for post in site.posts %}
-  <li><a href="{{ post.url | absolute_url }}">{{ post.title }}</a>, <time datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, '%y" }}</time></li>
-  {% endfor %}
-</ul>

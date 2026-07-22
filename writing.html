@@ -1,0 +1,29 @@
+---
+layout: photo
+title: Writing
+permalink: /writing/
+redirect_from:
+  - /archive/
+---
+
+<h1 class="page-title">Writing</h1>
+<p class="u-ipa">/ˈraɪtɪŋ/</p>
+
+<div class="writing">
+  {% assign byYear = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% for yr in byYear %}
+  <section class="writing__group">
+    <h2 class="writing__year">{{ yr.name }}</h2>
+    <ul class="writing__list">
+      {% for post in yr.items %}
+      <li class="writing__item">
+        <a class="writing__title" href="{{ post.url }}">{{ post.title }}</a>
+        <span class="writing__date">{{ post.date | date: "%b %-d" }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>
+
+{% include subscribe_form.html %}

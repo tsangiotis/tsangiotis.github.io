@@ -1,16 +1,12 @@
 title: Tasos Sangiotis
 url: https://tsangiotis.github.io
 baseurl:
-siteurl: http://localhost:4000 
 description: Inputs & Outputs
 author: Tasos Sangiotis
 
 repository: tsangiotis/tsangiotis.github.io
 
-theme: null
-
 markdown: kramdown
-
 permalink: :title/
 highlighter: rouge
 
@@ -19,17 +15,16 @@ excerpt_separator: <!--more-->
 social:
   twitter: tsangiotis
 
-avatar_img: me.png
-
-image:
-  title: Window girl
-  img: https://imagedelivery.net/mdSbb1GKWP_xXxxsYl5evQ/e1371af3-916c-4db7-0f85-26bddbd01f00/optimised
-  url: https://www.instagram.com/p/CZos_TFsNxg/?utm_medium=copy_link
-
 collections:
   books:
     title: Books
     output: true
+
+defaults:
+  - scope:
+      type: books
+    values:
+      layout: book
 
 feed:
   posts_limit: 200
@@ -37,15 +32,7 @@ feed:
 exclude: ["README.md", "Gemfile.lock", "Gemfile", "Rakefile", "vendor"]
 
 plugins:
-  - jekyll-titles-from-headings
-  - jekyll-sass-converter
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-include-cache
-  - jekyll-paginate
-
-paginate: 50
-paginate_path: "/page/:num/"
-

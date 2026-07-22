@@ -1,0 +1,10 @@
+<div class="gallery">
+  {% for ph in include.photos %}
+  {% assign g = ph.w | times: 1.0 | divided_by: ph.h %}
+  <a class="gallery__item" href="{{ page.url }}images/{{ ph.file }}"
+    style="flex: {{ g | round: 3 }} 1 {{ g | times: 240 | round }}px; max-width: {{ g | times: 460 | round }}px; aspect-ratio: {{ ph.w }} / {{ ph.h }};">
+    <img class="gallery__img" src="{{ page.url }}images/{{ ph.file }}" alt="{{ page.title }} — photo {{ forloop.index }}"
+      loading="lazy" width="{{ ph.w }}" height="{{ ph.h }}">
+  </a>
+  {% endfor %}
+</div>

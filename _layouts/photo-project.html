@@ -1,0 +1,50 @@
+---
+layout: photo
+---
+
+<a class="backlink" href="/photography/">← Photography</a>
+
+<header class="project__head">
+  <h1 class="page-title">{{ page.title }}</h1>
+  <p class="u-ipa">{{ page.ipa }}</p>
+  {% if page.meta %}<p class="u-caps">{{ page.meta }}</p>{% endif %}
+  <div class="prose">{{ content }}</div>
+</header>
+
+{% if page.sections %}
+{% for sec in page.sections %}
+<section class="project-section">
+  <h2 class="section-title">{{ sec.title }}</h2>
+  {% if sec.meta %}<p class="u-caps">{{ sec.meta }}</p>{% endif %}
+  {% if sec.text %}<div class="prose">{{ sec.text | markdownify }}</div>{% endif %}
+  {% include gallery.html photos=sec.photos %}
+</section>
+{% endfor %}
+{% else %}
+{% include gallery.html photos=page.photos %}
+{% endif %}
+
+{% assign projects = site.pages | where: "layout", "photo-project" | sort: "order" %}
+{% assign n = projects | size %}
+{% for p in projects %}{% if p.url == page.url %}{% assign i = forloop.index0 %}{% endif %}{% endfor %}
+{% assign previ = i | minus: 1 %}
+{% if previ < 0 %}{% assign previ = n | minus: 1 %}{% endif %}
+{% assign nexti = i | plus: 1 %}
+{% if nexti >= n %}{% assign nexti = 0 %}{% endif %}
+{% assign prev = projects[previ] %}
+{% assign next = projects[nexti] %}
+
+<hr class="hr project__rule">
+<div class="project__footer">
+  <a href="{{ prev.url }}">← {{ prev.title }}</a>
+  <a href="{{ next.url }}">{{ next.title }} →</a>
+</div>
+
+<dialog class="lightbox" aria-label="Photo lightbox">
+  <img class="lightbox__img" src="" alt="">
+  <span class="lightbox__counter"></span>
+  <button class="lightbox__close" aria-label="Close lightbox">✕</button>
+  <button class="lightbox__nav lightbox__nav--prev" aria-label="Previous photo">‹</button>
+  <button class="lightbox__nav lightbox__nav--next" aria-label="Next photo">›</button>
+</dialog>
+<script src="/assets/js/lightbox.js"></script>

@@ -1,0 +1,47 @@
+---
+layout: photo
+title: Photography
+permalink: /photography/
+---
+
+<h1 class="page-title">Photography</h1>
+<p class="u-ipa">/fəˈtɒɡrəfi/</p>
+<div class="prose">
+  <p>This is the curated stuff. For the daily stream <a href="https://instagram.com/tsangiotis">follow @tsangiotis</a> on Instagram.</p>
+</div>
+
+{% assign projects = site.pages | where: "layout", "photo-project" | sort: "order" %}
+{% for p in projects %}
+<section class="project-card">
+  <hr class="hr project-card__rule">
+  <div class="prose">
+    <h2 class="project-card__title"><a href="{{ p.url }}">{{ p.title }}</a></h2>
+    <p class="u-ipa">{{ p.ipa }}</p>
+    {% if p.meta %}<p class="u-caps">{{ p.meta }}</p>{% endif %}
+    {{ p.content | markdownify }}
+  </div>
+  {% assign pphotos = p.photos %}
+  {% if p.sections %}
+  {% assign pphotos = "" | split: "" %}
+  {% for sec in p.sections %}{% assign pphotos = pphotos | concat: sec.photos %}{% endfor %}
+  {% endif %}
+  {% assign cover = pphotos | where: "file", p.cover | first | default: pphotos.first %}
+  {% if cover %}
+  {% assign g = cover.w | times: 1.0 | divided_by: cover.h %}
+  <a class="project-card__cover-link" href="{{ p.url }}" aria-label="Open project {{ p.title }}">
+    <img class="project-card__cover" src="{{ p.url }}images/{{ cover.file }}" alt="{{ p.title }} — cover photo"
+      loading="lazy" width="{{ cover.w }}" height="{{ cover.h }}" style="width: min(100%, {{ g | times: 64 | round }}vh);">
+  </a>
+  <div class="thumbs">
+    {% for ph in pphotos %}
+    {% unless ph.file == cover.file %}
+    <a class="thumbs__item" href="{{ p.url }}" aria-label="Open project {{ p.title }}">
+      <img class="thumbs__img" src="{{ p.url }}images/{{ ph.file }}" alt="{{ p.title }} — photo {{ forloop.index }}" loading="lazy">
+    </a>
+    {% endunless %}
+    {% endfor %}
+  </div>
+  {% endif %}
+  <p class="project-card__more"><a href="{{ p.url }}">View project →</a></p>
+</section>
+{% endfor %}

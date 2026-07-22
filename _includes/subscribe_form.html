@@ -1,0 +1,10 @@
+<section class="subscribe">
+  <form class="subscribe__form" action="https://buttondown.email/api/emails/embed-subscribe/tsangiotis" method="post">
+    <p class="subscribe__label">{% if include.label %}{{ include.label }}{% else %}Get notified on future posts{% endif %}</p>
+    <div class="subscribe__row">
+      <label class="u-visually-hidden" for="subscribe-email">Email</label>
+      <input class="subscribe__input" type="email" name="email" id="subscribe-email" placeholder="Type your email…" required>
+      <button class="subscribe__button" type="submit">Subscribe</button>
+    </div>
+  </form>
+</section>

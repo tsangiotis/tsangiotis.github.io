@@ -4,4 +4,4 @@ title: Subscribe
 permalink: /subscribe/
 ---
 
-{% include subscribe.html %}
+{% include subscribe_form.html label="Get notified on future posts from me" %}

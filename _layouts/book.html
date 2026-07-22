@@ -1,9 +1,11 @@
 ---
-layout: simple
+layout: photo
 ---
 
-<h1 class="title">{{ page.title }} by {{ page.author }}</h1>
+<h1 class="page-title">{{ page.title }}</h1>
+<p class="u-ipa">by {{ page.author }}</p>
+<p class="u-caps">Review: <span class="reading-{{ page.rate }}"></span></p>
 
-<h2>Review: <span class="reading-{{ page.rate }}"></span></h2>
-
-{{ content }}
+<div class="prose">
+  {{ content }}
+</div>
