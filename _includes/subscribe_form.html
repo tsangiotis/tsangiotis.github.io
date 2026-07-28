@@ -1,9 +1,9 @@
 <section class="subscribe">
-  <form class="subscribe__form" action="https://buttondown.email/api/emails/embed-subscribe/tsangiotis" method="post">
-    <p class="subscribe__label">{% if include.label %}{{ include.label }}{% else %}Get notified on future posts{% endif %}</p>
+  <form class="subscribe__form" action="https://world.hey.com/tasos/subscribers" accept-charset="UTF-8" method="post">
+    <p class="subscribe__label">{% if include.label %}{{ include.label }}{% else %}Subscribe to get future posts via email (or grab the <a href="https://world.hey.com/tasos/feed.atom">RSS feed</a>){% endif %}</p>
     <div class="subscribe__row">
-      <label class="u-visually-hidden" for="subscribe-email">Email</label>
-      <input class="subscribe__input" type="email" name="email" id="subscribe-email" placeholder="Type your email…" required>
+      <label class="u-visually-hidden" for="subscriber_email_address">Email</label>
+      <input class="subscribe__input" type="email" name="subscriber[email_address]" id="subscriber_email_address" placeholder="Type your email…" required>
       <button class="subscribe__button" type="submit">Subscribe</button>
     </div>
   </form>
