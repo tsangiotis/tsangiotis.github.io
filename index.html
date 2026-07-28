@@ -28,13 +28,9 @@ layout: photo
 <section class="home-section">
   <h2 class="section-title">Writing</h2>
   <p class="u-ipa">/ˈraɪtɪŋ/</p>
-  <ul class="writing__list home-section__list">
-    {% for post in site.posts limit: 5 %}
-    <li class="writing__item">
-      <a class="writing__title" href="{{ post.url }}">{{ post.title }}</a>
-      <span class="writing__date">{{ post.date | date: "%b %-d, %Y" }}</span>
-    </li>
-    {% endfor %}
-  </ul>
-  <p class="u-more"><a href="/writing/">All posts →</a></p>
+  <div class="prose">
+    <p>These days the writing happens on <a href="https://world.hey.com/tasos">HEY World</a>. Everything before that lives in the <a href="/writing/">archive</a>, exactly as I wrote it. No regrets.</p>
+  </div>
 </section>
+
+{% include subscribe_form.html %}
