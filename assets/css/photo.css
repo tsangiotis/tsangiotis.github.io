@@ -14,7 +14,7 @@
   font-display: swap;
 }
 
-/* Colours follow the OS unless the header toggle pinned one (html[data-theme]).
+/* Colours follow the OS colour scheme.
    Dark is warm near-black with off-white ink, not #000/#fff: pure white on pure
    black halates on OLED and makes the photos look pasted on. */
 :root {
@@ -33,10 +33,8 @@
   --container: 1140px;
   --gutter: clamp(16px, 4vw, 48px);
 }
-:root[data-theme="light"] { color-scheme: light; }
-:root[data-theme="dark"] { color-scheme: dark; }
 @media print {
-  :root, :root[data-theme] { color-scheme: light; }
+  :root { color-scheme: light; }
 }
 
 *,
@@ -104,30 +102,6 @@ a:hover { color: var(--color-strong); }
 .site-nav__link { text-decoration: none; padding-bottom: 2px; border-bottom: 1px solid transparent; }
 .site-nav__link--active { border-bottom-color: var(--color-text); }
 .site-nav__dot { color: var(--color-faint); }
-.site-header__end { display: flex; align-items: center; gap: 18px; }
-.theme-toggle {
-  display: grid;
-  place-items: center;
-  width: 30px;
-  height: 30px;
-  margin: -6px -7px -6px 0;
-  padding: 0;
-  border: 0;
-  border-radius: 50%;
-  background: transparent;
-  color: var(--color-muted);
-  cursor: pointer;
-}
-.theme-toggle:hover { color: var(--color-strong); background: var(--color-surface-2); }
-.theme-toggle svg { width: 16px; height: 16px; }
-/* show the theme a click switches to */
-.theme-toggle__sun { display: none; }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .theme-toggle__sun { display: block; }
-  :root:not([data-theme="light"]) .theme-toggle__moon { display: none; }
-}
-:root[data-theme="dark"] .theme-toggle__sun { display: block; }
-:root[data-theme="dark"] .theme-toggle__moon { display: none; }
 
 /* — main — */
 .site-main {
