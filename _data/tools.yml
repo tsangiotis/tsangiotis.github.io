@@ -2,3 +2,7 @@
   icon: /assets/images/tools/stenographer.png
   blurb: Transcribes meetings on your Mac, in Greek or English, into Apple Notes.
   url: /stenographer/
+- name: Cadenza
+  icon: /assets/images/tools/cadenza.png
+  blurb: Opens DWG and DXF drawings on the Mac, iPhone and iPad, and edits them on the Mac.
+  url: /cadenza/
