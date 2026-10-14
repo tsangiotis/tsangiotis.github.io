@@ -26,7 +26,7 @@ The filter screen looks like this:\
 
 \
 
-<a href="https://world.hey.com/tasos/2d999011/blobs/eyJfcmFpbHMiOnsiZGF0YSI6MTYyOTkwMjQxMSwicHVyIjoiYmxvYl9pZCJ9fQ--5a721309440fe7d5eba2d62a79661ae0ca440faee8e16220cbf103b74b82b7bf/Screenshot%202024-04-22%20103210.png?disposition=attachment" download="Screenshot 2024-04-22 103210.png" data-click-proxy-target="lightbox_link_blob_1629902411" title="Download Screenshot 2024-04-22 103210.png"><img src="/assets/images/posts/gmail-forwarding-avoid-messages-being-trapped-to-spam/01-Screenshot202024-04-2220103210.png" alt="Screenshot 2024-04-22 103210.png" /></a>
+<a href="/assets/images/posts/gmail-forwarding-avoid-messages-being-trapped-to-spam/01-Screenshot202024-04-2220103210.png" download="Screenshot 2024-04-22 103210.png" title="Download Screenshot 2024-04-22 103210.png"><img src="/assets/images/posts/gmail-forwarding-avoid-messages-being-trapped-to-spam/01-Screenshot202024-04-2220103210.png" alt="Screenshot 2024-04-22 103210.png" /></a>
 
 \
 Then create the filter and mark it **Never send to spam**.\

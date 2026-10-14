@@ -9,9 +9,9 @@ I splurged and got the prestigious Siemens LogoSoftComfort 8.4.1 DVD as my old V
 I received an actual DVD in 2025 - which is also the license. Upon gazing on it, and digging up a computer with a DVD reader from storage, memories of glory played through my head:\
 \
 
-<a href="https://world.hey.com/tasos/9b85b4ed/blobs/eyJfcmFpbHMiOnsiZGF0YSI6MjIwODg4NDg0OSwicHVyIjoiYmxvYl9pZCJ9fQ--6c676058f856527719d7c2633623fa9e12e9e2f32fe29c9de5deec0b5758c4f5/smartstart.jpg?disposition=attachment" download="smartstart.jpg" data-click-proxy-target="lightbox_link_blob_2208884849" title="Download smartstart.jpg"><img src="/assets/images/posts/install-logo-softcomfort-8-4-1-on-macos/01-smartstart.jpg" alt="smartstart.jpg" /></a>
+<a href="/assets/images/posts/install-logo-softcomfort-8-4-1-on-macos/01-smartstart.jpg" download="smartstart.jpg" title="Download smartstart.jpg"><img src="/assets/images/posts/install-logo-softcomfort-8-4-1-on-macos/01-smartstart.jpg" alt="smartstart.jpg" /></a>
 
-<a href="https://world.hey.com/tasos/9b85b4ed/blobs/eyJfcmFpbHMiOnsiZGF0YSI6MjIwODkwNDI5NywicHVyIjoiYmxvYl9pZCJ9fQ--6bda2d3f3e5f7c1540804d9f66be13171f4da0c2c2a7b905a4d0a247254e0b08/5e4f10275dcb1fb211d4a8b4f1bda236.png?disposition=attachment" download="5e4f10275dcb1fb211d4a8b4f1bda236.png" data-click-proxy-target="lightbox_link_blob_2208904297" title="Download 5e4f10275dcb1fb211d4a8b4f1bda236.png"><img src="/assets/images/posts/install-logo-softcomfort-8-4-1-on-macos/02-5e4f10275dcb1fb211d4a8b4f1bda236.png" alt="5e4f10275dcb1fb211d4a8b4f1bda236.png" /></a>
+<a href="/assets/images/posts/install-logo-softcomfort-8-4-1-on-macos/02-5e4f10275dcb1fb211d4a8b4f1bda236.png" download="5e4f10275dcb1fb211d4a8b4f1bda236.png" title="Download 5e4f10275dcb1fb211d4a8b4f1bda236.png"><img src="/assets/images/posts/install-logo-softcomfort-8-4-1-on-macos/02-5e4f10275dcb1fb211d4a8b4f1bda236.png" alt="5e4f10275dcb1fb211d4a8b4f1bda236.png" /></a>
 
 \
 Anyways I ripped the dvd into an ISO and got working. You might thing this would be a stroll in the park but it is not. It is quite difficult and idiotic.\
