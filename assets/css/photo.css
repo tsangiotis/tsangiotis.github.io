@@ -14,16 +14,27 @@
   font-display: swap;
 }
 
+/* Colours follow the OS colour scheme.
+   Dark is warm near-black with off-white ink, not #000/#fff: pure white on pure
+   black halates on OLED and makes the photos look pasted on. */
 :root {
-  --color-bg: #fff;
-  --color-text: #111;
-  --color-muted: #6f6f6f;
-  --color-faint: #a3a3a3;
-  --color-divider: rgba(0, 0, 0, 0.14);
+  color-scheme: light dark;
+  --color-bg: light-dark(#fff, #0f0f0e);
+  --color-text: light-dark(#111, #e8e6e1);
+  --color-strong: light-dark(#000, #fff);
+  --color-muted: light-dark(#6f6f6f, #94918b);
+  --color-faint: light-dark(#a3a3a3, #57554f);
+  --color-divider: light-dark(rgba(0, 0, 0, 0.14), rgba(255, 255, 255, 0.12));
+  --color-surface: light-dark(#f6f6f6, #181816);
+  --color-surface-2: light-dark(#f2f2f2, #22211f);
+  --color-quote: light-dark(#333, #c2bfb8);
   --font-heading: nyt-cheltenham, Georgia, serif;
   --font-body: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
   --container: 1140px;
   --gutter: clamp(16px, 4vw, 48px);
+}
+@media print {
+  :root { color-scheme: light; }
 }
 
 *,
@@ -51,10 +62,10 @@ h1, h2, h3 {
 }
 img { display: block; max-width: 100%; }
 a { color: var(--color-text); text-underline-offset: 3px; }
-a:hover { color: #000; }
+a:hover { color: var(--color-strong); }
 :focus { outline: none; }
-:focus-visible { outline: 2px solid #000; outline-offset: 2px; }
-::selection { background: #000; color: #fff; }
+:focus-visible { outline: 2px solid var(--color-text); outline-offset: 2px; }
+::selection { background: var(--color-text); color: var(--color-bg); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
@@ -89,7 +100,7 @@ a:hover { color: #000; }
 .site-header__name { font-family: var(--font-heading); font-weight: 500; font-size: 20px; }
 .site-nav { display: flex; align-items: baseline; gap: 14px; font-size: 14px; }
 .site-nav__link { text-decoration: none; padding-bottom: 2px; border-bottom: 1px solid transparent; }
-.site-nav__link--active { border-bottom-color: #000; }
+.site-nav__link--active { border-bottom-color: var(--color-text); }
 .site-nav__dot { color: var(--color-faint); }
 
 /* — main — */
@@ -109,9 +120,9 @@ a:hover { color: #000; }
 .prose blockquote {
   margin: 14px 0 0;
   padding-left: 16px;
-  border-left: 2px solid #000;
+  border-left: 2px solid var(--color-text);
   font-style: italic;
-  color: #333;
+  color: var(--color-quote);
 }
 .prose h2, .prose h3 { margin: 28px 0 0; }
 .prose h2 { font-size: clamp(22px, 2.6vw, 28px); }
@@ -122,11 +133,11 @@ a:hover { color: #000; }
   margin: 16px 0 0;
   padding: 12px 14px;
   overflow-x: auto;
-  background: #f6f6f6;
+  background: var(--color-surface);
   font-size: 13px;
   line-height: 1.5;
 }
-.prose :not(pre) > code { background: #f2f2f2; padding: 1px 5px; font-size: 0.92em; }
+.prose :not(pre) > code { background: var(--color-surface-2); padding: 1px 5px; font-size: 0.92em; }
 .prose table { margin: 16px 0 0; border-collapse: collapse; font-size: 14px; }
 .prose th, .prose td { border: 1px solid var(--color-divider); padding: 6px 10px; text-align: left; }
 .prose hr { height: 1px; border: 0; margin: 28px 0 0; background: var(--color-divider); }
@@ -182,19 +193,20 @@ a:hover { color: #000; }
   min-width: 0;
   padding: 8px 10px;
   font: inherit;
-  border: 1px solid #000;
-  background: #fff;
+  border: 1px solid var(--color-text);
+  background: var(--color-bg);
   color: var(--color-text);
 }
 .subscribe__button {
   padding: 8px 16px;
   font: inherit;
-  border: 1px solid #000;
-  background: #000;
-  color: #fff;
+  border: 1px solid var(--color-text);
+  background: var(--color-text);
+  color: var(--color-bg);
   cursor: pointer;
 }
-.subscribe__button:hover { background: #fff; color: #000; }
+.subscribe__button:hover { background: var(--color-bg); color: var(--color-text); }
+.subscribe__input::placeholder { color: var(--color-muted); }
 
 /* — photography index — */
 .project-card { margin-top: clamp(44px, 7vw, 84px); }
