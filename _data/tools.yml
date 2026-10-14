@@ -1,0 +1,4 @@
+- name: Stenographer
+  icon: /assets/images/tools/stenographer.png
+  blurb: Transcribes meetings on your Mac, in Greek or English, into Apple Notes.
+  url: /stenographer/

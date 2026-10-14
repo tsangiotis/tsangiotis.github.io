@@ -252,6 +252,21 @@ a:hover { color: #000; }
 .writing__title { font-size: 16px; font-family: var(--font-heading); font-weight: 500; text-decoration: none; }
 .writing__date { flex: none; font-size: 12px; letter-spacing: 0.06em; color: var(--color-muted); font-variant-numeric: tabular-nums; }
 
+/* — tools — */
+.tools {
+  margin: clamp(32px, 5vw, 52px) 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 32px 24px;
+  max-width: 900px;
+}
+.tools__item { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 6px; text-decoration: none; }
+.tools__icon { width: 128px; height: 128px; }
+.tools__name { font-family: var(--font-heading); font-weight: 500; font-size: 18px; }
+.tools__blurb { font-size: 13.5px; line-height: 1.45; color: var(--color-muted); }
+
 /* — footer — */
 .site-footer { border-top: 1px solid var(--color-divider); margin-top: clamp(48px, 8vw, 96px); }
 .site-footer__inner {

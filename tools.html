@@ -1,0 +1,20 @@
+---
+layout: photo
+title: Tools
+permalink: /tools/
+---
+
+<h1 class="page-title">Tools</h1>
+<p class="u-ipa">/tuːlz/</p>
+
+<ul class="tools">
+  {% for tool in site.data.tools %}
+  <li>
+    <a class="tools__item" href="{{ tool.url }}">
+      <img class="tools__icon" src="{{ tool.icon }}" alt="" width="128" height="128">
+      <span class="tools__name">{{ tool.name }}</span>
+      <span class="tools__blurb">{{ tool.blurb }}</span>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
